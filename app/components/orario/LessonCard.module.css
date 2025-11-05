@@ -1,0 +1,202 @@
+/* LessonCard Styles */
+
+.card {
+  padding: 16px;
+  transition: all 0.2s ease;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  box-shadow: var(--shadow-md);
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: var(--shadow-lg);
+}
+
+.cardCompact {
+  padding: 12px;
+}
+
+.cardCurrent {
+  border: 2px solid #10b981;
+  box-shadow: 0 4px 16px rgba(16, 185, 129, 0.2);
+  transform: scale(1.02);
+  background: rgba(16, 185, 129, 0.08);
+}
+
+.cardLayout {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.cardContent {
+  flex: 1;
+  min-width: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.colorDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.icon {
+  font-size: 1.125rem;
+}
+
+.subject {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-primary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.subjectCompact {
+  font-size: 0.875rem;
+}
+
+.labBadge {
+  padding: 2px 8px;
+  background: rgba(147, 51, 234, 0.2);
+  color: var(--accent-blue-light);
+  font-size: 0.625rem;
+  border-radius: 6px;
+  font-weight: 600;
+  flex-shrink: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.875rem;
+}
+
+.detailsCompact {
+  font-size: 0.75rem;
+}
+
+.detailRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-secondary);
+}
+
+.detailIcon {
+  font-size: 0.875rem;
+}
+
+.detailText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.timeSection {
+  text-align: right;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+
+.startTime {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.endTime {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.duration {
+  font-size: 0.625rem;
+  color: var(--text-tertiary);
+  margin-top: 4px;
+}
+
+.currentBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  background: linear-gradient(
+    135deg,
+    var(--accent-blue),
+    var(--accent-blue-dark)
+  );
+  color: white;
+  font-size: 0.75rem;
+  border-radius: 20px;
+  font-weight: 600;
+  box-shadow: var(--shadow-lg);
+  margin-top: 8px;
+}
+
+.pulse {
+  width: 6px;
+  height: 6px;
+  background: white;
+  border-radius: 50%;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 640px) {
+  .card {
+    padding: 12px;
+  }
+
+  .cardCompact {
+    padding: 10px;
+  }
+
+  .subject {
+    font-size: 0.875rem;
+  }
+
+  .subjectCompact {
+    font-size: 0.8rem;
+  }
+
+  .details {
+    font-size: 0.75rem;
+  }
+
+  .detailsCompact {
+    font-size: 0.7rem;
+  }
+}

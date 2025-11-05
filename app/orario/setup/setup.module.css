@@ -1,0 +1,261 @@
+/* Setup Page Styles - Minimal Black */
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-primary);
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 480px;
+  background: var(--bg-card);
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  padding: 40px;
+  animation: slideUp 0.4s ease;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 8px 0;
+}
+
+.subtitle {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.modeSelection {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modePrompt {
+  text-align: center;
+  color: var(--text-primary);
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.modeButton {
+  width: 100%;
+  background: var(--accent-blue);
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 16px 24px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-md);
+}
+
+.modeButton:hover {
+  background: var(--accent-blue-dark);
+  transform: scale(1.02);
+  box-shadow: var(--shadow-lg);
+}
+
+.modeButton:active {
+  transform: scale(0.98);
+}
+
+.modeButton.teacher {
+  background: #9333ea;
+}
+
+.modeButton.teacher:hover {
+  background: #7e22ce;
+}
+
+.modeIcon {
+  font-size: 1.5rem;
+}
+
+.sampleButton {
+  width: 100%;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  font-weight: 500;
+  font-size: 0.875rem;
+  padding: 12px 20px;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+  border: 1px solid var(--border-color);
+}
+
+.sampleButton:hover {
+  background: var(--bg-hover);
+  border-color: var(--border-hover);
+}
+
+.entitySelection {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.backButton {
+  font-size: 0.875rem;
+  color: var(--accent-blue);
+  background: none;
+  padding: 0;
+  margin-bottom: 16px;
+  text-decoration: underline;
+  text-align: left;
+}
+
+.backButton:hover {
+  color: var(--accent-blue-dark);
+}
+
+.label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  margin-bottom: 12px;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+}
+
+.searchInput:focus {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  outline: none;
+}
+
+.searchInput::placeholder {
+  color: var(--text-tertiary);
+}
+
+.listContainer {
+  max-height: 320px;
+  overflow-y: auto;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  background: var(--bg-primary);
+}
+
+.emptyState {
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.listItem {
+  width: 100%;
+  text-align: left;
+  padding: 14px 16px;
+  background: transparent;
+  color: var(--text-primary);
+  border-bottom: 1px solid var(--border-color);
+  transition: all 0.2s ease;
+  font-size: 0.875rem;
+}
+
+.listItem:last-child {
+  border-bottom: none;
+}
+
+.listItem:hover {
+  background: var(--bg-hover);
+}
+
+.listItem.selected {
+  background: var(--accent-blue-bg);
+  color: var(--accent-blue);
+  font-weight: 600;
+}
+
+.continueButton {
+  width: 100%;
+  background: var(--accent-blue);
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 14px 24px;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+  margin-top: 24px;
+  box-shadow: var(--shadow-md);
+}
+
+.continueButton:hover:not(:disabled) {
+  background: var(--accent-blue-dark);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-1px);
+}
+
+.continueButton:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.continueButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.loadingSpinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+  margin-right: 8px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 640px) {
+  .card {
+    padding: 24px;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .modeButton {
+    padding: 14px 20px;
+    font-size: 0.9375rem;
+  }
+
+  .listContainer {
+    max-height: 280px;
+  }
+}

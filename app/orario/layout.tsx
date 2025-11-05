@@ -10,5 +10,6 @@ export default function OrarioLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  // Wrap children in a fragment to ensure this exports a valid React component
+  return <>{children}</>;
 }

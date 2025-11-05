@@ -1,0 +1,273 @@
+/* Orario Page Styles - Minimal Black */
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-primary);
+  overflow: hidden;
+}
+
+.header {
+  flex-shrink: 0;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.headerContent {
+  padding: 16px;
+}
+
+.headerTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+
+.headerActions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.settingsBtn {
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.settingsBtn:hover {
+  background: var(--bg-hover);
+  border-color: var(--border-hover);
+}
+
+.viewToggle {
+  display: flex;
+  gap: 4px;
+  background: var(--bg-secondary);
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.viewBtn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: transparent;
+  transition: all 0.2s ease;
+}
+
+.viewBtn:hover {
+  color: var(--text-primary);
+  background: var(--bg-hover);
+}
+
+.viewBtn.active {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+}
+
+.currentLessonBanner {
+  margin-top: 12px;
+  background: rgba(16, 185, 129, 0.08);
+  border: 1px solid #10b981;
+  border-radius: 10px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  animation: slideDown 0.3s ease;
+}
+
+.currentLessonInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  flex: 1;
+}
+
+.currentLessonIcon {
+  font-size: 1.25rem;
+}
+
+.currentLessonText {
+  min-width: 0;
+  flex: 1;
+}
+
+.currentLessonSubject {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.currentLessonDetails {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.remainingBadge {
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+  background: rgba(16, 185, 129, 0.15);
+  color: #10b981;
+}
+
+.dayTabs {
+  padding: 8px 16px;
+  overflow-x: auto;
+}
+
+.dayTabsContainer {
+  display: flex;
+  gap: 8px;
+}
+
+.dayTab {
+  flex-shrink: 0;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  transition: all 0.2s ease;
+}
+
+.dayTab:hover {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+  border-color: var(--border-hover);
+}
+
+.dayTab.active {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  border-color: var(--text-primary);
+  box-shadow: var(--shadow-md);
+}
+
+.content {
+  flex: 1;
+  overflow: hidden;
+  padding-bottom: 16px;
+}
+
+.scrollArea {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.lessonsList {
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.emptyIcon {
+  font-size: 4rem;
+  margin-bottom: 16px;
+}
+
+.emptyText {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.todayButton {
+  position: fixed;
+  bottom: 24px;
+  right: 16px;
+  z-index: 10;
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  font-weight: 600;
+  font-size: 0.875rem;
+  padding: 12px 20px;
+  border-radius: 24px;
+  box-shadow: var(--shadow-xl);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+  animation: slideUp 0.3s ease;
+}
+
+.todayButton:hover {
+  opacity: 0.9;
+  box-shadow: var(--shadow-xl);
+  transform: translateY(-2px);
+}
+
+.todayButton:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 640px) {
+  .headerContent {
+    padding: 12px;
+  }
+
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .subtitle {
+    font-size: 0.75rem;
+  }
+
+  .dayTab {
+    padding: 8px 12px;
+    font-size: 0.8rem;
+  }
+
+  .todayButton {
+    bottom: 20px;
+    right: 12px;
+    padding: 10px 16px;
+  }
+}
