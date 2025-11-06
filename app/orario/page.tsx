@@ -7,6 +7,7 @@ import { LessonCard } from '@/app/components/orario/LessonCard';
 import { TimelineView } from '@/app/components/orario/TimelineView';
 import { ThemeToggle } from '@/app/components/orario/ThemeToggle';
 import InstallPrompt from '@/app/components/pwa/InstallPrompt';
+import { OnboardingTour } from '@/app/components/onboarding/OnboardingTour';
 import { motion, AnimatePresence } from 'framer-motion';
 import { isCurrentLesson, getRemainingMinutes } from '@/lib/orario/utils/time';
 import { Lesson } from '@/lib/orario/models/lesson';
@@ -61,6 +62,7 @@ export default function OrarioPage() {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [currentLesson, setCurrentLesson] = useState<Lesson | null>(null);
   const [isMounted, setIsMounted] = useState(false);
+  const [showOnboarding, setShowOnboarding] = useState(false);
 
   // Evita hydration mismatch aspettando il mount del client
   useEffect(() => {
@@ -144,6 +146,15 @@ export default function OrarioPage() {
             </div>
 
             <div className={styles.headerActions}>
+              {/* Help button */}
+              <button
+                onClick={() => setShowOnboarding(true)}
+                className={styles.helpBtn}
+                title="Aiuto"
+              >
+                ❓
+              </button>
+
               {/* Reset button */}
               <button
                 onClick={() => {
@@ -281,6 +292,14 @@ export default function OrarioPage() {
 
       {/* PWA Install Prompt */}
       <InstallPrompt />
+
+      {/* Onboarding Tour */}
+      {showOnboarding && (
+        <OnboardingTour
+          onComplete={() => setShowOnboarding(false)}
+          onSkip={() => setShowOnboarding(false)}
+        />
+      )}
     </div>
   );
 }

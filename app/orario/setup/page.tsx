@@ -10,6 +10,7 @@ import {
   loadTeacherSchedule,
 } from '@/lib/orario/services/scheduleService';
 import { motion } from 'framer-motion';
+import { OnboardingTour } from '@/app/components/onboarding/OnboardingTour';
 import styles from './setup.module.css';
 
 type Mode = 'student' | 'teacher';
@@ -18,12 +19,31 @@ export default function SetupPage() {
   const router = useRouter();
   const { setSchedule, setUserMode, completeSetup, resetToSample } = useScheduleStore();
 
+  const [showOnboarding, setShowOnboarding] = useState(false);
   const [mode, setMode] = useState<Mode | null>(null);
   const [classes, setClasses] = useState<string[]>([]);
   const [teachers, setTeachers] = useState<string[]>([]);
   const [selectedEntity, setSelectedEntity] = useState('');
   const [loading, setLoading] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
+
+  // Mostra l'onboarding al primo avvio
+  useEffect(() => {
+    const hasSeenOnboarding = localStorage.getItem('hasSeenOnboarding');
+    if (!hasSeenOnboarding) {
+      setShowOnboarding(true);
+    }
+  }, []);
+
+  const handleOnboardingComplete = () => {
+    localStorage.setItem('hasSeenOnboarding', 'true');
+    setShowOnboarding(false);
+  };
+
+  const handleOnboardingSkip = () => {
+    localStorage.setItem('hasSeenOnboarding', 'true');
+    setShowOnboarding(false);
+  };
 
   useEffect(() => {
     const loadData = async () => {
@@ -243,6 +263,14 @@ export default function SetupPage() {
           </motion.div>
         )}
       </motion.div>
+
+      {/* Onboarding Tour */}
+      {showOnboarding && (
+        <OnboardingTour
+          onComplete={handleOnboardingComplete}
+          onSkip={handleOnboardingSkip}
+        />
+      )}
     </div>
   );
 }
