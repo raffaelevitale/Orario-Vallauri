@@ -1,2 +1,4 @@
 node_modules
 .next
+PWA_SETUP.md
+scripts/generate-icons.sh

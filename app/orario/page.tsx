@@ -6,6 +6,7 @@ import { useScheduleStore } from '@/lib/orario/stores/scheduleStore';
 import { LessonCard } from '@/app/components/orario/LessonCard';
 import { TimelineView } from '@/app/components/orario/TimelineView';
 import { ThemeToggle } from '@/app/components/orario/ThemeToggle';
+import InstallPrompt from '@/app/components/pwa/InstallPrompt';
 import { motion, AnimatePresence } from 'framer-motion';
 import { isCurrentLesson, getRemainingMinutes } from '@/lib/orario/utils/time';
 import { Lesson } from '@/lib/orario/models/lesson';
@@ -128,9 +129,9 @@ export default function OrarioPage() {
                   }
                 }}
                 className={styles.settingsBtn}
-                title="Cambia"
+                title="Impostazioni"
               >
-                ⚙️ Cambia
+                ⚙️ Impostazioni
               </button>
 
               {/* Theme toggle */}
@@ -253,6 +254,9 @@ export default function OrarioPage() {
           </button>
         </motion.div>
       )}
+
+      {/* PWA Install Prompt */}
+      <InstallPrompt />
     </div>
   );
 }

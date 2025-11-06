@@ -87,6 +87,28 @@ export default function SetupPage() {
     }
   };
 
+  const handleQuickSelect = async (className: string) => {
+    if (loading) return;
+    setLoading(true);
+    
+    try {
+      const lessons = await loadClassSchedule(className);
+      setSchedule({
+        lessons,
+        className,
+        teacherName: undefined,
+      });
+      setUserMode('student', className);
+      completeSetup();
+      router.push('/orario');
+    } catch (error) {
+      console.error('Error loading schedule:', error);
+      alert('Errore nel caricamento dell\'orario. Riprova.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
   const filteredList =
     mode === 'student'
       ? classes.filter((c) => c.toLowerCase().includes(searchTerm.toLowerCase()))
@@ -111,31 +133,41 @@ export default function SetupPage() {
         {!mode && (
           <div className={styles.modeSelection}>
             <p className={styles.modePrompt}>
-              Sei uno studente o un docente?
+              Classi disponibili
             </p>
 
             <button
-              onClick={() => setMode('student')}
+              onClick={() => handleQuickSelect('5A INF')}
               className={styles.modeButton}
+              disabled={loading}
             >
               <span className={styles.modeIcon}>🎓</span>
-              <span>Studente</span>
+              <span>5A INF</span>
+            </button>
+
+            <button
+              onClick={() => handleQuickSelect('2C MEC')}
+              className={`${styles.modeButton} ${styles.teacher}`}
+              disabled={loading}
+            >
+              <span className={styles.modeIcon}>�</span>
+              <span>2C MEC</span>
+            </button>
+
+            <button
+              onClick={() => setMode('student')}
+              className={styles.sampleButton}
+              aria-label="Cerca altre classi"
+            >
+              Cerca altre classi
             </button>
 
             <button
               onClick={() => setMode('teacher')}
-              className={`${styles.modeButton} ${styles.teacher}`}
-            >
-              <span className={styles.modeIcon}>👨‍🏫</span>
-              <span>Docente</span>
-            </button>
-
-            <button
-              onClick={handleUseSample}
               className={styles.sampleButton}
-              aria-label="Usa dati di esempio per studenti"
+              aria-label="Visualizza orario docente"
             >
-              Usa dati di esempio (studenti)
+              Sono un docente
             </button>
           </div>
         )}
@@ -208,16 +240,6 @@ export default function SetupPage() {
                 'Continua'
               )}
             </button>
-
-            {mode === 'student' && (
-              <button
-                onClick={handleUseSample}
-                disabled={loading}
-                className={styles.sampleButton}
-              >
-                Usa dati di esempio
-              </button>
-            )}
           </motion.div>
         )}
       </motion.div>

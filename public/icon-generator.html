@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Genera Icone PWA - Orario Vallauri</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
+        background: #000;
+        color: #fff;
+        padding: 40px 20px;
+        min-height: 100vh;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #10b981;
+      }
+      .canvas-wrapper {
+        background: #111;
+        border: 2px solid #333;
+        border-radius: 12px;
+        padding: 40px;
+        margin: 30px 0;
+        text-align: center;
+      }
+      canvas {
+        border: 1px solid #333;
+        border-radius: 8px;
+        max-width: 100%;
+      }
+      .controls {
+        display: grid;
+        gap: 20px;
+        margin: 30px 0;
+      }
+      .control-group {
+        background: #111;
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid #333;
+      }
+      label {
+        display: block;
+        margin-bottom: 8px;
+        color: #10b981;
+        font-weight: 600;
+      }
+      input,
+      select {
+        width: 100%;
+        padding: 12px;
+        background: #000;
+        border: 1px solid #333;
+        border-radius: 6px;
+        color: #fff;
+        font-size: 16px;
+      }
+      .sizes-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+        margin-top: 20px;
+      }
+      .size-btn {
+        padding: 15px;
+        background: #10b981;
+        color: #000;
+        border: none;
+        border-radius: 8px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+      .size-btn:hover {
+        background: #0ea56f;
+        transform: translateY(-2px);
+      }
+      .size-btn:active {
+        transform: translateY(0);
+      }
+      .info {
+        background: #1a1a1a;
+        padding: 20px;
+        border-radius: 8px;
+        border-left: 4px solid #10b981;
+        margin: 20px 0;
+      }
+      .info h3 {
+        color: #10b981;
+        margin-bottom: 10px;
+      }
+      .info p {
+        color: #aaa;
+        line-height: 1.6;
+      }
+      .download-all {
+        width: 100%;
+        padding: 20px;
+        background: #10b981;
+        color: #000;
+        border: none;
+        border-radius: 12px;
+        font-size: 18px;
+        font-weight: 700;
+        cursor: pointer;
+        margin-top: 30px;
+      }
+      .download-all:hover {
+        background: #0ea56f;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎨 Generatore Icone PWA</h1>
+      <p style="color: #aaa; margin-bottom: 30px">
+        Personalizza e scarica le icone per l'app Orario Vallauri
+      </p>
+
+      <div class="controls">
+        <div class="control-group">
+          <label for="text">Testo principale:</label>
+          <input type="text" id="text" value="O" maxlength="2" />
+        </div>
+        <div class="control-group">
+          <label for="subtext">Testo secondario:</label>
+          <input type="text" id="subtext" value="ORARIO" />
+        </div>
+        <div class="control-group">
+          <label for="bgColor">Colore sfondo:</label>
+          <input type="color" id="bgColor" value="#000000" />
+        </div>
+        <div class="control-group">
+          <label for="accentColor">Colore accento:</label>
+          <input type="color" id="accentColor" value="#10b981" />
+        </div>
+      </div>
+
+      <div class="canvas-wrapper">
+        <canvas id="iconCanvas" width="512" height="512"></canvas>
+      </div>
+
+      <div class="info">
+        <h3>📱 Dimensioni richieste per PWA</h3>
+        <p>
+          Clicca su ogni dimensione per scaricare l'icona corrispondente. Salva
+          tutte le icone nella cartella <code>public/icons/</code>
+        </p>
+      </div>
+
+      <div class="sizes-grid">
+        <button class="size-btn" onclick="downloadIcon(72)">72x72</button>
+        <button class="size-btn" onclick="downloadIcon(96)">96x96</button>
+        <button class="size-btn" onclick="downloadIcon(128)">128x128</button>
+        <button class="size-btn" onclick="downloadIcon(144)">144x144</button>
+        <button class="size-btn" onclick="downloadIcon(152)">
+          152x152 (Apple)
+        </button>
+        <button class="size-btn" onclick="downloadIcon(192)">
+          192x192 (Android)
+        </button>
+        <button class="size-btn" onclick="downloadIcon(384)">384x384</button>
+        <button class="size-btn" onclick="downloadIcon(512)">512x512</button>
+      </div>
+
+      <button class="download-all" onclick="downloadAll()">
+        📦 Scarica Tutte le Icone
+      </button>
+    </div>
+
+    <script>
+      const canvas = document.getElementById("iconCanvas");
+      const ctx = canvas.getContext("2d");
+
+      function drawIcon() {
+        const text = document.getElementById("text").value || "O";
+        const subtext = document.getElementById("subtext").value || "ORARIO";
+        const bgColor = document.getElementById("bgColor").value;
+        const accentColor = document.getElementById("accentColor").value;
+
+        // Clear canvas
+        ctx.fillStyle = bgColor;
+        ctx.fillRect(0, 0, 512, 512);
+
+        // Draw circle
+        ctx.beginPath();
+        ctx.arc(256, 256, 180, 0, Math.PI * 2);
+        ctx.strokeStyle = accentColor;
+        ctx.lineWidth = 8;
+        ctx.stroke();
+
+        // Draw main text
+        ctx.fillStyle = "#ffffff";
+        ctx.font = "bold 160px system-ui, -apple-system, sans-serif";
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+        ctx.fillText(text, 256, 250);
+
+        // Draw subtext
+        ctx.fillStyle = accentColor;
+        ctx.font = "bold 48px system-ui, -apple-system, sans-serif";
+        ctx.fillText(subtext, 256, 360);
+      }
+
+      function downloadIcon(size) {
+        // Create a temporary canvas with the desired size
+        const tempCanvas = document.createElement("canvas");
+        tempCanvas.width = size;
+        tempCanvas.height = size;
+        const tempCtx = tempCanvas.getContext("2d");
+
+        // Draw the icon at the smaller size
+        tempCtx.drawImage(canvas, 0, 0, 512, 512, 0, 0, size, size);
+
+        // Download
+        tempCanvas.toBlob((blob) => {
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = `icon-${size}x${size}.png`;
+          a.click();
+          URL.revokeObjectURL(url);
+        });
+      }
+
+      async function downloadAll() {
+        const sizes = [72, 96, 128, 144, 152, 192, 384, 512];
+
+        for (const size of sizes) {
+          await new Promise((resolve) => {
+            downloadIcon(size);
+            setTimeout(resolve, 500);
+          });
+        }
+
+        alert(
+          "✅ Tutte le icone sono state scaricate!\n\nSposta i file nella cartella public/icons/"
+        );
+      }
+
+      // Add event listeners
+      ["text", "subtext", "bgColor", "accentColor"].forEach((id) => {
+        document.getElementById(id).addEventListener("input", drawIcon);
+      });
+
+      // Initial draw
+      drawIcon();
+    </script>
+  </body>
+</html>
