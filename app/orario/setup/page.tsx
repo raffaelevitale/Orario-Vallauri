@@ -150,7 +150,7 @@ export default function SetupPage() {
               className={`${styles.modeButton} ${styles.teacher}`}
               disabled={loading}
             >
-              <span className={styles.modeIcon}>�</span>
+              <span className={styles.modeIcon}>⚙️</span>
               <span>2C MEC</span>
             </button>
 

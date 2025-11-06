@@ -196,19 +196,65 @@ function addBreaksToLessons(lessons: Lesson[], dayOfWeek: number): void {
     breaks.push({ start: '12:10', end: '12:20' }); // Secondo intervallo
   }
   
-  // Aggiungi gli intervalli alle lezioni
+  // Ordina le lezioni per orario
+  const sortedLessons = lessons.filter(l => !l.isBreak).sort((a, b) => a.startTime.localeCompare(b.startTime));
+  
+  // Aggiungi solo gli intervalli che cadono durante le lezioni del docente
   for (const breakTime of breaks) {
-    lessons.push({
-      id: `break-${dayOfWeek}-${breakTime.start}`,
-      subject: 'Intervallo',
-      teacher: '',
-      classroom: 'Corridoio / Bar',
-      dayOfWeek,
-      startTime: breakTime.start,
-      endTime: breakTime.end,
-      color: '#bdbdbd',
-      isBreak: true,
-    });
+    // Verifica se c'è una lezione prima e dopo l'intervallo
+    const hasLessonBefore = sortedLessons.some(l => l.endTime <= breakTime.start && l.endTime > '07:00');
+    const hasLessonAfter = sortedLessons.some(l => l.startTime >= breakTime.end && l.startTime < '14:00');
+    
+    // Aggiungi l'intervallo solo se il docente ha lezioni sia prima che dopo
+    if (hasLessonBefore && hasLessonAfter) {
+      // Verifica che l'intervallo cada tra due lezioni consecutive del docente
+      const lessonBeforeBreak = sortedLessons.filter(l => l.endTime <= breakTime.start).pop();
+      const lessonAfterBreak = sortedLessons.find(l => l.startTime >= breakTime.end);
+      
+      if (lessonBeforeBreak && lessonAfterBreak) {
+        // Aggiungi l'intervallo solo se non c'è un gap troppo grande
+        const gapMinutes = (new Date(`2000-01-01T${lessonAfterBreak.startTime}:00`).getTime() - 
+                           new Date(`2000-01-01T${lessonBeforeBreak.endTime}:00`).getTime()) / 60000;
+        
+        if (gapMinutes <= 60) { // Se il gap è max 1 ora, è un intervallo normale
+          lessons.push({
+            id: `break-${dayOfWeek}-${breakTime.start}`,
+            subject: 'Intervallo',
+            teacher: '',
+            classroom: 'Corridoio / Bar',
+            dayOfWeek,
+            startTime: breakTime.start,
+            endTime: breakTime.end,
+            color: '#bdbdbd',
+            isBreak: true,
+          });
+        }
+      }
+    }
+  }
+  
+  // Aggiungi elementi "Libero" per gap più lunghi tra le lezioni
+  for (let i = 0; i < sortedLessons.length - 1; i++) {
+    const currentLesson = sortedLessons[i];
+    const nextLesson = sortedLessons[i + 1];
+    
+    const gapMinutes = (new Date(`2000-01-01T${nextLesson.startTime}:00`).getTime() - 
+                       new Date(`2000-01-01T${currentLesson.endTime}:00`).getTime()) / 60000;
+    
+    // Se c'è un gap > 60 minuti, aggiungi "Libero"
+    if (gapMinutes > 60) {
+      lessons.push({
+        id: `free-${dayOfWeek}-${currentLesson.endTime}`,
+        subject: '🕐 Libero',
+        teacher: '',
+        classroom: '',
+        dayOfWeek,
+        startTime: currentLesson.endTime,
+        endTime: nextLesson.startTime,
+        color: '#e0e0e0',
+        isBreak: false, // Non è un intervallo standard
+      });
+    }
   }
 }
 
