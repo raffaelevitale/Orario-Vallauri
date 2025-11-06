@@ -77,6 +77,12 @@ export function LessonCard({
 
           {!lesson.isBreak && (
             <div className={`${styles.details} ${compact ? styles.detailsCompact : ''}`}>
+              {lesson.class && (
+                <div className={styles.detailRow}>
+                  <span className={styles.detailIcon}>🎓</span>
+                  <span className={styles.detailText}>{lesson.class}</span>
+                </div>
+              )}
               {lesson.teacher && (
                 <div className={styles.detailRow}>
                   <span className={styles.detailIcon}>👨‍🏫</span>

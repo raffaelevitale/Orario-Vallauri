@@ -3,6 +3,7 @@ export interface Lesson {
   subject: string;
   teacher: string;
   classroom: string;
+  class?: string; // Nome della classe (es. "5A INF", "4A"), usato per orari docenti
   dayOfWeek: number; // 1 = Monday, 5 = Friday
   startTime: string; // HH:mm format
   endTime: string; // HH:mm format

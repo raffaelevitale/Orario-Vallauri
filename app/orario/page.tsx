@@ -60,6 +60,12 @@ export default function OrarioPage() {
 
   const [currentTime, setCurrentTime] = useState(new Date());
   const [currentLesson, setCurrentLesson] = useState<Lesson | null>(null);
+  const [isMounted, setIsMounted] = useState(false);
+
+  // Evita hydration mismatch aspettando il mount del client
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   // Redirect to setup if not completed
   useEffect(() => {
@@ -99,6 +105,24 @@ export default function OrarioPage() {
     const today = new Date().getDay();
     return selectedDay === today;
   }, [selectedDay]);
+
+  // Mostra un placeholder durante il caricamento per evitare hydration mismatch
+  if (!isMounted) {
+    return (
+      <div className={styles.container}>
+        <div className={styles.header}>
+          <div className={styles.headerContent}>
+            <div className={styles.headerTop}>
+              <div>
+                <h1 className={styles.title}>Orario</h1>
+                <p className={styles.subtitle}>Caricamento...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className={styles.container}>

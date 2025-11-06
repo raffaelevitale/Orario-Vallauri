@@ -85,6 +85,20 @@ interface SingleClassData {
   };
 }
 
+// Nuovo formato singolo docente (come fea.json)
+interface SingleTeacherData {
+  teacher: string;
+  school?: string;
+  schedule: {
+    monday?: Array<{ hour: number; subject: string; class: string; room: string }>;
+    tuesday?: Array<{ hour: number; subject: string; class: string; room: string }>;
+    wednesday?: Array<{ hour: number; subject: string; class: string; room: string }>;
+    thursday?: Array<{ hour: number; subject: string; class: string; room: string }>;
+    friday?: Array<{ hour: number; subject: string; class: string; room: string }>;
+    saturday?: Array<{ hour: number; subject: string; class: string; room: string }>;
+  };
+}
+
 // Mapping dei giorni ita -> indice 1..6 coerente con app (Lun=1)
 const dayIndexMap: Record<string, number> = {
   'lunedì': 1,
@@ -360,26 +374,91 @@ function getSubjectColor(subject: string): string {
   return '#7e57c2';
 }
 
+function getClassColor(className: string): string {
+  // Estrai il numero/anno della classe (1A, 2B, 3C, 4A, 5A, etc.)
+  const yearMatch = className.match(/^(\d)/);
+  if (!yearMatch) return '#7e57c2';
+  
+  const year = parseInt(yearMatch[1]);
+  
+  const yearColors: Record<number, string> = {
+    1: '#ef5350', // Rosso
+    2: '#ec407a', // Rosa
+    3: '#ab47bc', // Viola
+    4: '#42a5f5', // Blu
+    5: '#26a69a', // Verde acqua
+  };
+  
+  return yearColors[year] || '#7e57c2';
+}
+
 export async function loadTeacherNames(): Promise<string[]> {
-  // Sorgente ufficiale: file pubblico dei docenti; fallback: sample locali
-  try {
-    const data = await fetchJsonSafe<TeacherScheduleData>('/orario/orario_docenti.json');
-    const names = Object.keys(data.schedule);
-    if (names.length > 0) return names.sort((a, b) => a.localeCompare(b));
-  } catch (error) {
-    console.error('Error loading teacher names (file):', error);
-  }
-  // Fallback ai sample
-  try {
-    return [...sampleTeacherNames];
-  } catch (error) {
-    console.error('Error loading teacher names (sample):', error);
-    return [];
-  }
+  // Lista base con docenti che hanno file specifici
+  const teacherList: string[] = [
+    'FEA D.',
+    'MAGGIORE G.',
+    'CANONICO T.',
+    'BONAVIA M.',
+    'RACCA M.',
+  ];
+  
+  return teacherList;
 }
 
 export async function loadTeacherSchedule(teacherName: string): Promise<Lesson[]> {
-  // Sorgente principale: file pubblico docenti; fallback: sample interni
+  // Prima prova con file specifico del docente (es. fea.json per "FEA D.")
+  // Mappa personalizzata per alcuni docenti
+  const teacherFileMap: Record<string, string> = {
+    'FEA D.': 'fea',
+    'MAGGIORE G.': 'maggiore',
+    'CANONICO T.': 'canonico',
+    'BONAVIA M.': 'bonavia',
+    'RACCA M.': 'racca',
+  };
+  
+  try {
+    const teacherFileName = teacherFileMap[teacherName] || 
+                           teacherName.toLowerCase().replace(/\s+/g, '').replace(/\./g, '');
+    const data = await fetchJsonSafe<SingleTeacherData>(`/orario/${teacherFileName}.json`);
+    
+    const lessons: Lesson[] = [];
+    
+    for (const [dayKey, daySlots] of Object.entries(data.schedule)) {
+      const dayOfWeek = dayIndexMap[dayKey.toLowerCase()];
+      if (!dayOfWeek || !daySlots) continue;
+      
+      const timetable = slotTimesByDay[dayOfWeek] || [];
+      
+      for (const slot of daySlots) {
+        const idx = slot.hour - 1;
+        const time = timetable[idx];
+        if (!slot.subject || !time) continue;
+        
+        lessons.push({
+          id: `${teacherName.replace(/\s|\./g, '')}-${dayOfWeek}-${slot.hour}-${slot.subject}-${slot.class}`,
+          subject: normalizeSubject(slot.subject),
+          teacher: teacherName,
+          classroom: slot.room || '',
+          class: slot.class,
+          dayOfWeek,
+          startTime: time.start,
+          endTime: time.end,
+          color: getClassColor(slot.class),
+        });
+      }
+      
+      // Aggiungi intervalli automaticamente
+      addBreaksToLessons(lessons, dayOfWeek);
+    }
+    
+    if (lessons.length) {
+      return lessons.sort((a, b) => (a.dayOfWeek - b.dayOfWeek) || a.startTime.localeCompare(b.startTime));
+    }
+  } catch (error) {
+    console.log(`No specific file for ${teacherName}, trying general sources...`);
+  }
+  
+  // Sorgente principale: file pubblico docenti
   try {
     const data = await fetchJsonSafe<TeacherScheduleData>('/orario/orario_docenti.json');
     const teacher = data.schedule[teacherName];

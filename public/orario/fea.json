@@ -1,0 +1,124 @@
+{
+  "teacher": "FEA Daniele",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "T.P.S.I.T",
+        "class": "3A INF",
+        "room": "LAB. 119A PASCAL (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "T.P.S.I.T",
+        "class": "3A INF",
+        "room": "LAB. 119A PASCAL (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.I.T",
+        "class": "4A INF",
+        "room": "LAB. S22 ARCHIMEDE (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.I.T",
+        "class": "4A INF",
+        "room": "LAB. S22 ARCHIMEDE (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "T.P.S.I.T",
+        "class": "5A INF",
+        "room": "LAB. 119B EULERO (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.I.T",
+        "class": "5A INF",
+        "room": "LAB. 119B EULERO (25)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "T.P.S.I.T",
+        "class": "4A INF",
+        "room": "LAB. 119B EULERO (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.I.T",
+        "class": "4A INF",
+        "room": "LAB. 119B EULERO (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.I.T",
+        "class": "5A INF",
+        "room": "LAB. 143 TURING (22)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "class": "4B LIC",
+        "room": "LAB. 145 GALILEI (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "class": "4B LIC",
+        "room": "LAB. 145 GALILEI (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 6,
+        "subject": "T.P.S.I.T",
+        "class": "5A INF",
+        "room": "LAB. 116 LAPLACE (25)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 4,
+        "subject": "T.P.S.I.T",
+        "class": "5A INF",
+        "room": "LAB. 116 LAPLACE (25)"
+      },
+    {
+        "hour": 6,
+        "subject": "T.P.S.I.T",
+        "class": "3A INF",
+        "room": "LAB. 117 TOLOMEO (26)"
+      },
+    {
+        "hour": 7,
+        "subject": "T.P.S.I.T",
+        "class": "3A INF",
+        "room": "LAB. 117 TOLOMEO (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 4,
+        "subject": "Gestione Progetto",
+        "class": "5A INF",
+        "room": "LAB. T59 PLC (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Gestione Progetto",
+        "class": "5A INF",
+        "room": "LAB. T59 PLC (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Gestione Progetto",
+        "class": "5A INF",
+        "room": "LAB. T59 PLC (24)"
+      }
+    ]
+  }
+}
