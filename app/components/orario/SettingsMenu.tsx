@@ -67,6 +67,10 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
             <span className={styles.row}>❓ Tutorial</span>
             <span className={styles.badge}>Apri</span>
           </button>
+          <button className={styles.item} onClick={() => { router.push('/feedback'); setOpen(false); }}>
+            <span className={styles.row}>📝 Segnala idea/bug</span>
+            <span className={styles.badge}>Feedback</span>
+          </button>
           <div className={styles.groupLabel}>Modalità</div>
           <button className={styles.item} onClick={() => { resetSetup(); router.push('/orario/setup'); }}>
             <span className={styles.row}>🔁 Cambia modalità</span>

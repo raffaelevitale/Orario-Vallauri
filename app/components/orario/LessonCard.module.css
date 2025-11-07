@@ -145,6 +145,34 @@
   margin-top: 4px;
 }
 
+/* Progress & upcoming */
+.progressWrap {
+  margin-top: 8px;
+}
+
+.progressTrack {
+  height: 6px;
+  background: var(--bg-tertiary);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, #10b981, #22d3ee);
+}
+
+.soonBadge {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 2px 8px;
+  font-size: 0.7rem;
+  border-radius: 999px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+}
+
 .currentBadge {
   display: inline-flex;
   align-items: center;

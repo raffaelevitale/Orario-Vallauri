@@ -15,7 +15,9 @@
   color: var(--text-primary);
 }
 
-.iconBtn:hover { background: var(--bg-hover); }
+.iconBtn:hover {
+  background: var(--bg-hover);
+}
 
 .menu {
   position: absolute;
@@ -28,6 +30,7 @@
   box-shadow: var(--shadow-xl);
   padding: 6px;
   z-index: 100;
+  animation: fadeInScale 150ms ease-out;
 }
 
 .groupLabel {
@@ -46,7 +49,9 @@
   border-radius: 8px;
   color: var(--text-primary);
 }
-.item:hover { background: var(--bg-hover); }
+.item:hover {
+  background: var(--bg-hover);
+}
 
 .row {
   display: flex;
@@ -62,4 +67,17 @@
   border: 1px solid var(--border-color);
 }
 
-.separator { height: 8px; }
+.separator {
+  height: 8px;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: translateY(-4px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}

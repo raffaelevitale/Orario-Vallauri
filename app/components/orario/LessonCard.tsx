@@ -1,5 +1,5 @@
 import { Lesson } from '@/lib/orario/models/lesson';
-import { getLessonDuration } from '@/lib/orario/utils/time';
+import { getLessonDuration, parseTime, getCurrentTimeInMinutes } from '@/lib/orario/utils/time';
 import styles from './LessonCard.module.css';
 
 interface LessonCardProps {
@@ -112,6 +112,30 @@ export function LessonCard({
               Ora
             </div>
           )}
+          {!lesson.isBreak && !isCurrent && (() => {
+            const now = getCurrentTimeInMinutes();
+            const start = parseTime(lesson.startTime);
+            const diff = start - now;
+            if (diff > 0 && diff <= 30) {
+              return <span className={styles.soonBadge}>Inizia tra {diff}m</span>;
+            }
+            return null;
+          })()}
+          {isCurrent && !lesson.isBreak && (() => {
+            const now = getCurrentTimeInMinutes();
+            const start = parseTime(lesson.startTime);
+            const end = parseTime(lesson.endTime);
+            const total = end - start;
+            const elapsed = Math.min(Math.max(now - start, 0), total);
+            const pct = (elapsed / total) * 100;
+            return (
+              <div className={styles.progressWrap}>
+                <div className={styles.progressTrack}>
+                  <div className={styles.progressFill} style={{ width: pct + '%' }} />
+                </div>
+              </div>
+            );
+          })()}
         </div>
       </div>
     </div>

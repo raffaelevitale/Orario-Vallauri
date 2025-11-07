@@ -183,7 +183,7 @@ function normalizeSubject(subject: string): string {
   return map[subject] ?? subject;
 }
 
-function addBreaksToLessons(lessons: Lesson[], dayOfWeek: number): void {
+export function addBreaksToLessons(lessons: Lesson[], dayOfWeek: number): void {
   // Intervalli basati sul giorno della settimana
   const breaks: Array<{ start: string; end: string }> = [];
   
@@ -248,19 +248,35 @@ function addBreaksToLessons(lessons: Lesson[], dayOfWeek: number): void {
       const gapMinutes = (new Date(`2000-01-01T${nextLesson.startTime}:00`).getTime() -
         new Date(`2000-01-01T${currentLesson.endTime}:00`).getTime()) / 60000;
       if (gapMinutes > 5) { // qualsiasi gap reale
-        const existsGap = lessons.some(l => l.isBreak && l.startTime === currentLesson.endTime && l.endTime === nextLesson.startTime && l.dayOfWeek === dayOfWeek);
+        const existsGap = lessons.some(l => l.startTime === currentLesson.endTime && l.endTime === nextLesson.startTime && l.dayOfWeek === dayOfWeek);
         if (!existsGap) {
-          lessons.push({
-            id: `gap-${dayOfWeek}-${currentLesson.endTime}`,
-            subject: 'Intervallo',
-            teacher: '',
-            classroom: '—',
-            dayOfWeek,
-            startTime: currentLesson.endTime,
-            endTime: nextLesson.startTime,
-            color: '#bdbdbd',
-            isBreak: true,
-          });
+          if (gapMinutes > 60) {
+            // gap lungo -> Libero
+            lessons.push({
+              id: `free-${dayOfWeek}-${currentLesson.endTime}`,
+              subject: '🕐 Libero',
+              teacher: '',
+              classroom: '',
+              dayOfWeek,
+              startTime: currentLesson.endTime,
+              endTime: nextLesson.startTime,
+              color: '#e0e0e0',
+              isBreak: false,
+            });
+          } else {
+            // gap normale -> Intervallo
+            lessons.push({
+              id: `gap-${dayOfWeek}-${currentLesson.endTime}`,
+              subject: 'Intervallo',
+              teacher: '',
+              classroom: '—',
+              dayOfWeek,
+              startTime: currentLesson.endTime,
+              endTime: nextLesson.startTime,
+              color: '#bdbdbd',
+              isBreak: true,
+            });
+          }
         }
       }
     }
@@ -429,8 +445,9 @@ function getSubjectColor(subject: string): string {
   return '#7e57c2';
 }
 
-function getClassColor(className: string): string {
+function getClassColor(className?: string): string {
   // Estrai il numero/anno della classe (1A, 2B, 3C, 4A, 5A, etc.)
+  if (!className) return '#7e57c2';
   const yearMatch = className.match(/^(\d)/);
   if (!yearMatch) return '#7e57c2';
   
@@ -455,6 +472,8 @@ export async function loadTeacherNames(): Promise<string[]> {
     'CANONICO T.',
     'BONAVIA M.',
     'RACCA M.',
+    'ABBATE A.',
+    'SANINO A.',
   ];
   
   return teacherList;
@@ -469,6 +488,10 @@ export async function loadTeacherSchedule(teacherName: string): Promise<Lesson[]
     'CANONICO T.': 'canonico',
     'BONAVIA M.': 'bonavia',
     'RACCA M.': 'racca',
+    'ABBATE A.': 'abbate',
+    'ABBATE Andrea': 'abbate',
+    'SANINO A.': 'sanino',
+    'SANINO Alessandro': 'sanino',
   };
   
   try {

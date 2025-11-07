@@ -26,6 +26,7 @@ export default function SetupPage() {
   const [selectedEntity, setSelectedEntity] = useState('');
   const [loading, setLoading] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
+  const [studentStep, setStudentStep] = useState<'quick' | 'search'>('quick');
 
   // Mostra l'onboarding al primo avvio
   useEffect(() => {
@@ -51,6 +52,7 @@ export default function SetupPage() {
       if (mode === 'student') {
         const classList = await loadClassNames();
         setClasses(classList);
+        setStudentStep('quick');
       } else if (mode === 'teacher') {
         const teacherList = await loadTeacherNames();
         setTeachers(teacherList);
@@ -152,42 +154,24 @@ export default function SetupPage() {
 
         {!mode && (
           <div className={styles.modeSelection}>
-            <p className={styles.modePrompt}>
-              Classi disponibili
-            </p>
+            <p className={styles.modePrompt}>Scegli la modalità</p>
 
             <button
-              onClick={() => handleQuickSelect('5A INF')}
+              onClick={() => setMode('student')}
               className={styles.modeButton}
               disabled={loading}
             >
               <span className={styles.modeIcon}>🎓</span>
-              <span>5A INF</span>
-            </button>
-
-            <button
-              onClick={() => handleQuickSelect('2C MEC')}
-              className={`${styles.modeButton} ${styles.teacher}`}
-              disabled={loading}
-            >
-              <span className={styles.modeIcon}>⚙️</span>
-              <span>2C MEC</span>
-            </button>
-
-            <button
-              onClick={() => setMode('student')}
-              className={styles.sampleButton}
-              aria-label="Cerca altre classi"
-            >
-              Cerca altre classi
+              <span>Studente</span>
             </button>
 
             <button
               onClick={() => setMode('teacher')}
-              className={styles.sampleButton}
-              aria-label="Visualizza orario docente"
+              className={`${styles.modeButton} ${styles.teacher}`}
+              disabled={loading}
             >
-              Sono un docente
+              <span className={styles.modeIcon}>👨‍🏫</span>
+              <span>Docente</span>
             </button>
           </div>
         )}
@@ -203,63 +187,96 @@ export default function SetupPage() {
                 setMode(null);
                 setSelectedEntity('');
                 setSearchTerm('');
+                setStudentStep('quick');
               }}
               className={styles.backButton}
             >
               ← Indietro
             </button>
 
-            <div>
-              <label className={styles.label}>
-                {mode === 'student' ? 'Seleziona la tua classe' : 'Seleziona il tuo nome'}
-              </label>
-
-              <input
-                type="text"
-                placeholder="Cerca..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className={styles.searchInput}
-              />
-
-              <div className={styles.listContainer}>
-                {loading ? (
-                  <div className={styles.emptyState}>
-                    <div className={styles.loadingSpinner}></div>
-                    Caricamento...
-                  </div>
-                ) : filteredList.length === 0 ? (
-                  <div className={styles.emptyState}>
-                    Nessun risultato trovato
-                  </div>
-                ) : (
-                  filteredList.map((item) => (
-                    <button
-                      key={item}
-                      onClick={() => setSelectedEntity(item)}
-                      className={`${styles.listItem} ${selectedEntity === item ? styles.selected : ''}`}
-                    >
-                      {item}
-                    </button>
-                  ))
-                )}
+            {mode === 'student' && studentStep === 'quick' && (
+              <div className={styles.modeSelection}>
+                <p className={styles.modePrompt}>Classi disponibili</p>
+                <button
+                  onClick={() => handleQuickSelect('5A INF')}
+                  className={styles.modeButton}
+                  disabled={loading}
+                >
+                  <span className={styles.modeIcon}>🎓</span>
+                  <span>5A INF</span>
+                </button>
+                <button
+                  onClick={() => handleQuickSelect('2C MEC')}
+                  className={`${styles.modeButton} ${styles.teacher}`}
+                  disabled={loading}
+                >
+                  <span className={styles.modeIcon}>⚙️</span>
+                  <span>2C MEC</span>
+                </button>
+                <button
+                  onClick={() => setStudentStep('search')}
+                  className={styles.sampleButton}
+                >
+                  Cerca altre classi
+                </button>
               </div>
-            </div>
+            )}
 
-            <button
-              onClick={handleContinue}
-              disabled={!selectedEntity || loading}
-              className={styles.continueButton}
-            >
-              {loading ? (
-                <>
-                  <span className={styles.loadingSpinner}></span>
-                  Caricamento...
-                </>
-              ) : (
-                'Continua'
-              )}
-            </button>
+            {((mode === 'student' && studentStep === 'search') || mode === 'teacher') && (
+              <div>
+                <label className={styles.label}>
+                  {mode === 'student' ? 'Seleziona la tua classe' : 'Seleziona il tuo nome'}
+                </label>
+
+                <input
+                  type="text"
+                  placeholder="Cerca..."
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  className={styles.searchInput}
+                />
+
+                <div className={styles.listContainer}>
+                  {loading ? (
+                    <div className={styles.emptyState}>
+                      <div className={styles.loadingSpinner}></div>
+                      Caricamento...
+                    </div>
+                  ) : filteredList.length === 0 ? (
+                    <div className={styles.emptyState}>
+                      Nessun risultato trovato
+                    </div>
+                  ) : (
+                    filteredList.map((item) => (
+                      <button
+                        key={item}
+                        onClick={() => setSelectedEntity(item)}
+                        className={`${styles.listItem} ${selectedEntity === item ? styles.selected : ''}`}
+                      >
+                        {item}
+                      </button>
+                    ))
+                  )}
+                </div>
+              </div>
+            )}
+
+            {((mode === 'student' && studentStep === 'search') || mode === 'teacher') && (
+              <button
+                onClick={handleContinue}
+                disabled={!selectedEntity || loading}
+                className={styles.continueButton}
+              >
+                {loading ? (
+                  <>
+                    <span className={styles.loadingSpinner}></span>
+                    Caricamento...
+                  </>
+                ) : (
+                  'Continua'
+                )}
+              </button>
+            )}
           </motion.div>
         )}
       </motion.div>

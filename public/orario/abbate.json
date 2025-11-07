@@ -1,0 +1,114 @@
+{
+  "teacher": "ABBATE Andrea",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Ufficio Tecnico",
+        "room": "Ufficio Tecnico"
+      },
+      {
+        "hour": 2,
+        "subject": "Ufficio Tecnico",
+        "room": "Ufficio Tecnico"
+      },
+      {
+        "hour": 3,
+        "subject": "Ufficio Tecnico",
+        "room": "Ufficio Tecnico"
+      }
+    ],
+    "tuesday": [
+        {
+        "hour": 1,
+        "subject": "Sistemi e Reti",
+        "class": "5D LIC",
+        "room": "LAB. S18 MARCONI (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e Reti",
+        "class": "5D LIC",
+        "room": "LAB. S18 MARCONI (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Ufficio Tecnico",
+        "room": "Ufficio Tecnico"
+      },
+      {
+        "hour": 4,
+        "subject": "Ufficio Tecnico",
+        "room": "Ufficio Tecnico"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi e Reti",
+        "class": "5E LIC",
+        "room": "LAB. S18 MARCONI (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e Reti",
+        "class": "5E LIC",
+        "room": "LAB. S18 MARCONI (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Ufficio Tecnico",
+        "room": "Ufficio Tecnico"
+      },
+      {
+        "hour": 2,
+        "subject": "Ufficio Tecnico",
+        "room": "Ufficio Tecnico"
+      }
+    ],
+    "thursday": [
+    {
+        "hour": 1,
+        "subject": "Ufficio Tecnico",
+        "room": "Ufficio Tecnico"
+      },
+      {
+        "hour": 2,
+        "subject": "Ufficio Tecnico",
+        "room": "Ufficio Tecnico"
+      },
+      {
+        "hour": 3,
+        "subject": "Ufficio Tecnico",
+        "room": "Ufficio Tecnico"
+      }
+    ],
+    "friday": [
+    {
+        "hour": 3,
+        "subject": "Sistemi e Reti",
+        "class": "5C LIC",
+        "room": "LAB. S18 MARCONI (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi e Reti",
+        "class": "5C LIC",
+        "room": "LAB. S18 MARCONI (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi e Reti",
+        "class": "5B LIC",
+        "room": "LAB. S18 MARCONI (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e Reti",
+        "class": "5C LIC",
+        "room": "LAB. S18 MARCONI (24)"
+      }
+    ]
+  }
+}

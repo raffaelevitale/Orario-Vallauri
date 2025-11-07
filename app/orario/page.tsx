@@ -11,6 +11,7 @@ import { OnboardingTour } from '@/app/components/onboarding/OnboardingTour';
 import { motion, AnimatePresence } from 'framer-motion';
 import { isCurrentLesson, getRemainingMinutes } from '@/lib/orario/utils/time';
 import { Lesson } from '@/lib/orario/models/lesson';
+import { requestNotificationPermission, scheduleLessonNotifications } from '@/lib/orario/utils/notifications';
 import styles from './orario.module.css';
 
 const weekDays = [
@@ -69,6 +70,8 @@ export default function OrarioPage() {
     setIsMounted(true);
   }, []);
 
+  // (spostato sotto la definizione di todayLessons)
+
   // Redirect to setup if not completed
   useEffect(() => {
     if (!hasCompletedSetup) {
@@ -86,6 +89,16 @@ export default function OrarioPage() {
   const todayLessons = useMemo(() => {
     return getLessonsForDay(selectedDay);
   }, [selectedDay, getLessonsForDay]);
+
+  // Richiedi permessi notifiche e pianifica notifiche lezioni del giorno (dopo calcolo todayLessons)
+  useEffect(() => {
+    if (!isMounted) return;
+    requestNotificationPermission().then((perm) => {
+      if (perm === 'granted') {
+        scheduleLessonNotifications(todayLessons);
+      }
+    });
+  }, [isMounted, selectedDay, todayLessons.map(l => l.id).join(',')]);
 
   useEffect(() => {
     if (!todayLessons.length) {
