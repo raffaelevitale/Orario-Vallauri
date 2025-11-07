@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import { useScheduleStore } from '@/lib/orario/stores/scheduleStore';
 import { LessonCard } from '@/app/components/orario/LessonCard';
 import { TimelineView } from '@/app/components/orario/TimelineView';
-import { ThemeToggle } from '@/app/components/orario/ThemeToggle';
+import { SettingsMenu } from '@/app/components/orario/SettingsMenu';
 import InstallPrompt from '@/app/components/pwa/InstallPrompt';
 import { OnboardingTour } from '@/app/components/onboarding/OnboardingTour';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -146,49 +146,7 @@ export default function OrarioPage() {
             </div>
 
             <div className={styles.headerActions}>
-              {/* Help button */}
-              <button
-                onClick={() => setShowOnboarding(true)}
-                className={styles.helpBtn}
-                title="Aiuto"
-              >
-                ❓
-              </button>
-
-              {/* Reset button */}
-              <button
-                onClick={() => {
-                  if (confirm('Vuoi cambiare classe/docente?')) {
-                    resetSetup();
-                    router.push('/orario/setup');
-                  }
-                }}
-                className={styles.settingsBtn}
-                title="Impostazioni"
-              >
-                ⚙️ Impostazioni
-              </button>
-
-              {/* Theme toggle */}
-              <ThemeToggle />
-
-              {/* View toggle */}
-              <div className={styles.viewToggle}>
-                <button
-                  onClick={() => setViewType('list')}
-                  className={`${styles.viewBtn} ${viewType === 'list' ? styles.active : ''}`}
-                  title="Vista lista"
-                >
-                  📋 Lista
-                </button>
-                <button
-                  onClick={() => setViewType('timeline')}
-                  className={`${styles.viewBtn} ${viewType === 'timeline' ? styles.active : ''}`}
-                  title="Vista timeline"
-                >
-                  ⏱️ Timeline
-                </button>
-              </div>
+              <SettingsMenu onHelp={() => setShowOnboarding(true)} />
             </div>
           </div>
 
@@ -257,6 +215,7 @@ export default function OrarioPage() {
                         lesson={lesson}
                         isCurrent={isToday && isCurrentLesson(lesson)}
                         compact={true}
+                        hideTeacher={userMode === 'teacher'}
                       />
                     </motion.div>
                   ))

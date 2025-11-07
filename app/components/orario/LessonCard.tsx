@@ -6,6 +6,7 @@ interface LessonCardProps {
   lesson: Lesson;
   isCurrent?: boolean;
   compact?: boolean;
+  hideTeacher?: boolean;
 }
 
 function shortenClassroom(classroom: string): string {
@@ -40,6 +41,7 @@ export function LessonCard({
   lesson,
   isCurrent = false,
   compact = false,
+  hideTeacher = false,
 }: LessonCardProps) {
   const duration = getLessonDuration(lesson);
   const isLab = isLabLesson(lesson.classroom, lesson.subject);
@@ -80,10 +82,11 @@ export function LessonCard({
               {lesson.class && (
                 <div className={styles.detailRow}>
                   <span className={styles.detailIcon}>🎓</span>
-                  <span className={styles.detailText}>{lesson.class}</span>
+                  <span className={`${styles.detailText} ${styles.detailTextBold}`}>{lesson.class}</span>
                 </div>
               )}
-              {lesson.teacher && (
+              {/* Nascondi docente nella vista docente (inutile) */}
+              {lesson.teacher && !hideTeacher && (
                 <div className={styles.detailRow}>
                   <span className={styles.detailIcon}>👨‍🏫</span>
                   <span className={styles.detailText}>{lesson.teacher}</span>
@@ -92,7 +95,7 @@ export function LessonCard({
               {shortClassroom && (
                 <div className={styles.detailRow}>
                   <span className={styles.detailIcon}>📍</span>
-                  <span className={styles.detailText}>{shortClassroom}</span>
+                  <span className={`${styles.detailText} ${styles.detailTextBold}`}>{shortClassroom}</span>
                 </div>
               )}
             </div>

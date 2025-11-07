@@ -111,6 +111,11 @@
   font-weight: 500;
 }
 
+.detailTextBold {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
 .timeSection {
   text-align: right;
   flex-shrink: 0;
@@ -121,15 +126,16 @@
 }
 
 .startTime {
-  font-weight: 600;
-  font-size: 0.875rem;
+  font-weight: 800;
+  font-size: 1rem;
   color: var(--text-primary);
   white-space: nowrap;
 }
 
 .endTime {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   color: var(--text-secondary);
+  font-weight: 600;
   white-space: nowrap;
 }
 

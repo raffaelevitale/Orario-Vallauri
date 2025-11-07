@@ -196,8 +196,10 @@ function addBreaksToLessons(lessons: Lesson[], dayOfWeek: number): void {
     breaks.push({ start: '12:10', end: '12:20' }); // Secondo intervallo
   }
   
-  // Ordina le lezioni per orario
-  const sortedLessons = lessons.filter(l => !l.isBreak).sort((a, b) => a.startTime.localeCompare(b.startTime));
+  // Ordina le lezioni per orario SOLO del giorno corrente
+  const sortedLessons = lessons
+    .filter(l => !l.isBreak && l.dayOfWeek === dayOfWeek)
+    .sort((a, b) => a.startTime.localeCompare(b.startTime));
   
   // Aggiungi solo gli intervalli che cadono durante le lezioni del docente
   for (const breakTime of breaks) {
@@ -212,11 +214,13 @@ function addBreaksToLessons(lessons: Lesson[], dayOfWeek: number): void {
       const lessonAfterBreak = sortedLessons.find(l => l.startTime >= breakTime.end);
       
       if (lessonBeforeBreak && lessonAfterBreak) {
-        // Aggiungi l'intervallo solo se non c'è un gap troppo grande
-        const gapMinutes = (new Date(`2000-01-01T${lessonAfterBreak.startTime}:00`).getTime() - 
-                           new Date(`2000-01-01T${lessonBeforeBreak.endTime}:00`).getTime()) / 60000;
-        
-        if (gapMinutes <= 60) { // Se il gap è max 1 ora, è un intervallo normale
+        // Aggiungi SEMPRE l'intervallo se c'è una lezione prima e dopo
+        // (richiesta: anche quando le lezioni non sono consecutive)
+        // Evita duplicati se già presente
+        const exists = lessons.some(
+          l => l.isBreak && l.dayOfWeek === dayOfWeek && l.startTime === breakTime.start && l.endTime === breakTime.end
+        );
+        if (!exists) {
           lessons.push({
             id: `break-${dayOfWeek}-${breakTime.start}`,
             subject: 'Intervallo',
@@ -234,26 +238,31 @@ function addBreaksToLessons(lessons: Lesson[], dayOfWeek: number): void {
   }
   
   // Aggiungi elementi "Libero" per gap più lunghi tra le lezioni
-  for (let i = 0; i < sortedLessons.length - 1; i++) {
-    const currentLesson = sortedLessons[i];
-    const nextLesson = sortedLessons[i + 1];
-    
-    const gapMinutes = (new Date(`2000-01-01T${nextLesson.startTime}:00`).getTime() - 
-                       new Date(`2000-01-01T${currentLesson.endTime}:00`).getTime()) / 60000;
-    
-    // Se c'è un gap > 60 minuti, aggiungi "Libero"
-    if (gapMinutes > 60) {
-      lessons.push({
-        id: `free-${dayOfWeek}-${currentLesson.endTime}`,
-        subject: '🕐 Libero',
-        teacher: '',
-        classroom: '',
-        dayOfWeek,
-        startTime: currentLesson.endTime,
-        endTime: nextLesson.startTime,
-        color: '#e0e0e0',
-        isBreak: false, // Non è un intervallo standard
-      });
+  // Inserisci intervallo esteso tra lezioni non consecutive (richiesta docente)
+  // Criterio: lezioni con property "class" => orario docente
+  const isTeacherDay = sortedLessons.some(l => !!l.class);
+  if (isTeacherDay) {
+    for (let i = 0; i < sortedLessons.length - 1; i++) {
+      const currentLesson = sortedLessons[i];
+      const nextLesson = sortedLessons[i + 1];
+      const gapMinutes = (new Date(`2000-01-01T${nextLesson.startTime}:00`).getTime() -
+        new Date(`2000-01-01T${currentLesson.endTime}:00`).getTime()) / 60000;
+      if (gapMinutes > 5) { // qualsiasi gap reale
+        const existsGap = lessons.some(l => l.isBreak && l.startTime === currentLesson.endTime && l.endTime === nextLesson.startTime && l.dayOfWeek === dayOfWeek);
+        if (!existsGap) {
+          lessons.push({
+            id: `gap-${dayOfWeek}-${currentLesson.endTime}`,
+            subject: 'Intervallo',
+            teacher: '',
+            classroom: '—',
+            dayOfWeek,
+            startTime: currentLesson.endTime,
+            endTime: nextLesson.startTime,
+            color: '#bdbdbd',
+            isBreak: true,
+          });
+        }
+      }
     }
   }
 }
