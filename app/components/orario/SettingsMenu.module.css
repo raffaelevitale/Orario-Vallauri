@@ -38,6 +38,7 @@
   font-weight: 600;
   color: var(--text-tertiary);
   padding: 6px 8px 4px;
+  gap: 10px;
 }
 
 .item {
@@ -48,6 +49,8 @@
   padding: 8px 10px;
   border-radius: 8px;
   color: var(--text-primary);
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
 }
 .item:hover {
   background: var(--bg-hover);

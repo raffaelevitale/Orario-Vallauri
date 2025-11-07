@@ -1,0 +1,130 @@
+{
+  "teacher": "CARANTA Piera",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Lingua e letteratura italiana",
+        "class": "2C LIC",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia e Geografia",
+        "class": "2C LIC",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lingua e letteratura italiana",
+        "class": "3C INF",
+        "room": "S30 PROIEZIONI (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "3C INF",
+        "room": "S30 PROIEZIONI (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "Lingua e letteratura italiana",
+        "class": "2C LIC",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia e Geografia",
+        "class": "2C LIC",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua e letteratura italiana",
+        "class": "5A INF",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lingua e letteratura italiana",
+        "class": "3C INF",
+        "room": "224 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Storia",
+        "class": "3C INF",
+        "room": "224 (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 2,
+        "subject": "Storia e Geografia",
+        "class": "2C LIC",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "class": "5A INF",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "5A INF",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua e letteratura italiana",
+        "class": "3C INF",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lingua e letteratura italiana",
+        "class": "3C INF",
+        "room": "146 (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Lingua e letteratura italiana",
+        "class": "5A INF",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lingua e letteratura italiana",
+        "class": "5A INF",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua e letteratura italiana",
+        "class": "2C LIC",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua e letteratura italiana",
+        "class": "2C LIC",
+        "room": "149 TEST (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "Lingua e letteratura italiana",
+        "class": "5A INF",
+        "room": "T11 (30)"
+      }
+    ]
+  }
+}

@@ -55,6 +55,7 @@ export default function SetupPage() {
         setStudentStep('quick');
       } else if (mode === 'teacher') {
         const teacherList = await loadTeacherNames();
+        teacherList.sort()
         setTeachers(teacherList);
       }
       setLoading(false);
