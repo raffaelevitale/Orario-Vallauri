@@ -1,95 +1,123 @@
 {
-  "teacher": "CANONICO Tancredi",
+  "teacher": "RACCA Mauro",
   "school": "I.I.S. G. Vallauri",
   "schedule": {
     "monday": [
       {
         "hour": 1,
-        "subject": "Informatica",
-        "class": "5A LIC",
-        "room": "LAB. 142 NEWTON (25)"
+        "subject": "Gestione Progetto",
+        "class": "5D INF",
+        "room": "LAB. T59 PLC (24)"
       },
       {
         "hour": 2,
-        "subject": "Sistemi e Reti",
-        "class": "5A INF",
-        "room": "LAB. 134 TELECOMUNICAZIONI (50)"
+        "subject": "Gestione Progetto",
+        "class": "5D INF",
+        "room": "LAB. T59 PLC (24)"
       },
       {
         "hour": 3,
-        "subject": "Sistemi e Reti",
-        "class": "4E INF",
-        "room": "LAB. S18 MARCONI (24)"
+        "subject": "Gestione Progetto",
+        "class": "5D INF",
+        "room": "LAB. T59 PLC (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "T.P.S.I.T",
+        "class": "5A INF",
+        "room": "LAB. 119B EULERO (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.I.T",
+        "class": "5A INF",
+        "room": "LAB. 119B EULERO (25)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "4D INF",
+        "room": "LAB. 117 TOLOMEO (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "4D INF",
+        "room": "LAB. 117 TOLOMEO (26)"
       },
       {
         "hour": 4,
-        "subject": "Sistemi e Reti",
-        "class": "4E INF",
-        "room": "LAB. S18 MARCONI (24)"
+        "subject": "T.P.S.I.T",
+        "class": "5A INF",
+        "room": "LAB. 143 TURING (22)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.I.T",
+        "class": "4D INF",
+        "room": "LAB. 119A PASCAL (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "T.P.S.I.T",
+        "class": "4D INF",
+        "room": "LAB. 119A PASCAL (27)"
       }
     ],
     "wednesday": [
       {
-        "hour": 1,
-        "subject": "Sistemi e Reti",
-        "class": "4E INF",
-        "room": "LAB. 143 TURING (22)"
-      },
-      {
-        "hour": 2,
-        "subject": "Sistemi e Reti",
-        "class": "4E INF",
-        "room": "LAB. 143 TURING (22)"
-      },
-      {
-        "hour": 3,
-        "subject": "Sistemi e Reti",
-        "class": "4A INF",
-        "room": "LAB. S18 MARCONI (24)"
-      },
-      {
-        "hour": 4,
-        "subject": "Sistemi e Reti",
-        "class": "4A INF",
-        "room": "LAB. S18 MARCONI (24)"
-      },
-      {
-        "hour": 5,
-        "subject": "Sistemi e Reti",
-        "class": "5A INF",
-        "room": "LAB. 116 LAPLACE (25)"
-      },
-      {
         "hour": 6,
         "subject": "Informatica",
-        "class": "5A LIC",
-        "room": "LAB. 117 TOLOMEO (26)"
+        "class": "4D INF",
+        "room": "LAB. S22 ARCHIMEDE (26)"
       }
     ],
     "thursday": [
       {
-        "hour": 1,
-        "subject": "Sistemi e Reti",
-        "class": "4A INF",
-        "room": "LAB. 143 TURING (22)"
-      },
-    {
-        "hour": 2,
-        "subject": "Sistemi e Reti",
-        "class": "4A INF",
-        "room": "LAB. 143 TURING (22)"
-      },
-    {
-        "hour": 5,
+        "hour": 3,
         "subject": "T.P.S.I.T",
-        "class": "5A INF",
+        "class": "3D INF",
         "room": "LAB. S18 MARCONI (24)"
       },
       {
-        "hour": 6,
+        "hour": 4,
         "subject": "T.P.S.I.T",
-        "class": "5A INF",
+        "class": "3D INF",
         "room": "LAB. S18 MARCONI (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "class": "5D INF",
+        "room": "LAB. T10 AULA AR/VR (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "class": "5D INF",
+        "room": "LAB. T10 AULA AR/VR (25)"
+      },
+      {
+        "hour": 7,
+        "subject": "T.P.S.I.T",
+        "class": "5D INF",
+        "room": "LAB. S18 MARCONI (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "T.P.S.I.T",
+        "class": "5D INF",
+        "room": "LAB. 119A PASCAL (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.I.T",
+        "class": "5D INF",
+        "room": "LAB. 119A PASCAL (27)"
       }
     ]
   }
