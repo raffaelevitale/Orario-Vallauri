@@ -1,6 +1,7 @@
 {
   "name": "orario-standalone",
   "version": "0.1.0",
+  "description": "Gestione orario - Versione standalone (Beta)",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,19 +9,12 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "dependencies": {
-    "@vercel/analytics": "^1.5.0",
-    "framer-motion": "^12.23.24",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "zustand": "^5.0.8"
-  },
-  "devDependencies": {
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "latest",
-    "typescript": "latest"
-  }
+  "keywords": [
+    "orario",
+    "schedule",
+    "nextjs",
+    "beta"
+  ],
+  "author": "",
+  "license": "MIT"
 }
