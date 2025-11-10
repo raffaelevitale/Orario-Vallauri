@@ -23,13 +23,13 @@
         {
         "hour": 1,
         "subject": "Sistemi e Reti",
-        "class": "5D LIC",
+        "class": "5D INF",
         "room": "LAB. S18 MARCONI (24)"
       },
       {
         "hour": 2,
         "subject": "Sistemi e Reti",
-        "class": "5D LIC",
+        "class": "5D INF",
         "room": "LAB. S18 MARCONI (24)"
       },
       {
@@ -45,13 +45,13 @@
       {
         "hour": 5,
         "subject": "Sistemi e Reti",
-        "class": "5E LIC",
+        "class": "5E INF",
         "room": "LAB. S18 MARCONI (24)"
       },
       {
         "hour": 6,
         "subject": "Sistemi e Reti",
-        "class": "5E LIC",
+        "class": "5E INF",
         "room": "LAB. S18 MARCONI (24)"
       }
     ],
@@ -88,25 +88,25 @@
     {
         "hour": 3,
         "subject": "Sistemi e Reti",
-        "class": "5C LIC",
+        "class": "5C INF",
         "room": "LAB. S18 MARCONI (24)"
       },
       {
         "hour": 4,
         "subject": "Sistemi e Reti",
-        "class": "5C LIC",
+        "class": "5C INF",
         "room": "LAB. S18 MARCONI (24)"
       },
       {
         "hour": 5,
         "subject": "Sistemi e Reti",
-        "class": "5B LIC",
+        "class": "5B INF",
         "room": "LAB. S18 MARCONI (24)"
       },
       {
         "hour": 6,
         "subject": "Sistemi e Reti",
-        "class": "5C LIC",
+        "class": "5C INF",
         "room": "LAB. S18 MARCONI (24)"
       }
     ]
