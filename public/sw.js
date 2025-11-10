@@ -55,7 +55,7 @@ self.addEventListener("fetch", (event) => {
   }
 
   // Skip non-GET requests (POST, PUT, DELETE, etc.)
-  if (request.method !== 'GET') {
+  if (request.method !== "GET") {
     return;
   }
 
@@ -66,10 +66,14 @@ self.addEventListener("fetch", (event) => {
         const responseClone = response.clone();
 
         // Salva in cache solo le risposte OK e GET requests
-        if (response.status === 200 && request.method === 'GET') {
+        if (response.status === 200 && request.method === "GET") {
           caches.open(DYNAMIC_CACHE).then((cache) => {
             cache.put(request, responseClone).catch((err) => {
-              console.warn('[Service Worker] Failed to cache:', request.url, err);
+              console.warn(
+                "[Service Worker] Failed to cache:",
+                request.url,
+                err
+              );
             });
           });
         }
