@@ -54,6 +54,7 @@
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   margin: 6px 0;
+  width: 100%;
 }
 .item:hover {
   background: var(--bg-hover);
@@ -69,8 +70,9 @@
 
 .row {
   display: flex;
-  align-items: center;
+  align-items: start;
   gap: 8px;
+  width: max-content;
 }
 
 .badge {

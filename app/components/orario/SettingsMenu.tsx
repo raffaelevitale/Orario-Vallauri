@@ -100,6 +100,32 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
           <button
             className={styles.item}
             style={{ marginBottom: "10px" }}
+            onClick={async () => {
+              setOpen(false);
+              // Clear service workers
+              if ('serviceWorker' in navigator) {
+                const registrations = await navigator.serviceWorker.getRegistrations();
+                await Promise.all(registrations.map(r => r.unregister()));
+              }
+              // Clear all caches
+              if ('caches' in window) {
+                const cacheNames = await caches.keys();
+                await Promise.all(cacheNames.map(name => caches.delete(name)));
+              }
+              // Clear storage
+              localStorage.clear();
+              sessionStorage.clear();
+              // Reload page
+              window.location.reload();
+            }}
+            role="menuitem"
+            aria-label="Aggiorna pagina">
+            <span className={styles.row}>🔄 Aggiorna pagina</span>
+            <span className={styles.badge}>Aggiorna</span>
+          </button>
+          <button
+            className={styles.item}
+            style={{ marginBottom: "10px" }}
             onClick={() => {
               onHelp();
               setOpen(false);
