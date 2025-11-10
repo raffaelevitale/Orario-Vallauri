@@ -4,7 +4,7 @@
   "description": "Gestione orario - Versione standalone (Beta)",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS='--no-deprecation --no-warnings' next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
