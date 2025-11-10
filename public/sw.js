@@ -54,16 +54,23 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
+  // Skip non-GET requests (POST, PUT, DELETE, etc.)
+  if (request.method !== 'GET') {
+    return;
+  }
+
   event.respondWith(
     fetch(request)
       .then((response) => {
         // Clone la risposta perché può essere usata solo una volta
         const responseClone = response.clone();
 
-        // Salva in cache solo le risposte OK
-        if (response.status === 200) {
+        // Salva in cache solo le risposte OK e GET requests
+        if (response.status === 200 && request.method === 'GET') {
           caches.open(DYNAMIC_CACHE).then((cache) => {
-            cache.put(request, responseClone);
+            cache.put(request, responseClone).catch((err) => {
+              console.warn('[Service Worker] Failed to cache:', request.url, err);
+            });
           });
         }
 
@@ -77,7 +84,7 @@ self.addEventListener("fetch", (event) => {
           }
 
           // Fallback per le pagine HTML
-          if (request.headers.get("accept").includes("text/html")) {
+          if (request.headers.get("accept")?.includes("text/html")) {
             return caches.match("/orario");
           }
         });
