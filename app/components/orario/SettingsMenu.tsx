@@ -57,15 +57,20 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
       <button
         className={styles.iconBtn}
         title="Impostazioni"
+        aria-haspopup={true}
+        aria-expanded={open}
+        aria-label="Apri impostazioni"
         onClick={() => setOpen((o) => !o)}>
         ⚙️
       </button>
       {open && (
-        <div className={styles.menu}>
+        <div className={styles.menu} role="menu" aria-label="Impostazioni">
           <div className={styles.groupLabel}>Aspetto</div>
           <button
             className={styles.item}
             onClick={cycleTheme}
+            role="menuitem"
+            aria-label={`Tema: ${themeLabel}`}
             disabled={
               userMode === "teacher" &&
               selectedEntity?.toUpperCase().includes("MAGGIORE")
@@ -83,7 +88,9 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
             className={styles.item}
             onClick={() =>
               setViewType(viewType === "list" ? "timeline" : "list")
-            }>
+            }
+            role="menuitem"
+            aria-label={`Cambia vista: ${viewType === "list" ? "Lista" : "Timeline"}`}>
             <span className={styles.row}>👁️ Modalità</span>
             <span className={styles.badge}>
               {viewType === "list" ? "Lista" : "Timeline"}
@@ -96,7 +103,9 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
             onClick={() => {
               onHelp();
               setOpen(false);
-            }}>
+            }}
+            role="menuitem"
+            aria-label="Apri tutorial">
             <span className={styles.row}>❓ Tutorial</span>
             <span className={styles.badge}>Apri</span>
           </button>
@@ -105,7 +114,9 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
             onClick={() => {
               router.push("/feedback");
               setOpen(false);
-            }}>
+            }}
+            role="menuitem"
+            aria-label="Segnala idea o bug">
             <span className={styles.row}>📝 Segnala idea/bug</span>
             <span className={styles.badge}>Feedback</span>
           </button>
@@ -115,7 +126,9 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
             onClick={() => {
               resetSetup();
               router.push("/orario/setup");
-            }}>
+            }}
+            role="menuitem"
+            aria-label="Cambia modalità">
             <span className={styles.row}>🔁 Cambia modalità</span>
             <span className={styles.badge}>{userMode ?? "—"}</span>
           </button>
