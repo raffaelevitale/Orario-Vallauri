@@ -5,6 +5,7 @@ import styles from "./SettingsMenu.module.css";
 import { useThemeStore } from "@/lib/orario/stores/themeStore";
 import { useScheduleStore } from "@/lib/orario/stores/scheduleStore";
 import { useRouter } from "next/navigation";
+import { ChangeModeModal } from "./ChangeModeModal";
 
 interface SettingsMenuProps {
   onHelp: () => void;
@@ -17,6 +18,7 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
   const { resetSetup } = useScheduleStore();
   const router = useRouter();
   const [open, setOpen] = useState(false);
+  const [showChangeModeModal, setShowChangeModeModal] = useState(false);
   const ref = useRef<HTMLDivElement | null>(null);
 
   // Chiudi al click fuori
@@ -51,6 +53,21 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
 
   const themeLabel =
     theme === "system" ? "Sistema" : theme === "light" ? "Chiaro" : "Scuro";
+
+  const handleChangeModeClick = () => {
+    setOpen(false);
+    setShowChangeModeModal(true);
+  };
+
+  const handleConfirmChangeMode = () => {
+    setShowChangeModeModal(false);
+    resetSetup();
+    router.push("/orario/setup");
+  };
+
+  const handleCancelChangeMode = () => {
+    setShowChangeModeModal(false);
+  };
 
   return (
     <div className={styles.menuWrapper} ref={ref}>
@@ -149,10 +166,7 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
           <div className={styles.groupLabel}>Modalità</div>
           <button
             className={styles.item}
-            onClick={() => {
-              resetSetup();
-              router.push("/orario/setup");
-            }}
+            onClick={handleChangeModeClick}
             role="menuitem"
             aria-label="Cambia modalità">
             <span className={styles.row}>🔁 Cambia modalità</span>
@@ -160,6 +174,12 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
           </button>
         </div>
       )}
+      <ChangeModeModal
+        isOpen={showChangeModeModal}
+        onConfirm={handleConfirmChangeMode}
+        onCancel={handleCancelChangeMode}
+        currentMode={userMode === "student" ? "studente" : userMode === "teacher" ? "docente" : undefined}
+      />
     </div>
   );
 }
