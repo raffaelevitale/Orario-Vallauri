@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { SentryUserProvider } from '@/app/components/providers/SentryUserProvider';
 
 export const metadata: Metadata = {
   title: 'Orario | Raffaele Vitale',
@@ -10,6 +11,9 @@ export default function OrarioLayout({
 }: {
   children: React.ReactNode;
 }) {
-  // Wrap children in a fragment to ensure this exports a valid React component
-  return <>{children}</>;
+  return (
+    <SentryUserProvider>
+      {children}
+    </SentryUserProvider>
+  );
 }
