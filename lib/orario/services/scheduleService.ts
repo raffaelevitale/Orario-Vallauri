@@ -1,5 +1,6 @@
 import { Lesson } from '@/lib/orario/models/lesson';
 import { sampleTeacherNames, sampleTeacherSchedules } from '@/lib/orario/data/sampleSchedule';
+import { parseTime } from '@/lib/orario/utils/time';
 
 interface ClassScheduleData {
   metadata: {
@@ -121,8 +122,9 @@ const dayIndexMap: Record<string, number> = {
 };
 
 // Mappa oraria per slot (derivata dai dati campione dell'istituto)
+// Usiamo 7 slot per ogni giorno per essere coerenti con `orario_classi_vallauri_completo.json` e `sampleSchedule.ts`.
 const slotTimesByDay: Record<number, Array<{ start: string; end: string }>> = {
-  // Lunedì (1), Mercoledì (3), Venerdì (5) – schema con intervallo lungo 10:40-11:00
+  // Lunedì (1), Mercoledì (3), Venerdì (5) - 7 slot
   1: [
     { start: '07:50', end: '08:50' },
     { start: '08:50', end: '09:45' },
@@ -130,6 +132,7 @@ const slotTimesByDay: Record<number, Array<{ start: string; end: string }>> = {
     { start: '11:00', end: '11:55' },
     { start: '11:55', end: '12:50' },
     { start: '12:50', end: '13:40' },
+    { start: '13:40', end: '14:30' },
   ],
   3: [
     { start: '07:50', end: '08:50' },
@@ -138,6 +141,7 @@ const slotTimesByDay: Record<number, Array<{ start: string; end: string }>> = {
     { start: '11:00', end: '11:55' },
     { start: '11:55', end: '12:50' },
     { start: '12:50', end: '13:40' },
+    { start: '13:40', end: '14:30' },
   ],
   5: [
     { start: '07:50', end: '08:50' },
@@ -146,8 +150,9 @@ const slotTimesByDay: Record<number, Array<{ start: string; end: string }>> = {
     { start: '11:00', end: '11:55' },
     { start: '11:55', end: '12:50' },
     { start: '12:50', end: '13:40' },
+    { start: '13:40', end: '14:30' },
   ],
-  // Martedì (2), Giovedì (4) – schema con doppi intervalli brevi
+  // Martedì (2), Giovedì (4) - 7 slot
   2: [
     { start: '07:50', end: '08:45' },
     { start: '08:45', end: '09:35' },
@@ -246,6 +251,29 @@ export function addBreaksToLessons(lessons: Lesson[], dayOfWeek: number): void {
         );
 
         if (!exists) {
+          // Se il gap è esattamente tra due lezioni (es. prev.end === slot.start && next.start === slot.end)
+          // e la distanza è breve (<60 min) consideralo come Intervallo (isBreak=true), altrimenti come Libero.
+          const prevLesson = sortedLessons.find(l => l.endTime === slot.start);
+          const nextLesson = sortedLessons.find(l => l.startTime === slot.end);
+
+          if (prevLesson && nextLesson) {
+            const gapMinutes = parseTime(nextLesson.startTime) - parseTime(prevLesson.endTime);
+            if (gapMinutes < 60) {
+              lessons.push({
+                id: `break-${dayOfWeek}-${slot.start}`,
+                subject: 'Intervallo',
+                teacher: '',
+                classroom: 'Corridoio / Bar',
+                dayOfWeek,
+                startTime: slot.start,
+                endTime: slot.end,
+                color: '#bdbdbd',
+                isBreak: true,
+              });
+              continue;
+            }
+          }
+
           lessons.push({
             id: `free-${dayOfWeek}-${slot.start}`,
             subject: '🕐 Libero',
