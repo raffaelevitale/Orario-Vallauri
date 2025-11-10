@@ -1,11 +1,11 @@
 # 📅 Orario Standalone
 
-![Version](https://img.shields.io/badge/version-0.1.0-blue)
+![Version](https://img.shields.io/badge/version-0.2.0-blue)
 ![Status](https://img.shields.io/badge/status-beta-orange)
 ![Next.js](https://img.shields.io/badge/Next.js-15-black)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-> **⚠️ BETA v0.1.0** - Progetto in fase di sviluppo attivo. Potrebbero esserci bug e funzionalità incomplete.
+> **⚠️ BETA v0.2.0** - Progetto in fase di sviluppo attivo. Potrebbero esserci bug e funzionalità incomplete.
 
 ## 📖 Descrizione
 
@@ -13,17 +13,19 @@ Applicazione standalone per la gestione degli orari, estratta dal portfolio prin
 
 ## ✨ Funzionalità
 
-| Feature | Stato | Descrizione |
-|---------|-------|-------------|
-| 📊 Gestione Orari | ✅ Beta | Visualizzazione e gestione base degli orari |
-| 🎨 UI Responsiva | ✅ Beta | Interfaccia adattiva Tailwind CSS |
-| 💾 Storage JSON | ✅ Beta | Persistenza dati locale |
-| 🔄 Import/Export | 🚧 WIP | Funzionalità in sviluppo |
-| 📱 PWA | 📋 Planned | Supporto Progressive Web App |
+| Feature              | Stato     | Descrizione                                                                  |
+| -------------------- | --------- | ---------------------------------------------------------------------------- |
+| 📊 Gestione Orari     | ✅ Beta    | Visualizzazione e gestione base degli orari                                  |
+| 🎨 UI Responsiva      | ✅ Beta    | Interfaccia adattiva Tailwind CSS                                            |
+| 💾 Storage JSON       | ✅ Beta    | Persistenza dati locale                                                      |
+| 🔔 Notifiche Lezioni  | ✅ New     | Notifiche push 5 min prima e fine lezione, prompt permessi, gestione timeout |
+| 🔄 Cambio Modalità    | ✅ New     | Modale dedicata per cambio modalità studente/docente con UI moderna          |
+| 🧭 Onboarding Guidato | ✅ New     | Tour onboarding aggiornato con tutte le nuove funzionalità                   |
+| 🌙 Dark Mode          | ✅ Beta    | Supporto completo per tema scuro                                             |
+| 📱 PWA                | 📋 Planned | Supporto Progressive Web App                                                 |
+| 🔄 Import/Export      | 🚧 WIP     | Funzionalità in sviluppo                                                     |
 
 ## 🗂️ Struttura del Progetto
-
-Percorsi estratti dal portfolio principale:
 
 ```
 orario-standalone/
@@ -52,9 +54,6 @@ cd orario-standalone
 # Installa le dipendenze
 npm install
 
-# Configura Tailwind CSS (se necessario)
-npx tailwindcss init -p
-
 # Avvia il server di sviluppo
 npm run dev
 ```
@@ -69,27 +68,16 @@ npm install -D tailwindcss postcss autoprefixer
 npm install -D typescript @types/react @types/node # se usi TypeScript
 ```
 
-## ⚙️ Configurazione Post-Estrazione
+## ⚙️ Novità v0.2.0
 
-### 1. Verifica Import Cross-App
-- [ ] Controlla import di stili globali (`globals.css`)
-- [ ] Verifica temi e variabili CSS condivise
-- [ ] Aggiorna path relativi se necessario
-
-### 2. Asset e Risorse
-- [ ] Copia `globals.css` o crea versione lightweight
-- [ ] Verifica riferimenti a `/public` del progetto principale
-- [ ] Controlla font e icone personalizzate
-
-### 3. State Management
-- [ ] Se usa Context/Store globali, copiali o re-implementa
-- [ ] Verifica dipendenze da store esterni
-- [ ] Implementa state locale se necessario
-
-### 4. Configurazione Next.js
-- [ ] Aggiorna `next.config.js` per standalone
-- [ ] Configura variabili d'ambiente (`.env.local`)
-- [ ] Imposta base path se necessario per subdomain
+- **Sistema notifiche push** per promemoria lezioni (5 min prima e fine lezione)
+- **Modale cambio modalità** con UI dedicata, animazioni e accessibilità
+- **Onboarding guidato** aggiornato con tutte le nuove funzionalità
+- **Rimossi dati sample**: l'app parte solo dalla pagina di setup/onboarding
+- **Migliorata accessibilità** (ARIA labels, gestione focus, supporto tastiera)
+- **Bugfix Service Worker** e gestione file JSON
+- **Ottimizzazione Windows** (fix NODE_OPTIONS)
+- **Documentazione e CHANGELOG** aggiornati
 
 ## 🐛 Known Issues (Beta)
 
@@ -99,7 +87,7 @@ npm install -D typescript @types/react @types/node # se usi TypeScript
 
 ## 🗺️ Roadmap
 
-- [ ] **v0.2** - Stabilizzazione core features
+- [x] **v0.2** - Stabilizzazione core features e onboarding
 - [ ] **v0.3** - Import/Export completo
 - [ ] **v0.4** - Testing e bug fixing
 - [ ] **v1.0** - Release stabile
