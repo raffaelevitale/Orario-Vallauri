@@ -22,7 +22,7 @@ const steps: OnboardingStep[] = [
     title: 'Scegli la tua modalità 🔍',
     description: 'Puoi visualizzare l\'orario come studente (per classi) o come docente (per professori).',
     icon: '👥',
-    tip: 'Puoi cambiare modalità in qualsiasi momento dalle impostazioni'
+    tip: 'Puoi cambiare modalità in qualsiasi momento dal menu impostazioni (icona ⚙️)'
   },
   {
     title: 'Naviga tra i giorni 📅',
@@ -34,13 +34,25 @@ const steps: OnboardingStep[] = [
     title: 'Due modalità di visualizzazione ⏱️',
     description: 'Passa dalla vista Lista alla Timeline per vedere l\'orario in formato grafico con la linea del tempo.',
     icon: '📊',
-    tip: 'La timeline mostra visivamente quando inizia e finisce ogni lezione'
+    tip: 'Cambia vista dal menu impostazioni → "👁️ Modalità"'
   },
   {
     title: 'Lezione corrente in evidenza ✨',
     description: 'La lezione in corso è evidenziata in verde con un badge "IN CORSO" e il tempo rimanente.',
     icon: '⏳',
     tip: 'Apri l\'app durante le lezioni per vedere quanto manca alla fine!'
+  },
+  {
+    title: 'Notifiche promemoria 🔔',
+    description: 'Attiva le notifiche per ricevere promemoria 5 minuti prima di ogni lezione e alla fine.',
+    icon: '🔔',
+    tip: 'Ti verrà chiesto di attivare le notifiche. Puoi sempre cambiarle dalle impostazioni del browser!'
+  },
+  {
+    title: 'Cambio modalità semplificato 🔁',
+    description: 'Vuoi passare da studente a docente (o viceversa)? Usa l\'opzione "🔁 Cambia modalità" nel menu impostazioni.',
+    icon: '🔄',
+    tip: 'Una finestra di conferma ti guiderà nel processo per evitare cambi accidentali'
   },
   {
     title: 'Installazione PWA 📱',

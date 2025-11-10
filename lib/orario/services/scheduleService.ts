@@ -1,5 +1,4 @@
 import { Lesson } from '@/lib/orario/models/lesson';
-import { sampleTeacherNames, sampleTeacherSchedules } from '@/lib/orario/data/sampleSchedule';
 import { parseTime } from '@/lib/orario/utils/time';
 
 interface ClassScheduleData {
@@ -590,11 +589,8 @@ export async function loadTeacherSchedule(teacherName: string): Promise<Lesson[]
     const teacher = data.schedule[teacherName];
 
     if (!teacher) {
-      // Fallback sample per docenti noti
-      const fallback = sampleTeacherSchedules[teacherName] || [];
-      return [...fallback].sort((a, b) =>
-        a.dayOfWeek !== b.dayOfWeek ? a.dayOfWeek - b.dayOfWeek : a.startTime.localeCompare(b.startTime)
-      );
+      console.warn(`Teacher ${teacherName} not found in orario_docenti.json`);
+      return [];
     }
 
     const lessons: Lesson[] = [];
@@ -622,9 +618,6 @@ export async function loadTeacherSchedule(teacherName: string): Promise<Lesson[]
     );
   } catch (error) {
     console.error('Error loading teacher schedule (file):', error);
-    const fallback = sampleTeacherSchedules[teacherName] || [];
-    return [...fallback].sort((a, b) =>
-      a.dayOfWeek !== b.dayOfWeek ? a.dayOfWeek - b.dayOfWeek : a.startTime.localeCompare(b.startTime)
-    );
+    return [];
   }
 }

@@ -3,6 +3,8 @@ node_modules
 PWA_SETUP.md
 scripts/generate-icons.sh
 /docs
+/backup
+
 
 
 # Sentry Config File

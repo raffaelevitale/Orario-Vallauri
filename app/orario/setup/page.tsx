@@ -17,7 +17,7 @@ type Mode = 'student' | 'teacher';
 
 export default function SetupPage() {
   const router = useRouter();
-  const { setSchedule, setUserMode, completeSetup, resetToSample } = useScheduleStore();
+  const { setSchedule, setUserMode, completeSetup } = useScheduleStore();
 
   const [showOnboarding, setShowOnboarding] = useState(false);
   const [mode, setMode] = useState<Mode | null>(null);
@@ -91,20 +91,6 @@ export default function SetupPage() {
     } catch (error) {
       console.error('Error loading schedule:', error);
       alert('Errore nel caricamento dell\'orario. Riprova.');
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const handleUseSample = () => {
-    if (loading) return;
-    setLoading(true);
-    try {
-      resetToSample();
-      // Allinea lo stato utente come studente demo
-      setUserMode('student', 'Demo Class');
-      completeSetup();
-      router.push('/orario');
     } finally {
       setLoading(false);
     }

@@ -184,7 +184,7 @@
 }
 
 /* Dark theme support */
-[data-theme="dark"] .modal {
+[data-theme="dark"] .overlay {
   --card-bg: #1f2937;
   --header-bg: #111827;
   --footer-bg: #111827;
@@ -194,7 +194,7 @@
   --hover-bg: #374151;
   --badge-bg: #1e3a5f;
   --badge-text: #60a5fa;
-  --warning-bg: #451a03;
+  --warning-bg: #78350f;
   --warning-border: #f59e0b;
   --warning-text: #fde68a;
   --cancel-bg: #374151;
@@ -202,6 +202,10 @@
   --cancel-hover-bg: #4b5563;
   --primary-color: #3b82f6;
   --primary-hover: #2563eb;
+}
+
+[data-theme="dark"] .modal {
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
 }
 
 /* Responsive */
