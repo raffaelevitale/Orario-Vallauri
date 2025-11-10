@@ -7,11 +7,12 @@ import { LessonCard } from '@/app/components/orario/LessonCard';
 import { TimelineView } from '@/app/components/orario/TimelineView';
 import { SettingsMenu } from '@/app/components/orario/SettingsMenu';
 import InstallPrompt from '@/app/components/pwa/InstallPrompt';
+import { NotificationPrompt } from '@/app/components/orario/NotificationPrompt';
 import { OnboardingTour } from '@/app/components/onboarding/OnboardingTour';
 import { motion, AnimatePresence } from 'framer-motion';
 import { isCurrentLesson, getRemainingMinutes } from '@/lib/orario/utils/time';
 import { Lesson } from '@/lib/orario/models/lesson';
-import { requestNotificationPermission, scheduleLessonNotifications } from '@/lib/orario/utils/notifications';
+import { requestNotificationPermission, scheduleLessonNotifications, clearAllNotifications } from '@/lib/orario/utils/notifications';
 import styles from './orario.module.css';
 
 const weekDays = [
@@ -93,12 +94,21 @@ export default function OrarioPage() {
   // Richiedi permessi notifiche e pianifica notifiche lezioni del giorno (dopo calcolo todayLessons)
   useEffect(() => {
     if (!isMounted) return;
+    
+    // Pulisci le notifiche precedenti quando cambia giorno
+    clearAllNotifications();
+    
     requestNotificationPermission().then((perm) => {
       if (perm === 'granted') {
         scheduleLessonNotifications(todayLessons);
       }
     });
-  }, [isMounted, selectedDay, todayLessons.map(l => l.id).join(',')]);
+    
+    // Cleanup quando il componente viene smontato
+    return () => {
+      clearAllNotifications();
+    };
+  }, [isMounted, selectedDay, todayLessons]);
 
   useEffect(() => {
     if (!todayLessons.length) {
@@ -264,6 +274,9 @@ export default function OrarioPage() {
 
       {/* PWA Install Prompt */}
       <InstallPrompt />
+
+      {/* Notification Prompt */}
+      <NotificationPrompt />
 
       {/* Onboarding Tour */}
       {showOnboarding && (
