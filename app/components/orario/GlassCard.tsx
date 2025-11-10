@@ -12,7 +12,7 @@ export function GlassCard({
 }: GlassCardProps) {
   return (
     <div
-      className={`backdrop-blur-md bg-white/10 dark:bg-white/5 border border-white/20 dark:border-white/10 rounded-2xl shadow-lg transition-all duration-300 ${className}`}
+      className={`card-glass rounded-2xl transition-all duration-300 ${className}`}
       style={tintColor ? { backgroundColor: tintColor } : undefined}
       {...props}
     >
