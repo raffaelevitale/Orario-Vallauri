@@ -519,7 +519,8 @@ export async function loadTeacherNames(): Promise<string[]> {
     'RACCA M.',
     'ABBATE A.',
     'SANINO A.',
-    'CARANTA P.'
+    'CARANTA P.',
+    'CAVALLERO L.'
   ];
   
   return teacherList;
@@ -538,7 +539,8 @@ export async function loadTeacherSchedule(teacherName: string): Promise<Lesson[]
     'ABBATE Andrea': 'abbate',
     'SANINO A.': 'sanino',
     'SANINO Alessandro': 'sanino',
-    'CARANTA P.': 'caranta'
+    'CARANTA P.': 'caranta',
+    'CAVALLERO L.': 'cavallero',
   };
   
   try {
