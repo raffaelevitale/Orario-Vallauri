@@ -1,0 +1,49 @@
+{
+  "class": "4A INF",
+  "coordinator": "FEA",
+  "schedule": {
+    "monday": [
+      { "hour": 1, "subject": "MATEMATICA e Complementi", "teacher": "GARRO (LEONI) V.", "room": "T11 (30)" },
+      { "hour": 2, "subject": "Lingua inglese", "teacher": "FOGLIA P.", "room": "T11 (30)" },
+      { "hour": 3, "subject": "T.P.S.I.T.", "teacher": "FEA D., PASCHETTA M.", "room": "LAB.S22 ARCHIMEDE (26)" },
+      { "hour": 4, "subject": "T.P.S.I.T.", "teacher": "FEA D., PASCHETTA M.", "room": "LAB.S22 ARCHIMEDE (26)" },
+      { "hour": 5, "subject": "Lingua e letteratura italiana", "teacher": "BARBERIS L.", "room": "T27 (24)" },
+      { "hour": 6, "subject": "Informatica", "teacher": "BONAVIA M.", "room": "LAB.S22 ARCHIMEDE (26)" }
+    ],
+    "tuesday": [
+      { "hour": 1, "subject": "Lingua inglese", "teacher": "FOGLIA P.", "room": "T11 (30)" },
+      { "hour": 2, "subject": "T.P.S.I.T.", "teacher": "FEA D., PASCHETTA M.", "room": "LAB.119B EULERO (25)" },
+      { "hour": 3, "subject": "T.P.S.I.T.", "teacher": "FEA D.", "room": "LAB.119B EULERO (25)" },
+      { "hour": 4, "subject": "Telecomunicazioni", "teacher": "MADIA (SPADARO) D.", "room": "T31 (24)" },
+      { "hour": 5, "subject": "Lingua e letteratura italiana", "teacher": "BARBERIS L.", "room": "T31 (24)" },
+      { "hour": 6, "subject": "MATEMATICA e Complementi", "teacher": "GARRO (LEONI) V.", "room": "T31 (24)" },
+      { "hour": 7, "subject": "MATEMATICA e Complementi", "teacher": "GARRO (LEONI) V.", "room": "T31 (24)" }
+    ],
+    "wednesday": [
+      { "hour": 1, "subject": "Lingua e letteratura italiana", "teacher": "BARBERIS L.", "room": "216 (24)" },
+      { "hour": 2, "subject": "Storia", "teacher": "BARBERIS L.", "room": "216 (24)" },
+      { "hour": 3, "subject": "Sistemi e reti", "teacher": "CANONICO T., MAGGIORE G., CISCO", "room": "LAB.S18 MARCONI (24)" },
+      { "hour": 4, "subject": "Sistemi e reti", "teacher": "CANONICO T., MAGGIORE G., CISCO", "room": "LAB.S18 MARCONI (24)" },
+      { "hour": 5, "subject": "Informatica", "teacher": "BONAVIA M., MAGGIORE G.", "room": "LAB.143 TURING (22)" },
+      { "hour": 6, "subject": "Informatica", "teacher": "BONAVIA M., MAGGIORE G.", "room": "LAB.143 TURING (22)" }
+    ],
+    "thursday": [
+      { "hour": 1, "subject": "Sistemi e reti", "teacher": "CANONICO T.", "room": "LAB.143 TURING (22)" },
+      { "hour": 2, "subject": "Sistemi e reti", "teacher": "CANONICO T.", "room": "LAB.143 TURING (22)" },
+      { "hour": 3, "subject": "Telecomunicazioni", "teacher": "MERCADANTE M., VIADA (Giusiano) P.", "room": "LAB.134 TELECOMUNICAZIONI (50)" },
+      { "hour": 4, "subject": "Telecomunicazioni", "teacher": "MERCADANTE M., VIADA (Giusiano) P.", "room": "LAB.134 TELECOMUNICAZIONI (50)" },
+      { "hour": 5, "subject": "Lingua inglese", "teacher": "FOGLIA P.", "room": "LAB.134 TELECOMUNICAZIONI (50)" },
+      { "hour": 6, "subject": "Scienze Motorie", "teacher": "BALLATORE A.", "room": "PALESTRA" },
+      { "hour": 7, "subject": "Scienze Motorie", "teacher": "BALLATORE A.", "room": "PALESTRA" }
+
+    ],
+    "friday": [
+    { "hour": 1, "subject": "Storia", "teacher": "BARBERIS L.", "room": "150 (27)" },
+      { "hour": 2, "subject": "Lingua e letteratura italiana", "teacher": "BARBERIS L.", "room": "150 (27)" },
+      { "hour": 3, "subject": "Informatica", "teacher": "BONAVIA M., MAGGIORE G.", "room": "LAB.119B EULERO (25)" },
+      { "hour": 4, "subject": "Informatica", "teacher": "BONAVIA M., MAGGIORE G.", "room": "LAB.119B EULERO (25)" },
+      { "hour": 5, "subject": "Religione cattolica e attività alternative", "teacher": "CAVALLERO L.", "room": "T31 (24)" },
+      { "hour": 6, "subject": "MATEMATICA e Complementi", "teacher": "GARRO (LEONI) V.", "room": "T31 (24)" }
+    ]
+  }
+}
