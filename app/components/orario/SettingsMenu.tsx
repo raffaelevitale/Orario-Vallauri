@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import styles from "./SettingsMenu.module.css";
 import { useThemeStore } from "@/lib/orario/stores/themeStore";
 import { useScheduleStore } from "@/lib/orario/stores/scheduleStore";
+import { requestNotificationPermission } from "@/lib/orario/utils/notifications";
 import { useRouter } from "next/navigation";
 import { ChangeModeModal } from "./ChangeModeModal";
 
@@ -100,6 +101,52 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
                 : themeLabel}
             </span>
           </button>
+            <button
+              className={styles.item}
+              onClick={async () => {
+                  // Debug: mostra lo stato SW e permessi
+                  if (!('Notification' in window)) {
+                    alert("Il browser non supporta le notifiche.");
+                    setOpen(false);
+                    return;
+                  }
+                  if (window.location.protocol !== "https:") {
+                    alert("Le notifiche funzionano solo su HTTPS.");
+                    setOpen(false);
+                    return;
+                  }
+                  // Prova a registrare il service worker se non già registrato
+                  if ('serviceWorker' in navigator) {
+                    try {
+                      const reg = await navigator.serviceWorker.register('/sw.js');
+                      console.log("Service Worker registrato:", reg);
+                    } catch (err) {
+                      console.warn("Service Worker non registrato:", err);
+                    }
+                  }
+                  const perm = await requestNotificationPermission();
+                  if (perm === "granted") {
+                    try {
+                      new Notification("🔔 Test Notifica", {
+                        body: "Le notifiche funzionano correttamente!",
+                        icon: "/icons/icon-192x192.png",
+                        badge: "/icons/icon-192x192.png",
+                      });
+                    } catch (err) {
+                      alert("Errore nella creazione della notifica: " + err);
+                    }
+                  } else if (perm === "denied") {
+                    alert("Permesso per le notifiche negato. Controlla le impostazioni del browser.");
+                  } else {
+                    alert("Permesso per le notifiche non concesso.");
+                  }
+                  setOpen(false);
+              }}
+              role="menuitem"
+              aria-label="Test Notifica">
+              <span className={styles.row}>🔔 Test Notifica</span>
+              <span className={styles.badge}>Prova</span>
+            </button>
           <div className={styles.groupLabel}>Vista</div>
           <button
             className={styles.item}
