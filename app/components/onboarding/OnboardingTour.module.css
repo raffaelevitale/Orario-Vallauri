@@ -10,16 +10,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  /* safe area padding for mobile (notably iOS) */
+  padding: 20px env(safe-area-inset-right) env(safe-area-inset-bottom)
+    env(safe-area-inset-left);
 }
 
 .modal {
   background: var(--bg-card);
   border-radius: 24px;
-  max-width: 500px;
-  width: 100%;
+  /* cap width but allow fluid shrink on small viewports */
+  width: min(500px, 100%);
   box-shadow: var(--shadow-xl);
   overflow: hidden;
+  /* ensure modal never exceeds viewport height and can scroll internally on small devices */
+  max-height: calc(100vh - 40px);
+  -webkit-overflow-scrolling: touch;
   display: flex;
   flex-direction: column;
 }
@@ -35,15 +40,20 @@
 .progressBar {
   display: flex;
   gap: 8px;
-  flex: 1;
+  flex: 1 1 auto;
+  align-items: center;
+  /* Prevent progress bar from forcing header wider than modal */
+  min-width: 0;
 }
-
 .progressDot {
-  width: 32px;
+  /* use flexible dots so they shrink on small screens instead of overflowing */
+  flex: 1 1 32px;
+  min-width: 20px;
   height: 4px;
   background: var(--border-color);
   border-radius: 2px;
   transition: background 0.3s ease;
+  overflow: hidden;
 }
 
 .progressDot.active {
@@ -69,7 +79,9 @@
 .content {
   padding: 40px 32px;
   text-align: center;
-  min-height: 300px;
+  /* allow content to shrink and scroll inside modal if needed */
+  min-height: 200px;
+  max-height: calc(100vh - 220px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -183,13 +195,14 @@
 
 @media (max-width: 640px) {
   .modal {
-    max-width: 100%;
-    border-radius: 20px;
+    /* use full width with small insets on mobile */
+    width: calc(100% - 24px);
+    border-radius: 16px;
   }
 
   .content {
     padding: 32px 24px;
-    min-height: 260px;
+    min-height: 180px;
   }
 
   .icon {
