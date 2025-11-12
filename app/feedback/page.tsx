@@ -1,9 +1,10 @@
 export default function FeedbackPage() {
   const mail = 'r.vitale.2756@vallauri.edu';
+  const cc = 'z.baravalle.2969@vallauri.edu';
   const subject = 'Orario PWA - Idea/Bug';
 
   const body = `
-Ciao Raffaele,
+Ciao,
 
 Tipo segnalazione: [Idea / Bug]
 Descrizione: 
@@ -14,7 +15,7 @@ Dispositivo/SO/Navigatore:
 Grazie!
   `;
 
-  const mailto = `mailto:${mail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  const mailto = `mailto:${mail}?cc=${cc}&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
   return (
     <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 16 }}>
