@@ -1,0 +1,47 @@
+{
+  "class": "2C INF",
+  "coordinator": "BOCHICCHIO",
+  "schedule": {
+    "monday": [
+      { "hour": 1, "subject": "Storia", "teacher": "SALMERI (Arnaudo) V.", "room": "224 (24)" },
+      { "hour": 2, "subject": "Lingua e letteratura italiana", "teacher": "SALMERI (Arnaudo) V.", "room": "224 (24)" },
+      { "hour": 3, "subject": "Lingua inglese", "teacher": "COSTAMAGNA A.", "room": "224 (24)" },
+      { "hour": 4, "subject": "Lingua inglese", "teacher": "COSTAMAGNA A.", "room": "224 (24)" },
+      { "hour": 5, "subject": "Scienze integrate Chimica", "teacher": "AIELLO D.", "room": "224 (24)" },
+      { "hour": 6, "subject": "Lab. Scienze integrate Chimica", "teacher": "AIELLO D., BOCHICCHIO M.", "room": "LAB.S33 CHIMICA ()" }
+    ],
+    "tuesday": [
+      { "hour": 1, "subject": "Diritto ed economia", "teacher": "BONINO M.", "room": "224 (24)" },
+      { "hour": 2, "subject": "Religione cattolica o attività alternative", "teacher": "CAVALLERO L.", "room": "224 (24)" },
+      { "hour": 3, "subject": "Matematica", "teacher": "MICHELOTTI E.", "room": "224 (24)" },
+      { "hour": 4, "subject": "Lingua e letteratura italiana", "teacher": "SALMERI (Arnaudo) V.", "room": "224 (24)" },
+      { "hour": 5, "subject": "Scienze integrate Fisica", "teacher": "BOSIO A.", "room": "224 (24)" },
+      { "hour": 6, "subject": "Scienze motorie e sportive", "teacher": "PIOVANO E.", "room": "PALESTRA" }
+    ],
+    "wednesday": [
+      { "hour": 1, "subject": "Scienze e tecnologie applicate Informatiche", "teacher": "OLIVERO G.", "room": "LAB.117 TOLOMEO (26)" },
+      { "hour": 2, "subject": "Scienze e tecnologie applicate Informatiche", "teacher": "OLIVERO G.", "room": "LAB.117 TOLOMEO (26)" },
+      { "hour": 3, "subject": "Lab. Scienze integrate Fisica", "teacher": "BOSIO A., FERRANTE G.", "room": "LAB.S32 FISICA (30)" },
+      { "hour": 4, "subject": "Matematica", "teacher": "MICHELOTTI E.", "room": "104 (25)" },
+      { "hour": 5, "subject": "Scienze integrate Scienze", "teacher": "MONTEVERDE M.", "room": "104 (25)" },
+      { "hour": 6, "subject": "Scienze integrate Chimica", "teacher": "AIELLO D.", "room": "104 (25)" }
+    ],
+    "thursday": [
+      { "hour": 1, "subject": "Lingua e letteratura italiana", "teacher": "SALMERI (Arnaudo) V.", "room": "224 (24)" },
+      { "hour": 2, "subject": "Lingua e letteratura italiana", "teacher": "SALMERI (Arnaudo) V.", "room": "224 (24)" },
+      { "hour": 3, "subject": "Scienze integrate Fisica", "teacher": "BOSIO A.", "room": "224 (24)" },
+      { "hour": 4, "subject": "Diritto ed economia", "teacher": "BONINO M.", "room": "224 (24)" },
+      { "hour": 5, "subject": "Matematica", "teacher": "MICHELOTTI E.", "room": "224 (24)" },
+      { "hour": 6, "subject": "Scienze integrate Scienze", "teacher": "MONTEVERDE M.", "room": "224 (24)" },
+      { "hour": 7, "subject": "Tecnologie e rap. grafica", "teacher": "DEMICHELIS A., DOTTA C.", "room": "LAB.S18B DISEGNO (24)" }
+    ],
+    "friday": [
+      { "hour": 1, "subject": "Matematica", "teacher": "MICHELOTTI E.", "room": "224 (24)" },
+      { "hour": 2, "subject": "Scienze e tecnologie applicate Informatiche", "teacher": "OLIVERO G.", "room": "LAB.117 TOLOMEO (26)" },
+      { "hour": 3, "subject": "Storia", "teacher": "SALMERI (Arnaudo) V.", "room": "224 (24)" },
+      { "hour": 4, "subject": "Lingua inglese", "teacher": "COSTAMAGNA A.", "room": "224 (24)" },
+      { "hour": 5, "subject": "Tecnologie e rap. grafica", "teacher": "DOTTA C.", "room": "LAB.S18B DISEGNO (24)" }
+    ],
+    "saturday": []
+  }
+}

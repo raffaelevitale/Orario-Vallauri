@@ -189,7 +189,7 @@ export default function SetupPage() {
                   className={styles.modeButton}
                   disabled={loading}
                 >
-                  <span className={styles.modeIcon}>🎓</span>
+                  <span className={styles.modeIcon}>💻</span>
                   <span>5A INF</span>
                 </button>
                 <button
@@ -205,8 +205,16 @@ export default function SetupPage() {
                   className={`${styles.modeButton} `}
                   disabled={loading}
                 >
-                  <span className={styles.modeIcon}>🎓</span>
+                  <span className={styles.modeIcon}>💻</span>
                   <span>4A INF</span>
+                </button>
+                <button
+                  onClick={() => handleQuickSelect('2C INF')}
+                  className={`${styles.modeButton} ${styles.teacher}`}
+                  disabled={loading}
+                >
+                  <span className={styles.modeIcon}>💻</span>
+                  <span>2C INF</span>
                 </button>
                 <button
                   onClick={() => setStudentStep('search')}
