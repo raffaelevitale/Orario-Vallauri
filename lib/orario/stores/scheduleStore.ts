@@ -19,6 +19,9 @@ interface ScheduleState {
   completeSetup: () => void;
   resetSetup: () => void;
   getLessonsForDay: (day: number) => Lesson[];
+  // LOGICA MISTA: Aggiunta funzione per reset completo (hard reset)
+  // Cancella tutto incluso lo schedule. Utile per debug o reset totale dell'app.
+  hardReset: () => void;
 }
 
 export const useScheduleStore = create<ScheduleState>()(
@@ -51,15 +54,19 @@ export const useScheduleStore = create<ScheduleState>()(
 
       completeSetup: () => set({ hasCompletedSetup: true }),
 
+      // LOGICA MISTA (soft reset): Quando cambi modalità, azzera solo userMode, selectedEntity e hasCompletedSetup
+      // ma lascia intatto lo schedule in localStorage. Così, al riavvio, la selezione può essere ripristinata.
+      // Per tornare alla logica precedente (hard reset), decommenta le righe dello schedule qui sotto.
       resetSetup: () =>
         set({
           userMode: null,
           selectedEntity: null,
           hasCompletedSetup: false,
-          schedule: {
-            lessons: [],
-            className: '',
-          },
+          // Hard reset: decommenta le righe sotto per cancellare anche lo schedule
+          // schedule: {
+          //   lessons: [],
+          //   className: '',
+          // },
         }),
 
       getLessonsForDay: (day) => {
@@ -68,6 +75,25 @@ export const useScheduleStore = create<ScheduleState>()(
           .filter((lesson) => lesson.dayOfWeek === day)
           .sort((a, b) => a.startTime.localeCompare(b.startTime));
       },
+
+      // LOGICA MISTA: Hard reset cancella TUTTO incluso lo schedule.
+      // Usare solo per reset completo dell'app (es. pulsante "Reset totale" nelle impostazioni).
+      // Riporta l'app allo stato iniziale come se fosse appena installata.
+      hardReset: () =>
+        set({
+          userMode: null,
+          selectedEntity: null,
+          hasCompletedSetup: false,
+          schedule: {
+            lessons: [],
+            className: '',
+          },
+          selectedDay: (() => {
+            const today = new Date().getDay();
+            return today === 0 || today === 6 ? 1 : today;
+          })(),
+          viewType: 'list',
+        }),
     }),
     {
       name: 'orario-schedule-storage',

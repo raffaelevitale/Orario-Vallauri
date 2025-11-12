@@ -16,7 +16,7 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
   const { theme, setTheme } = useThemeStore();
   const { viewType, setViewType, userMode, selectedEntity } =
     useScheduleStore();
-  const { resetSetup } = useScheduleStore();
+  const { resetSetup, hardReset } = useScheduleStore();
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const [showChangeModeModal, setShowChangeModeModal] = useState(false);
@@ -60,6 +60,11 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
     setShowChangeModeModal(true);
   };
 
+  // LOGICA MISTA (soft reset): Quando l'utente conferma il cambio modalità,
+  // resetSetup() azzera solo userMode, selectedEntity e hasCompletedSetup,
+  // ma lascia intatto lo schedule in localStorage (vedi scheduleStore.ts).
+  // Poi reindirizza al setup per selezionare una nuova classe/docente.
+  // Per tornare alla logica precedente (hard reset), modifica resetSetup() in scheduleStore.ts
   const handleConfirmChangeMode = () => {
     setShowChangeModeModal(false);
     resetSetup();
@@ -166,6 +171,12 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
             style={{ marginBottom: "10px" }}
             onClick={async () => {
               setOpen(false);
+              // LOGICA MISTA (hard reset): Pulsante "Aggiorna pagina" ora fa un reset completo
+              // Cancella Service Workers, cache, storage E anche lo schedule salvato in localStorage.
+              // Questo riporta l'app allo stato iniziale come se fosse appena installata.
+              // Per tornare alla logica precedente (solo clear cache senza toccare lo store),
+              // rimuovi la chiamata a hardReset() qui sotto.
+              
               // Clear service workers
               if ('serviceWorker' in navigator) {
                 const registrations = await navigator.serviceWorker.getRegistrations();
@@ -179,6 +190,8 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
               // Clear storage
               localStorage.clear();
               sessionStorage.clear();
+              // Hard reset dello store (cancella anche lo schedule)
+              hardReset();
               // Reload page
               window.location.reload();
             }}

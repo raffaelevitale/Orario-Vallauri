@@ -73,7 +73,11 @@ export default function OrarioPage() {
 
   // (spostato sotto la definizione di todayLessons)
 
-  // Redirect to setup if not completed
+  // LOGICA MISTA (restore automatico): Redirect al setup solo se non completato
+  // Se l'utente ha già completato il setup, l'app ripristina la selezione da localStorage
+  // e salta il setup, mostrando direttamente l'orario.
+  // Per tornare alla logica precedente (sempre setup all'avvio), cambia la condizione
+  // da "!hasCompletedSetup" a "true" o rimuovi il check su hasCompletedSetup.
   useEffect(() => {
     if (!hasCompletedSetup) {
       router.push('/orario/setup');
@@ -91,7 +95,12 @@ export default function OrarioPage() {
     return getLessonsForDay(selectedDay);
   }, [selectedDay, getLessonsForDay]);
 
-  // Richiedi permessi notifiche e pianifica notifiche lezioni del giorno (dopo calcolo todayLessons)
+  // LOGICA MISTA (restore automatico + notifiche): Pianifica le notifiche solo se:
+  // 1. Il componente è montato (isMounted)
+  // 2. C'è almeno una lezione per il giorno selezionato (todayLessons.length > 0)
+  // Questo garantisce che le notifiche vengano pianificate anche dopo un riavvio,
+  // se la selezione è stata ripristinata da localStorage.
+  // Per tornare alla logica precedente (notifiche solo manualmente), rimuovi questo useEffect.
   useEffect(() => {
     if (!isMounted) return;
     
