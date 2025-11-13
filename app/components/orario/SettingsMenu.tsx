@@ -192,8 +192,8 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
               sessionStorage.clear();
               // Hard reset dello store (cancella anche lo schedule)
               hardReset();
-              // Reload page
-              window.location.reload();
+              // Redirect the user to the setup page to choose a teacher or class.
+              router.push('/orario/setup');
             }}
             role="menuitem"
             aria-label="Aggiorna pagina">

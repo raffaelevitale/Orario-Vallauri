@@ -17,7 +17,7 @@ type Mode = 'student' | 'teacher';
 
 export default function SetupPage() {
   const router = useRouter();
-  const { setSchedule, setUserMode, completeSetup } = useScheduleStore();
+  const { hasCompletedSetup, setSchedule, setUserMode, completeSetup } = useScheduleStore();
 
   const [showOnboarding, setShowOnboarding] = useState(false);
   const [mode, setMode] = useState<Mode | null>(null);
@@ -35,6 +35,11 @@ export default function SetupPage() {
       setShowOnboarding(true);
     }
   }, []);
+
+  useEffect(() => {
+    if (hasCompletedSetup)
+      router.push('/orario')
+  }, [hasCompletedSetup])
 
   const handleOnboardingComplete = () => {
     localStorage.setItem('hasSeenOnboarding', 'true');

@@ -1,26 +1,30 @@
-'use client';
+"use client";
 
-import { useState, useEffect, useMemo } from 'react';
-import { useRouter } from 'next/navigation';
-import { useScheduleStore } from '@/lib/orario/stores/scheduleStore';
-import { LessonCard } from '@/app/components/orario/LessonCard';
-import { TimelineView } from '@/app/components/orario/TimelineView';
-import { SettingsMenu } from '@/app/components/orario/SettingsMenu';
-import InstallPrompt from '@/app/components/pwa/InstallPrompt';
-import { NotificationPrompt } from '@/app/components/orario/NotificationPrompt';
-import { OnboardingTour } from '@/app/components/onboarding/OnboardingTour';
-import { motion, AnimatePresence } from 'framer-motion';
-import { isCurrentLesson, getRemainingMinutes } from '@/lib/orario/utils/time';
-import { Lesson } from '@/lib/orario/models/lesson';
-import { requestNotificationPermission, scheduleLessonNotifications, clearAllNotifications } from '@/lib/orario/utils/notifications';
-import styles from './orario.module.css';
+import { useState, useEffect, useMemo } from "react";
+import { useRouter } from "next/navigation";
+import { useScheduleStore } from "@/lib/orario/stores/scheduleStore";
+import { LessonCard } from "@/app/components/orario/LessonCard";
+import { TimelineView } from "@/app/components/orario/TimelineView";
+import { SettingsMenu } from "@/app/components/orario/SettingsMenu";
+import InstallPrompt from "@/app/components/pwa/InstallPrompt";
+import { NotificationPrompt } from "@/app/components/orario/NotificationPrompt";
+import { OnboardingTour } from "@/app/components/onboarding/OnboardingTour";
+import { motion, AnimatePresence } from "framer-motion";
+import { isCurrentLesson, getRemainingMinutes } from "@/lib/orario/utils/time";
+import { Lesson } from "@/lib/orario/models/lesson";
+import {
+  requestNotificationPermission,
+  scheduleLessonNotifications,
+  clearAllNotifications,
+} from "@/lib/orario/utils/notifications";
+import styles from "./orario.module.css";
 
 const weekDays = [
-  { number: 1, name: 'Lunedì', short: 'Lun' },
-  { number: 2, name: 'Martedì', short: 'Mar' },
-  { number: 3, name: 'Mercoledì', short: 'Mer' },
-  { number: 4, name: 'Giovedì', short: 'Gio' },
-  { number: 5, name: 'Venerdì', short: 'Ven' },
+  { number: 1, name: "Lunedì", short: "Lun" },
+  { number: 2, name: "Martedì", short: "Mar" },
+  { number: 3, name: "Mercoledì", short: "Mer" },
+  { number: 4, name: "Giovedì", short: "Gio" },
+  { number: 5, name: "Venerdì", short: "Ven" },
 ];
 
 function RemainingMinutesBadge({
@@ -30,7 +34,9 @@ function RemainingMinutesBadge({
   endTime: string;
   color?: string;
 }) {
-  const [remaining, setRemaining] = useState(() => getRemainingMinutes(endTime));
+  const [remaining, setRemaining] = useState(() =>
+    getRemainingMinutes(endTime)
+  );
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -39,11 +45,7 @@ function RemainingMinutesBadge({
     return () => clearInterval(timer);
   }, [endTime]);
 
-  return (
-    <div className={styles.remainingBadge}>
-      {remaining} min
-    </div>
-  );
+  return <div className={styles.remainingBadge}>{remaining} min</div>;
 }
 
 export default function OrarioPage() {
@@ -79,10 +81,10 @@ export default function OrarioPage() {
   // Per tornare alla logica precedente (sempre setup all'avvio), cambia la condizione
   // da "!hasCompletedSetup" a "true" o rimuovi il check su hasCompletedSetup.
   useEffect(() => {
-    if (!hasCompletedSetup) {
-      router.push('/orario/setup');
+    if (!hasCompletedSetup && isMounted) {
+      router.push("/orario/setup");
     }
-  }, [hasCompletedSetup, router]);
+  }, [hasCompletedSetup, router, isMounted]);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -103,16 +105,16 @@ export default function OrarioPage() {
   // Per tornare alla logica precedente (notifiche solo manualmente), rimuovi questo useEffect.
   useEffect(() => {
     if (!isMounted) return;
-    
+
     // Pulisci le notifiche precedenti quando cambia giorno
     clearAllNotifications();
-    
+
     requestNotificationPermission().then((perm) => {
-      if (perm === 'granted') {
+      if (perm === "granted") {
         scheduleLessonNotifications(todayLessons);
       }
     });
-    
+
     // Cleanup quando il componente viene smontato
     return () => {
       clearAllNotifications();
@@ -165,15 +167,13 @@ export default function OrarioPage() {
         <div className={styles.headerContent}>
           <div className={styles.headerTop}>
             <div>
-              <h1 className={styles.title}>
-                Orario
-              </h1>
+              <h1 className={styles.title}>Orario</h1>
               <p className={styles.subtitle}>
-                {userMode === 'student'
+                {userMode === "student"
                   ? `Classe ${selectedEntity}`
-                  : userMode === 'teacher'
-                    ? selectedEntity
-                    : schedule.className || 'Orario Settimanale'}
+                  : userMode === "teacher"
+                  ? selectedEntity
+                  : schedule.className || "Orario Settimanale"}
               </p>
             </div>
 
@@ -192,7 +192,8 @@ export default function OrarioPage() {
                     {currentLesson.subject}
                   </div>
                   <div className={styles.currentLessonDetails}>
-                    {currentLesson.startTime} - {currentLesson.endTime} · {currentLesson.teacher}
+                    {currentLesson.startTime} - {currentLesson.endTime} ·{" "}
+                    {currentLesson.teacher}
                   </div>
                 </div>
               </div>
@@ -211,8 +212,9 @@ export default function OrarioPage() {
               <button
                 key={day.number}
                 onClick={() => setSelectedDay(day.number)}
-                className={`${styles.dayTab} ${selectedDay === day.number ? styles.active : ''}`}
-              >
+                className={`${styles.dayTab} ${
+                  selectedDay === day.number ? styles.active : ""
+                }`}>
                 {day.name}
               </button>
             ))}
@@ -229,9 +231,8 @@ export default function OrarioPage() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.15 }}
-            className={styles.scrollArea}
-          >
-            {viewType === 'timeline' ? (
+            className={styles.scrollArea}>
+            {viewType === "timeline" ? (
               <TimelineView lessons={todayLessons} isToday={isToday} />
             ) : (
               <div className={styles.lessonsList}>
@@ -241,22 +242,19 @@ export default function OrarioPage() {
                       key={lesson.id}
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: index * 0.03 }}
-                    >
+                      transition={{ delay: index * 0.03 }}>
                       <LessonCard
                         lesson={lesson}
                         isCurrent={isToday && isCurrentLesson(lesson)}
                         compact={true}
-                        hideTeacher={userMode === 'teacher'}
+                        hideTeacher={userMode === "teacher"}
                       />
                     </motion.div>
                   ))
                 ) : (
                   <div className={styles.emptyState}>
                     <div className={styles.emptyIcon}>📅</div>
-                    <p className={styles.emptyText}>
-                      Nessuna lezione
-                    </p>
+                    <p className={styles.emptyText}>Nessuna lezione</p>
                   </div>
                 )}
               </div>
@@ -269,12 +267,8 @@ export default function OrarioPage() {
       {!isToday && (
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-        >
-          <button
-            onClick={goToToday}
-            className={styles.todayButton}
-          >
+          animate={{ opacity: 1, scale: 1 }}>
+          <button onClick={goToToday} className={styles.todayButton}>
             <span>📆</span>
             <span>Oggi</span>
           </button>
