@@ -7,14 +7,14 @@ type UserMode = 'student' | 'teacher' | null;
 interface ScheduleState {
   schedule: WeekSchedule;
   selectedDay: number;
-  viewType: 'list' | 'timeline';
+  viewType: 'list' | 'block';
   userMode: UserMode;
   selectedEntity: string | null; // class name or teacher name
   hasCompletedSetup: boolean;
 
   setSchedule: (schedule: WeekSchedule) => void;
   setSelectedDay: (day: number) => void;
-  setViewType: (viewType: 'list' | 'timeline') => void;
+  setViewType: (viewType: 'list' | 'block') => void;
   setUserMode: (mode: UserMode, entity: string) => void;
   completeSetup: () => void;
   resetSetup: () => void;

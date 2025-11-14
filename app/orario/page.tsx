@@ -4,7 +4,6 @@ import { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { useScheduleStore } from "@/lib/orario/stores/scheduleStore";
 import { LessonCard } from "@/app/components/orario/LessonCard";
-import { TimelineView } from "@/app/components/orario/TimelineView";
 import { SettingsMenu } from "@/app/components/orario/SettingsMenu";
 import InstallPrompt from "@/app/components/pwa/InstallPrompt";
 import { NotificationPrompt } from "@/app/components/orario/NotificationPrompt";

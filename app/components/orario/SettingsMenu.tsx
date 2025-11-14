@@ -156,13 +156,13 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
           <button
             className={styles.item}
             onClick={() =>
-              setViewType(viewType === "list" ? "timeline" : "list")
+              setViewType(viewType === "list" ? "block" : "list")
             }
             role="menuitem"
-            aria-label={`Cambia vista: ${viewType === "list" ? "Lista" : "Timeline"}`}>
+            aria-label={`Cambia vista: ${viewType === "list" ? "Lista" : "Blocchi"}`}>
             <span className={styles.row}>👁️ Modalità</span>
             <span className={styles.badge}>
-              {viewType === "list" ? "Lista" : "Timeline"}
+              {viewType === "list" ? "Lista" : "Blocchi"}
             </span>
           </button>
           <div className={styles.groupLabel}>Aiuto</div>
