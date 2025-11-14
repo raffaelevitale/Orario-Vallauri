@@ -30,6 +30,9 @@
 
   --gradient-from: #2563eb;
   --gradient-to: #7c3aed;
+
+  --width-card-lessons: 65%;
+  --justify-content-weekdays: center;
 }
 
 /* Dark Mode - Pure Black Minimal */
@@ -76,7 +79,7 @@
 
 html {
   height: 100%;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 body {
@@ -348,8 +351,13 @@ textarea:focus {
 
 /* Responsive */
 @media (max-width: 640px) {
+  :root {
+    --width-card-lessons: 100%;
+    --justify-content-weekdays: start;
+  }
+
   html {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .card {

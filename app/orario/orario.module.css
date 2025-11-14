@@ -174,6 +174,7 @@
 .dayTabsContainer {
   display: flex;
   gap: 8px;
+  justify-content: var(--justify-content-weekdays);
 }
 
 .dayTab {
@@ -220,6 +221,8 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+  width: var(--width-card-lessons);
+  margin: auto;
 }
 
 .emptyState {
