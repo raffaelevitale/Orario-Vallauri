@@ -231,9 +231,6 @@ export default function OrarioPage() {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.15 }}
             className={styles.scrollArea}>
-            {viewType === "timeline" ? (
-              <TimelineView lessons={todayLessons} isToday={isToday} />
-            ) : (
               <div className={styles.lessonsList}>
                 {todayLessons.length > 0 ? (
                   todayLessons.map((lesson, index) => (
@@ -257,7 +254,6 @@ export default function OrarioPage() {
                   </div>
                 )}
               </div>
-            )}
           </motion.div>
         </AnimatePresence>
       </div>
