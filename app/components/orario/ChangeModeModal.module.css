@@ -24,7 +24,7 @@
 }
 
 .modal {
-  background: var(--card-bg, #ffffff);
+  background: var(--bg-card, #ffffff);
   border-radius: 16px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
   max-width: 480px;
@@ -49,8 +49,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px 24px;
-  border-bottom: 1px solid var(--border-color, #e5e7eb);
-  background: var(--header-bg, #f9fafb);
+  border-bottom: 3px solid var(--border-color, #e5e7eb);
 }
 
 .title {
@@ -81,7 +80,6 @@
 }
 
 .closeBtn:hover {
-  background: var(--hover-bg, #f3f4f6);
   color: var(--text-primary, #111827);
 }
 
@@ -132,8 +130,7 @@
   display: flex;
   gap: 12px;
   padding: 20px 24px;
-  border-top: 1px solid var(--border-color, #e5e7eb);
-  background: var(--footer-bg, #f9fafb);
+  border-top: 3px solid var(--border-color, #e5e7eb);
 }
 
 .cancelBtn,
@@ -149,8 +146,8 @@
 }
 
 .cancelBtn {
-  background: var(--cancel-bg, #f3f4f6);
-  color: var(--cancel-text, #374151);
+  background: rgb(255, 62, 62);
+  color: white;
 }
 
 .cancelBtn:hover {
@@ -184,7 +181,7 @@
 }
 
 /* Dark theme support */
-[data-theme="dark"] .overlay {
+/* .dark {
   --card-bg: #1f2937;
   --header-bg: #111827;
   --footer-bg: #111827;
@@ -202,7 +199,7 @@
   --cancel-hover-bg: #4b5563;
   --primary-color: #3b82f6;
   --primary-hover: #2563eb;
-}
+} */
 
 [data-theme="dark"] .modal {
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
