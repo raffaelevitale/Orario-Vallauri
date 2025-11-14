@@ -222,6 +222,14 @@ export default function SetupPage() {
                   <span>4A MEC</span>
                 </button>
                 <button
+                  onClick={() => handleQuickSelect('4A INF')}
+                  className={`${styles.modeButton} `}
+                  disabled={loading}
+                >
+                  <span className={styles.modeIcon}>💻</span>
+                  <span>4A INF</span>
+                </button>
+                <button
                   onClick={() => setStudentStep('search')}
                   className={styles.sampleButton}
                 >
