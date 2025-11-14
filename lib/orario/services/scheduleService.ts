@@ -449,7 +449,7 @@ export async function loadClassNames(): Promise<string[]> {
   const classList = new Set<string>();
 
   // Aggiungi classi con file specifici
-  const specificClasses = ["2C MEC", "5A INF", "4A INF", "4A MEC", "5A LIC"]; // Classi con file JSON dedicati
+  const specificClasses = ["2C MEC", "5A INF", "4A INF", "4A MEC", "5A LIC", "2C INF"]; // Classi con file JSON dedicati
   specificClasses.forEach((c) => classList.add(c));
 
   // Prova prima la nuova sorgente "completa"; fallback al vecchio file studenti
