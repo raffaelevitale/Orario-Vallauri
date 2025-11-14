@@ -676,6 +676,8 @@ export async function loadTeacherSchedule(
     const teacherFileName =
       teacherFileMap[teacherName] ||
       teacherName.toLowerCase().replace(/\s+/g, "").replace(/\./g, "");
+    
+    console.log(teacherFileName)
     const data = await fetchJsonSafe<SingleTeacherData>(
       `/orario/${teacherFileName}.json`
     );
@@ -691,7 +693,7 @@ export async function loadTeacherSchedule(
       for (const slot of daySlots) {
         const idx = slot.hour - 1;
         let time;
-        if (slot.class.includes("LIC")) time = slotTimesByDay[1][idx];
+        if (slot.class?.includes("LIC")) time = slotTimesByDay[1][idx];
         else time = timetable[idx];
         if (!slot.subject || !time) continue;
 
