@@ -9,3 +9,6 @@ scripts/generate-icons.sh
 
 # Sentry Config File
 .env.sentry-build-plugin
+analize.md
+.gitignore
+DEAD_CODE_REPORT.md
