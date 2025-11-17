@@ -1,5 +1,4 @@
 // Service Worker per PWA Orario Vallauri
-const CACHE_NAME = "orario-vallauri-v1";
 const STATIC_CACHE = "orario-static-v1";
 const DYNAMIC_CACHE = "orario-dynamic-v1";
 

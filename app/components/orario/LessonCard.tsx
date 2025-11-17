@@ -113,10 +113,11 @@ export function LessonCard({
             </div>
           )}
           {!lesson.isBreak && !isCurrent && (() => {
+            const date = new Date()
             const now = getCurrentTimeInMinutes();
             const start = parseTime(lesson.startTime);
             const diff = start - now;
-            if (diff > 0 && diff <= 30) {
+            if (diff > 0 && diff <= 30 && lesson.dayOfWeek === date.getDay()) {
               return <span className={styles.soonBadge}>Inizia tra {diff}m</span>;
             }
             return null;
