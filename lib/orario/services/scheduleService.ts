@@ -1,5 +1,4 @@
 import { Lesson } from "@/lib/orario/models/lesson";
-import { parseTime } from "@/lib/orario/utils/time";
 import { getSubjectColor } from "@/lib/orario/utils/colors";
 
 interface ClassScheduleData {
@@ -75,92 +74,54 @@ interface FullClassiData {
   }>;
 }
 
+// Type per slot di lezione classe
+type ClassSlot = {
+  hour: number;
+  subject: string;
+  teacher: string;
+  room: string;
+};
+
+// Type per schedule settimanale classi
+type WeeklyClassSchedule = {
+  monday?: ClassSlot[];
+  tuesday?: ClassSlot[];
+  wednesday?: ClassSlot[];
+  thursday?: ClassSlot[];
+  friday?: ClassSlot[];
+  saturday?: ClassSlot[];
+};
+
 // Nuovo formato singola classe (come 2cmec.json)
 interface SingleClassData {
   class: string;
   coordinator?: string;
-  schedule: {
-    monday?: Array<{
-      hour: number;
-      subject: string;
-      teacher: string;
-      room: string;
-    }>;
-    tuesday?: Array<{
-      hour: number;
-      subject: string;
-      teacher: string;
-      room: string;
-    }>;
-    wednesday?: Array<{
-      hour: number;
-      subject: string;
-      teacher: string;
-      room: string;
-    }>;
-    thursday?: Array<{
-      hour: number;
-      subject: string;
-      teacher: string;
-      room: string;
-    }>;
-    friday?: Array<{
-      hour: number;
-      subject: string;
-      teacher: string;
-      room: string;
-    }>;
-    saturday?: Array<{
-      hour: number;
-      subject: string;
-      teacher: string;
-      room: string;
-    }>;
-  };
+  schedule: WeeklyClassSchedule;
 }
+
+// Type per slot di lezione docente
+type TeacherSlot = {
+  hour: number;
+  subject: string;
+  class: string;
+  room: string;
+};
+
+// Type per schedule settimanale docenti
+type WeeklyTeacherSchedule = {
+  monday?: TeacherSlot[];
+  tuesday?: TeacherSlot[];
+  wednesday?: TeacherSlot[];
+  thursday?: TeacherSlot[];
+  friday?: TeacherSlot[];
+  saturday?: TeacherSlot[];
+};
 
 // Nuovo formato singolo docente (come fea.json)
 interface SingleTeacherData {
   teacher: string;
   school?: string;
-  schedule: {
-    monday?: Array<{
-      hour: number;
-      subject: string;
-      class: string;
-      room: string;
-    }>;
-    tuesday?: Array<{
-      hour: number;
-      subject: string;
-      class: string;
-      room: string;
-    }>;
-    wednesday?: Array<{
-      hour: number;
-      subject: string;
-      class: string;
-      room: string;
-    }>;
-    thursday?: Array<{
-      hour: number;
-      subject: string;
-      class: string;
-      room: string;
-    }>;
-    friday?: Array<{
-      hour: number;
-      subject: string;
-      class: string;
-      room: string;
-    }>;
-    saturday?: Array<{
-      hour: number;
-      subject: string;
-      class: string;
-      room: string;
-    }>;
-  };
+  schedule: WeeklyTeacherSchedule;
 }
 
 // Mapping dei giorni ita -> indice 1..6 coerente con app (Lun=1)
@@ -184,56 +145,40 @@ const dayIndexMap: Record<string, number> = {
   saturday: 6,
 };
 
-// Mappa oraria per slot (derivata dai dati campione dell'istituto)
-// Usiamo 7 slot per ogni giorno per essere coerenti con `orario_classi_vallauri_completo.json` e `sampleSchedule.ts`.
+// Costanti orari della scuola
+const SCHOOL_START_TIME = "07:50";
+const SCHOOL_END_TIME_ODD_DAYS = "13:40"; // Lun, Mer, Ven
+const SCHOOL_END_TIME_EVEN_DAYS = "14:00"; // Mar, Gio
+
+// Slot orari per giorni dispari (Lun, Mer, Ven)
+const ODD_DAY_SLOTS = [
+  { start: "07:50", end: "08:50" },
+  { start: "08:50", end: "09:45" },
+  { start: "09:45", end: "10:40" },
+  { start: "11:00", end: "11:55" },
+  { start: "11:55", end: "12:50" },
+  { start: "12:50", end: "13:40" },
+  { start: "13:40", end: "14:30" },
+];
+
+// Slot orari per giorni pari (Mar, Gio)
+const EVEN_DAY_SLOTS = [
+  { start: "07:50", end: "08:45" },
+  { start: "08:45", end: "09:35" },
+  { start: "09:35", end: "10:25" },
+  { start: "10:30", end: "11:20" },
+  { start: "11:20", end: "12:10" },
+  { start: "12:20", end: "13:10" },
+  { start: "13:10", end: "14:00" },
+];
+
+// Mappa oraria per slot (derivata dai dati dell'istituto)
 const slotTimesByDay: Record<number, Array<{ start: string; end: string }>> = {
-  // Lunedì (1), Mercoledì (3), Venerdì (5) - 7 slot
-  1: [
-    { start: "07:50", end: "08:50" },
-    { start: "08:50", end: "09:45" },
-    { start: "09:45", end: "10:40" },
-    { start: "11:00", end: "11:55" },
-    { start: "11:55", end: "12:50" },
-    { start: "12:50", end: "13:40" },
-    { start: "13:40", end: "14:30" },
-  ],
-  3: [
-    { start: "07:50", end: "08:50" },
-    { start: "08:50", end: "09:45" },
-    { start: "09:45", end: "10:40" },
-    { start: "11:00", end: "11:55" },
-    { start: "11:55", end: "12:50" },
-    { start: "12:50", end: "13:40" },
-    { start: "13:40", end: "14:30" },
-  ],
-  5: [
-    { start: "07:50", end: "08:50" },
-    { start: "08:50", end: "09:45" },
-    { start: "09:45", end: "10:40" },
-    { start: "11:00", end: "11:55" },
-    { start: "11:55", end: "12:50" },
-    { start: "12:50", end: "13:40" },
-    { start: "13:40", end: "14:30" },
-  ],
-  // Martedì (2), Giovedì (4) - 7 slot
-  2: [
-    { start: "07:50", end: "08:45" },
-    { start: "08:45", end: "09:35" },
-    { start: "09:35", end: "10:25" },
-    { start: "10:30", end: "11:20" },
-    { start: "11:20", end: "12:10" },
-    { start: "12:20", end: "13:10" },
-    { start: "13:10", end: "14:00" },
-  ],
-  4: [
-    { start: "07:50", end: "08:45" },
-    { start: "08:45", end: "09:35" },
-    { start: "09:35", end: "10:25" },
-    { start: "10:30", end: "11:20" },
-    { start: "11:20", end: "12:10" },
-    { start: "12:20", end: "13:10" },
-    { start: "13:10", end: "14:00" },
-  ],
+  1: ODD_DAY_SLOTS,  // Lunedì
+  2: EVEN_DAY_SLOTS, // Martedì
+  3: ODD_DAY_SLOTS,  // Mercoledì
+  4: EVEN_DAY_SLOTS, // Giovedì
+  5: ODD_DAY_SLOTS,  // Venerdì
 };
 
 function normalizeSubject(subject: string): string {
@@ -297,7 +242,7 @@ export function addBreaksToLessons(lessons: Lesson[], dayOfWeek: number): void {
 
     // Aggiungi gli intervalli standard
     for (const breakTime of breaks) {
-      lessons.push({
+      const breakLesson = {
         id: `break-${dayOfWeek}-${breakTime.start}`,
         subject: "Intervallo",
         teacher: "",
@@ -305,20 +250,11 @@ export function addBreaksToLessons(lessons: Lesson[], dayOfWeek: number): void {
         dayOfWeek,
         startTime: breakTime.start,
         endTime: breakTime.end,
-        color: "#bdbdbd",
+        color: getSubjectColor("Intervallo"),
         isBreak: true,
-      });
-      sortedLessons.push({
-        id: `break-${dayOfWeek}-${breakTime.start}`,
-        subject: "Intervallo",
-        teacher: "",
-        classroom: "Corridoio / Bar",
-        dayOfWeek,
-        startTime: breakTime.start,
-        endTime: breakTime.end,
-        color: "#bdbdbd",
-        isBreak: true,
-      });
+      };
+      lessons.push(breakLesson);
+      sortedLessons.push(breakLesson);
     }
 
     // Riordina le lezioni con gli intervalli aggiunti 
@@ -327,16 +263,16 @@ export function addBreaksToLessons(lessons: Lesson[], dayOfWeek: number): void {
     );
 
     // Aggiunge il tempo libero dei professori
-    if (sortedLessons[0].startTime !== "07:50")
+    if (sortedLessons[0].startTime !== SCHOOL_START_TIME)
       lessons.push({
-        id: `free-${dayOfWeek}-07:50`,
+        id: `free-${dayOfWeek}-${SCHOOL_START_TIME}`,
         subject: "🕐 Libero",
         teacher: "",
         classroom: "",
         dayOfWeek,
-        startTime: "07:50",
+        startTime: SCHOOL_START_TIME,
         endTime: sortedLessons[0].startTime,
-        color: "#e0e0e0",
+        color: getSubjectColor("🕐 Libero"),
         isBreak: false,
       });
 
@@ -350,14 +286,17 @@ export function addBreaksToLessons(lessons: Lesson[], dayOfWeek: number): void {
           dayOfWeek,
           startTime: sortedLessons[i].endTime,
           endTime: sortedLessons[i + 1].startTime,
-          color: "#e0e0e0",
+          color: getSubjectColor("🕐 Libero"),
           isBreak: false,
         });
     }
 
     const lastLessonSorted = sortedLessons[sortedLessons.length - 1];
+    const endTime = [2, 4].includes(dayOfWeek)
+      ? SCHOOL_END_TIME_EVEN_DAYS
+      : SCHOOL_END_TIME_ODD_DAYS;
 
-    if (lastLessonSorted.endTime !== "14:00" && [2, 4].includes(dayOfWeek))
+    if (lastLessonSorted.endTime !== endTime)
       lessons.push({
         id: `free-${dayOfWeek}-${lastLessonSorted.endTime}`,
         subject: "🕐 Libero",
@@ -365,23 +304,8 @@ export function addBreaksToLessons(lessons: Lesson[], dayOfWeek: number): void {
         classroom: "",
         dayOfWeek,
         startTime: lastLessonSorted.endTime,
-        endTime: "14:00",
-        color: "#e0e0e0",
-        isBreak: false,
-      });
-    else if (
-      lastLessonSorted.endTime !== "13:40" &&
-      [1, 3, 5].includes(dayOfWeek)
-    )
-      lessons.push({
-        id: `free-${dayOfWeek}-${lastLessonSorted.endTime}`,
-        subject: "🕐 Libero",
-        teacher: "",
-        classroom: "",
-        dayOfWeek,
-        startTime: lastLessonSorted.endTime,
-        endTime: "13:40",
-        color: "#e0e0e0",
+        endTime,
+        color: getSubjectColor("🕐 Libero"),
         isBreak: false,
       });
   } else {
@@ -424,7 +348,7 @@ export function addBreaksToLessons(lessons: Lesson[], dayOfWeek: number): void {
             dayOfWeek,
             startTime: breakTime.start,
             endTime: breakTime.end,
-            color: "#bdbdbd",
+            color: getSubjectColor("Intervallo"),
             isBreak: true,
           });
         }
@@ -550,7 +474,7 @@ export async function loadClassSchedule(className: string): Promise<Lesson[]> {
             dayOfWeek,
             startTime: time.start,
             endTime: time.end,
-            color: "#7e57c2",
+            color: getSubjectColor(slot.materia),
           });
         }
       }
@@ -583,7 +507,7 @@ export async function loadClassSchedule(className: string): Promise<Lesson[]> {
       dayOfWeek: lesson.dayOfWeek,
       startTime: lesson.startTime,
       endTime: lesson.endTime,
-      color: lesson.subject === "INTERVALLO" ? "#bdbdbd" : lesson.color,
+      color: getSubjectColor(lesson.subject),
       isBreak: lesson.subject === "INTERVALLO",
     }));
   } catch (error) {
