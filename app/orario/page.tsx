@@ -60,6 +60,7 @@ export default function OrarioPage() {
     setSelectedDay,
     setViewType,
     getLessonsForDay,
+    getDaysWithLessons,
   } = useScheduleStore();
 
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -70,7 +71,12 @@ export default function OrarioPage() {
   // Evita hydration mismatch aspettando il mount del client
   useEffect(() => {
     setIsMounted(true);
-  }, []);
+    
+    // Imposta sempre il giorno corrente all'apertura dell'app
+    const today = new Date().getDay();
+    const currentDay = today === 0 || today === 6 ? 1 : today;
+    setSelectedDay(currentDay);
+  }, [setSelectedDay]);
 
   // (spostato sotto la definizione di todayLessons)
 
@@ -141,6 +147,12 @@ export default function OrarioPage() {
     return selectedDay === today;
   }, [selectedDay]);
 
+  // Filtra i giorni per mostrare solo quelli con lezioni
+  const daysWithLessons = useMemo(() => {
+    const daysWithLessonsSet = getDaysWithLessons();
+    return weekDays.filter(day => daysWithLessonsSet.includes(day.number));
+  }, [getDaysWithLessons, schedule]);
+
   // Mostra un placeholder durante il caricamento per evitare hydration mismatch
   if (!isMounted) {
     return (
@@ -207,7 +219,7 @@ export default function OrarioPage() {
         {/* Day tabs */}
         <div className={styles.dayTabs}>
           <div className={styles.dayTabsContainer}>
-            {weekDays.map((day) => (
+            {daysWithLessons.map((day) => (
               <button
                 key={day.number}
                 onClick={() => setSelectedDay(day.number)}
