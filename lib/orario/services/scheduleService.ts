@@ -1,5 +1,6 @@
 import { Lesson } from "@/lib/orario/models/lesson";
 import { parseTime } from "@/lib/orario/utils/time";
+import { getSubjectColor } from "@/lib/orario/utils/colors";
 
 interface ClassScheduleData {
   metadata: {
@@ -264,8 +265,8 @@ export function addBreaksToLessons(lessons: Lesson[], dayOfWeek: number): void {
     const settore = lessons.every((l) => l.class?.includes("LIC"))
       ? "liceo"
       : lessons.some((l) => l.class?.includes("LIC"))
-      ? "misto"
-      : "tecnico";
+        ? "misto"
+        : "tecnico";
 
     // Definisci gli intervalli standard per questo giorno
     const breaks: Array<{ start: string; end: string }> = [];
@@ -541,9 +542,8 @@ export async function loadClassSchedule(className: string): Promise<Lesson[]> {
           // Se materia mancante, salta la lezione (dato incompleto)
           if (!slot.materia || !time) continue;
           lessons.push({
-            id: `${className}-${dayOfWeek}-${slot.ora}-${slot.materia}-${
-              slot.docente ?? ""
-            }`,
+            id: `${className}-${dayOfWeek}-${slot.ora}-${slot.materia}-${slot.docente ?? ""
+              }`,
             subject: normalizeSubject(slot.materia),
             teacher: slot.docente ?? "",
             classroom: slot.aula ?? "",
@@ -590,31 +590,6 @@ export async function loadClassSchedule(className: string): Promise<Lesson[]> {
     console.error("Error loading class schedule (studenti):", error);
     return [];
   }
-}
-
-function getSubjectColor(subject: string): string {
-  const colors: Record<string, string> = {
-    Matematica: "#ef5350",
-    Fisica: "#42a5f5",
-    Chimica: "#66bb6a",
-    Informatica: "#7e57c2",
-    Inglese: "#42a5f5",
-    Italiano: "#8d6e63",
-    Storia: "#fbc02d",
-    "Scienze motorie": "#26a69a",
-    Religione: "#fbc02d",
-    Diritto: "#ff9800",
-    Economia: "#ff9800",
-    Tecnologie: "#9c27b0",
-  };
-
-  for (const [key, color] of Object.entries(colors)) {
-    if (subject.toLowerCase().includes(key.toLowerCase())) {
-      return color;
-    }
-  }
-
-  return "#7e57c2";
 }
 
 function getClassColor(className?: string): string {
@@ -676,7 +651,7 @@ export async function loadTeacherSchedule(
     const teacherFileName =
       teacherFileMap[teacherName] ||
       teacherName.toLowerCase().replace(/\s+/g, "").replace(/\./g, "");
-      
+
     const data = await fetchJsonSafe<SingleTeacherData>(
       `/orario/${teacherFileName}.json`
     );
@@ -697,9 +672,8 @@ export async function loadTeacherSchedule(
         if (!slot.subject || !time) continue;
 
         lessons.push({
-          id: `${teacherName.replace(/\s|\./g, "")}-${dayOfWeek}-${slot.hour}-${
-            slot.subject
-          }-${slot.class}`,
+          id: `${teacherName.replace(/\s|\./g, "")}-${dayOfWeek}-${slot.hour}-${slot.subject
+            }-${slot.class}`,
           subject: normalizeSubject(slot.subject),
           teacher: teacherName,
           classroom: slot.room || "",
