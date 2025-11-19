@@ -89,20 +89,17 @@ export function getSubjectColor(subject: string): string {
 
     const formattata = formattaNome(subject);
 
-    // Cerca nella mappa diretta
     const color = COLORI_MATERIE[formattata];
     if (color) {
         return color;
     }
 
-    // Se non trovato, cerca per parola chiave parziale
     for (const [key, value] of Object.entries(COLORI_MATERIE)) {
         if (formattata.includes(key) || key.includes(formattata)) {
             return value;
         }
     }
 
-    // Colore di default per materie non mappate
     return '#9e9e9e';
 }
 
