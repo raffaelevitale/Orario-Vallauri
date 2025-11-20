@@ -22,8 +22,8 @@
     "wednesday": [
       { "hour": 1, "subject": "Informatica", "teacher": "BONAVIA M., MAGGIORE G.", "room": "LAB.S22 ARCHIMEDE (26)" },
       { "hour": 2, "subject": "Informatica", "teacher": "BONAVIA M., MAGGIORE G.", "room": "LAB.S22 ARCHIMEDE (26)" },
-      { "hour": 3, "subject": "Storia", "teacher": "CARANTA P.", "room": "148 (28)" },
-      { "hour": 4, "subject": "Storia", "teacher": "CARANTA P.", "room": "148 (28)" },
+      { "hour": 3, "subject": "Storia", "teacher": "CARANTA P.", "room": "140 (28)" },
+      { "hour": 4, "subject": "Storia", "teacher": "CARANTA P.", "room": "140 (28)" },
       { "hour": 5, "subject": "Sistemi e reti", "teacher": "CANONICO T.", "room": "LAB.116 LAPLACE (25)" },
       { "hour": 6, "subject": "T.P.S.I.T.", "teacher": "FEA D.", "room": "LAB.116 LAPLACE (25)" }
     ],
