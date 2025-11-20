@@ -1,0 +1,82 @@
+.container {
+    display: grid;
+    /* 5 days, fit to screen on desktop */
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4px 8px;
+    height: 100%;
+    /* Fill the scrollArea */
+    padding: 8px 4px;
+    position: relative;
+    /* Hide scrollbars on desktop to force fit */
+    overflow: hidden;
+}
+
+.container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: var(--border-color);
+    border-radius: 4px;
+}
+
+.headerCell {
+    text-align: center;
+    font-weight: 700;
+    padding: 12px 8px;
+    background: var(--bg-secondary);
+    border-radius: 8px;
+    color: var(--text-primary);
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 0.5px;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    /* Higher than lessons */
+    border: 1px solid var(--border-color);
+    margin-bottom: 8px;
+}
+
+.lessonWrapper {
+    position: relative;
+    min-width: 0;
+    /* Allow flex shrinking */
+}
+
+/* Adjust LessonCard when inside BlockView */
+.fullHeightCard {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* Prevent spill */
+}
+
+.fullHeightCard>div {
+    flex: 1;
+}
+
+.emptyState {
+    text-align: center;
+    padding: 40px;
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        /* On mobile, allow scrolling and use fixed widths */
+        grid-template-columns: repeat(5, 160px);
+        overflow-x: auto;
+    }
+
+    .headerCell {
+        font-size: 0.75rem;
+        padding: 8px 4px;
+    }
+}

@@ -13,15 +13,6 @@
 .card:hover {
   transform: scale(var(--size-trasform));
   box-shadow: var(--shadow-lg);
-}
-
-.cardCompact {
-  padding: 12px;
-}
-
-.cardCurrent {
-  --size-trasform: 1.03;
-  border: 2px solid #10b981;
   box-shadow: 0 4px 16px rgba(16, 185, 129, 0.2);
   transform: scale(1.02);
   background: rgba(16, 185, 129, 0.08);
@@ -32,6 +23,25 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
+}
+
+.cardTiny {
+  padding: 0 4px !important;
+  min-height: 22px !important;
+  /* Reduced to avoid overlapping next lesson */
+  display: flex;
+  flex-direction: row;
+  /* Horizontal layout for tiny cards */
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.cardTiny .cardLayout {
+  gap: 8px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
 }
 
 .cardContent {
@@ -46,6 +56,10 @@
   margin-bottom: 8px;
 }
 
+.cardTiny .header {
+  margin-bottom: 0;
+}
+
 .colorDot {
   width: 12px;
   height: 12px;
@@ -54,8 +68,17 @@
   box-shadow: var(--shadow-sm);
 }
 
+.cardTiny .colorDot {
+  width: 8px;
+  height: 8px;
+}
+
 .icon {
   font-size: 1.125rem;
+}
+
+.cardTiny .icon {
+  font-size: 0.875rem;
 }
 
 .subject {
@@ -70,6 +93,10 @@
 
 .subjectCompact {
   font-size: 0.875rem;
+}
+
+.cardTiny .subject {
+  font-size: 0.75rem;
 }
 
 .labBadge {
@@ -89,10 +116,15 @@
   flex-direction: column;
   gap: 4px;
   font-size: 0.875rem;
+  color: var(--text-secondary);
 }
 
 .detailsCompact {
   font-size: 0.75rem;
+}
+
+.cardTiny .details {
+  display: none;
 }
 
 .detailRow {
@@ -127,6 +159,13 @@
   gap: 2px;
 }
 
+.cardTiny .timeSection {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+}
+
 .startTime {
   font-weight: 800;
   font-size: 1rem;
@@ -141,10 +180,20 @@
   white-space: nowrap;
 }
 
+.cardTiny .startTime,
+.cardTiny .endTime {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
 .duration {
   font-size: 0.625rem;
   color: var(--text-tertiary);
   margin-top: 4px;
+}
+
+.cardTiny .duration {
+  display: none;
 }
 
 /* Progress & upcoming */
@@ -180,11 +229,9 @@
   align-items: center;
   gap: 6px;
   padding: 4px 10px;
-  background: linear-gradient(
-    135deg,
-    var(--accent-blue),
-    var(--accent-blue-dark)
-  );
+  background: linear-gradient(135deg,
+      var(--accent-blue),
+      var(--accent-blue-dark));
   color: white;
   font-size: 0.75rem;
   border-radius: 20px;
@@ -202,10 +249,12 @@
 }
 
 @keyframes pulse {
+
   0%,
   100% {
     opacity: 1;
   }
+
   50% {
     opacity: 0.5;
   }

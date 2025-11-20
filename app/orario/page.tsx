@@ -18,6 +18,8 @@ import {
 } from "@/lib/orario/utils/notifications";
 import styles from "./orario.module.css";
 
+import { BlockView } from "@/app/components/orario/BlockView";
+
 const weekDays = [
   { number: 1, name: "Lunedì", short: "Lun" },
   { number: 2, name: "Martedì", short: "Mar" },
@@ -71,7 +73,7 @@ export default function OrarioPage() {
   // Evita hydration mismatch aspettando il mount del client
   useEffect(() => {
     setIsMounted(true);
-    
+
     // Imposta sempre il giorno corrente all'apertura dell'app
     const today = new Date().getDay();
     const currentDay = today === 0 || today === 6 ? 1 : today;
@@ -183,8 +185,8 @@ export default function OrarioPage() {
                 {userMode === "student"
                   ? `Classe ${selectedEntity}`
                   : userMode === "teacher"
-                  ? selectedEntity
-                  : schedule.className || "Orario Settimanale"}
+                    ? selectedEntity
+                    : schedule.className || "Orario Settimanale"}
               </p>
             </div>
 
@@ -216,33 +218,48 @@ export default function OrarioPage() {
           )}
         </div>
 
-        {/* Day tabs */}
-        <div className={styles.dayTabs}>
-          <div className={styles.dayTabsContainer}>
-            {daysWithLessons.map((day) => (
-              <button
-                key={day.number}
-                onClick={() => setSelectedDay(day.number)}
-                className={`${styles.dayTab} ${
-                  selectedDay === day.number ? styles.active : ""
-                }`}>
-                {day.name}
-              </button>
-            ))}
+
+
+
+
+        {/* Day tabs - Only show in list view */}
+        {viewType === "list" && (
+          <div className={styles.dayTabs}>
+            <div className={styles.dayTabsContainer}>
+              {daysWithLessons.map((day) => (
+                <button
+                  key={day.number}
+                  onClick={() => setSelectedDay(day.number)}
+                  className={`${styles.dayTab} ${selectedDay === day.number ? styles.active : ""
+                    }`}>
+                  {day.name}
+                </button>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
       </div>
 
       {/* Content area */}
       <div className={styles.content}>
-        <AnimatePresence mode="wait">
+        {viewType === "block" ? (
           <motion.div
-            key={`${selectedDay}-${viewType}`}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.15 }}
-            className={styles.scrollArea}>
+            className={styles.scrollArea}
+          >
+            <BlockView />
+          </motion.div>
+        ) : (
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={`${selectedDay}-${viewType}`}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.15 }}
+              className={styles.scrollArea}>
               <div className={styles.lessonsList}>
                 {todayLessons.length > 0 ? (
                   todayLessons.map((lesson, index) => (
@@ -266,8 +283,9 @@ export default function OrarioPage() {
                   </div>
                 )}
               </div>
-          </motion.div>
-        </AnimatePresence>
+            </motion.div>
+          </AnimatePresence>
+        )}
       </div>
 
       {/* Quick "Oggi" button */}

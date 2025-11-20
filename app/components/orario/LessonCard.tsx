@@ -7,6 +7,8 @@ interface LessonCardProps {
   isCurrent?: boolean;
   compact?: boolean;
   hideTeacher?: boolean;
+  className?: string;
+  tiny?: boolean;
 }
 
 function shortenClassroom(classroom: string): string {
@@ -42,6 +44,8 @@ export function LessonCard({
   isCurrent = false,
   compact = false,
   hideTeacher = false,
+  className,
+  tiny = false,
 }: LessonCardProps) {
   const duration = getLessonDuration(lesson);
   const isLab = isLabLesson(lesson.classroom, lesson.subject);
@@ -50,7 +54,9 @@ export function LessonCard({
   const cardClasses = [
     styles.card,
     compact && styles.cardCompact,
+    tiny && styles.cardTiny,
     isCurrent && styles.cardCurrent,
+    className,
   ].filter(Boolean).join(' ');
 
   return (
