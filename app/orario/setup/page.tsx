@@ -26,7 +26,6 @@ export default function SetupPage() {
   const [selectedEntity, setSelectedEntity] = useState('');
   const [loading, setLoading] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
-  const [studentStep, setStudentStep] = useState<'quick' | 'search'>('quick');
 
   // Mostra l'onboarding al primo avvio
   useEffect(() => {
@@ -57,7 +56,6 @@ export default function SetupPage() {
       if (mode === 'student') {
         const classList = await loadClassNames();
         setClasses(classList);
-        setStudentStep('quick');
       } else if (mode === 'teacher') {
         const teacherList = await loadTeacherNames();
         teacherList.sort()
@@ -91,28 +89,6 @@ export default function SetupPage() {
       });
 
       setUserMode(mode, selectedEntity);
-      completeSetup();
-      router.push('/orario');
-    } catch (error) {
-      console.error('Error loading schedule:', error);
-      alert('Errore nel caricamento dell\'orario. Riprova.');
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const handleQuickSelect = async (className: string) => {
-    if (loading) return;
-    setLoading(true);
-    
-    try {
-      const lessons = await loadClassSchedule(className);
-      setSchedule({
-        lessons,
-        className,
-        teacherName: undefined,
-      });
-      setUserMode('student', className);
       completeSetup();
       router.push('/orario');
     } catch (error) {
@@ -179,74 +155,13 @@ export default function SetupPage() {
                 setMode(null);
                 setSelectedEntity('');
                 setSearchTerm('');
-                setStudentStep('quick');
               }}
               className={styles.backButton}
             >
               ← Indietro
             </button>
 
-            {mode === 'student' && studentStep === 'quick' && (
-              <div className={styles.modeSelection}>
-                <p className={styles.modePrompt}>Classi disponibili</p>
-                <button
-                  onClick={() => handleQuickSelect('5A INF')}
-                  className={styles.modeButton}
-                  disabled={loading}
-                >
-                  <span className={styles.modeIcon}>💻</span>
-                  <span>5A INF</span>
-                </button>
-                <button
-                  onClick={() => handleQuickSelect('2C MEC')}
-                  className={`${styles.modeButton} ${styles.teacher}`}
-                  disabled={loading}
-                >
-                  <span className={styles.modeIcon}>⚙️</span>
-                  <span>2C MEC</span>
-                </button>
-                <button
-                  onClick={() => handleQuickSelect('4A INF')}
-                  className={`${styles.modeButton} `}
-                  disabled={loading}
-                >
-                  <span className={styles.modeIcon}>💻</span>
-                  <span>4A INF</span>
-                </button>
-                <button
-                  onClick={() => handleQuickSelect('4A MEC')}
-                  className={`${styles.modeButton} ${styles.teacher}`}
-                  disabled={loading}
-                >
-                  <span className={styles.modeIcon}>⚙️</span>
-                  <span>4A MEC</span>
-                </button>
-                <button
-                  onClick={() => handleQuickSelect('5A LIC')}
-                  className={`${styles.modeButton} `}
-                  disabled={loading}
-                >
-                  <span className={styles.modeIcon}>💻</span>
-                  <span>5A LIC</span>
-                </button>
-                <button
-                  onClick={() => handleQuickSelect('2C INF')}
-                  className={`${styles.modeButton} `}
-                  disabled={loading}
-                >
-                  <span className={styles.modeIcon}>💻</span>
-                  <span>2C INF</span>
-                </button>
-                <button
-                  onClick={() => setStudentStep('search')}
-                  className={styles.sampleButton}
-                >
-                  Cerca altre classi
-                </button>
-              </div>
-            )}
-
-            {((mode === 'student' && studentStep === 'search') || mode === 'teacher') && (
+            {mode && (
               <div>
                 <label className={styles.label}>
                   {mode === 'student' ? 'Seleziona la tua classe' : 'Seleziona il tuo nome'}
@@ -258,6 +173,7 @@ export default function SetupPage() {
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                   className={styles.searchInput}
+                  autoFocus
                 />
 
                 <div className={styles.listContainer}>
@@ -285,7 +201,7 @@ export default function SetupPage() {
               </div>
             )}
 
-            {((mode === 'student' && studentStep === 'search') || mode === 'teacher') && (
+            {mode && (
               <button
                 onClick={handleContinue}
                 disabled={!selectedEntity || loading}

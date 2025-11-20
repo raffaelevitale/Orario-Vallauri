@@ -371,34 +371,13 @@ async function fetchJsonSafe<T = any>(url: string): Promise<T> {
 }
 
 export async function loadClassNames(): Promise<string[]> {
-  const classList = new Set<string>();
-
-  // Aggiungi classi con file specifici
-  const specificClasses = ["2C MEC", "5A INF", "4A INF", "4A MEC", "5A LIC", "2C INF"]; // Classi con file JSON dedicati
-  specificClasses.forEach((c) => classList.add(c));
-
-  // Prova prima la nuova sorgente "completa"; fallback al vecchio file studenti
   try {
-    const data = await fetchJsonSafe<FullClassiData>(
-      "/orario/orario_classi_vallauri_completo.json"
-    );
-    const names = data.classi?.map((c) => c.nome).filter(Boolean) || [];
-    names.forEach((n) => classList.add(n));
-    if (classList.size > 0)
-      return Array.from(classList).sort((a, b) => a.localeCompare(b));
+    const classList = await fetchJsonSafe<string[]>("/orario/classes.json");
+    return classList.sort((a, b) => a.localeCompare(b));
   } catch (error) {
-    console.error("Error loading class names (completo):", error);
+    console.error("Error loading class names from manifest:", error);
+    return [];
   }
-  try {
-    const data = await fetchJsonSafe<ClassScheduleData>(
-      "/orario/orario_studenti.json"
-    );
-    Object.keys(data.schedule).forEach((k) => classList.add(k));
-  } catch (error) {
-    console.error("Error loading class names (studenti):", error);
-  }
-
-  return Array.from(classList).sort((a, b) => a.localeCompare(b));
 }
 
 export async function loadClassSchedule(className: string): Promise<Lesson[]> {
