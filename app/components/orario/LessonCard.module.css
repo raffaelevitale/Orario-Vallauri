@@ -7,12 +7,17 @@
   border: 1px solid var(--border-color);
   border-radius: 12px;
   box-shadow: var(--shadow-md);
-  --size-trasform: 1.01
+  --size-trasform: 1.01;
 }
 
 .card:hover {
   transform: scale(var(--size-trasform));
   box-shadow: var(--shadow-lg);
+}
+
+.cardCurrent {
+  --size-trasform: 1.03;
+  border: 2px solid #10b981;
   box-shadow: 0 4px 16px rgba(16, 185, 129, 0.2);
   transform: scale(1.02);
   background: rgba(16, 185, 129, 0.08);
@@ -229,9 +234,11 @@
   align-items: center;
   gap: 6px;
   padding: 4px 10px;
-  background: linear-gradient(135deg,
-      var(--accent-blue),
-      var(--accent-blue-dark));
+  background: linear-gradient(
+    135deg,
+    var(--accent-blue),
+    var(--accent-blue-dark)
+  );
   color: white;
   font-size: 0.75rem;
   border-radius: 20px;
@@ -249,7 +256,6 @@
 }
 
 @keyframes pulse {
-
   0%,
   100% {
     opacity: 1;
