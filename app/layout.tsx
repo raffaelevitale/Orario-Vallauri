@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata, Viewport } from "next";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { PrimeReactProvider } from "primereact/api";
 
 export const metadata: Metadata = {
@@ -105,6 +106,7 @@ export default function RootLayout({
         <PrimeReactProvider>
           {children}
           <Analytics />
+          <SpeedInsights />
         </PrimeReactProvider>
       </body>
     </html>
