@@ -10,6 +10,13 @@
   --size-trasform: 1.01;
 }
 
+/* Ottimizzazione per monitor 4:3 */
+@media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 5/4) {
+  .card {
+    padding: 20px;
+  }
+}
+
 .card:hover {
   transform: scale(var(--size-trasform));
   box-shadow: var(--shadow-lg);

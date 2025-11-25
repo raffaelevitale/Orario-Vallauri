@@ -225,6 +225,14 @@
   margin: auto;
 }
 
+/* Ottimizzazione per monitor 4:3 */
+@media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 5/4) {
+  .lessonsList {
+    gap: 16px;
+    padding: 16px 20px;
+  }
+}
+
 .emptyState {
   display: flex;
   flex-direction: column;

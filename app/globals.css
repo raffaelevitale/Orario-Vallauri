@@ -35,6 +35,13 @@
   --justify-content-weekdays: center;
 }
 
+/* Ottimizzazione per monitor 4:3 */
+@media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 5/4) {
+  :root {
+    --width-card-lessons: 85%;
+  }
+}
+
 /* Dark Mode - Pure Black Minimal */
 .dark,
 [data-theme="dark"] {
@@ -80,6 +87,13 @@
 html {
   height: 100%;
   font-size: 18px;
+}
+
+/* Ottimizzazione per monitor 4:3 */
+@media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 5/4) {
+  html {
+    font-size: 20px;
+  }
 }
 
 body {
