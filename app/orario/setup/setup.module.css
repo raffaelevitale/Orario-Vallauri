@@ -24,6 +24,15 @@
   margin-bottom: 32px;
 }
 
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 16px;
+  border-radius: 16px;
+  box-shadow: var(--shadow-md);
+  object-fit: contain;
+}
+
 .title {
   font-size: 2rem;
   font-weight: 700;

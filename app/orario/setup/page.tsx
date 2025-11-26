@@ -112,6 +112,11 @@ export default function SetupPage() {
         className={styles.card}
       >
         <div className={styles.header}>
+          <img
+            src="/logo.png"
+            alt="Logo Vallauri"
+            className={styles.logo}
+          />
           <h1 className={styles.title}>
             Orario Vallauri
           </h1>

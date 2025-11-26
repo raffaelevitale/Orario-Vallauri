@@ -24,10 +24,10 @@
 
 .cardCurrent {
   --size-trasform: 1.03;
-  border: 2px solid #10b981;
-  box-shadow: 0 4px 16px rgba(16, 185, 129, 0.2);
+  border: 2px solid #84A7DB;
+  box-shadow: 0 4px 16px rgba(132, 167, 219, 0.2);
   transform: scale(1.02);
-  background: rgba(16, 185, 129, 0.08);
+  background: rgba(132, 167, 219, 0.08);
 }
 
 .cardLayout {
@@ -241,11 +241,9 @@
   align-items: center;
   gap: 6px;
   padding: 4px 10px;
-  background: linear-gradient(
-    135deg,
-    var(--accent-blue),
-    var(--accent-blue-dark)
-  );
+  background: linear-gradient(135deg,
+      #84A7DB,
+      #60a5fa);
   color: white;
   font-size: 0.75rem;
   border-radius: 20px;
@@ -263,6 +261,7 @@
 }
 
 @keyframes pulse {
+
   0%,
   100% {
     opacity: 1;

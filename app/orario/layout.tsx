@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { SentryUserProvider } from '@/app/components/providers/SentryUserProvider';
 
 export const metadata: Metadata = {
-  title: 'Orario | Raffaele Vitale',
+  title: 'Orario Vallauri',
   description: 'Gestione orario scolastico',
 };
 

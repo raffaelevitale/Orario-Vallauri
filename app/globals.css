@@ -45,33 +45,28 @@
 /* Dark Mode - Pure Black Minimal */
 .dark,
 [data-theme="dark"] {
-  /* Use slightly softened dark background (not pure black) to improve perceived contrast */
-  --bg-primary: #071127; /* deep navy */
-  --bg-secondary: #0b1220;
-  --bg-tertiary: #0f1724;
-  --bg-card: #071127;
-  --bg-hover: #0f1a2b;
+  --bg-primary: #09090b;
+  --bg-secondary: #18181b;
+  --bg-tertiary: #27272a;
+  --bg-card: #09090b;
+  --bg-hover: #27272a;
 
-  --text-primary: #f8fafc; /* near-white for main text */
-  --text-secondary: #cbd5e1; /* lighter secondary for readable copy */
-  --text-tertiary: #9aa6b2; /* tertiary for muted labels */
+  --text-primary: #ffffff;
+  --text-secondary: #e4e4e7;
+  --text-tertiary: #a1a1aa;
 
-  --border-color: rgba(255, 255, 255, 0.06);
-  --border-hover: rgba(255, 255, 255, 0.08);
+  --border-color: #27272a;
+  --border-hover: #3f3f46;
 
-  --accent-blue: #3b82f6;
-  --accent-blue-light: #60a5fa;
-  --accent-blue-dark: #2563eb;
-  --accent-blue-bg: rgba(59, 130, 246, 0.08);
+  --accent-blue: #60a5fa;
+  --accent-blue-light: #93c5fd;
+  --accent-blue-dark: #3b82f6;
+  --accent-blue-bg: rgba(96, 165, 250, 0.15);
 
-  /* Softer shadows on dark to avoid harsh black-on-black */
-  --shadow-sm: 0 1px 2px 0 rgba(2, 6, 23, 0.6);
-  --shadow-md: 0 6px 12px -4px rgba(2, 6, 23, 0.6),
-    0 2px 4px -1px rgba(2, 6, 23, 0.5);
-  --shadow-lg: 0 12px 24px -6px rgba(2, 6, 23, 0.7),
-    0 6px 12px -4px rgba(2, 6, 23, 0.6);
-  --shadow-xl: 0 20px 40px -10px rgba(2, 6, 23, 0.75),
-    0 10px 20px -8px rgba(2, 6, 23, 0.65);
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
 
   --gradient-from: #1e3a8a;
   --gradient-to: #6b21a8;
@@ -198,7 +193,8 @@ button:disabled {
 /* Dark glass variant: subtle translucent surface that keeps content readable */
 .dark .card-glass,
 [data-theme="dark"] .card-glass {
-  background: rgba(255, 255, 255, 0.03); /* very subtle glass on dark */
+  background: rgba(255, 255, 255, 0.03);
+  /* very subtle glass on dark */
   backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.06);
   box-shadow: var(--shadow-lg);
@@ -234,11 +230,9 @@ button:disabled {
 
 /* Gradient Backgrounds */
 .gradient-bg {
-  background: linear-gradient(
-    135deg,
-    var(--gradient-from) 0%,
-    var(--gradient-to) 100%
-  );
+  background: linear-gradient(135deg,
+      var(--gradient-from) 0%,
+      var(--gradient-to) 100%);
 }
 
 .gradient-overlay {
@@ -250,11 +244,9 @@ button:disabled {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    135deg,
-    var(--gradient-from) 0%,
-    var(--gradient-to) 100%
-  );
+  background: linear-gradient(135deg,
+      var(--gradient-from) 0%,
+      var(--gradient-to) 100%);
   opacity: 0.1;
   z-index: -1;
 }
@@ -286,6 +278,7 @@ textarea:focus {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -296,6 +289,7 @@ textarea:focus {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -307,6 +301,7 @@ textarea:focus {
     opacity: 0;
     transform: translateY(-20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -329,9 +324,11 @@ textarea:focus {
 .text-primary {
   color: var(--text-primary);
 }
+
 .text-secondary {
   color: var(--text-secondary);
 }
+
 .text-tertiary {
   color: var(--text-tertiary);
 }
@@ -339,9 +336,11 @@ textarea:focus {
 .bg-primary {
   background: var(--bg-primary);
 }
+
 .bg-secondary {
   background: var(--bg-secondary);
 }
+
 .bg-tertiary {
   background: var(--bg-tertiary);
 }
@@ -353,12 +352,15 @@ textarea:focus {
 .shadow-sm {
   box-shadow: var(--shadow-sm);
 }
+
 .shadow-md {
   box-shadow: var(--shadow-md);
 }
+
 .shadow-lg {
   box-shadow: var(--shadow-lg);
 }
+
 .shadow-xl {
   box-shadow: var(--shadow-xl);
 }

@@ -190,33 +190,40 @@ export default function OrarioPage() {
               </p>
             </div>
 
+            <img
+              src="/logo.png"
+              alt="Logo"
+              className={styles.headerLogo}
+            />
+
             <div className={styles.headerActions}>
               <SettingsMenu onHelp={() => setShowOnboarding(true)} />
             </div>
           </div>
+        </div>
 
-          {/* Current lesson banner */}
-          {isToday && currentLesson && (
-            <div className={styles.currentLessonBanner}>
-              <div className={styles.currentLessonInfo}>
-                <span className={styles.currentLessonIcon}>⏳</span>
-                <div className={styles.currentLessonText}>
-                  <div className={styles.currentLessonSubject}>
-                    {currentLesson.subject}
-                  </div>
-                  <div className={styles.currentLessonDetails}>
-                    {currentLesson.startTime} - {currentLesson.endTime} ·{" "}
-                    {currentLesson.teacher}
-                  </div>
+        {/* Current lesson banner */}
+        {isToday && currentLesson && (
+          <div className={styles.currentLessonBanner}>
+            <div className={styles.currentLessonInfo}>
+              <span className={styles.currentLessonIcon}>⏳</span>
+              <div className={styles.currentLessonText}>
+                <div className={styles.currentLessonSubject}>
+                  {currentLesson.subject}
+                </div>
+                <div className={styles.currentLessonDetails}>
+                  {currentLesson.startTime} - {currentLesson.endTime} ·{" "}
+                  {currentLesson.teacher}
                 </div>
               </div>
-              <RemainingMinutesBadge
-                endTime={currentLesson.endTime}
-                color={currentLesson.color}
-              />
             </div>
-          )}
-        </div>
+            <RemainingMinutesBadge
+              endTime={currentLesson.endTime}
+              color={currentLesson.color}
+            />
+          </div>
+        )}
+
 
 
 
@@ -289,16 +296,18 @@ export default function OrarioPage() {
       </div>
 
       {/* Quick "Oggi" button */}
-      {!isToday && (
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}>
-          <button onClick={goToToday} className={styles.todayButton}>
-            <span>📆</span>
-            <span>Oggi</span>
-          </button>
-        </motion.div>
-      )}
+      {
+        !isToday && (
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}>
+            <button onClick={goToToday} className={styles.todayButton}>
+              <span>📆</span>
+              <span>Oggi</span>
+            </button>
+          </motion.div>
+        )
+      }
 
       {/* PWA Install Prompt */}
       <InstallPrompt />
@@ -307,12 +316,14 @@ export default function OrarioPage() {
       <NotificationPrompt />
 
       {/* Onboarding Tour */}
-      {showOnboarding && (
-        <OnboardingTour
-          onComplete={() => setShowOnboarding(false)}
-          onSkip={() => setShowOnboarding(false)}
-        />
-      )}
-    </div>
+      {
+        showOnboarding && (
+          <OnboardingTour
+            onComplete={() => setShowOnboarding(false)}
+            onSkip={() => setShowOnboarding(false)}
+          />
+        )
+      }
+    </div >
   );
 }
