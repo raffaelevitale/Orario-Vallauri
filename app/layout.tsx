@@ -1,8 +1,7 @@
 import "./globals.css";
 import type { Metadata, Viewport } from "next";
 import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
-import { PrimeReactProvider } from "primereact/api";
+import { ThemeProvider } from "@/app/components/theme-provider";
 
 export const metadata: Metadata = {
   title: "Orario Vallauri",
@@ -103,11 +102,14 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <PrimeReactProvider>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange>
           {children}
           <Analytics />
-          <SpeedInsights />
-        </PrimeReactProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

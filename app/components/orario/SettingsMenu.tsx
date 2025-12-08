@@ -2,21 +2,23 @@
 
 import { useState, useEffect, useRef } from "react";
 import styles from "./SettingsMenu.module.css";
-import { useThemeStore } from "@/lib/orario/stores/themeStore";
 import { useScheduleStore } from "@/lib/orario/stores/scheduleStore";
 import { requestNotificationPermission } from "@/lib/orario/utils/notifications";
 import { useRouter } from "next/navigation";
 import { ChangeModeModal } from "./ChangeModeModal";
+import { useTheme } from "next-themes";
 
 interface SettingsMenuProps {
   onHelp: () => void;
 }
 
+type Theme = "light" | "dark" | "system";
+
 export function SettingsMenu({ onHelp }: SettingsMenuProps) {
-  const { theme, setTheme } = useThemeStore();
   const { viewType, setViewType, userMode, selectedEntity } =
     useScheduleStore();
   const { resetSetup, hardReset } = useScheduleStore();
+  const { setTheme } = useTheme();
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const [showChangeModeModal, setShowChangeModeModal] = useState(false);
@@ -39,21 +41,33 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
       userMode === "teacher" &&
       selectedEntity?.toUpperCase().includes("MAGGIORE")
     ) {
-      if (theme !== "light") {
+      if (getTheme() !== "light") {
         setTheme("light");
+        localStorage.setItem("theme", "light");
       }
     }
-  }, [userMode, selectedEntity, theme, setTheme]);
+  }, []);
 
-  const cycleTheme = () => {
-    const themes: ("light" | "dark" | "system")[] = ["light", "dark", "system"];
-    const currentIndex = themes.indexOf(theme);
-    const nextIndex = (currentIndex + 1) % themes.length;
-    setTheme(themes[nextIndex]);
+  const getTheme = (): Theme => {
+    const theme = localStorage.getItem("theme");
+    return theme as Theme;
   };
 
   const themeLabel =
-    theme === "system" ? "Sistema" : theme === "light" ? "Chiaro" : "Scuro";
+    getTheme() === "system"
+      ? "Sistema"
+      : getTheme() === "light"
+      ? "Chiaro"
+      : "Scuro";
+
+  const changeTheme = () => {
+    const themes: Theme[] = ["light", "dark", "system"];
+    const currentTheme = getTheme();
+    const currentIndex = themes.indexOf(currentTheme);
+    const nextIndex = (currentIndex + 1) % themes.length;
+    setTheme(themes[nextIndex]);
+    localStorage.setItem("theme", themes[nextIndex]);
+  };
 
   const handleChangeModeClick = () => {
     setOpen(false);
@@ -91,8 +105,8 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
           <div className={styles.groupLabel}>Aspetto</div>
           <button
             className={styles.item}
-            onClick={cycleTheme}
             role="menuitem"
+            onClick={changeTheme}
             aria-label={`Tema: ${themeLabel}`}
             disabled={
               userMode === "teacher" &&
@@ -106,60 +120,62 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
                 : themeLabel}
             </span>
           </button>
-            <button
-              className={styles.item}
-              onClick={async () => {
-                  // Debug: mostra lo stato SW e permessi
-                  if (!('Notification' in window)) {
-                    alert("Il browser non supporta le notifiche.");
-                    setOpen(false);
-                    return;
-                  }
-                  if (window.location.protocol !== "https:") {
-                    alert("Le notifiche funzionano solo su HTTPS.");
-                    setOpen(false);
-                    return;
-                  }
-                  // Prova a registrare il service worker se non già registrato
-                  if ('serviceWorker' in navigator) {
-                    try {
-                      const reg = await navigator.serviceWorker.register('/sw.js');
-                      console.log("Service Worker registrato:", reg);
-                    } catch (err) {
-                      console.warn("Service Worker non registrato:", err);
-                    }
-                  }
-                  const perm = await requestNotificationPermission();
-                  if (perm === "granted") {
-                    try {
-                      new Notification("🔔 Test Notifica", {
-                        body: "Le notifiche funzionano correttamente!",
-                        icon: "/icons/icon-192x192.png",
-                        badge: "/icons/icon-192x192.png",
-                      });
-                    } catch (err) {
-                      alert("Errore nella creazione della notifica: " + err);
-                    }
-                  } else if (perm === "denied") {
-                    alert("Permesso per le notifiche negato. Controlla le impostazioni del browser.");
-                  } else {
-                    alert("Permesso per le notifiche non concesso.");
-                  }
-                  setOpen(false);
-              }}
-              role="menuitem"
-              aria-label="Test Notifica">
-              <span className={styles.row}>🔔 Test Notifica</span>
-              <span className={styles.badge}>Prova</span>
-            </button>
+          <button
+            className={styles.item}
+            onClick={async () => {
+              // Debug: mostra lo stato SW e permessi
+              if (!("Notification" in window)) {
+                alert("Il browser non supporta le notifiche.");
+                setOpen(false);
+                return;
+              }
+              if (window.location.protocol !== "https:") {
+                alert("Le notifiche funzionano solo su HTTPS.");
+                setOpen(false);
+                return;
+              }
+              // Prova a registrare il service worker se non già registrato
+              if ("serviceWorker" in navigator) {
+                try {
+                  const reg = await navigator.serviceWorker.register("/sw.js");
+                  console.log("Service Worker registrato:", reg);
+                } catch (err) {
+                  console.warn("Service Worker non registrato:", err);
+                }
+              }
+              const perm = await requestNotificationPermission();
+              if (perm === "granted") {
+                try {
+                  new Notification("🔔 Test Notifica", {
+                    body: "Le notifiche funzionano correttamente!",
+                    icon: "/icons/icon-192x192.png",
+                    badge: "/icons/icon-192x192.png",
+                  });
+                } catch (err) {
+                  alert("Errore nella creazione della notifica: " + err);
+                }
+              } else if (perm === "denied") {
+                alert(
+                  "Permesso per le notifiche negato. Controlla le impostazioni del browser."
+                );
+              } else {
+                alert("Permesso per le notifiche non concesso.");
+              }
+              setOpen(false);
+            }}
+            role="menuitem"
+            aria-label="Test Notifica">
+            <span className={styles.row}>🔔 Test Notifica</span>
+            <span className={styles.badge}>Prova</span>
+          </button>
           <div className={styles.groupLabel}>Vista</div>
           <button
             className={styles.item}
-            onClick={() =>
-              setViewType(viewType === "list" ? "block" : "list")
-            }
+            onClick={() => setViewType(viewType === "list" ? "block" : "list")}
             role="menuitem"
-            aria-label={`Cambia vista: ${viewType === "list" ? "Lista" : "Blocchi"}`}>
+            aria-label={`Cambia vista: ${
+              viewType === "list" ? "Lista" : "Blocchi"
+            }`}>
             <span className={styles.row}>👁️ Modalità</span>
             <span className={styles.badge}>
               {viewType === "list" ? "Lista" : "Blocchi"}
@@ -176,16 +192,19 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
               // Questo riporta l'app allo stato iniziale come se fosse appena installata.
               // Per tornare alla logica precedente (solo clear cache senza toccare lo store),
               // rimuovi la chiamata a hardReset() qui sotto.
-              
+
               // Clear service workers
-              if ('serviceWorker' in navigator) {
-                const registrations = await navigator.serviceWorker.getRegistrations();
-                await Promise.all(registrations.map(r => r.unregister()));
+              if ("serviceWorker" in navigator) {
+                const registrations =
+                  await navigator.serviceWorker.getRegistrations();
+                await Promise.all(registrations.map((r) => r.unregister()));
               }
               // Clear all caches
-              if ('caches' in window) {
+              if ("caches" in window) {
                 const cacheNames = await caches.keys();
-                await Promise.all(cacheNames.map(name => caches.delete(name)));
+                await Promise.all(
+                  cacheNames.map((name) => caches.delete(name))
+                );
               }
               // Clear storage
               localStorage.clear();
@@ -193,7 +212,7 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
               // Hard reset dello store (cancella anche lo schedule)
               hardReset();
               // Redirect the user to the setup page to choose a teacher or class.
-              router.push('/orario/setup');
+              router.push("/orario/setup");
             }}
             role="menuitem"
             aria-label="Aggiorna pagina">
@@ -238,7 +257,13 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
         isOpen={showChangeModeModal}
         onConfirm={handleConfirmChangeMode}
         onCancel={handleCancelChangeMode}
-        currentMode={userMode === "student" ? "studente" : userMode === "teacher" ? "docente" : undefined}
+        currentMode={
+          userMode === "student"
+            ? "studente"
+            : userMode === "teacher"
+            ? "docente"
+            : undefined
+        }
       />
     </div>
   );

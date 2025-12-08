@@ -3,6 +3,13 @@
     "Sentry": {
       "url": "https://mcp.sentry.dev/mcp/orarioraffaele/orario-vallauri",
       "type": "http"
+    },
+    "shadcn": {
+      "command": "npx",
+      "args": [
+        "shadcn@latest",
+        "mcp"
+      ]
     }
   }
 }

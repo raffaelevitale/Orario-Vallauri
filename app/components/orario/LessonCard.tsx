@@ -1,6 +1,8 @@
+import styles from './LessonCard.module.css';
 import { Lesson } from '@/lib/orario/models/lesson';
 import { getLessonDuration, parseTime, getCurrentTimeInMinutes } from '@/lib/orario/utils/time';
-import styles from './LessonCard.module.css';
+import { useState } from 'react';
+import { Button } from '@/components/ui/button';
 
 interface LessonCardProps {
   lesson: Lesson;
