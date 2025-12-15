@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { useScheduleStore } from "@/lib/orario/stores/scheduleStore";
+import { useSnowfallStore } from "@/lib/orario/stores/snowfallStore";
 import { LessonCard } from "@/app/components/orario/LessonCard";
 import { SettingsMenu } from "@/app/components/orario/SettingsMenu";
 import InstallPrompt from "@/app/components/pwa/InstallPrompt";
@@ -17,8 +18,8 @@ import {
   clearAllNotifications,
 } from "@/lib/orario/utils/notifications";
 import styles from "./orario.module.css";
-
 import { BlockView } from "@/app/components/orario/BlockView";
+import { SchoolCalendar } from "@/app/components/orario/SchoolCalendar";
 
 const weekDays = [
   { number: 1, name: "Lunedì", short: "Lun" },
@@ -69,6 +70,8 @@ export default function OrarioPage() {
   const [currentLesson, setCurrentLesson] = useState<Lesson | null>(null);
   const [isMounted, setIsMounted] = useState(false);
   const [showOnboarding, setShowOnboarding] = useState(false);
+  const [logoClickCount, setLogoClickCount] = useState(0);
+  const { enableSnowfall } = useSnowfallStore();
 
   // Evita hydration mismatch aspettando il mount del client
   useEffect(() => {
@@ -137,6 +140,26 @@ export default function OrarioPage() {
     setCurrentLesson(current || null);
   }, [currentTime, todayLessons]);
 
+  // Easter egg: 4 click sul logo per attivare la neve
+  useEffect(() => {
+    if (logoClickCount >= 4) {
+      enableSnowfall();
+      setLogoClickCount(0);
+    }
+
+    // Reset del contatore dopo 2 secondi senza click
+    if (logoClickCount > 0) {
+      const timer = setTimeout(() => {
+        setLogoClickCount(0);
+      }, 2000);
+      return () => clearTimeout(timer);
+    }
+  }, [logoClickCount, enableSnowfall]);
+
+  const handleLogoClick = () => {
+    setLogoClickCount(prev => prev + 1);
+  };
+
   const goToToday = () => {
     const today = new Date().getDay();
     if (today >= 1 && today <= 5) {
@@ -194,6 +217,8 @@ export default function OrarioPage() {
               src="/logo.png"
               alt="Logo"
               className={styles.headerLogo}
+              onClick={handleLogoClick}
+              style={{ cursor: 'pointer' }}
             />
 
             <div className={styles.headerActions}>
@@ -229,8 +254,8 @@ export default function OrarioPage() {
 
 
 
-        {/* Day tabs - Only show in list view */}
-        {viewType === "list" && (
+        {/* Day tabs - Only show in list view and not in holiday mode */}
+        {viewType === "list" && userMode !== 'holiday' && (
           <div className={styles.dayTabs}>
             <div className={styles.dayTabsContainer}>
               {daysWithLessons.map((day) => (
@@ -249,7 +274,16 @@ export default function OrarioPage() {
 
       {/* Content area */}
       <div className={styles.content}>
-        {viewType === "block" ? (
+        {userMode === 'holiday' ? (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className={styles.scrollArea}
+          >
+            <SchoolCalendar />
+          </motion.div>
+        ) : viewType === "block" ? (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -295,9 +329,9 @@ export default function OrarioPage() {
         )}
       </div>
 
-      {/* Quick "Oggi" button */}
+      {/* Quick "Oggi" button - Hide in holiday mode */}
       {
-        !isToday && (
+        !isToday && userMode !== 'holiday' && (
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}>

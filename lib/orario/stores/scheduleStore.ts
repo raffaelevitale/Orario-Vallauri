@@ -2,7 +2,7 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { Lesson, WeekSchedule } from '@/lib/orario/models/lesson';
 
-type UserMode = 'student' | 'teacher' | null;
+type UserMode = 'student' | 'teacher' | 'holiday' | null;
 
 interface ScheduleState {
   schedule: WeekSchedule;

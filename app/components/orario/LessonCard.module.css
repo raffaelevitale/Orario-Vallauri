@@ -1,138 +1,183 @@
 /* LessonCard Styles */
 
 .card {
-  padding: 16px;
-  transition: all 0.2s ease;
+  padding: 10px;
+  /* Reduced padding */
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   background: var(--bg-card);
   border: 1px solid var(--border-color);
-  border-radius: 12px;
-  box-shadow: var(--shadow-md);
-  --size-trasform: 1.01;
+  border-radius: 8px;
+  /* Slightly reduced radius */
+  box-shadow: var(--shadow-sm);
+  --size-trasform: 1.02;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+/* Glass effect for better depth */
+[data-theme="dark"] .card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 /* Ottimizzazione per monitor 4:3 */
 @media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 5/4) {
   .card {
-    padding: 20px;
+    padding: 12px;
   }
 }
 
 .card:hover {
-  transform: scale(var(--size-trasform));
+  transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
+  border-color: var(--border-hover);
+  background: var(--bg-hover);
+}
+
+[data-theme="dark"] .card:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 .cardCurrent {
-  --size-trasform: 1.03;
-  border: 2px solid #84A7DB;
-  box-shadow: 0 4px 16px rgba(132, 167, 219, 0.2);
-  transform: scale(1.02);
-  background: rgba(132, 167, 219, 0.08);
+  --size-trasform: 1.0;
+  border: 2px solid var(--accent-blue) !important;
+  box-shadow: 0 0 20px rgba(96, 165, 250, 0.15);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(96, 165, 250, 0.05));
 }
 
 .cardLayout {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 16px;
+  flex-direction: column;
+  height: 100%;
+  gap: 6px;
+  /* Reduced gap */
 }
 
 .cardTiny {
-  padding: 0 4px !important;
-  min-height: 22px !important;
-  /* Reduced to avoid overlapping next lesson */
+  padding: 4px 8px !important;
+  min-height: 28px !important;
   display: flex;
   flex-direction: row;
-  /* Horizontal layout for tiny cards */
   align-items: center;
-  justify-content: center;
-  gap: 4px;
+  justify-content: space-between;
+  gap: 8px;
+  background: var(--bg-secondary);
 }
 
 .cardTiny .cardLayout {
-  gap: 8px;
+  flex-direction: row;
   align-items: center;
+  gap: 8px;
   width: 100%;
-  justify-content: center;
+  height: auto;
+  justify-content: space-between;
 }
 
 .cardContent {
   flex: 1;
-  min-width: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 0;
+  /* Allow shrinking */
 }
 
 .header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 8px;
-  margin-bottom: 8px;
+  /* Reduced gap */
+  margin-bottom: 4px;
+  /* Reduced margin */
 }
 
 .cardTiny .header {
   margin-bottom: 0;
+  align-items: center;
 }
 
 .colorDot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  flex-shrink: 0;
-  box-shadow: var(--shadow-sm);
-}
-
-.cardTiny .colorDot {
   width: 8px;
-  height: 8px;
+  height: 40px;
+  /* Vertical strip style */
+  margin-right: -14px;
+  /* Move to edge */
+  border-radius: 0 4px 4px 0;
+  display: none;
+  /* Hidden as we use border-left on container */
 }
 
 .icon {
-  font-size: 1.125rem;
+  font-size: 1.1rem;
+  /* Slightly smaller */
+  line-height: 1;
 }
 
 .cardTiny .icon {
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 .subject {
-  font-weight: 600;
-  font-size: 1rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  /* Slightly smaller but bold */
   color: var(--text-primary);
+  line-height: 1.2;
+  margin-bottom: 2px;
+  /* Multi-line clamp */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  flex: 1;
 }
 
 .subjectCompact {
-  font-size: 0.875rem;
+  font-size: 0.9rem;
 }
 
 .cardTiny .subject {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-bottom: 0;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
 }
 
 .labBadge {
-  padding: 2px 8px;
-  background: rgba(147, 51, 234, 0.2);
-  color: var(--accent-blue-light);
-  font-size: 0.625rem;
-  border-radius: 6px;
-  font-weight: 600;
-  flex-shrink: 0;
+  display: inline-flex;
+  padding: 1px 5px;
+  /* Reduced padding */
+  background: rgba(139, 92, 246, 0.15);
+  color: #a78bfa;
+  font-size: 0.6rem;
+  border-radius: 4px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  margin-left: auto;
+  /* Push to right */
 }
 
 .details {
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  font-size: 0.875rem;
+  gap: 2px;
+  /* Reduced gap */
+  font-size: 0.8rem;
   color: var(--text-secondary);
+  margin-top: auto;
+  /* Push to bottom */
 }
 
 .detailsCompact {
   font-size: 0.75rem;
+  gap: 2px;
 }
 
 .cardTiny .details {
@@ -142,12 +187,15 @@
 .detailRow {
   display: flex;
   align-items: center;
-  gap: 8px;
-  color: var(--text-secondary);
+  gap: 6px;
+  color: var(--text-tertiary);
 }
 
 .detailIcon {
-  font-size: 0.875rem;
+  font-size: 0.8rem;
+  opacity: 0.7;
+  width: 14px;
+  text-align: center;
 }
 
 .detailText {
@@ -155,147 +203,12 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   font-weight: 500;
+  color: var(--text-secondary);
 }
 
 .detailTextBold {
-  font-weight: 700;
+  font-weight: 600;
   color: var(--text-primary);
-}
-
-.timeSection {
-  text-align: right;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 2px;
-}
-
-.cardTiny .timeSection {
-  display: flex;
-  flex-direction: row;
-  gap: 4px;
-  align-items: center;
-}
-
-.startTime {
-  font-weight: 800;
-  font-size: 1rem;
-  color: var(--text-primary);
-  white-space: nowrap;
-}
-
-.endTime {
-  font-size: 0.875rem;
-  color: var(--text-secondary);
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-.cardTiny .startTime,
-.cardTiny .endTime {
-  font-size: 0.7rem;
-  font-weight: 600;
-}
-
-.duration {
-  font-size: 0.625rem;
-  color: var(--text-tertiary);
-  margin-top: 4px;
-}
-
-.cardTiny .duration {
-  display: none;
-}
-
-/* Progress & upcoming */
-.progressWrap {
-  margin-top: 8px;
-}
-
-.progressTrack {
-  height: 6px;
-  background: var(--bg-tertiary);
-  border-radius: 999px;
-  overflow: hidden;
-}
-
-.progressFill {
-  height: 100%;
-  background: linear-gradient(90deg, #10b981, #22d3ee);
-}
-
-.soonBadge {
-  display: inline-block;
-  margin-top: 6px;
-  padding: 2px 8px;
-  font-size: 0.7rem;
-  border-radius: 999px;
-  background: var(--bg-secondary);
-  border: 1px solid var(--border-color);
-  color: var(--text-secondary);
-}
-
-.currentBadge {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 4px 10px;
-  background: linear-gradient(135deg,
-      #84A7DB,
-      #60a5fa);
-  color: white;
-  font-size: 0.75rem;
-  border-radius: 20px;
-  font-weight: 600;
-  box-shadow: var(--shadow-lg);
-  margin-top: 8px;
-}
-
-.pulse {
-  width: 6px;
-  height: 6px;
-  background: white;
-  border-radius: 50%;
-  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
-
-@keyframes pulse {
-
-  0%,
-  100% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0.5;
-  }
-}
-
-@media (max-width: 640px) {
-  .card {
-    padding: 12px;
-  }
-
-  .cardCompact {
-    padding: 10px;
-  }
-
-  .subject {
-    font-size: 0.875rem;
-  }
-
-  .subjectCompact {
-    font-size: 0.8rem;
-  }
-
-  .details {
-    font-size: 0.75rem;
-  }
-
-  .detailsCompact {
-    font-size: 0.7rem;
-  }
 }
 
 /* Tablet Optimization */
@@ -305,14 +218,16 @@
   }
 
   .subject {
-    font-size: clamp(0.75rem, 1.2vw, 0.9rem);
+    font-size: clamp(0.85rem, 1.2vw, 0.95rem);
+    /* Adjusted for readability */
     white-space: normal;
-    /* Allow wrapping on tablet if needed */
-    line-height: 1.2;
-    max-height: 2.4em;
-    /* Limit to 2 lines */
+    line-height: 1.35;
+    /* Increased line-height to prevent overlap */
+    max-height: 2.7em;
+    /* Adjusted based on new line-height */
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
   }
 
@@ -332,4 +247,109 @@
   .cardTiny .subject {
     font-size: 0.7rem;
   }
+}
+
+.timeSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid var(--border-color);
+  padding-top: 8px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+  /* Allow wrapping if needed */
+  gap: 4px;
+}
+
+.startEndTime {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  white-space: nowrap;
+  /* Prevent time split */
+}
+
+.startTime {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.5px;
+}
+
+.endTime {
+  font-size: 0.9rem;
+  color: var(--text-tertiary);
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.cardTiny .timeSection {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+  width: auto;
+  gap: 6px;
+}
+
+.cardTiny .startTime,
+.cardTiny .endTime {
+  font-size: 0.75rem;
+}
+
+.duration {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  background: var(--bg-tertiary);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.cardTiny .duration {
+  display: none;
+}
+
+/* Progress & upcoming */
+.progressWrap {
+  margin-top: 8px;
+  width: 100%;
+}
+
+.progressTrack {
+  height: 4px;
+  background: var(--bg-tertiary);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: var(--accent-blue);
+  box-shadow: 0 0 10px var(--accent-blue);
+}
+
+.soonBadge {
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.currentBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 8px;
+  background: var(--accent-blue);
+  color: white;
+  font-size: 0.7rem;
+  border-radius: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-left: auto;
 }

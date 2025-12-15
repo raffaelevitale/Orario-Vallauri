@@ -4,9 +4,22 @@ import { useState, useEffect, useRef } from "react";
 import styles from "./SettingsMenu.module.css";
 import { useThemeStore } from "@/lib/orario/stores/themeStore";
 import { useScheduleStore } from "@/lib/orario/stores/scheduleStore";
+import { useSnowfallStore } from "@/lib/orario/stores/snowfallStore";
 import { requestNotificationPermission } from "@/lib/orario/utils/notifications";
 import { useRouter } from "next/navigation";
 import { ChangeModeModal } from "./ChangeModeModal";
+import {
+  Settings,
+  Moon,
+  Sun,
+  Snowflake,
+  Bell,
+  Eye,
+  RefreshCw,
+  HelpCircle,
+  FileText,
+  Repeat
+} from "lucide-react";
 
 interface SettingsMenuProps {
   onHelp: () => void;
@@ -17,6 +30,7 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
   const { viewType, setViewType, userMode, selectedEntity } =
     useScheduleStore();
   const { resetSetup, hardReset } = useScheduleStore();
+  const { isEnabled: snowfallEnabled, toggleSnowfall } = useSnowfallStore();
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const [showChangeModeModal, setShowChangeModeModal] = useState(false);
@@ -60,11 +74,6 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
     setShowChangeModeModal(true);
   };
 
-  // LOGICA MISTA (soft reset): Quando l'utente conferma il cambio modalità,
-  // resetSetup() azzera solo userMode, selectedEntity e hasCompletedSetup,
-  // ma lascia intatto lo schedule in localStorage (vedi scheduleStore.ts).
-  // Poi reindirizza al setup per selezionare una nuova classe/docente.
-  // Per tornare alla logica precedente (hard reset), modifica resetSetup() in scheduleStore.ts
   const handleConfirmChangeMode = () => {
     setShowChangeModeModal(false);
     resetSetup();
@@ -84,7 +93,7 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
         aria-expanded={open}
         aria-label="Apri impostazioni"
         onClick={() => setOpen((o) => !o)}>
-        ⚙️
+        <Settings size={22} />
       </button>
       {open && (
         <div className={styles.menu} role="menu" aria-label="Impostazioni">
@@ -98,60 +107,82 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
               userMode === "teacher" &&
               selectedEntity?.toUpperCase().includes("MAGGIORE")
             }>
-            <span className={styles.row}>🌓 Tema</span>
+            <span className={styles.row}>
+              {theme === 'light' ? <Sun size={18} style={{ marginRight: 8 }} /> : <Moon size={18} style={{ marginRight: 8 }} />}
+              Tema
+            </span>
             <span className={styles.badge}>
               {userMode === "teacher" &&
-              selectedEntity?.toUpperCase().includes("MAGGIORE")
+                selectedEntity?.toUpperCase().includes("MAGGIORE")
                 ? "Chiaro fisso"
                 : themeLabel}
             </span>
           </button>
-            <button
-              className={styles.item}
-              onClick={async () => {
-                  // Debug: mostra lo stato SW e permessi
-                  if (!('Notification' in window)) {
-                    alert("Il browser non supporta le notifiche.");
-                    setOpen(false);
-                    return;
-                  }
-                  if (window.location.protocol !== "https:") {
-                    alert("Le notifiche funzionano solo su HTTPS.");
-                    setOpen(false);
-                    return;
-                  }
-                  // Prova a registrare il service worker se non già registrato
-                  if ('serviceWorker' in navigator) {
-                    try {
-                      const reg = await navigator.serviceWorker.register('/sw.js');
-                      console.log("Service Worker registrato:", reg);
-                    } catch (err) {
-                      console.warn("Service Worker non registrato:", err);
-                    }
-                  }
-                  const perm = await requestNotificationPermission();
-                  if (perm === "granted") {
-                    try {
-                      new Notification("🔔 Test Notifica", {
-                        body: "Le notifiche funzionano correttamente!",
-                        icon: "/icons/icon-192x192.png",
-                        badge: "/icons/icon-192x192.png",
-                      });
-                    } catch (err) {
-                      alert("Errore nella creazione della notifica: " + err);
-                    }
-                  } else if (perm === "denied") {
-                    alert("Permesso per le notifiche negato. Controlla le impostazioni del browser.");
-                  } else {
-                    alert("Permesso per le notifiche non concesso.");
-                  }
-                  setOpen(false);
-              }}
-              role="menuitem"
-              aria-label="Test Notifica">
-              <span className={styles.row}>🔔 Test Notifica</span>
-              <span className={styles.badge}>Prova</span>
-            </button>
+          <button
+            className={styles.item}
+            onClick={() => {
+              toggleSnowfall();
+              setOpen(false);
+            }}
+            role="menuitem"
+            aria-label={`Neve: ${snowfallEnabled ? "Attiva" : "Disattiva"}`}>
+            <span className={styles.row}>
+              <Snowflake size={18} style={{ marginRight: 8 }} />
+              Neve
+            </span>
+            <span className={styles.badge}>
+              {snowfallEnabled ? "Attiva" : "Disattiva"}
+            </span>
+          </button>
+          <button
+            className={styles.item}
+            onClick={async () => {
+              // Debug: mostra lo stato SW e permessi
+              if (!('Notification' in window)) {
+                alert("Il browser non supporta le notifiche.");
+                setOpen(false);
+                return;
+              }
+              if (window.location.protocol !== "https:") {
+                alert("Le notifiche funzionano solo su HTTPS.");
+                setOpen(false);
+                return;
+              }
+              // Prova a registrare il service worker se non già registrato
+              if ('serviceWorker' in navigator) {
+                try {
+                  const reg = await navigator.serviceWorker.register('/sw.js');
+                  console.log("Service Worker registrato:", reg);
+                } catch (err) {
+                  console.warn("Service Worker non registrato:", err);
+                }
+              }
+              const perm = await requestNotificationPermission();
+              if (perm === "granted") {
+                try {
+                  new Notification("🔔 Test Notifica", {
+                    body: "Le notifiche funzionano correttamente!",
+                    icon: "/icons/icon-192x192.png",
+                    badge: "/icons/icon-192x192.png",
+                  });
+                } catch (err) {
+                  alert("Errore nella creazione della notifica: " + err);
+                }
+              } else if (perm === "denied") {
+                alert("Permesso per le notifiche negato. Controlla le impostazioni del browser.");
+              } else {
+                alert("Permesso per le notifiche non concesso.");
+              }
+              setOpen(false);
+            }}
+            role="menuitem"
+            aria-label="Test Notifica">
+            <span className={styles.row}>
+              <Bell size={18} style={{ marginRight: 8 }} />
+              Test Notifica
+            </span>
+            <span className={styles.badge}>Prova</span>
+          </button>
           <div className={styles.groupLabel}>Vista</div>
           <button
             className={styles.item}
@@ -160,7 +191,10 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
             }
             role="menuitem"
             aria-label={`Cambia vista: ${viewType === "list" ? "Lista" : "Blocchi"}`}>
-            <span className={styles.row}>👁️ Modalità</span>
+            <span className={styles.row}>
+              <Eye size={18} style={{ marginRight: 8 }} />
+              Modalità
+            </span>
             <span className={styles.badge}>
               {viewType === "list" ? "Lista" : "Blocchi"}
             </span>
@@ -171,12 +205,6 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
             style={{ marginBottom: "10px" }}
             onClick={async () => {
               setOpen(false);
-              // LOGICA MISTA (hard reset): Pulsante "Aggiorna pagina" ora fa un reset completo
-              // Cancella Service Workers, cache, storage E anche lo schedule salvato in localStorage.
-              // Questo riporta l'app allo stato iniziale come se fosse appena installata.
-              // Per tornare alla logica precedente (solo clear cache senza toccare lo store),
-              // rimuovi la chiamata a hardReset() qui sotto.
-              
               // Clear service workers
               if ('serviceWorker' in navigator) {
                 const registrations = await navigator.serviceWorker.getRegistrations();
@@ -197,7 +225,10 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
             }}
             role="menuitem"
             aria-label="Aggiorna pagina">
-            <span className={styles.row}>🔄 Aggiorna pagina</span>
+            <span className={styles.row}>
+              <RefreshCw size={18} style={{ marginRight: 8 }} />
+              Aggiorna pagina
+            </span>
             <span className={styles.badge}>Aggiorna</span>
           </button>
           <button
@@ -209,7 +240,10 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
             }}
             role="menuitem"
             aria-label="Apri tutorial">
-            <span className={styles.row}>❓ Tutorial</span>
+            <span className={styles.row}>
+              <HelpCircle size={18} style={{ marginRight: 8 }} />
+              Tutorial
+            </span>
             <span className={styles.badge}>Apri</span>
           </button>
           <button
@@ -220,7 +254,10 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
             }}
             role="menuitem"
             aria-label="Segnala idea o bug">
-            <span className={styles.row}>📝 Segnala idea/bug</span>
+            <span className={styles.row}>
+              <FileText size={18} style={{ marginRight: 8 }} />
+              Segnala idea/bug
+            </span>
             <span className={styles.badge}>Feedback</span>
           </button>
           <div className={styles.groupLabel}>Modalità</div>
@@ -229,7 +266,10 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
             onClick={handleChangeModeClick}
             role="menuitem"
             aria-label="Cambia modalità">
-            <span className={styles.row}>🔁 Cambia modalità</span>
+            <span className={styles.row}>
+              <Repeat size={18} style={{ marginRight: 8 }} />
+              Cambia modalità
+            </span>
             <span className={styles.badge}>{userMode ?? "—"}</span>
           </button>
         </div>

@@ -2,10 +2,10 @@
   display: grid;
   /* 5 days, fit to screen on desktop */
   grid-template-columns: repeat(5, 1fr);
-  gap: 4px 8px;
+  gap: 4px 6px;
   height: 100%;
   /* Fill the scrollArea */
-  padding: 8px 4px;
+  padding: 6px;
   position: relative;
   /* Hide scrollbars on desktop to force fit */
   overflow: hidden;
@@ -14,8 +14,8 @@
 /* Ottimizzazione per monitor 4:3 */
 @media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 5/4) {
   .container {
-    gap: 6px 10px;
-    padding: 12px 8px;
+    gap: 4px 8px;
+    padding: 8px;
   }
 }
 
@@ -35,12 +35,12 @@
 .headerCell {
   text-align: center;
   font-weight: 700;
-  padding: 12px 8px;
+  padding: 8px 4px;
   background: var(--bg-secondary);
-  border-radius: 8px;
+  border-radius: 6px;
   color: var(--text-primary);
   text-transform: uppercase;
-  font-size: 0.875rem;
+  font-size: 0.85rem;
   letter-spacing: 0.5px;
   position: sticky;
   top: 0;
@@ -65,7 +65,7 @@
   /* Prevent spill */
 }
 
-.fullHeightCard > div {
+.fullHeightCard>div {
   flex: 1;
 }
 
