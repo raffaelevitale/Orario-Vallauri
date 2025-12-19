@@ -2,9 +2,14 @@
 
 import Snowfall from 'react-snowfall';
 import { useSnowfallStore } from '@/lib/orario/stores/snowfallStore';
+import { useThemeStore } from '@/lib/orario/stores/themeStore';
 
 export default function SnowfallEffect() {
     const isEnabled = useSnowfallStore((state) => state.isEnabled);
+    const getEffectiveTheme = useThemeStore((state) => state.getEffectiveTheme);
+
+    const theme = getEffectiveTheme();
+    const snowColor = theme === 'dark' ? '#e7edff' : '#6f9eff';
 
     // Rendiamo disponibile il snowfall solo fino al 6 gennaio 2026, finite le feste in pratica
     const now = new Date();
@@ -21,7 +26,7 @@ export default function SnowfallEffect() {
 
     return (
         <Snowfall
-            color="#dee4fd"
+            color={snowColor}
             snowflakeCount={200}
             style={{
                 position: 'fixed',

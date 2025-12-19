@@ -213,13 +213,19 @@ export default function OrarioPage() {
               </p>
             </div>
 
-            <img
-              src="/logo.png"
-              alt="Logo"
-              className={styles.headerLogo}
+            <div
+              className={styles.logoWithSanta}
               onClick={handleLogoClick}
-              style={{ cursor: 'pointer' }}
-            />
+              role="button"
+              aria-label="Attiva neve"
+            >
+              <img
+                src="/logo.png"
+                alt="Logo"
+                className={styles.headerLogo}
+              />
+              <span className={styles.santa}>🎅</span>
+            </div>
 
             <div className={styles.headerActions}>
               <SettingsMenu onHelp={() => setShowOnboarding(true)} />

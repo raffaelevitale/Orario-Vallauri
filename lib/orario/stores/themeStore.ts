@@ -20,11 +20,15 @@ export const useThemeStore = create<ThemeState>()(
       },
 
       getEffectiveTheme: () => {
+        if (typeof window === 'undefined') {
+          return 'light';
+        }
         const { theme } = get();
         if (theme === 'system') {
-          return window.matchMedia('(prefers-color-scheme: dark)').matches
-            ? 'dark'
-            : 'light';
+          const prefersDark = typeof window !== 'undefined' && typeof window.matchMedia === 'function'
+            ? window.matchMedia('(prefers-color-scheme: dark)').matches
+            : false;
+          return prefersDark ? 'dark' : 'light';
         }
         return theme;
       },
@@ -36,6 +40,9 @@ export const useThemeStore = create<ThemeState>()(
 );
 
 function applyTheme(theme: Theme) {
+  if (typeof document === 'undefined') {
+    return;
+  }
   const root = document.documentElement;
 
   if (theme === 'system') {
