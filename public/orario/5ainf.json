@@ -11,9 +11,9 @@
       { "hour": 6, "subject": "T.P.S.I.T.", "teacher": "FEA D., RACCA M.", "room": "LAB.119B EULERO (25)" }
     ],
     "tuesday": [
-      { "hour": 1, "subject": "Religione", "teacher": "CAVALLERO L.", "room": "T74-E (26)" },
-      { "hour": 2, "subject": "Inglese", "teacher": "FOGLIA P.", "room": "T74-E (26)" },
-      { "hour": 3, "subject": "Matematica", "teacher": "GARRO V.", "room": "T74-E (26)" },
+      { "hour": 1, "subject": "Religione", "teacher": "CAVALLERO L.", "room": "T75-E (26)" },
+      { "hour": 2, "subject": "Inglese", "teacher": "FOGLIA P.", "room": "T75-E (26)" },
+      { "hour": 3, "subject": "Matematica", "teacher": "GARRO V.", "room": "T75-E (26)" },
       { "hour": 4, "subject": "T.P.S.I.T.", "teacher": "FEA D., RACCA M.", "room": "LAB.143 TURING (22)" },
       { "hour": 5, "subject": "Italiano", "teacher": "CARANTA P.", "room": "301 (28)" },
       { "hour": 6, "subject": "Ginnastica", "teacher": "BALLATORE A.", "room": "PALESTRA" },
@@ -38,8 +38,8 @@
     ],
     "friday": [
       { "hour": 1, "subject": "Informatica", "teacher": "BONAVIA M.", "room": "LAB.S22 ARCHIMEDE (26)" },
-      { "hour": 2, "subject": "Italiano", "teacher": "CARANTA P.", "room": "T11 (30)" },
-      { "hour": 3, "subject": "Matematica", "teacher": "GARRO V.", "room": "T11 (30)" },
+      { "hour": 2, "subject": "Italiano", "teacher": "CARANTA P.", "room": "T63 (30)" },
+      { "hour": 3, "subject": "Matematica", "teacher": "GARRO V.", "room": "T63 (30)" },
       { "hour": 4, "subject": "Gestione progetto", "teacher": "FEA D., MAGGIORE G.", "room": "LAB.T59 PLC (24)" },
       { "hour": 5, "subject": "Gestione progetto", "teacher": "FEA D., MAGGIORE G.", "room": "LAB.T59 PLC (24)" },
       { "hour": 6, "subject": "Gestione progetto", "teacher": "FEA D., MAGGIORE G.", "room": "LAB.T59 PLC (24)" }
