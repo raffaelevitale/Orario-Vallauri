@@ -13,7 +13,7 @@ import { motion } from 'framer-motion';
 import { OnboardingTour } from '@/app/components/onboarding/OnboardingTour';
 import styles from './setup.module.css';
 
-type Mode = 'student' | 'teacher' | 'holiday';
+type Mode = 'student' | 'teacher';
 
 export default function SetupPage() {
   const router = useRouter();
@@ -70,33 +70,24 @@ export default function SetupPage() {
   }, [mode]);
 
   const handleContinue = async () => {
-    if ((!selectedEntity && mode !== 'holiday') || !mode) return;
+    if (!selectedEntity || !mode) return;
 
     setLoading(true);
 
     try {
-      if (mode === 'holiday') {
-        setSchedule({
-          lessons: [],
-          className: 'Calendario Scolastico',
-          teacherName: undefined,
-        });
-        setUserMode(mode, 'Calendario');
+      let lessons;
+      if (mode === 'student') {
+        lessons = await loadClassSchedule(selectedEntity);
       } else {
-        let lessons;
-        if (mode === 'student') {
-          lessons = await loadClassSchedule(selectedEntity);
-        } else {
-          lessons = await loadTeacherSchedule(selectedEntity);
-        }
-
-        setSchedule({
-          lessons,
-          className: mode === 'student' ? selectedEntity : undefined,
-          teacherName: mode === 'teacher' ? selectedEntity : undefined,
-        });
-        setUserMode(mode, selectedEntity);
+        lessons = await loadTeacherSchedule(selectedEntity);
       }
+
+      setSchedule({
+        lessons,
+        className: mode === 'student' ? selectedEntity : undefined,
+        teacherName: mode === 'teacher' ? selectedEntity : undefined,
+      });
+      setUserMode(mode, selectedEntity);
 
       completeSetup();
       router.push('/orario');
@@ -155,15 +146,6 @@ export default function SetupPage() {
               <span className={styles.modeIcon}>👨‍🏫</span>
               <span>Docente</span>
             </button>
-
-            <button
-              onClick={() => setMode('holiday')}
-              className={`${styles.modeButton} ${styles.holiday}`}
-              disabled={loading}
-            >
-              <span className={styles.modeIcon}>🎅</span>
-              <span>Festività</span>
-            </button>
           </div>
         )}
 
@@ -184,19 +166,7 @@ export default function SetupPage() {
               ← Indietro
             </button>
 
-            {mode === 'holiday' ? (
-              <div className={styles.holidayContainer}>
-                <h3 className={styles.holidayTitle}>Modalità Festività</h3>
-                <p className={styles.holidayInfo} style={{ textAlign: 'center', margin: '20px 0' }}>
-                  In questa modalità potrai consultare il calendario scolastico completo,
-                  con tutte le festività, i ponti e i giorni di chiusura.
-                </p>
-                <div style={{ display: 'flex', justifyContent: 'center', fontSize: '3rem', margin: '20px 0' }}>
-                  📅
-                </div>
-              </div>
-            ) : (
-              <div>
+            <div>
                 <label className={styles.label}>
                   {mode === 'student' ? 'Seleziona la tua classe' : 'Seleziona il tuo nome'}
                 </label>
@@ -237,7 +207,7 @@ export default function SetupPage() {
 
             <button
               onClick={handleContinue}
-              disabled={(!selectedEntity && mode !== 'holiday') || loading}
+              disabled={!selectedEntity || loading}
               className={styles.continueButton}
             >
               {loading ? (

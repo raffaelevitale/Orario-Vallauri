@@ -19,7 +19,6 @@ import {
 } from "@/lib/orario/utils/notifications";
 import styles from "./orario.module.css";
 import { BlockView } from "@/app/components/orario/BlockView";
-import { SchoolCalendar } from "@/app/components/orario/SchoolCalendar";
 
 const weekDays = [
   { number: 1, name: "Lunedì", short: "Lun" },
@@ -259,8 +258,8 @@ export default function OrarioPage() {
 
 
 
-        {/* Day tabs - Only show in list view and not in holiday mode */}
-        {viewType === "list" && userMode !== 'holiday' && (
+        {/* Day tabs - Only show in list view */}
+        {viewType === "list" && (
           <div className={styles.dayTabs}>
             <div className={styles.dayTabsContainer}>
               {daysWithLessons.map((day) => (
@@ -279,16 +278,7 @@ export default function OrarioPage() {
 
       {/* Content area */}
       <div className={styles.content}>
-        {userMode === 'holiday' ? (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className={styles.scrollArea}
-          >
-            <SchoolCalendar />
-          </motion.div>
-        ) : viewType === "block" ? (
+        {viewType === "block" ? (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -335,18 +325,16 @@ export default function OrarioPage() {
       </div>
 
       {/* Quick "Oggi" button - Hide in holiday mode */}
-      {
-        !isToday && userMode !== 'holiday' && (
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}>
-            <button onClick={goToToday} className={styles.todayButton}>
-              <span>📆</span>
-              <span>Oggi</span>
-            </button>
-          </motion.div>
-        )
-      }
+      {!isToday && (
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}>
+          <button onClick={goToToday} className={styles.todayButton}>
+            <span>📆</span>
+            <span>Oggi</span>
+          </button>
+        </motion.div>
+      )}
 
       {/* PWA Install Prompt */}
       <InstallPrompt />
