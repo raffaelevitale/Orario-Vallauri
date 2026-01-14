@@ -224,7 +224,6 @@ export default function OrarioPage() {
                 alt="Logo"
                 className={styles.headerLogo}
               />
-              <span className={styles.santa}>🎅</span>
             </div>
 
             <div className={styles.headerActions}>
