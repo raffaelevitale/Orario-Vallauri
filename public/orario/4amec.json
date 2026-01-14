@@ -3,10 +3,10 @@
   "coordinator": "DE PASQUALE",
   "schedule": {
     "monday": [
-      { "hour": 1, "subject": "D.P.O.I.", "teacher": "GARNERO A., TONELLO G.", "room": "LAB.T62 D.P.O.I (28)" },
+      { "hour": 1, "subject": "D.P.O.I.", "teacher": "GARNERO A., TONELLO G.", "room": "LAB.T62 DPOI (28)" },
       { "hour": 2, "subject": "Sistemi e automazione", "teacher": "MANESCOTTO G.", "room": "LAB.AUTOMAZIONE (26)" },
-      { "hour": 3, "subject": "Lingua e letteratura italiana", "teacher": "GALLESIO B.", "room": "T11 (30)" },
-      { "hour": 4, "subject": "Lingua e letteratura italiana", "teacher": "GALLESIO B.", "room": "T11 (30)" },
+      { "hour": 3, "subject": "Lingua e letteratura italiana", "teacher": "GALLESIO B.", "room": "T63 (30)" },
+      { "hour": 4, "subject": "Lingua e letteratura italiana", "teacher": "GALLESIO B.", "room": "T63 (30)" },
       { "hour": 6, "subject": "Lingua inglese", "teacher": "RACCA M.", "room": "T64 (28)" },
       { "hour": 6, "subject": "Matematica", "teacher": "BALLOCCO L.", "room": "T64 (28)" }
     ],
@@ -20,8 +20,8 @@
       { "hour": 7, "subject": "Tecnologie meccaniche di processo e prodotto", "teacher": "PEANO M, RASPA M", "room": "LAB.S53A CAD CAM (24)" }
     ],
     "wednesday": [
-      { "hour": 1, "subject": "D.P.O.I.", "teacher": "GARNERO A., TONELLO G.", "room": "LAB.T62 D.P.O.I (28)" },
-      { "hour": 2, "subject": "D.P.O.I.", "teacher": "GARNERO A., TONELLO G.", "room": "LAB.T62 D.P.O.I (28)" },
+      { "hour": 1, "subject": "D.P.O.I.", "teacher": "GARNERO A., TONELLO G.", "room": "LAB.T62 DPOI (28)" },
+      { "hour": 2, "subject": "D.P.O.I.", "teacher": "GARNERO A., TONELLO G.", "room": "LAB.T62 DPOI (28)" },
       { "hour": 3, "subject": "Sistemi e automazione", "teacher": "MANESCOTTO G., TOMATIS C.", "room": "LAB.AUTOMAZIONE (26)" },
       { "hour": 4, "subject": "MATEMATICA e Complementi", "teacher": "BALLOCCO L.", "room": "S1 (30)" },
       { "hour": 5, "subject": "Scienze motorie e sportive", "teacher": "DE PASQUALE P.", "room": "PALESTRA" },

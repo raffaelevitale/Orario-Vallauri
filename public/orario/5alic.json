@@ -32,13 +32,13 @@
         "hour": 5,
         "subject": "Fisica e laboratorio",
         "teacher": "BENASSI L.",
-        "room": "223 (24)"
+        "room": "278-E (25)"
       },
       {
         "hour": 6,
         "subject": "Matematica",
         "teacher": "GIULIANO C.",
-        "room": "223 (24)"
+        "room": "278-E (25)"
       }
     ],
     "tuesday": [
@@ -46,7 +46,7 @@
         "hour": 1,
         "subject": "Chimica",
         "teacher": "ARLORIO F.",
-        "room": "LAB S31 BIOLOGIA (30)"
+        "room": "LAB S72-E BIOLOGIA (30)"
       },
       {
         "hour": 2,
@@ -64,19 +64,19 @@
         "hour": 4,
         "subject": "Scienze naturali",
         "teacher": "OPERTI S., OSELLA V.",
-        "room": "LAB.S31 BIOLOGIA (30)"
+        "room": "LAB.S72-E BIOLOGIA (30)"
       },
       {
         "hour": 5,
         "subject": "Matematica",
         "teacher": "GIULIANO C.",
-        "room": "S30 PROIEZIONI (27)"
+        "room": "S76-E (27)"
       },
       {
         "hour": 6,
         "subject": "Filosofia",
         "teacher": "BOSSIO T.",
-        "room": "S30 PROIEZIONI (27)"
+        "room": "S76-E (27)"
       }
     ],
     "wednesday": [
@@ -108,7 +108,7 @@
         "hour": 5,
         "subject": "Lingua e cultura inglese",
         "teacher": "FISSORE F.",
-        "room": "S30 PROIEZIONI (27)"
+        "room": "S76-E (27)"
       },
       {
         "hour": 6,

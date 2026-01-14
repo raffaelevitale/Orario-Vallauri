@@ -19,13 +19,13 @@
         "hour": 3,
         "subject": "Lingua e letteratura italiana",
         "class": "3C INF",
-        "room": "S30 PROIEZIONI (27)"
+        "room": "S76-E (27)"
       },
       {
         "hour": 4,
         "subject": "Storia",
         "class": "3C INF",
-        "room": "S30 PROIEZIONI (27)"
+        "room": "S76-E (27)"
       }
     ],
     "tuesday": [
@@ -51,13 +51,13 @@
         "hour": 6,
         "subject": "Lingua e letteratura italiana",
         "class": "3C INF",
-        "room": "224 (24)"
+        "room": "271-E (24)"
       },
       {
         "hour": 7,
         "subject": "Storia",
         "class": "3C INF",
-        "room": "224 (24)"
+        "room": "271-E (24)"
       }
     ],
     "wednesday": [
@@ -123,7 +123,7 @@
         "hour": 2,
         "subject": "Lingua e letteratura italiana",
         "class": "5A INF",
-        "room": "T11 (30)"
+        "room": "T63 (30)"
       }
     ]
   }

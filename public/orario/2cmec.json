@@ -12,10 +12,10 @@
     ],
     "tuesday": [
       { "hour": 1, "subject": "Religione cattolica o attività alternative", "teacher": "MOCCIS M.", "room": "216 (24)" },
-      { "hour": 2, "subject": "Scienze integrate Fisica", "teacher": "BOSIO A.", "room": "S2 (24)" },
-      { "hour": 3, "subject": "Lab. Scienze integrate Chimica", "teacher": "BOCCHIO M., CANGEMI ALESSANDRINI R., MULTISTIERI R.", "room": "LAB. 533 CHIMICA C" },
+      { "hour": 2, "subject": "Scienze integrate Fisica", "teacher": "BOSIO A.", "room": "216 (24)" },
+      { "hour": 3, "subject": "Lab. Scienze integrate Chimica", "teacher": "BOCCHIO M., CANGEMI ALESSANDRINI R., MULTISTIERI R.", "room": "LAB.S71-E CHIMICA ()" },
       { "hour": 4, "subject": "Scienze integrate Scienze", "teacher": "CALDERARO F., LA PORTA C.", "room": "S3 (30)" },
-      { "hour": 5, "subject": "Scienze e tecnologie applicate Meccaniche", "teacher": "CONTE P.", "room": "S2 (24)" },
+      { "hour": 5, "subject": "Scienze e tecnologie applicate Meccaniche", "teacher": "CONTE P.", "room": "LAB T.62 DPOI (28)" },
       { "hour": 6, "subject": "Lingua e letteratura italiana", "teacher": "GIRAU D.", "room": "S3 (30)" },
       { "hour": 7, "subject": "Lingua e letteratura italiana", "teacher": "GIRAU D., LA PORTA C.", "room": "S3 (30)" }
     ],
@@ -30,14 +30,14 @@
     "thursday": [
       { "hour": 1, "subject": "Matematica", "teacher": "SAMPO M.", "room": "S2 (24)" },
       { "hour": 2, "subject": "Scienze integrate Fisica", "teacher": "BOSIO A.", "room": "S2 (24)" },
-      { "hour": 3, "subject": "Scienze e tecnologie applicate Meccaniche", "teacher": "CONTE P., LA PORTA C.", "room": "S2 (24)" },
-      { "hour": 4, "subject": "Scienze integrate Scienze", "teacher": "CALDERARO F., LA PORTA C.", "room": "S3 (30)" },
+      { "hour": 3, "subject": "Scienze e tecnologie applicate Meccaniche", "teacher": "CONTE P., LA PORTA C.", "room": "LAB.CETOP (28)" },
+      { "hour": 4, "subject": "Scienze integrate Scienze", "teacher": "CALDERARO F., LA PORTA C.", "room": "S2 (24)" },
       { "hour": 5, "subject": "Diritto ed economia", "teacher": "BERNARDI M.", "room": "S2 (24)" },
       { "hour": 6, "subject": "Lingua inglese", "teacher": "PANAGA D.", "room": "S2 (24)" },
       { "hour": 7, "subject": "Scienze integrate Chimica", "teacher": "MULATTERI S", "room": "S2 (24)" }
     ],
     "friday": [
-      { "hour": 1, "subject": "Lab. Scienze integrate Fisica", "teacher": "BOSIO A., NESI A.", "room": "LAB. S52 FISICA (30)" },
+      { "hour": 1, "subject": "Lab. Scienze integrate Fisica", "teacher": "BOSIO A., NESI A.", "room": "LAB. T71-E FISICA (30)" },
       { "hour": 2, "subject": "Tecnologie e rap. grafica", "teacher": "BELLOMO A., MAIOLO G.", "room": "LAB. MULTIMEDIALE CAD (24)" },
       { "hour": 3, "subject": "Scienze e tecnologie applicate Meccaniche", "teacher": "CONTE P.", "room": "S2 (24)" },
       { "hour": 4, "subject": "Matematica", "teacher": "SAMPO M.", "room": "S2 (24)" },
