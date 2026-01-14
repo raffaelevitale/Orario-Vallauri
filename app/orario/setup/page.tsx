@@ -203,7 +203,6 @@ export default function SetupPage() {
                   )}
                 </div>
               </div>
-            )}
 
             <button
               onClick={handleContinue}
