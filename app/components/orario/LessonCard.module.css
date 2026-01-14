@@ -315,6 +315,8 @@
 .progressWrap {
   margin-top: 8px;
   width: 100%;
+  padding: 0 4px; /* Un po' di spazio ai bordi della barra */
+  box-sizing: border-box;
 }
 
 .progressTrack {

@@ -132,6 +132,8 @@
 
 .currentLessonBanner {
   margin-top: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
   background: rgba(132, 167, 219, 0.08);
   border: 1px solid #84a7db;
   border-radius: 10px;

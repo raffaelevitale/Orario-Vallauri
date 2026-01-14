@@ -4,7 +4,6 @@ import { useState, useEffect, useRef } from "react";
 import styles from "./SettingsMenu.module.css";
 import { useThemeStore } from "@/lib/orario/stores/themeStore";
 import { useScheduleStore } from "@/lib/orario/stores/scheduleStore";
-import { useSnowfallStore } from "@/lib/orario/stores/snowfallStore";
 import { requestNotificationPermission } from "@/lib/orario/utils/notifications";
 import { useRouter } from "next/navigation";
 import { ChangeModeModal } from "./ChangeModeModal";
@@ -12,7 +11,6 @@ import {
   Settings,
   Moon,
   Sun,
-  Snowflake,
   Bell,
   Eye,
   RefreshCw,
@@ -30,7 +28,6 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
   const { viewType, setViewType, userMode, selectedEntity } =
     useScheduleStore();
   const { resetSetup, hardReset } = useScheduleStore();
-  const { isEnabled: snowfallEnabled, toggleSnowfall } = useSnowfallStore();
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const [showChangeModeModal, setShowChangeModeModal] = useState(false);
@@ -116,22 +113,6 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
                 selectedEntity?.toUpperCase().includes("MAGGIORE")
                 ? "Chiaro fisso"
                 : themeLabel}
-            </span>
-          </button>
-          <button
-            className={styles.item}
-            onClick={() => {
-              toggleSnowfall();
-              setOpen(false);
-            }}
-            role="menuitem"
-            aria-label={`Neve: ${snowfallEnabled ? "Attiva" : "Disattiva"}`}>
-            <span className={styles.row}>
-              <Snowflake size={18} style={{ marginRight: 8 }} />
-              Neve
-            </span>
-            <span className={styles.badge}>
-              {snowfallEnabled ? "Attiva" : "Disattiva"}
             </span>
           </button>
           <button
