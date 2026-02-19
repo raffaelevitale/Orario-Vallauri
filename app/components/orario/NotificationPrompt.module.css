@@ -10,6 +10,21 @@
   animation: slideUp 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
+/* Dark theme support */
+[data-theme="dark"] .overlay {
+  --card-bg: #1f2937;
+  --text-primary: #f9fafb;
+  --text-secondary: #9ca3af;
+  --border-color: #374151;
+  --hover-bg: #374151;
+  --feature-bg: #222228;
+  --later-bg: #374151;
+  --later-text: #f3f4f6;
+  --later-hover-bg: #4b5563;
+  --primary-color: #3b82f6;
+  --primary-hover: #2563eb;
+}
+
 @keyframes slideUp {
   from {
     transform: translateX(-50%) translateY(100px);
@@ -22,7 +37,7 @@
 }
 
 .prompt {
-  background: var(--card-bg, #ffffff);
+  background: var(--card-bg);
   border-radius: 16px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
   padding: 24px;
@@ -106,7 +121,7 @@
   align-items: center;
   gap: 6px;
   padding: 12px;
-  background: var(--feature-bg, #f9fafb);
+  background: var(--feature-bg);
   border-radius: 10px;
   font-size: 0.85rem;
   color: var(--text-secondary, #6b7280);
@@ -157,21 +172,6 @@
 
 .enableBtn:active {
   transform: translateY(0);
-}
-
-/* Dark theme support */
-[data-theme="dark"] .prompt {
-  --card-bg: #1f2937;
-  --text-primary: #f9fafb;
-  --text-secondary: #9ca3af;
-  --border-color: #374151;
-  --hover-bg: #374151;
-  --feature-bg: #111827;
-  --later-bg: #374151;
-  --later-text: #f3f4f6;
-  --later-hover-bg: #4b5563;
-  --primary-color: #3b82f6;
-  --primary-hover: #2563eb;
 }
 
 /* Mobile adjustments */
