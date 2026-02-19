@@ -1,14 +1,22 @@
+#node
 node_modules
+package-lock.json
+
+#ide jetbrains
+.idea
+
+#next
 .next
+
+#files md
 PWA_SETUP.md
+analize.md
+DEAD_CODE_REPORT.md
+
+#random files
 scripts/generate-icons.sh
 /docs
 /backup
 
-
-
 # Sentry Config File
 .env.sentry-build-plugin
-analize.md
-.gitignore
-DEAD_CODE_REPORT.md
