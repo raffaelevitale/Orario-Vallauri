@@ -7,9 +7,12 @@ package-lock.json
 
 #next
 .next
-.cursor
+<<<<<<< HEAD
 
 #files md
+=======
+.cursor
+>>>>>>> 36d0aaa (feat: Add .cursor to .gitignore to exclude cursor files from version control)
 PWA_SETUP.md
 analize.md
 DEAD_CODE_REPORT.md

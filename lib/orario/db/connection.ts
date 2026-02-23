@@ -1,6 +1,6 @@
 import { createConnection } from "mariadb";
 
-export const conn = await createConnection({
+/* export const conn = await createConnection({
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
   password: process.env.DB_PWD,
@@ -10,4 +10,4 @@ export const conn = await createConnection({
     query: (msg) => console.log(msg),
     error: (err) => console.error(err),
   },
-});
+}); */
