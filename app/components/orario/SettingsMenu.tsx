@@ -251,7 +251,7 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
               <Repeat size={18} style={{ marginRight: 8 }} />
               Cambia modalità
             </span>
-            <span className={styles.badge}>{userMode ?? "—"}</span>
+            <span className={styles.badge}>{userMode === "student" ? "Studente" : "Docente"}</span>
           </button>
         </div>
       )}

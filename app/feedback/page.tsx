@@ -1,10 +1,12 @@
+import styles from './feedback.module.css';
+import Link from 'next/link';
+
 export default function FeedbackPage() {
   const mail = 'r.vitale.2756@vallauri.edu';
   const cc = 'z.baravalle.2969@vallauri.edu';
   const subject = 'Orario PWA - Idea/Bug';
 
-  const body = `
-Ciao,
+  const body = `Ciao,
 
 Tipo segnalazione: [Idea / Bug]
 Descrizione: 
@@ -12,25 +14,56 @@ Passi per riprodurre (se bug):
 Classe/Docente e Giorno (se utile): 
 Dispositivo/SO/Navigatore: 
 
-Grazie!
-  `;
+Grazie!`;
 
   const mailto = `mailto:${mail}?cc=${cc}&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 16 }}>
-      <div className="card" style={{ maxWidth: 480, width: '100%' }}>
-        <h1 style={{ marginBottom: 8 }}>Feedback</h1>
-        <p style={{ marginBottom: 16 }}>
-          Hai un'idea o hai trovato un problema? Scrivimi: la mail sarà già precompilata.
-        </p>
-        <a
-          href={mailto}
-          className="badge"
-          style={{ textDecoration: 'none', display: 'inline-block' }}
-        >
-          ✉️ Invia email
+    <div className={styles.container}>
+      <div className={styles.card}>
+
+        {/* Back link */}
+        <Link href="/orario" className={styles.backBtn}>
+          ← Torna all'orario
+        </Link>
+
+        {/* Header */}
+        <div className={styles.header}>
+          <div className={styles.icon}>💬</div>
+          <h1 className={styles.title}>Feedback</h1>
+          <p className={styles.subtitle}>
+            Hai trovato un bug o hai un'idea per migliorare l'app?
+            La mail sarà già precompilata con tutte le informazioni utili.
+          </p>
+        </div>
+
+        <div className={styles.divider} />
+
+        {/* Info list */}
+        <div className={styles.infoList}>
+          <div className={styles.infoItem}>
+            <span className={styles.infoItemIcon}>🐛</span>
+            <span>Segnala un bug con i passi per riprodurlo</span>
+          </div>
+          <div className={styles.infoItem}>
+            <span className={styles.infoItemIcon}>💡</span>
+            <span>Proponi una nuova funzionalità o miglioramento</span>
+          </div>
+          <div className={styles.infoItem}>
+            <span className={styles.infoItemIcon}>⚡</span>
+            <span>La risposta arriverà entro pochi giorni</span>
+          </div>
+        </div>
+
+        {/* CTA */}
+        <a href={mailto} className={styles.sendBtn}>
+          ✉️ Invia feedback via email
         </a>
+
+        <p className={styles.footer}>
+          Risponde a: {mail}
+        </p>
+
       </div>
     </div>
   );

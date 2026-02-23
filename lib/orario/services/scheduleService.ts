@@ -158,7 +158,6 @@ const ODD_DAY_SLOTS = [
   { start: "11:00", end: "11:55" },
   { start: "11:55", end: "12:50" },
   { start: "12:50", end: "13:40" },
-  { start: "13:40", end: "14:30" },
 ];
 
 // Slot orari per giorni pari (Mar, Gio)
@@ -175,6 +174,24 @@ const EVEN_DAY_SLOTS = [
 // Mappa oraria per slot (derivata dai dati dell'istituto)
 const slotTimesByDay: Record<number, Array<{ start: string; end: string }>> = {
   1: ODD_DAY_SLOTS,  // Lunedì
+  2: EVEN_DAY_SLOTS, // Martedì
+  3: ODD_DAY_SLOTS,  // Mercoledì
+  4: EVEN_DAY_SLOTS, // Giovedì
+  5: ODD_DAY_SLOTS,  // Venerdì
+};
+
+// Mappa oraria per slot (derivata dai dati dell'istituto)
+const slotTimesByDayLiceo: Record<number, Array<{ start: string; end: string }>> = {
+  1: ODD_DAY_SLOTS,  // Lunedì
+  2: ODD_DAY_SLOTS, // Martedì
+  3: ODD_DAY_SLOTS,  // Mercoledì
+  4: ODD_DAY_SLOTS, // Giovedì
+  5: ODD_DAY_SLOTS,  // Venerdì
+};
+
+// Mappa oraria per slot (derivata dai dati dell'istituto)
+const slotTimesByDayPrime: Record<number, Array<{ start: string; end: string }>> = {
+  1: EVEN_DAY_SLOTS,  // Lunedì
   2: EVEN_DAY_SLOTS, // Martedì
   3: ODD_DAY_SLOTS,  // Mercoledì
   4: EVEN_DAY_SLOTS, // Giovedì
@@ -311,11 +328,13 @@ export function addBreaksToLessons(lessons: Lesson[], dayOfWeek: number): void {
   } else {
     // Per le classi: aggiungi solo gli intervalli standard
     const breaks: Array<{ start: string; end: string }> = [];
-
-    if (dayOfWeek === 1 || dayOfWeek === 3 || dayOfWeek === 5) {
+    const isLiceo = lessons.some((l) => l.id?.includes("LIC"));
+    const isPrima = lessons.some((l) => l.id?.startsWith("1"));
+    
+    if ((dayOfWeek === 1 && !isPrima) || dayOfWeek === 3 || dayOfWeek === 5 || isLiceo ) {
       // Lunedì, Mercoledì, Venerdì: intervallo lungo 10:40-11:00
       breaks.push({ start: "10:40", end: "11:00" });
-    } else if (dayOfWeek === 2 || dayOfWeek === 4) {
+    } else if ((dayOfWeek === 1 && isPrima) || dayOfWeek === 2 || dayOfWeek === 4) {
       // Martedì, Giovedì: due intervalli brevi
       breaks.push({ start: "10:25", end: "10:30" });
       breaks.push({ start: "12:10", end: "12:20" });
@@ -393,7 +412,14 @@ export async function loadClassSchedule(className: string): Promise<Lesson[]> {
       const dayOfWeek = dayIndexMap[dayKey.toLowerCase()];
       if (!dayOfWeek || !slots) continue;
 
-      const timetable = slotTimesByDay[dayOfWeek] || [];
+console.log(classFileName)
+
+      let timetable
+      if (classFileName.includes('lic'))
+        timetable = slotTimesByDayLiceo[dayOfWeek] || [];
+      else if (classFileName.startsWith('1'))
+        timetable = slotTimesByDayPrime[dayOfWeek] || [];
+      else timetable = slotTimesByDay[dayOfWeek] || [];
 
       for (const slot of slots) {
         const idx = slot.hour - 1;

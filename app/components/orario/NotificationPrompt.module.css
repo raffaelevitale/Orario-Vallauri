@@ -10,21 +10,6 @@
   animation: slideUp 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-/* Dark theme support */
-[data-theme="dark"] .overlay {
-  --card-bg: #1f2937;
-  --text-primary: #f9fafb;
-  --text-secondary: #9ca3af;
-  --border-color: #374151;
-  --hover-bg: #374151;
-  --feature-bg: #222228;
-  --later-bg: #374151;
-  --later-text: #f3f4f6;
-  --later-hover-bg: #4b5563;
-  --primary-color: #3b82f6;
-  --primary-hover: #2563eb;
-}
-
 @keyframes slideUp {
   from {
     transform: translateX(-50%) translateY(100px);
@@ -37,12 +22,40 @@
 }
 
 .prompt {
+  /* Default (light) theme variables */
+  --card-bg: #ffffff;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --border-color: #e5e7eb;
+  --hover-bg: #f3f4f6;
+  --feature-bg: #f9fafb;
+  --later-bg: #f3f4f6;
+  --later-text: #374151;
+  --later-hover-bg: #e5e7eb;
+  --primary-color: #3b82f6;
+  --primary-hover: #2563eb;
+
   background: var(--card-bg);
   border-radius: 16px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
   padding: 24px;
   position: relative;
-  border: 1px solid var(--border-color, #e5e7eb);
+  border: 1px solid var(--border-color);
+}
+
+/* Dark theme override — matches the .dark class toggled by applyTheme() on <html> */
+:global(.dark) .prompt {
+  --card-bg: #1f2937;
+  --text-primary: #f9fafb;
+  --text-secondary: #9ca3af;
+  --border-color: #374151;
+  --hover-bg: #374151;
+  --feature-bg: #222228;
+  --later-bg: #374151;
+  --later-text: #f3f4f6;
+  --later-hover-bg: #4b5563;
+  --primary-color: #3b82f6;
+  --primary-hover: #2563eb;
 }
 
 .closeBtn {
