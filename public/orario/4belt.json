@@ -1,0 +1,207 @@
+{
+  "class": "4B ELT",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi automatici",
+        "teacher": "TOSELLI A., PERLO M.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi automatici",
+        "teacher": "TOSELLI A., PERLO M.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi automatici",
+        "teacher": "TOSELLI A., PERLO M.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.E.E.",
+        "teacher": "MANFREDI E., COMETTO G.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "T.P.S.E.E.",
+        "teacher": "MANFREDI E., COMETTO G.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.E.E.",
+        "teacher": "MANFREDI E., COMETTO G.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "GHIGLIONE S.",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica e Complementi",
+        "teacher": "AIMETTA M.",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica e Complementi",
+        "teacher": "AIMETTA M.",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "teacher": "ALESSANDRINI A.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "teacher": "ALESSANDRINI A.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "teacher": "VISSIO G.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "teacher": "VISSIO G.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "T.P.S.E.E.",
+        "teacher": "COMETTO G.",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "T.P.S.E.E.",
+        "teacher": "COMETTO G.",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "VISSIO G.",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "VISSIO G.",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "teacher": "GHIGLIONE S.",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "BECCARIA S.",
+        "room": "302 (26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi automatici",
+        "teacher": "PERLO M.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "teacher": "MONDINO S.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica e Complementi",
+        "teacher": "AIMETTA M.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "VISSIO G.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "VISSIO G.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "BECCARIA S.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "BECCARIA S.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "T.P.S.E.E.",
+        "teacher": "COMETTO G.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "OTTONELLO M., BECCARIA S.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "OTTONELLO M., BECCARIA S.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "OTTONELLO M., BECCARIA S.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica e Complementi",
+        "teacher": "AIMETTA M.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "teacher": "GHIGLIONE S.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      }
+    ]
+  }
+}

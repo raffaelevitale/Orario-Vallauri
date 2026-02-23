@@ -1,0 +1,124 @@
+{
+  "teacher": "IANNELLI Sandro",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "1A TUR",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 3,
+        "subject": "Lingua francese",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 5,
+        "subject": "Scienze",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Lingua francese",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Geografia",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Geografia",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      }
+    ]
+  }
+}

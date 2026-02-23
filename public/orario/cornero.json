@@ -1,0 +1,124 @@
+{
+  "teacher": "CORNERO Alberto",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "2B INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "1B INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "1A INF",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "2A INF",
+        "room": "102 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "2D INF",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "2A INF",
+        "room": "102 (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "1B INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "1A INF",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "1D INF",
+        "room": "105 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "2D INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "1B INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "2B INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Inglese",
+        "class": "1A INF",
+        "room": "201 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "2A INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "2B INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "2D INF",
+        "room": "150 (27)"
+      }
+    ]
+  }
+}

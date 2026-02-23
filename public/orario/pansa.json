@@ -1,0 +1,124 @@
+{
+  "teacher": "PANSA Marco",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 4,
+        "subject": "Scienze naturali",
+        "class": "4B LIC",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "scienze naturali",
+        "class": "1D LIC",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "scienze naturali",
+        "class": "2B LIC",
+        "room": "148 (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "scienze naturali",
+        "class": "2B LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "scienze naturali",
+        "class": "2C LIC",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "scienze naturali",
+        "class": "1D LIC",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "scienze naturali",
+        "class": "2A LIC",
+        "room": "203 (26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "scienze naturali",
+        "class": "2C LIC",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "scienze naturali",
+        "class": "2A LIC",
+        "room": "203 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze naturali",
+        "class": "4B LIC",
+        "room": "141 (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "scienze naturali",
+        "class": "2C LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "scienze naturali",
+        "class": "2B LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "scienze naturali",
+        "class": "2A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze naturali",
+        "class": "4B LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "scienze naturali",
+        "class": "1D LIC",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "scienze naturali",
+        "class": "2B LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "scienze naturali",
+        "class": "2C LIC",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "scienze naturali",
+        "class": "2A LIC",
+        "room": "203 (26)"
+      }
+    ]
+  }
+}

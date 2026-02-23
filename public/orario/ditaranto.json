@@ -1,0 +1,124 @@
+{
+  "teacher": "DITARANTO Stefano",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "5A MEN",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "5A MEN",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi e automazione",
+        "class": "5A MEN",
+        "room": "LAB.CETOP (28), LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "5A MEN",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 6,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "5A MEN",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 7,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "5A MEN",
+        "room": "LAB.SENERGIA (31)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 2,
+        "subject": "Diritto ed economia",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "5A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "class": "1D INF",
+        "room": "105 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Diritto ed economia",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "5A MEN",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "5A MEN",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Geografia",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Lab. Chimica",
+        "class": "1D INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 4,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "5A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze",
+        "class": "1D INF",
+        "room": "204 (26)"
+      }
+    ]
+  }
+}

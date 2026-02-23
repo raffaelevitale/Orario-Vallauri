@@ -1,32 +1,30 @@
 {
   "class": "5A LIC",
-  "class_number": 21,
-  "coordinator": "GIORDANETTO",
   "schedule": {
     "monday": [
       {
         "hour": 1,
         "subject": "Informatica",
         "teacher": "CANONICO T.",
-        "room": "LAB 142 NEWTON (25)"
+        "room": "LAB.142 NEWTON (25)"
       },
       {
         "hour": 2,
-        "subject": "Lingua e cultura inglese",
+        "subject": "Inglese",
         "teacher": "FISSORE F.",
         "room": "205(24)"
       },
       {
         "hour": 3,
         "subject": "Disegno e storia dell'arte",
-        "teacher": "MICCOLLI G.",
-        "room": "LAB 145 GALILEI (24)"
+        "teacher": "MICCOLI G.",
+        "room": "LAB.145 GALILEI (24)"
       },
       {
         "hour": 4,
         "subject": "Disegno e storia dell'arte",
-        "teacher": "MICCOLLI G.",
-        "room": "LAB 145 GALILEI (24)"
+        "teacher": "MICCOLI G.",
+        "room": "LAB.145 GALILEI (24)"
       },
       {
         "hour": 5,
@@ -45,18 +43,18 @@
       {
         "hour": 1,
         "subject": "Chimica",
-        "teacher": "ARLORIO F.",
-        "room": "LAB S72-E BIOLOGIA (30)"
+        "teacher": "OPERTI S., ARLORIO F.",
+        "room": "LAB.S72-E BIOLOGIA (30)"
       },
       {
         "hour": 2,
-        "subject": "Lingua e letteratura italiana",
+        "subject": "Italiano",
         "teacher": "GIORDANETTO A.",
         "room": "103 (24)"
       },
       {
         "hour": 3,
-        "subject": "Lingua e letteratura italiana",
+        "subject": "Italiano",
         "teacher": "GIORDANETTO A.",
         "room": "103 (24)"
       },
@@ -70,13 +68,13 @@
         "hour": 5,
         "subject": "Matematica",
         "teacher": "GIULIANO C.",
-        "room": "S76-E (27)"
+        "room": "S 76-E(27)"
       },
       {
         "hour": 6,
         "subject": "Filosofia",
         "teacher": "BOSSIO T.",
-        "room": "S76-E (27)"
+        "room": "S 76-E(27)"
       }
     ],
     "wednesday": [
@@ -94,39 +92,39 @@
       },
       {
         "hour": 3,
-        "subject": "Scienze motorie e sportive",
+        "subject": "Scienze motorie",
         "teacher": "ROSSI D.",
         "room": "PALESTRA"
       },
       {
         "hour": 4,
-        "subject": "Scienze motorie e sportive",
+        "subject": "Scienze motorie",
         "teacher": "ROSSI D.",
         "room": "PALESTRA"
       },
       {
         "hour": 5,
-        "subject": "Lingua e cultura inglese",
+        "subject": "Inglese",
         "teacher": "FISSORE F.",
-        "room": "S76-E (27)"
+        "room": "S 76-E(27)"
       },
       {
         "hour": 6,
         "subject": "Informatica",
         "teacher": "CANONICO T.",
-        "room": "LAB 117 TOLOMEO (26)"
+        "room": "LAB.117 TOLOMEO (26)"
       }
     ],
     "thursday": [
       {
         "hour": 1,
-        "subject": "Religione cattolica e attività alternative",
-        "teacher": "CAVALLERO L.",
+        "subject": "Religione",
+        "teacher": "CAVALLO C.",
         "room": "203 (26)"
       },
       {
         "hour": 2,
-        "subject": "Lingua e cultura inglese",
+        "subject": "Inglese",
         "teacher": "FISSORE F.",
         "room": "203 (26)"
       },
@@ -146,13 +144,13 @@
         "hour": 5,
         "subject": "Fisica e laboratorio",
         "teacher": "BENASSI L., LAMBERTI M.",
-        "room": "LAB 144 FISICA2 (27)"
+        "room": "LAB.144 FISICA2 (27)"
       },
       {
         "hour": 6,
         "subject": "Fisica e laboratorio",
         "teacher": "BENASSI L., LAMBERTI M.",
-        "room": "LAB 144 FISICA2 (27)"
+        "room": "LAB.144 FISICA2 (27)"
       }
     ],
     "friday": [
@@ -182,13 +180,13 @@
       },
       {
         "hour": 5,
-        "subject": "Lingua e letteratura italiana",
+        "subject": "Italiano",
         "teacher": "GIORDANETTO A.",
         "room": "104 (25)"
       },
       {
         "hour": 6,
-        "subject": "Lingua e letteratura italiana",
+        "subject": "Italiano",
         "teacher": "GIORDANETTO A.",
         "room": "104 (25)"
       }

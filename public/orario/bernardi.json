@@ -1,0 +1,124 @@
+{
+  "teacher": "BERNARDI Mauro",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      }
+    ]
+  }
+}

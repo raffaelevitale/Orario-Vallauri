@@ -1,0 +1,100 @@
+{
+  "teacher": "SALONE Giuseppe",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 7,
+        "subject": "Diritto ed economia",
+        "class": "1A ELT",
+        "room": "205(24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Diritto ed economia",
+        "class": "2A INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Diritto ed economia",
+        "class": "1B ELT",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "class": "1A ELT",
+        "room": "205(24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Diritto ed economia",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Diritto ed economia",
+        "class": "1A INF",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Diritto ed economia",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "class": "2A INF",
+        "room": "141 (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Diritto ed economia",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Diritto ed economia",
+        "class": "1A INF",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "class": "1B ELT",
+        "room": "103 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Diritto ed economia",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Diritto ed economia",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      }
+    ]
+  }
+}

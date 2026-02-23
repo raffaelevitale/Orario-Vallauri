@@ -1,0 +1,124 @@
+{
+  "teacher": "MICCOLI Giuseppe",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Disegno e storia dell'arte",
+        "class": "5A LIC",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Disegno e storia dell'arte",
+        "class": "5A LIC",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Disegno e storia dell'arte",
+        "class": "3A LIC",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Disegno e storia dell'arte",
+        "class": "3A LIC",
+        "room": "LAB.145 GALILEI (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Disegno e storia dell'arte",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Disegno e storia dell'arte",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Disegno e storia dell'arte",
+        "class": "1B LIC",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Disegno e storia dell'arte",
+        "class": "1B LIC",
+        "room": "177-E (26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Disegno e storia dell'arte",
+        "class": "4A LIC",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Disegno e storia dell'arte",
+        "class": "4A LIC",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Disegno e storia dell'arte",
+        "class": "2C LIC",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Disegno e storia dell'arte",
+        "class": "2C LIC",
+        "room": "149 TEST (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "Disegno e storia dell'arte",
+        "class": "2B LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Disegno e storia dell'arte",
+        "class": "2B LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Disegno e storia dell'arte",
+        "class": "5B LIC",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Disegno e storia dell'arte",
+        "class": "5B LIC",
+        "room": "LAB.145 GALILEI (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 5,
+        "subject": "Disegno e storia dell'arte",
+        "class": "4B LIC",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Disegno e storia dell'arte",
+        "class": "4B LIC",
+        "room": "LAB.145 GALILEI (24)"
+      }
+    ]
+  }
+}

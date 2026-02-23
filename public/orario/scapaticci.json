@@ -1,0 +1,124 @@
+{
+  "teacher": "SCAPATICCI Marina",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "2A MEC",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Gestione progetto, organizzazione d’impresa",
+        "class": "5D INF",
+        "room": "LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Gestione progetto, organizzazione d’impresa",
+        "class": "5D INF",
+        "room": "LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "5D INF",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "5D INF",
+        "room": "273-E(26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "5D INF",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "5D INF",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. informatiche",
+        "class": "1C INF",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "1C INF",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "5D INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      }
+    ]
+  }
+}

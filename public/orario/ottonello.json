@@ -1,0 +1,124 @@
+{
+  "teacher": "OTTONELLO Mauro",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "5A ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "5A ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "5A ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "5B ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "5B ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "5B ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "3B ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "3B ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "3B ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "3A ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "3A ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "3A ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "4A ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "4A ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "4A ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "4B ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "4B ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "4B ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      }
+    ]
+  }
+}

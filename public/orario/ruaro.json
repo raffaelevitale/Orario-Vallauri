@@ -1,0 +1,110 @@
+{
+  "teacher": "RUARO Carlo",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Matematica e Complementi",
+        "class": "4A MEN",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica e Complementi",
+        "class": "4A MEN",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "2D MEC",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "2D MEC",
+        "room": "149 TEST (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica e Complementi",
+        "class": "4A MEN",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "1E MEC",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "1D MEC",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "1D MEC",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "2D MEC",
+        "room": "201 (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "1E MEC",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "1E MEC",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "1D MEC",
+        "room": "T65 TEST (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "2D MEC",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica e Complementi",
+        "class": "4A MEN",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "1E MEC",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "1D MEC",
+        "room": "T65 TEST (27)"
+      }
+    ]
+  }
+}

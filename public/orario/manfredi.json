@@ -1,0 +1,124 @@
+{
+  "teacher": "MANFREDI Enrica",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "T.P.S.E.E.",
+        "class": "4A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "T.P.S.E.E.",
+        "class": "4A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.E.E.",
+        "class": "4A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.E.E.",
+        "class": "4B ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "T.P.S.E.E.",
+        "class": "4B ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.E.E.",
+        "class": "4B ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "T.P.S.E.E.",
+        "class": "5B ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.E.E.",
+        "class": "5B ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.E.E.",
+        "class": "5B ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 2,
+        "subject": "T.P.S.E.E.",
+        "class": "5A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.E.E.",
+        "class": "5A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.E.E.",
+        "class": "5A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 2,
+        "subject": "T.P.S.E.E.",
+        "class": "3A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.E.E.",
+        "class": "3A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.E.E.",
+        "class": "3A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "T.P.S.E.E.",
+        "class": "3B ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.E.E.",
+        "class": "3B ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.E.E.",
+        "class": "3B ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      }
+    ]
+  }
+}

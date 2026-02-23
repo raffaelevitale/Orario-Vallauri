@@ -1,0 +1,86 @@
+{
+  "teacher": "SCARAFFIA Maria Beatrice",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "class": "1B INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. informatiche",
+        "class": "1B INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Tecn. informatiche",
+        "class": "1E INF",
+        "room": "LAB.T81-E VOLTA(21)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "class": "2B INF",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "class": "2B INF",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "class": "1C INF",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. informatiche",
+        "class": "1C INF",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "Tecn. informatiche",
+        "class": "1E INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "class": "1E INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. informatiche",
+        "class": "1C INF",
+        "room": "LAB.T81-E VOLTA(21)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "class": "2B INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "class": "1B INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "class": "5A MEN",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "SERRA A.",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "SAMPO M., DITARANTO S.",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi e automazione",
+        "teacher": "MILANESIO M., CANAVERO A.",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "TOSELLI A.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "TOSELLI A., DITARANTO S.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "ROCCA M.",
+        "room": "201 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "teacher": "MAIOLO G., CAVALLOTTO C.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "teacher": "MAIOLO G., CAVALLOTTO C.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi e automazione",
+        "teacher": "MILANESIO M., CANAVERO A.",
+        "room": "LAB.CETOP (28), LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi e automazione",
+        "teacher": "MILANESIO M., CANAVERO A., DITARANTO S.",
+        "room": "LAB.CETOP (28), LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "TOSELLI A., DITARANTO S.",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 6,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CONTE 1 R., DITARANTO S.",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 7,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CONTE 1 R., DITARANTO S.",
+        "room": "LAB.SENERGIA (31)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "SAMPO M.",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "teacher": "SERRA A.",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "teacher": "MAIOLO G., CAVALLOTTO C.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CONTE 1 R., DITARANTO S.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "TOSELLI A.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e automazione",
+        "teacher": "MILANESIO M.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "MAIOLO G., ROCCA M.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "MAIOLO G., ROCCA M.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "teacher": "CAVALLOTTO C., DITARANTO S.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "SAMPO M., DITARANTO S.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "TOSELLI A.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "TOSELLI A.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 7,
+        "subject": "Inglese",
+        "teacher": "SERRA A.",
+        "room": "104 (25)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CONTE 1 R.",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "teacher": "MELOGNO S.",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "teacher": "MAIOLO G., CAVALLOTTO C.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "teacher": "MAIOLO G., CAVALLOTTO C., DITARANTO S.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "teacher": "DOMINICI E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "DOMINICI E.",
+        "room": "PALESTRA"
+      }
+    ]
+  }
+}

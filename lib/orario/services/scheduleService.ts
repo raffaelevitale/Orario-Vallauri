@@ -515,27 +515,27 @@ function getClassColor(className?: string): string {
 }
 
 export async function loadTeacherNames(): Promise<string[]> {
-  // Lista base con docenti che hanno file specifici
-  const teacherList: string[] = [
-    "FEA D.",
-    "MAGGIORE G.",
-    "CANONICO T.",
-    "BONAVIA M.",
-    "RACCA M.",
-    "ABBATE A.",
-    "SANINO A.",
-    "CARANTA P.",
-    "CAVALLERO L.",
-  ];
-
-  return teacherList;
+  try {
+    // Carica lista docenti dal file generato
+    const teacherList = await fetchJsonSafe<string[]>("/orario/teachers.json");
+    return teacherList.sort((a, b) => a.localeCompare(b));
+  } catch (error) {
+    console.error("Error loading teacher names:", error);
+    // Fallback: prova a estrarre dal file docenti
+    try {
+      const data = await fetchJsonSafe<TeacherScheduleData>("/orario/orario_docenti.json");
+      return Object.keys(data.schedule).sort((a, b) => a.localeCompare(b));
+    } catch {
+      return [];
+    }
+  }
 }
 
 export async function loadTeacherSchedule(
   teacherName: string
 ): Promise<Lesson[]> {
-  // Prima prova con file specifico del docente (es. fea.json per "FEA D.")
-  // Mappa personalizzata per alcuni docenti
+  // Prima prova con file specifico del docente
+  // Il nome può essere "COGNOME Nome" (dal teachers.json) oppure "COGNOME I." (vecchio formato)
   const teacherFileMap: Record<string, string> = {
     "FEA D.": "fea",
     "MAGGIORE G.": "maggiore",
@@ -550,10 +550,16 @@ export async function loadTeacherSchedule(
     "CAVALLERO L.": "cavallero",
   };
 
+  // Genera automaticamente il nome file dal cognome
+  function getTeacherFileName(name: string): string {
+    if (teacherFileMap[name]) return teacherFileMap[name];
+    // "COGNOME Nome" → "cognome"
+    const parts = name.split(/\s+/);
+    return parts[0].toLowerCase().replace(/[^a-z0-9]/g, "");
+  }
+
   try {
-    const teacherFileName =
-      teacherFileMap[teacherName] ||
-      teacherName.toLowerCase().replace(/\s+/g, "").replace(/\./g, "");
+    const teacherFileName = getTeacherFileName(teacherName);
 
     const data = await fetchJsonSafe<SingleTeacherData>(
       `/orario/${teacherFileName}.json`

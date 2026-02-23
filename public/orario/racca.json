@@ -5,33 +5,33 @@
     "monday": [
       {
         "hour": 1,
-        "subject": "Gestione Progetto",
+        "subject": "Gestione progetto, organizzazione d’impresa",
         "class": "5D INF",
-        "room": "LAB. T59 PLC (24)"
+        "room": "LAB.T59 PLC (24)"
       },
       {
         "hour": 2,
-        "subject": "Gestione Progetto",
+        "subject": "Gestione progetto, organizzazione d’impresa",
         "class": "5D INF",
-        "room": "LAB. T59 PLC (24)"
+        "room": "LAB.T59 PLC (24)"
       },
       {
         "hour": 3,
-        "subject": "Gestione Progetto",
+        "subject": "Gestione progetto, organizzazione d’impresa",
         "class": "5D INF",
-        "room": "LAB. T59 PLC (24)"
+        "room": "LAB.T59 PLC (24)"
       },
       {
         "hour": 5,
-        "subject": "T.P.S.I.T",
+        "subject": "T.P.S.I.T.",
         "class": "5A INF",
-        "room": "LAB. 119B EULERO (25)"
+        "room": "LAB.119B EULERO (25)"
       },
       {
         "hour": 6,
-        "subject": "T.P.S.I.T",
+        "subject": "T.P.S.I.T.",
         "class": "5A INF",
-        "room": "LAB. 119B EULERO (25)"
+        "room": "LAB.119B EULERO (25)"
       }
     ],
     "tuesday": [
@@ -39,31 +39,31 @@
         "hour": 1,
         "subject": "Informatica",
         "class": "4D INF",
-        "room": "LAB. 117 TOLOMEO (26)"
+        "room": "LAB.117 TOLOMEO (26)"
       },
       {
         "hour": 2,
         "subject": "Informatica",
         "class": "4D INF",
-        "room": "LAB. 117 TOLOMEO (26)"
+        "room": "LAB.117 TOLOMEO (26)"
       },
       {
         "hour": 4,
-        "subject": "T.P.S.I.T",
+        "subject": "T.P.S.I.T.",
         "class": "5A INF",
-        "room": "LAB. 143 TURING (22)"
+        "room": "LAB.143 TURING (22)"
       },
       {
         "hour": 6,
-        "subject": "T.P.S.I.T",
+        "subject": "T.P.S.I.T.",
         "class": "4D INF",
-        "room": "LAB. 119A PASCAL (27)"
+        "room": "LAB.119A PASCAL (27)"
       },
       {
         "hour": 7,
-        "subject": "T.P.S.I.T",
+        "subject": "T.P.S.I.T.",
         "class": "4D INF",
-        "room": "LAB. 119A PASCAL (27)"
+        "room": "LAB.119A PASCAL (27)"
       }
     ],
     "wednesday": [
@@ -71,53 +71,53 @@
         "hour": 6,
         "subject": "Informatica",
         "class": "4D INF",
-        "room": "LAB. S22 ARCHIMEDE (26)"
+        "room": "LAB.S22 ARCHIMEDE (26)"
       }
     ],
     "thursday": [
       {
         "hour": 3,
-        "subject": "T.P.S.I.T",
+        "subject": "T.P.S.I.T.",
         "class": "3D INF",
-        "room": "LAB. S18 MARCONI (24)"
+        "room": "LAB.S18 MARCONI (24)"
       },
       {
         "hour": 4,
-        "subject": "T.P.S.I.T",
+        "subject": "T.P.S.I.T.",
         "class": "3D INF",
-        "room": "LAB. S18 MARCONI (24)"
+        "room": "LAB.S18 MARCONI (24)"
       },
       {
         "hour": 5,
         "subject": "Informatica",
         "class": "5D INF",
-        "room": "LAB. T10 AULA AR/VR (25)"
+        "room": "LAB.171-E AULA ARVR  (25)"
       },
       {
         "hour": 6,
         "subject": "Informatica",
         "class": "5D INF",
-        "room": "LAB. T10 AULA AR/VR (25)"
+        "room": "LAB.171-E AULA ARVR  (25)"
       },
       {
         "hour": 7,
-        "subject": "T.P.S.I.T",
+        "subject": "T.P.S.I.T.",
         "class": "5D INF",
-        "room": "LAB. S18 MARCONI (24)"
+        "room": "LAB.S18 MARCONI (24)"
       }
     ],
     "friday": [
       {
         "hour": 3,
-        "subject": "T.P.S.I.T",
+        "subject": "T.P.S.I.T.",
         "class": "5D INF",
-        "room": "LAB. 119A PASCAL (27)"
+        "room": "LAB.119A PASCAL (27)"
       },
       {
         "hour": 4,
-        "subject": "T.P.S.I.T",
+        "subject": "T.P.S.I.T.",
         "class": "5D INF",
-        "room": "LAB. 119A PASCAL (27)"
+        "room": "LAB.119A PASCAL (27)"
       }
     ]
   }

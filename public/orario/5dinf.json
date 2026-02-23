@@ -1,0 +1,207 @@
+{
+  "class": "5D INF",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Gestione progetto, organizzazione d’impresa",
+        "teacher": "RACCA M., ROLFO P.",
+        "room": "LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Gestione progetto, organizzazione d’impresa",
+        "teacher": "RACCA M., ROLFO P., SCAPATICCI M.",
+        "room": "LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Gestione progetto, organizzazione d’impresa",
+        "teacher": "RACCA M., ROLFO P., SCAPATICCI M.",
+        "room": "LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "teacher": "CAVALLERO L.",
+        "room": "203 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi e reti",
+        "teacher": "CAIRONE F.",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e reti",
+        "teacher": "CAIRONE F.",
+        "room": "LAB.143 TURING (22)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e reti",
+        "teacher": "ABBATE A., CAIRONE F.",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e reti",
+        "teacher": "ABBATE A., CAIRONE F.",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "BERTINI S., SCAPATICCI M.",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "RATTI M., SOBRERO",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "teacher": "ROLFO P., SOBRERO",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.I.T.",
+        "teacher": "ROSSI M.",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 7,
+        "subject": "T.P.S.I.T.",
+        "teacher": "ROSSI M.",
+        "room": "LAB.119B EULERO (25)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "teacher": "BALLATORE A., SOBRERO",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "teacher": "BALLATORE A., SOBRERO",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "RATTI M., SOBRERO",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "BERTINI S., SCAPATICCI M.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "NARDI M.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "NARDI M.",
+        "room": "273-E(26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "RATTI M.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "teacher": "BERTINI S.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "SCAPATICCI M., NARDI M.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "SCAPATICCI M., NARDI M.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "teacher": "RACCA M., ROLFO P.",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "teacher": "RACCA M., ROLFO P.",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 7,
+        "subject": "T.P.S.I.T.",
+        "teacher": "ROSSI M., RACCA M.",
+        "room": "LAB.S18 MARCONI (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "teacher": "NARDI M.",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "SCAPATICCI M., NARDI M.",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.I.T.",
+        "teacher": "ROSSI M., RACCA M.",
+        "room": "LAB.119A PASCAL (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.I.T.",
+        "teacher": "ROSSI M., RACCA M.",
+        "room": "LAB.119A PASCAL (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "teacher": "ROLFO P.",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "teacher": "ROLFO P.",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "teacher": "PAOLETTI Elisa",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "1C MEC",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "1C MEC",
+        "room": "T09 (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "1C MEC",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "1C MEC",
+        "room": "T09 (26)"
+      }
+    ]
+  }
+}

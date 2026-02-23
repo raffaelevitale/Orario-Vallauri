@@ -1,0 +1,124 @@
+{
+  "teacher": "BLENGIO Donatella",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Lingua francese",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua francese",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "Lingua francese",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lingua francese",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua francese",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 6,
+        "subject": "Lingua francese",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 7,
+        "subject": "Lingua francese",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Lingua francese",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lingua francese",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 4,
+        "subject": "Lingua francese",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua francese",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lingua francese",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 7,
+        "subject": "Lingua francese",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Lingua francese",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lingua francese",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lingua francese",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua francese",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua francese",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      }
+    ]
+  }
+}

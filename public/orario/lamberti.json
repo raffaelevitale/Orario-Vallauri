@@ -1,0 +1,96 @@
+{
+  "teacher": "LAMBERTI Mario",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Fisica e laboratorio",
+        "class": "4B LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Fisica e laboratorio",
+        "class": "4B LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica e laboratorio",
+        "class": "3C LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica e laboratorio",
+        "class": "3C LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "Fisica e laboratorio",
+        "class": "3A LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica e laboratorio",
+        "class": "3A LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica e laboratorio",
+        "class": "5A LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Fisica e laboratorio",
+        "class": "5A LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Fisica e laboratorio",
+        "class": "5B LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Fisica e laboratorio",
+        "class": "5B LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica e laboratorio",
+        "class": "3B LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica e laboratorio",
+        "class": "3B LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica e laboratorio",
+        "class": "4A LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Fisica e laboratorio",
+        "class": "4A LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "teacher": "BERNARDI Maria",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Diritto ed economia",
+        "class": "1B MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Diritto ed economia",
+        "class": "1A MEC",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "class": "2B MEC",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "class": "2D MEC",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Diritto ed economia",
+        "class": "1D MEC",
+        "room": "T65 TEST (27)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "class": "2A MEC",
+        "room": "149 TEST (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Diritto ed economia",
+        "class": "1D MEC",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Diritto ed economia",
+        "class": "2B MEC",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Diritto ed economia",
+        "class": "1B MEC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Diritto ed economia",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "class": "2D MEC",
+        "room": "201 (24)"
+      }
+    ]
+  }
+}

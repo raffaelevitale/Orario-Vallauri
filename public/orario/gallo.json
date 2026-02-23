@@ -1,0 +1,84 @@
+{
+  "teacher": "GALLO Lorella",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "4D INF",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "4D INF",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "4E INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Storia",
+        "class": "4E INF",
+        "room": "102 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "4E INF",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "4E INF",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "4D INF",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "class": "4D INF",
+        "room": "T09 (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "4D INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "4D INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "4E INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "4E INF",
+        "room": "272-E (24)"
+      }
+    ]
+  }
+}

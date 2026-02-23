@@ -7,89 +7,89 @@
         "hour": 1,
         "subject": "Informatica",
         "class": "5A LIC",
-        "room": "LAB. 142 NEWTON (25)"
+        "room": "LAB.142 NEWTON (25)"
       },
       {
         "hour": 2,
-        "subject": "Sistemi e Reti",
+        "subject": "Sistemi e reti",
         "class": "5A INF",
-        "room": "LAB. 134 TELECOMUNICAZIONI (50)"
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
       },
       {
         "hour": 3,
-        "subject": "Sistemi e Reti",
+        "subject": "Sistemi e reti",
         "class": "4E INF",
-        "room": "LAB. S18 MARCONI (24)"
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
       },
       {
         "hour": 4,
-        "subject": "Sistemi e Reti",
+        "subject": "Sistemi e reti",
         "class": "4E INF",
-        "room": "LAB. S18 MARCONI (24)"
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
       }
     ],
     "wednesday": [
       {
         "hour": 1,
-        "subject": "Sistemi e Reti",
+        "subject": "Sistemi e reti",
         "class": "4E INF",
-        "room": "LAB. 143 TURING (22)"
+        "room": "LAB.143 TURING (22)"
       },
       {
         "hour": 2,
-        "subject": "Sistemi e Reti",
+        "subject": "Sistemi e reti",
         "class": "4E INF",
-        "room": "LAB. 143 TURING (22)"
+        "room": "LAB.143 TURING (22)"
       },
       {
         "hour": 3,
-        "subject": "Sistemi e Reti",
+        "subject": "Sistemi e reti",
         "class": "4A INF",
-        "room": "LAB. S18 MARCONI (24)"
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
       },
       {
         "hour": 4,
-        "subject": "Sistemi e Reti",
+        "subject": "Sistemi e reti",
         "class": "4A INF",
-        "room": "LAB. S18 MARCONI (24)"
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
       },
       {
         "hour": 5,
-        "subject": "Sistemi e Reti",
+        "subject": "Sistemi e reti",
         "class": "5A INF",
-        "room": "LAB. 116 LAPLACE (25)"
+        "room": "LAB.116 LAPLACE (25)"
       },
       {
         "hour": 6,
         "subject": "Informatica",
         "class": "5A LIC",
-        "room": "LAB. 117 TOLOMEO (26)"
+        "room": "LAB.117 TOLOMEO (26)"
       }
     ],
     "thursday": [
       {
         "hour": 1,
-        "subject": "Sistemi e Reti",
+        "subject": "Sistemi e reti",
         "class": "4A INF",
-        "room": "LAB. 143 TURING (22)"
+        "room": "LAB.143 TURING (22)"
       },
-    {
+      {
         "hour": 2,
-        "subject": "Sistemi e Reti",
+        "subject": "Sistemi e reti",
         "class": "4A INF",
-        "room": "LAB. 143 TURING (22)"
+        "room": "LAB.143 TURING (22)"
       },
-    {
+      {
         "hour": 5,
-        "subject": "T.P.S.I.T",
+        "subject": "Sistemi e reti",
         "class": "5A INF",
-        "room": "LAB. S18 MARCONI (24)"
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
       },
       {
         "hour": 6,
-        "subject": "T.P.S.I.T",
+        "subject": "Sistemi e reti",
         "class": "5A INF",
-        "room": "LAB. S18 MARCONI (24)"
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
       }
     ]
   }

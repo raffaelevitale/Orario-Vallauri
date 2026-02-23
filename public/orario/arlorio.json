@@ -1,0 +1,124 @@
+{
+  "teacher": "ARLORIO Franca",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "class": "4A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "class": "4B LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "class": "5A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "class": "5B LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "class": "3C LIC",
+        "room": "140 (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "class": "5A LIC",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "class": "3B LIC",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "2B LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "2A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "2C LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "class": "5B LIC",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "class": "4A LIC",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "class": "4B LIC",
+        "room": "S 76-E(27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "2A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "2B LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "2C LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Chimica",
+        "class": "3C LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "class": "3B LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      }
+    ]
+  }
+}

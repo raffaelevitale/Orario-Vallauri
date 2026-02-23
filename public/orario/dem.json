@@ -1,0 +1,124 @@
+{
+  "teacher": "DE MARCO",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "1A TUR",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 3,
+        "subject": "Geografia",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Geografia",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "Lingua francese",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Economia aziendale",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Economia aziendale",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "2A TUR",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "class": "1A TUR",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Lingua francese",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      }
+    ]
+  }
+}

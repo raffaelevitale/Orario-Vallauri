@@ -1,0 +1,195 @@
+{
+  "class": "1B LIC",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "RATTI M.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "teacher": "ALBERTO F.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "teacher": "BENASSI L.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "scienze naturali",
+        "teacher": "CALDERARO F.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "teacher": "ROSSI D.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "ROSSI D.",
+        "room": "PALESTRA"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Lab. di Chimica e di Fisica",
+        "teacher": "BENASSI L., NESI V.",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. di Chimica e di Fisica",
+        "teacher": "BENASSI L., NESI V.",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia e Geografia",
+        "teacher": "BURDESE L.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "teacher": "CAVALLO C.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Disegno e storia dell'arte",
+        "teacher": "MICCOLI G.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Disegno e storia dell'arte",
+        "teacher": "MICCOLI G.",
+        "room": "177-E (26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "RATTI M.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Fisica",
+        "teacher": "BENASSI L.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "BURDESE L.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "BURDESE L.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "teacher": "ALBERTO F.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "scienze naturali",
+        "teacher": "CALDERARO F.",
+        "room": "177-E (26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "BURDESE L.",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia e Geografia",
+        "teacher": "BURDESE L.",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "RATTI M.",
+        "room": "LAB.142 NEWTON (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "teacher": "CHIAVASSA A.",
+        "room": "LAB.142 NEWTON (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "teacher": "CHIAVASSA A.",
+        "room": "LAB.142 NEWTON (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "scienze naturali",
+        "teacher": "CALDERARO F.",
+        "room": "177-E (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "BURDESE L.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia e Geografia",
+        "teacher": "BURDESE L.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. di Chimica e di Fisica",
+        "teacher": "BENASSI L.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "ALBERTO F.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "RATTI M.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "teacher": "RATTI M.",
+        "room": "177-E (26)"
+      }
+    ]
+  }
+}

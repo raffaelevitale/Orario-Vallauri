@@ -1,0 +1,124 @@
+{
+  "teacher": "GIOVETTI Michele",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "4A ELT",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "3A ELT",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "3A ELT",
+        "room": "302 (26)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "4A ELT",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "4A ELT",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "3A ELT",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "3A ELT",
+        "room": "304 (22)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "4A ELT",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "5A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "5A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "5A ELT",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "5A ELT",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "4A ELT",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "3A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "Storia",
+        "class": "3A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "4A ELT",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "class": "5A ELT",
+        "room": "S 76-E(27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "5A ELT",
+        "room": "S 76-E(27)"
+      }
+    ]
+  }
+}

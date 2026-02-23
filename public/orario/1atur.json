@@ -1,0 +1,207 @@
+{
+  "class": "1A TUR",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "teacher": "CILIBERTI R.",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "teacher": "CILIBERTI R., IANNELLI S., DE MARCO",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 3,
+        "subject": "Geografia",
+        "teacher": "FOTI R., DE MARCO",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Diritto ed economia",
+        "teacher": "SARETTI D.",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "teacher": "DE ZANET C.",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Religione",
+        "teacher": "MONDINO S.",
+        "room": "Tesauro111  (20)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Fisica",
+        "teacher": "CALVO A.",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "teacher": "DE ZANET C.",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "TAMAGNO C., DE MARCO",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Economia aziendale",
+        "teacher": "PANERO S., ROSSI A., DE MARCO",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "teacher": "SARETTI D., ROSSI A., VELLUCCI",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lingua francese",
+        "teacher": "BLENGIO D.",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze",
+        "teacher": "LEANDRI S.",
+        "room": "Tesauro111  (20)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Geografia",
+        "teacher": "FOTI R., ROSSI A.",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "teacher": "IARIA M., ROSSI A., VELLUCCI",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "IARIA M., IANNELLI S.",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "teacher": "LEANDRI S., IANNELLI S., DE MARCO",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "TAMAGNO C., ROSSI A.",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "teacher": "TAMAGNO C., ROSSI A., DE MARCO",
+        "room": "Tesauro111  (20)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Economia aziendale",
+        "teacher": "PANERO S., ROSSI A.",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "teacher": "BASTA T., DE MARCO",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "teacher": "BASTA T., VELLUCCI",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "DE ZANET C., IANNELLI S., DE MARCO",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua francese",
+        "teacher": "BLENGIO D., VELLUCCI",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "IARIA M., IANNELLI S.",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "teacher": "IARIA M., IANNELLI S.",
+        "room": "Tesauro111  (20)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "teacher": "IARIA M., IANNELLI S.",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "IARIA M., ROSSI A., VELLUCCI",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lingua francese",
+        "teacher": "BLENGIO D., ROSSI A., VELLUCCI",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "teacher": "CALVO A., IANNELLI S., DE MARCO",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "TAMAGNO C.",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Geografia",
+        "teacher": "FOTI R., IANNELLI S.",
+        "room": "Tesauro111  (20)"
+      }
+    ]
+  }
+}

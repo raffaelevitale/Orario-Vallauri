@@ -1,0 +1,124 @@
+{
+  "teacher": "PRESTIGIACOMO Daniela Alessandras",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "3B MEC",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "1E INF",
+        "room": "151 (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Geografia",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3B MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "class": "3B MEC",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi e automazione",
+        "class": "3B MEC",
+        "room": "LAB.AUTOMAZIONE (26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 5,
+        "subject": "Matematica e Complementi",
+        "class": "3B MEC",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "3B MEC",
+        "room": "T67 (30)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "D.P.O.I.",
+        "class": "3B MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Diritto ed economia",
+        "class": "1E INF",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. informatiche",
+        "class": "1E INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3B MEC",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "3B MEC",
+        "room": "T67 (30)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "1E INF",
+        "room": "151 (27)"
+      }
+    ]
+  }
+}

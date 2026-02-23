@@ -1,0 +1,124 @@
+{
+  "teacher": "VERNASSA Gabriella",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "3A MEC",
+        "room": "S1 (30)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "class": "3A MEC",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "3A MEC",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "5C MEC",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "5C MEC",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "class": "5B MEC",
+        "room": "LAB.AUTOMAZIONE (26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "5B MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "class": "5B MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "5C MEC",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "5C MEC",
+        "room": "S4 (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "5B MEC",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "5B MEC",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "3A MEC",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "3A MEC",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "5C MEC",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "class": "5C MEC",
+        "room": "S1 (30)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "5B MEC",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "class": "3A MEC",
+        "room": "S3 (30)"
+      }
+    ]
+  }
+}

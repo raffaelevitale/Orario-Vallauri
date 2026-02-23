@@ -1,0 +1,66 @@
+{
+  "teacher": "CANGEMI  ALESSANDRINI Rosa",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "Fisica",
+        "class": "2C MEC",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Chimica",
+        "class": "2C MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 7,
+        "subject": "Chimica",
+        "class": "2E INF",
+        "room": "141 (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2C MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "class": "2E INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica",
+        "class": "2E INF",
+        "room": "102 (24)"
+      }
+    ]
+  }
+}

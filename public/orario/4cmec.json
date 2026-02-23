@@ -1,0 +1,207 @@
+{
+  "class": "4C MEC",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CANTONI S.",
+        "room": "S 76-E(27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CANTONI S.",
+        "room": "S 76-E(27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi e automazione",
+        "teacher": "ROCCA M.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "teacher": "MELOGNO S.",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica e Complementi",
+        "teacher": "SAMPO M.",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D.",
+        "room": "LAB.SENERGIA (31)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "GHIO D.",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "GHIO D.",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CANTONI S.",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CANTONI S.",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi e automazione",
+        "teacher": "CANAVERO A., ROCCA M.",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e automazione",
+        "teacher": "CANAVERO A., ROCCA M.",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "D.P.O.I.",
+        "teacher": "CONTE 2 R.",
+        "room": "S4 (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "teacher": "DOMINICI E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "teacher": "DOMINICI E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "D.P.O.I.",
+        "teacher": "CONTE 2 R., MAZZOTTA G.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "GAMBONE F., RUSSO R.",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica e Complementi",
+        "teacher": "SAMPO M.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D.",
+        "room": "S4 (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "D.P.O.I.",
+        "teacher": "CONTE 2 R., MAZZOTTA G.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "D.P.O.I.",
+        "teacher": "CONTE 2 R., MAZZOTTA G.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "GAMBONE F., RUSSO R.",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "GAMBONE F., RUSSO R.",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi e automazione",
+        "teacher": "CANAVERO A., ROCCA M.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "teacher": "GHIO D.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "teacher": "GHIO D.",
+        "room": "278-E (25)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "RUSSO R.",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "GHIO D.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "GHIO D.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica e Complementi",
+        "teacher": "SAMPO M.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica e Complementi",
+        "teacher": "SAMPO M.",
+        "room": "S4 (28)"
+      }
+    ]
+  }
+}

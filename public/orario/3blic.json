@@ -1,0 +1,195 @@
+{
+  "class": "3B LIC",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "FISSORE F.",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze naturali",
+        "teacher": "OSELLA V.",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "BURDESE L.",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "BURDESE L.",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "GERBINO S.",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Fisica e laboratorio",
+        "teacher": "FERRERO R.",
+        "room": "140 (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "teacher": "ROSSI D.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "teacher": "ROSSI D.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Informatica",
+        "teacher": "PAROLA C.",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "teacher": "PAROLA C.",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "GERBINO S.",
+        "room": "149 TEST (27), LAB.142 NEWTON (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "BURDESE L.",
+        "room": "149 TEST (27)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze naturali",
+        "teacher": "OPERTI S., OSELLA V.",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "teacher": "FISSORE F.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "teacher": "ARLORIO F.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "GERBINO S.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "BURDESE L.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "teacher": "BURDESE L.",
+        "room": "T78-E (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Disegno e storia dell'arte",
+        "teacher": "PERUCCA G.",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Disegno e storia dell'arte",
+        "teacher": "PERUCCA G.",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "FISSORE F.",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "teacher": "CAVALLO C.",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Filosofia",
+        "teacher": "BOSSIO T.",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "teacher": "BURDESE L.",
+        "room": "140 (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Filosofia",
+        "teacher": "BOSSIO T.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "GERBINO S.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica e laboratorio",
+        "teacher": "FERRERO R., LAMBERTI M.",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica e laboratorio",
+        "teacher": "FERRERO R., LAMBERTI M.",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "teacher": "OPERTI S., ARLORIO F.",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze naturali",
+        "teacher": "OSELLA V.",
+        "room": "S 76-E(27)"
+      }
+    ]
+  }
+}

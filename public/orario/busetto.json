@@ -1,0 +1,142 @@
+{
+  "teacher": "BUSETTO Anna",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Lingua francese",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua francese",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua francese",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 6,
+        "subject": "Lingua francese",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Lingua francese",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lingua francese",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lingua francese",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua francese",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua francese",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Lingua francese",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lingua francese",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua francese",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Lingua francese",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lingua francese",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua francese",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua francese",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Lingua francese",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 3,
+        "subject": "Lingua francese",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua francese",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua francese",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lingua francese",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      }
+    ]
+  }
+}

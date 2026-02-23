@@ -1,0 +1,64 @@
+{
+  "teacher": "COSTAMAGNA Agnese",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "2C INF",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "2C INF",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Inglese",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "2C INF",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "teacher": "GHIGLIONE Stefano",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "3B ELT",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "3A ELT",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "4A ELT",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "5A ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "4B ELT",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "3A ELT",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "5A ELT",
+        "room": "303 (19)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "5B ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "4B ELT",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "3B ELT",
+        "room": "T09 (26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "3A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "5B ELT",
+        "room": "303 (19)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "3B ELT",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "4A ELT",
+        "room": "302 (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "5A ELT",
+        "room": "S 76-E(27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "5B ELT",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "4A ELT",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "4B ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      }
+    ]
+  }
+}

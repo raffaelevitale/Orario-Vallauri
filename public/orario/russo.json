@@ -1,0 +1,118 @@
+{
+  "teacher": "RUSSO Roberto",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "5B MEC",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3C MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "5C MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "5C MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "5B MEC",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3C MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3C MEC",
+        "room": "LAB.T62 DPOI (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 4,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "4C MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "5C MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "5C MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "4C MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "4C MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "4C MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "5B MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "5B MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3C MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3C MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      }
+    ]
+  }
+}

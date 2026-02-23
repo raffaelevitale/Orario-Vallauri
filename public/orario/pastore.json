@@ -1,0 +1,78 @@
+{
+  "teacher": "PASTORE Luca",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "class": "1B MEC",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "class": "2E INF",
+        "room": "141 (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Religione",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      }
+    ]
+  }
+}

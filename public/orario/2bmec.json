@@ -1,0 +1,207 @@
+{
+  "class": "2B MEC",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "teacher": "CARLE F.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "BARTOLO A.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "BARTOLO A.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "BECCHIO VILLOIS L.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. Chimica",
+        "teacher": "BOCHICCHIO M., MULATTIERI S.",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "CANAVERO A., BELLOMO A.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "BECCHIO VILLOIS L.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "BARTOLO A.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "SERRA A.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "teacher": "MONTEVERDE M.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "teacher": "BERNARDI M.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Fisica",
+        "teacher": "RATEO M.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 7,
+        "subject": "Chimica",
+        "teacher": "MULATTIERI S.",
+        "room": "278-E (25)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "teacher": "CARLE F.",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "teacher": "MONTEVERDE M.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "SERRA A.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "BARTOLO A.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "BARTOLO A.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Fisica",
+        "teacher": "RATEO M.",
+        "room": "278-E (25)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "teacher": "MELOGNO S.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Diritto ed economia",
+        "teacher": "BERNARDI M.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "BECCHIO VILLOIS L.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Fisica",
+        "teacher": "RATEO M., NESI V.",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "BARTOLO A.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "PASCALE M.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze motorie",
+        "teacher": "PASCALE M.",
+        "room": "PALESTRA"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "teacher": "CARLE F., CANAVERO A.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "teacher": "SERRA A.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "BELLOMO A.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "BELLOMO A.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "teacher": "MULATTIERI S.",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "teacher": "BECCHIO VILLOIS L.",
+        "room": "278-E (25)"
+      }
+    ]
+  }
+}

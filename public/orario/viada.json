@@ -1,0 +1,124 @@
+{
+  "teacher": "VIADA Paolo",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 5,
+        "subject": "Telecomunicazioni",
+        "class": "3A INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 6,
+        "subject": "Telecomunicazioni",
+        "class": "3A INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Telecomunicazioni",
+        "class": "3C INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 2,
+        "subject": "Telecomunicazioni",
+        "class": "3C INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 4,
+        "subject": "Telecomunicazioni",
+        "class": "4A INF",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Telecomunicazioni",
+        "class": "3D INF",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "Telecomunicazioni",
+        "class": "4C INF",
+        "room": "T63 (30)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Telecomunicazioni",
+        "class": "3D INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 2,
+        "subject": "Telecomunicazioni",
+        "class": "3D INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 3,
+        "subject": "Telecomunicazioni",
+        "class": "4C INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 4,
+        "subject": "Telecomunicazioni",
+        "class": "4C INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 5,
+        "subject": "Telecomunicazioni",
+        "class": "4D INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Telecomunicazioni",
+        "class": "4D INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 2,
+        "subject": "Telecomunicazioni",
+        "class": "4D INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 3,
+        "subject": "Telecomunicazioni",
+        "class": "4A INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 4,
+        "subject": "Telecomunicazioni",
+        "class": "4A INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 4,
+        "subject": "Telecomunicazioni",
+        "class": "3C INF",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Telecomunicazioni",
+        "class": "3A INF",
+        "room": "146 (28)"
+      }
+    ]
+  }
+}

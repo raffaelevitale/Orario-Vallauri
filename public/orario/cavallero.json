@@ -5,85 +5,85 @@
     "monday": [
       {
         "hour": 3,
-        "subject": "Religione cattolica o attività alternative",
+        "subject": "Religione",
         "class": "3D INF",
         "room": "148 (28)"
       },
       {
         "hour": 4,
-        "subject": "Religione cattolica o attività alternative",
+        "subject": "Religione",
         "class": "5D INF",
         "room": "203 (26)"
       },
       {
         "hour": 5,
-        "subject": "Religione cattolica o attività alternative",
+        "subject": "Religione",
         "class": "4E INF",
-        "room": "132 (24)"
+        "room": "147 (27)"
       },
       {
         "hour": 6,
-        "subject": "Religione cattolica o attività alternative",
+        "subject": "Religione",
         "class": "2B INF",
-        "room": "222 (24)"
+        "room": "272-E (24)"
       }
     ],
     "tuesday": [
       {
         "hour": 1,
-        "subject": "Religione cattolica o attività alternative",
+        "subject": "Religione",
         "class": "5A INF",
-        "room": "131 (24)"
+        "room": "T75-E (26)"
       },
       {
         "hour": 2,
-        "subject": "Religione cattolica o attività alternative",
+        "subject": "Religione",
         "class": "2C INF",
-        "room": "224 (24)"
+        "room": "271-E (24)"
       }
     ],
     "wednesday": [
       {
         "hour": 1,
-        "subject": "Religione cattolica o attività alternative",
+        "subject": "Religione",
         "class": "4D INF",
         "room": "204 (26)"
       },
       {
         "hour": 3,
-        "subject": "Religione cattolica o attività alternative",
-        "class": "3A INF (24)",
+        "subject": "Religione",
+        "class": "3A INF",
         "room": "205(24)"
       }
     ],
     "thursday": [
-    {
+      {
         "hour": 1,
-        "subject": "Religione cattolica o attività alternative",
+        "subject": "Religione",
         "class": "4C INF",
         "room": "146 (28)"
       },
       {
         "hour": 2,
-        "subject": "Religione cattolica o attività alternative",
+        "subject": "Religione",
         "class": "5B INF",
         "room": "102 (24)"
       },
       {
         "hour": 3,
-        "subject": "Religione cattolica o attività alternative",
+        "subject": "Religione",
         "class": "5E INF",
         "room": "146 (28)"
       },
       {
         "hour": 4,
-        "subject": "Religione cattolica o attività alternative",
+        "subject": "Religione",
         "class": "3E INF",
         "room": "101 (27)"
       },
       {
         "hour": 7,
-        "subject": "Religione cattolica o attività alternative",
+        "subject": "Religione",
         "class": "5C INF",
         "room": "304 (22)"
       }
@@ -91,33 +91,33 @@
     "friday": [
       {
         "hour": 1,
-        "subject": "Religione cattolica o attività alternative",
+        "subject": "Religione",
         "class": "3B INF",
-        "room": "132 (24)"
+        "room": "147 (27)"
       },
       {
         "hour": 2,
-        "subject": "Religione cattolica o attività alternative",
+        "subject": "Religione",
         "class": "2A INF",
         "room": "102 (24)"
       },
       {
         "hour": 3,
-        "subject": "Religione cattolica o attività alternative",
+        "subject": "Religione",
         "class": "3C INF",
         "room": "302 (26)"
       },
       {
         "hour": 5,
-        "subject": "Religione cattolica o attività alternative",
+        "subject": "Religione",
         "class": "4A INF",
-        "room": "T31 (24)"
+        "room": "T75-E (26)"
       },
       {
         "hour": 6,
-        "subject": "Religione cattolica o attività alternative",
+        "subject": "Religione",
         "class": "4B INF",
-        "room": "T27 (24)"
+        "room": "T78-E (28)"
       }
     ]
   }

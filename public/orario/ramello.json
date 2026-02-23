@@ -1,0 +1,104 @@
+{
+  "teacher": "RAMELLO Lia",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "3A LIC",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "1D LIC",
+        "room": "112 TEST (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "3A LIC",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "1D LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Inglese",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "3A LIC",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "1D LIC",
+        "room": "112 TEST (24)"
+      }
+    ]
+  }
+}

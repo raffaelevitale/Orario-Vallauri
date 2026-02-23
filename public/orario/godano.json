@@ -1,0 +1,130 @@
+{
+  "teacher": "GODANO Giulia",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "4B INF",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "5C INF",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia e Geografia",
+        "class": "1D LIC",
+        "room": "112 TEST (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "4B INF",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "4B INF",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "1D LIC",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "1D LIC",
+        "room": "112 TEST (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Storia e Geografia",
+        "class": "1D LIC",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "1D LIC",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "5C INF",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "5C INF",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "5C INF",
+        "room": "T63 (30)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "4B INF",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia e Geografia",
+        "class": "1D LIC",
+        "room": "T75-E (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "1D LIC",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "4B INF",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "4B INF",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "5C INF",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "5C INF",
+        "room": "275-E (30)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "teacher": "TONELLO Cristina",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "D.P.O.I.",
+        "class": "4A MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "D.P.O.I.",
+        "class": "3A MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "D.P.O.I.",
+        "class": "3A MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "4A MEN",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "4A MEN",
+        "room": "LAB.S53A CAD CAM (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "D.P.O.I.",
+        "class": "4A MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "D.P.O.I.",
+        "class": "4A MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "D.P.O.I.",
+        "class": "5A MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "D.P.O.I.",
+        "class": "5A MEC",
+        "room": "LAB.T62 DPOI (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "D.P.O.I.",
+        "class": "5A MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "D.P.O.I.",
+        "class": "5A MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      }
+    ]
+  }
+}

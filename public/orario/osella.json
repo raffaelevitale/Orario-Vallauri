@@ -1,0 +1,124 @@
+{
+  "teacher": "OSELLA Vilma",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Scienze naturali",
+        "class": "3A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze naturali",
+        "class": "3B LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze naturali",
+        "class": "4A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze naturali",
+        "class": "5B LIC",
+        "room": "151 (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Scienze naturali",
+        "class": "5B LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze naturali",
+        "class": "5A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze naturali",
+        "class": "4A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "scienze naturali",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze naturali",
+        "class": "3B LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze naturali",
+        "class": "5B LIC",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze naturali",
+        "class": "3A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "Scienze naturali",
+        "class": "5A LIC",
+        "room": "203 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze naturali",
+        "class": "4A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "scienze naturali",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Scienze naturali",
+        "class": "5A LIC",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze naturali",
+        "class": "3A LIC",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "scienze naturali",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze naturali",
+        "class": "3B LIC",
+        "room": "S 76-E(27)"
+      }
+    ]
+  }
+}

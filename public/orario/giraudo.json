@@ -1,0 +1,124 @@
+{
+  "teacher": "GIRAUDO Cecilia",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "1C MEC",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "Storia",
+        "class": "1C MEC",
+        "room": "T65 TEST (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "2C MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "class": "2C MEC",
+        "room": "S3 (30)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "1C MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "class": "1C MEC",
+        "room": "S3 (30)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "1C MEC",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "1C MEC",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      }
+    ]
+  }
+}

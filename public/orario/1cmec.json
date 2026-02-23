@@ -1,0 +1,213 @@
+{
+  "class": "1C MEC",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "teacher": "MELOGNO S.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "BELLOMO A.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Fisica",
+        "teacher": "FERRANTE G., BOSIO A.",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. informatiche",
+        "teacher": "BRENTA M.",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "GIRAUDO C.",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "Storia",
+        "teacher": "GIRAUDO C.",
+        "room": "T65 TEST (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "BELLOMO A.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "BELLOMO A.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze",
+        "teacher": "CALDERARO F.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "teacher": "BOSIO A.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "teacher": "MULATTIERI S.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. informatiche",
+        "teacher": "BRENTA M., CAPUTO L.",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Tecn. informatiche",
+        "teacher": "BRENTA M., CAPUTO L.",
+        "room": "LAB.S18B DISEGNO (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "PAOLETTI E.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "PAOLETTI E.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Diritto ed economia",
+        "teacher": "SARETTI D.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Diritto ed economia",
+        "teacher": "SARETTI D.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "teacher": "PASCALE M.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "PASCALE M.",
+        "room": "PALESTRA"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Fisica",
+        "teacher": "BOSIO A.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "teacher": "CALDERARO F.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Chimica",
+        "teacher": "BOCHICCHIO M., MULATTIERI S.",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 4,
+        "subject": "Geografia",
+        "teacher": "SAPPA F.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "GIRAUDO C.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "teacher": "GIRAUDO C.",
+        "room": "S3 (30)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "PAOLETTI E.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "PAOLETTI E.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "GIRAUDO C.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "GIRAUDO C.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "teacher": "MULATTIERI S.",
+        "room": "T09 (26)"
+      }
+    ]
+  }
+}

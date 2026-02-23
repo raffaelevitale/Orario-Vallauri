@@ -1,0 +1,207 @@
+{
+  "class": "3A ELT",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "T.P.S.E.E.",
+        "teacher": "TORASSA D.",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica e Complementi",
+        "teacher": "GARRO V.",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "GARRO V.",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "GHIGLIONE S.",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "GIOVETTI M.",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "GIOVETTI M.",
+        "room": "302 (26)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "teacher": "MONDINO S.",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "teacher": "GHIGLIONE S.",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "GIOVETTI M.",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "GIOVETTI M.",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 5,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "CERVATO G.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.E.E.",
+        "teacher": "TORASSA D.",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 7,
+        "subject": "T.P.S.E.E.",
+        "teacher": "TORASSA D.",
+        "room": "LAB.T81-E VOLTA(21)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "CERVATO G., OTTONELLO M.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "CERVATO G., OTTONELLO M.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "CERVATO G., OTTONELLO M.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "GARRO V.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi automatici",
+        "teacher": "OLIVERO G.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi automatici",
+        "teacher": "OLIVERO G.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "GHIGLIONE S.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "T.P.S.E.E.",
+        "teacher": "MANFREDI E., TORASSA D.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.E.E.",
+        "teacher": "MANFREDI E., TORASSA D.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.E.E.",
+        "teacher": "MANFREDI E., TORASSA D.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "GARRO V.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "GIOVETTI M.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "Storia",
+        "teacher": "GIOVETTI M.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "CERVATO G.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "CERVATO G.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi automatici",
+        "teacher": "TOSELLI A., OLIVERO G.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi automatici",
+        "teacher": "TOSELLI A., OLIVERO G.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "teacher": "ALESSANDRINI A.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "ALESSANDRINI A.",
+        "room": "PALESTRA"
+      }
+    ]
+  }
+}

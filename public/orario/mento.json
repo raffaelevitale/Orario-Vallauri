@@ -1,0 +1,90 @@
+{
+  "teacher": "MENTO Claudia",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Fisica e laboratorio",
+        "class": "4B LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Fisica e laboratorio",
+        "class": "4B LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Informatica",
+        "class": "3A INF",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "4B LIC",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Telecomunicazioni",
+        "class": "3A INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "3A INF",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica e laboratorio",
+        "class": "4B LIC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "3A INF",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "class": "4B LIC",
+        "room": "LAB.145 GALILEI (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Informatica",
+        "class": "3A INF",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "4B LIC",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "3A INF",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Telecomunicazioni",
+        "class": "3A INF",
+        "room": "146 (28)"
+      }
+    ]
+  }
+}

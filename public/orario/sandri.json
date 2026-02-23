@@ -1,0 +1,104 @@
+{
+  "teacher": "SANDRI Sandro",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      }
+    ]
+  }
+}

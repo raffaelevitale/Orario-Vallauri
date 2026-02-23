@@ -1,0 +1,124 @@
+{
+  "teacher": "MONDINO Stefania",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Religione",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Religione",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "class": "3A ELT",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "class": "5A ELT",
+        "room": "303 (19)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "class": "2D INF",
+        "room": "212 TEST (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "class": "1B INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Religione",
+        "class": "3B ELT",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Religione",
+        "class": "1B ELT",
+        "room": "103 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "class": "4B ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "class": "1A ELT",
+        "room": "205(24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Religione",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Religione",
+        "class": "5B ELT",
+        "room": "303 (19)"
+      },
+      {
+        "hour": 7,
+        "subject": "Religione",
+        "class": "4A ELT",
+        "room": "302 (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      }
+    ]
+  }
+}

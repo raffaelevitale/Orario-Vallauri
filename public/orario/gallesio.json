@@ -1,0 +1,124 @@
+{
+  "teacher": "GALLESIO Barbara",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "3B MEC",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "class": "3B MEC",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "4A MEC",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "4A MEC",
+        "room": "T63 (30)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "4A MEC",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "4A MEC",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "class": "3B MEC",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "3B MEC",
+        "room": "T67 (30)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "3B MEC",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "class": "3B MEC",
+        "room": "T67 (30)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "4A MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "4A MEC",
+        "room": "S3 (30)"
+      }
+    ]
+  }
+}

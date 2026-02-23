@@ -1,0 +1,104 @@
+{
+  "teacher": "BRIZIO Marianna",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Matematica e Complementi",
+        "class": "4E INF",
+        "room": "205(24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "2E INF",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "3E INF",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "3E INF",
+        "room": "T67 (30)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "2E INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica e Complementi",
+        "class": "4E INF",
+        "room": "203 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica e Complementi",
+        "class": "4E INF",
+        "room": "203 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "5E INF",
+        "room": "T64 (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "3E INF",
+        "room": "103 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "5E INF",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "2E INF",
+        "room": "112 TEST (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "Matematica e Complementi",
+        "class": "3E INF",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica e Complementi",
+        "class": "4E INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "5E INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "2E INF",
+        "room": "141 (28)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "class": "4B AFM",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "RAVIOLA A.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "teacher": "BERNARDI M.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 3,
+        "subject": "Economia aziendale",
+        "teacher": "PANERO S.",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 4,
+        "subject": "Economia aziendale",
+        "teacher": "PANERO S.",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto",
+        "teacher": "GIANNONE E.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "teacher": "FERRERO P.",
+        "room": "Tesauro110  (19)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "FERRERO P.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lingua francese",
+        "teacher": "BUSETTO A.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "BERNARDI M.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 4,
+        "subject": "Diritto",
+        "teacher": "GIANNONE E.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 5,
+        "subject": "Economia politica",
+        "teacher": "GIANNONE E.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "teacher": "SBROZZI I.",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 7,
+        "subject": "Informatica",
+        "teacher": "SBROZZI I.",
+        "room": "Tesauro LAB.INFORMATICA"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Economia aziendale",
+        "teacher": "PANERO S.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "teacher": "PASTORE L.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "RAVIOLA A.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "BERNARDI M.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "teacher": "BASTA T.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "BASTA T.",
+        "room": "PALESTRA"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Economia politica",
+        "teacher": "GIANNONE E.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 2,
+        "subject": "Diritto",
+        "teacher": "GIANNONE E.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "FERRERO P.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua francese",
+        "teacher": "BUSETTO A.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 5,
+        "subject": "Economia aziendale",
+        "teacher": "PANERO S.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia aziendale",
+        "teacher": "PANERO S.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "teacher": "BERNARDI M.",
+        "room": "Tesauro110  (19)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "BERNARDI M.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "BERNARDI M.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lingua francese",
+        "teacher": "BUSETTO A.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "RAVIOLA A.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 5,
+        "subject": "Economia aziendale",
+        "teacher": "PANERO S.",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia aziendale",
+        "teacher": "PANERO S.",
+        "room": "Tesauro110  (19)"
+      }
+    ]
+  }
+}

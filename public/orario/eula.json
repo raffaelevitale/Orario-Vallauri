@@ -1,0 +1,112 @@
+{
+  "teacher": "EULA Sonia",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Discipline turistiche e aziendali",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 2,
+        "subject": "Economia aziendale",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Economia aziendale",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia aziendale",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Economia aziendale",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Discipline turistiche e aziendali",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 4,
+        "subject": "Economia aziendale",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Economia aziendale",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 5,
+        "subject": "Economia aziendale",
+        "class": "3B AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia aziendale",
+        "class": "3B AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 4,
+        "subject": "Economia aziendale",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Discipline turistiche e aziendali",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Discipline turistiche e aziendali",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 7,
+        "subject": "Economia aziendale",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 4,
+        "subject": "Economia aziendale",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia aziendale",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      }
+    ]
+  }
+}

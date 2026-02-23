@@ -1,0 +1,213 @@
+{
+  "class": "1A ELT",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "MONDINO L.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "teacher": "VIRZI D.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. informatiche",
+        "teacher": "BRENTA M.",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "teacher": "BRAMARDI L.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "TAMAGNO C.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "teacher": "CINELLI C.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Diritto ed economia",
+        "teacher": "SALONE G.",
+        "room": "205(24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "teacher": "CICCARELLO S.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "CICCARELLO S.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze",
+        "teacher": "VIRZI D.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Fisica",
+        "teacher": "BRAMARDI L., FERRANTE G.",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "teacher": "SALONE G.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. Chimica",
+        "teacher": "ROSSI F., DESIMONE M.",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 7,
+        "subject": "Geografia",
+        "teacher": "SAPPA F.",
+        "room": "205(24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. informatiche",
+        "teacher": "BRENTA M., LI CALSI D.",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. informatiche",
+        "teacher": "BRENTA M., LI CALSI D.",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "teacher": "ALESSANDRINI A.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "teacher": "ALESSANDRINI A.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "teacher": "ROSSI F.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Fisica",
+        "teacher": "BRAMARDI L.",
+        "room": "205(24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "teacher": "ROSSI F.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "teacher": "CINELLI C.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "teacher": "MONDINO S.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "CICCARELLO S.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "CICCARELLO S.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "teacher": "TAMAGNO C.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica",
+        "teacher": "TAMAGNO C.",
+        "room": "205(24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "CINELLI C.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "TAMAGNO C.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "MONDINO L.",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "MONDINO L.",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "CICCARELLO S.",
+        "room": "103 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "CICCARELLO S.",
+        "room": "103 (24)"
+      }
+    ]
+  }
+}

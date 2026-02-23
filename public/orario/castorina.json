@@ -1,0 +1,124 @@
+{
+  "teacher": "CASTORINA Ludovica",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Economia aziendale",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Geografia",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "2B AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "2B AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 3,
+        "subject": "Lingua francese",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "class": "1B AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Economia aziendale",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Lingua francese",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      }
+    ]
+  }
+}

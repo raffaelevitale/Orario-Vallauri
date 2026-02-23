@@ -1,0 +1,124 @@
+{
+  "teacher": "MAZZOTTA Gerardo",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "D.P.O.I.",
+        "class": "5B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "D.P.O.I.",
+        "class": "5B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "D.P.O.I.",
+        "class": "4B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "D.P.O.I.",
+        "class": "4B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "D.P.O.I.",
+        "class": "5C MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "D.P.O.I.",
+        "class": "5C MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "D.P.O.I.",
+        "class": "4B MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "D.P.O.I.",
+        "class": "3B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "D.P.O.I.",
+        "class": "3B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "D.P.O.I.",
+        "class": "4C MEC",
+        "room": "LAB.T62 DPOI (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "D.P.O.I.",
+        "class": "4C MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "D.P.O.I.",
+        "class": "4C MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "D.P.O.I.",
+        "class": "5B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "D.P.O.I.",
+        "class": "5B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "D.P.O.I.",
+        "class": "3C MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "D.P.O.I.",
+        "class": "3C MEC",
+        "room": "LAB.T62 DPOI (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "D.P.O.I.",
+        "class": "5C MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "D.P.O.I.",
+        "class": "5C MEC",
+        "room": "LAB.T62 DPOI (28)"
+      }
+    ]
+  }
+}

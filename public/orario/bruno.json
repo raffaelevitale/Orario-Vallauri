@@ -1,0 +1,124 @@
+{
+  "teacher": "BRUNO Emmanuela",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "1B MEC",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "1B MEC",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Chimica",
+        "class": "2A INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "1B MEC",
+        "room": "T09 (26)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "1B MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "2A INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "2A INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Geografia",
+        "class": "1B MEC",
+        "room": "S2 (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2A INF",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "class": "2A INF",
+        "room": "141 (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "1B MEC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "1B MEC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Diritto ed economia",
+        "class": "1B MEC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica",
+        "class": "2A INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "2A INF",
+        "room": "102 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "1B MEC",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "class": "2A INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "2A INF",
+        "room": "102 (24)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "teacher": "DE ZANET Chiara",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "1A LIC",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "2A LIC",
+        "room": "203 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "2A LIC",
+        "room": "203 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "1A LIC",
+        "room": "275-E (30)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "1A LIC",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "2A LIC",
+        "room": "203 (26)"
+      }
+    ]
+  }
+}

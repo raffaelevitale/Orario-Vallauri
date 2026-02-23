@@ -1,0 +1,124 @@
+{
+  "teacher": "MONTEVERDE Martino",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 5,
+        "subject": "Scienze",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "class": "1B INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "class": "1B MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "class": "2B MEC",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze",
+        "class": "1B INF",
+        "room": "101 (27)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "class": "2B MEC",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze",
+        "class": "1B MEC",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze",
+        "class": "2C INF",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "class": "1D INF",
+        "room": "105 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze",
+        "class": "2B INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze",
+        "class": "1A MEC",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "class": "2C INF",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 5,
+        "subject": "Scienze",
+        "class": "1D INF",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "class": "2B INF",
+        "room": "T63 (30)"
+      }
+    ]
+  }
+}

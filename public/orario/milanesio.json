@@ -1,0 +1,124 @@
+{
+  "teacher": "MILANESIO Mario",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Sistemi e automazione",
+        "class": "5A MEN",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "class": "2A MEC",
+        "room": "LAB.CETOP (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Sistemi e automazione",
+        "class": "5A MEN",
+        "room": "LAB.CETOP (28), LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi e automazione",
+        "class": "5A MEN",
+        "room": "LAB.CETOP (28), LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi e automazione",
+        "class": "3B MEC",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Sistemi e automazione",
+        "class": "3A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 2,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "class": "2A MEC",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi e automazione",
+        "class": "4A MEN",
+        "room": "LAB.CETOP (28), LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi e automazione",
+        "class": "4A MEN",
+        "room": "LAB.CETOP (28), LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e automazione",
+        "class": "5A MEN",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 4,
+        "subject": "Sistemi e automazione",
+        "class": "3B MEC",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e automazione",
+        "class": "4A MEN",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Sistemi e automazione",
+        "class": "3A MEN",
+        "room": "LAB.CETOP (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "Sistemi e automazione",
+        "class": "3A MEN",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi e automazione",
+        "class": "3B MEC",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi e automazione",
+        "class": "3B MEC",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "class": "2A MEC",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e automazione",
+        "class": "4A MEN",
+        "room": "LAB.CETOP (28)"
+      }
+    ]
+  }
+}

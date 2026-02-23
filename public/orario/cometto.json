@@ -1,0 +1,124 @@
+{
+  "teacher": "COMETTO Giorgio",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Telecomunicazioni",
+        "class": "3E INF",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.E.E.",
+        "class": "4B ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "T.P.S.E.E.",
+        "class": "4B ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.E.E.",
+        "class": "4B ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "Telecomunicazioni",
+        "class": "3B INF",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Telecomunicazioni",
+        "class": "4E INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 4,
+        "subject": "Telecomunicazioni",
+        "class": "4E INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 6,
+        "subject": "Telecomunicazioni",
+        "class": "4B INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 7,
+        "subject": "Telecomunicazioni",
+        "class": "4B INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "T.P.S.E.E.",
+        "class": "4B ELT",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "T.P.S.E.E.",
+        "class": "4B ELT",
+        "room": "302 (26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Telecomunicazioni",
+        "class": "4E INF",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Telecomunicazioni",
+        "class": "4B INF",
+        "room": "LAB.T81-E VOLTA(21)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "T.P.S.E.E.",
+        "class": "4B ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Telecomunicazioni",
+        "class": "3B INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 4,
+        "subject": "Telecomunicazioni",
+        "class": "3B INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 5,
+        "subject": "Telecomunicazioni",
+        "class": "3E INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 6,
+        "subject": "Telecomunicazioni",
+        "class": "3E INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      }
+    ]
+  }
+}

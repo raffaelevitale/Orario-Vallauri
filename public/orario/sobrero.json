@@ -1,0 +1,118 @@
+{
+  "teacher": "SOBRERO",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "5D INF",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "class": "5D INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "class": "5D INF",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "class": "5D INF",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "5D INF",
+        "room": "T64 (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Elettriche",
+        "class": "2B ELT",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "class": "2A MEC",
+        "room": "LAB.CETOP (28)"
+      }
+    ]
+  }
+}

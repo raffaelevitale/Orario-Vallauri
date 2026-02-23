@@ -1,0 +1,124 @@
+{
+  "teacher": "BOCHICCHIO Mariangela",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Lab. Chimica",
+        "class": "2A INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Chimica",
+        "class": "2D MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. Chimica",
+        "class": "2B MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. Chimica",
+        "class": "2C INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "Lab. Chimica",
+        "class": "2A MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Chimica",
+        "class": "2C MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Chimica",
+        "class": "2D INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. Chimica",
+        "class": "2E INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Chimica",
+        "class": "2B INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "Lab. Chimica",
+        "class": "1C MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Chimica",
+        "class": "1B INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. Chimica",
+        "class": "1A INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. Chimica",
+        "class": "1E INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 7,
+        "subject": "Lab. Chimica",
+        "class": "1D INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Chimica",
+        "class": "1A MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. Chimica",
+        "class": "1C INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Chimica",
+        "class": "1B MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Chimica",
+        "class": "1D MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      }
+    ]
+  }
+}

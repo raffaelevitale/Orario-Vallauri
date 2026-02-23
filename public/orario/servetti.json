@@ -1,0 +1,64 @@
+{
+  "teacher": "SERVETTI Debora",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Matematica e Complementi",
+        "class": "4B INF",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica e Complementi",
+        "class": "3B INF",
+        "room": "T78-E (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "3B INF",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica e Complementi",
+        "class": "4B INF",
+        "room": "T78-E (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica e Complementi",
+        "class": "4B INF",
+        "room": "T78-E (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Matematica e Complementi",
+        "class": "4B INF",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "3B INF",
+        "room": "T78-E (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "3B INF",
+        "room": "T78-E (28)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "teacher": "PIOVANO Elisa",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "class": "1D INF",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "class": "1D INF",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "class": "1E INF",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "class": "1E INF",
+        "room": "PALESTRA"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "class": "2E INF",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "class": "2E INF",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "class": "2B INF",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "class": "2B INF",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "class": "2C INF",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze motorie",
+        "class": "2C INF",
+        "room": "PALESTRA"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "class": "1C INF",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "class": "1C INF",
+        "room": "PALESTRA"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "class": "1E MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "class": "1E MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "class": "1D LIC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "class": "1D LIC",
+        "room": "PALESTRA"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "class": "1B INF",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "class": "1B INF",
+        "room": "PALESTRA"
+      }
+    ]
+  }
+}

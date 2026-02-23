@@ -1,0 +1,124 @@
+{
+  "teacher": "MULATTIERI Sonia",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Chimica",
+        "class": "2D MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. Chimica",
+        "class": "2B MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 7,
+        "subject": "Chimica",
+        "class": "1B MEC",
+        "room": "T09 (26)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Lab. Chimica",
+        "class": "2C MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "class": "1C MEC",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "class": "1D MEC",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "Chimica",
+        "class": "2B MEC",
+        "room": "278-E (25)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "class": "1B MEC",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "class": "2D MEC",
+        "room": "201 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "Lab. Chimica",
+        "class": "1C MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "class": "2D MEC",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "class": "1D MEC",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "Chimica",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Lab. Chimica",
+        "class": "1B MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Chimica",
+        "class": "1D MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "class": "2B MEC",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "class": "1C MEC",
+        "room": "T09 (26)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "teacher": "OLOCCO Michela",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1A INF",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1E MEC",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2A INF",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1B INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1B INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1A INF",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1A INF",
+        "room": "104 (25)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2B INF",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2B INF",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2A INF",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2A INF",
+        "room": "LAB.S18B DISEGNO (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1E MEC",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1E MEC",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1B INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2B INF",
+        "room": "272-E (24)"
+      }
+    ]
+  }
+}

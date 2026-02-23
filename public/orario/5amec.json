@@ -1,0 +1,207 @@
+{
+  "class": "5A MEC",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "PEANO M.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "teacher": "RACCA M.",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "teacher": "MELOGNO S.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CANTONI S.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CANTONI S.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "D.P.O.I.",
+        "teacher": "GARNERO A.",
+        "room": "LAB.S53A CAD CAM (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e automazione",
+        "teacher": "MANESCOTTO G., TOMATIS C.",
+        "room": "LAB.CETOP (28), LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e automazione",
+        "teacher": "MANESCOTTO G., TOMATIS C.",
+        "room": "LAB.CETOP (28), LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "GHIO D.",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "GHIO D.",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "PEANO M., GAMBONE F.",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "teacher": "BALLOCCO L.",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "Inglese",
+        "teacher": "RACCA M.",
+        "room": "301 (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "teacher": "DE PASQUALE P.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "teacher": "DE PASQUALE P.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "BALLOCCO L.",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CANTONI S.",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "D.P.O.I.",
+        "teacher": "GARNERO A., TONELLO C.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "D.P.O.I.",
+        "teacher": "GARNERO A., TONELLO C.",
+        "room": "LAB.T62 DPOI (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "teacher": "GHIO D.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "GHIO D.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CANTONI S.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "BALLOCCO L.",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "PEANO M., GAMBONE F.",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "PEANO M., GAMBONE F.",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Sistemi e automazione",
+        "teacher": "MANESCOTTO G., TOMATIS C.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "D.P.O.I.",
+        "teacher": "GARNERO A., TONELLO C.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "D.P.O.I.",
+        "teacher": "GARNERO A., TONELLO C.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "RACCA M.",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi e automazione",
+        "teacher": "MANESCOTTO G.",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "GHIO D.",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "GHIO D.",
+        "room": "301 (28)"
+      }
+    ]
+  }
+}

@@ -2,112 +2,56 @@
   "teacher": "ABBATE Andrea",
   "school": "I.I.S. G. Vallauri",
   "schedule": {
-    "monday": [
-      {
-        "hour": 1,
-        "subject": "Ufficio Tecnico",
-        "room": "Ufficio Tecnico"
-      },
-      {
-        "hour": 2,
-        "subject": "Ufficio Tecnico",
-        "room": "Ufficio Tecnico"
-      },
-      {
-        "hour": 3,
-        "subject": "Ufficio Tecnico",
-        "room": "Ufficio Tecnico"
-      }
-    ],
     "tuesday": [
-        {
+      {
         "hour": 1,
-        "subject": "Sistemi e Reti",
+        "subject": "Sistemi e reti",
         "class": "5D INF",
-        "room": "LAB. S18 MARCONI (24)"
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
       },
       {
         "hour": 2,
-        "subject": "Sistemi e Reti",
+        "subject": "Sistemi e reti",
         "class": "5D INF",
-        "room": "LAB. S18 MARCONI (24)"
-      },
-      {
-        "hour": 3,
-        "subject": "Ufficio Tecnico",
-        "room": "Ufficio Tecnico"
-      },
-      {
-        "hour": 4,
-        "subject": "Ufficio Tecnico",
-        "room": "Ufficio Tecnico"
-      },
-      {
-        "hour": 5,
-        "subject": "Sistemi e Reti",
-        "class": "5E INF",
-        "room": "LAB. S18 MARCONI (24)"
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
       },
       {
         "hour": 6,
-        "subject": "Sistemi e Reti",
+        "subject": "Sistemi e reti",
         "class": "5E INF",
-        "room": "LAB. S18 MARCONI (24)"
-      }
-    ],
-    "wednesday": [
-      {
-        "hour": 1,
-        "subject": "Ufficio Tecnico",
-        "room": "Ufficio Tecnico"
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
       },
       {
-        "hour": 2,
-        "subject": "Ufficio Tecnico",
-        "room": "Ufficio Tecnico"
-      }
-    ],
-    "thursday": [
-    {
-        "hour": 1,
-        "subject": "Ufficio Tecnico",
-        "room": "Ufficio Tecnico"
-      },
-      {
-        "hour": 2,
-        "subject": "Ufficio Tecnico",
-        "room": "Ufficio Tecnico"
-      },
-      {
-        "hour": 3,
-        "subject": "Ufficio Tecnico",
-        "room": "Ufficio Tecnico"
+        "hour": 7,
+        "subject": "Sistemi e reti",
+        "class": "5E INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
       }
     ],
     "friday": [
-    {
+      {
         "hour": 3,
-        "subject": "Sistemi e Reti",
+        "subject": "Sistemi e reti",
         "class": "5C INF",
-        "room": "LAB. S18 MARCONI (24)"
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
       },
       {
         "hour": 4,
-        "subject": "Sistemi e Reti",
+        "subject": "Sistemi e reti",
         "class": "5C INF",
-        "room": "LAB. S18 MARCONI (24)"
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
       },
       {
         "hour": 5,
-        "subject": "Sistemi e Reti",
+        "subject": "Sistemi e reti",
         "class": "5B INF",
-        "room": "LAB. S18 MARCONI (24)"
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
       },
       {
         "hour": 6,
-        "subject": "Sistemi e Reti",
-        "class": "5C INF",
-        "room": "LAB. S18 MARCONI (24)"
+        "subject": "Sistemi e reti",
+        "class": "5B INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
       }
     ]
   }

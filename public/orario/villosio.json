@@ -1,0 +1,124 @@
+{
+  "teacher": "VILLOSIO Maria Angela",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "4C INF",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "3B INF",
+        "room": "T78-E (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "4C INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "4C INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "class": "3A INF",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "3B INF",
+        "room": "272-E (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "3A INF",
+        "room": "205(24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "3A INF",
+        "room": "205(24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "3B INF",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "3B INF",
+        "room": "301 (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "4C INF",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "3A INF",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "3B INF",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "class": "3B INF",
+        "room": "146 (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "4C INF",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "4C INF",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "3A INF",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "3A INF",
+        "room": "146 (28)"
+      }
+    ]
+  }
+}

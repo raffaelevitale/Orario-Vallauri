@@ -1,0 +1,207 @@
+{
+  "class": "3A INF",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "T.P.S.I.T.",
+        "teacher": "FEA D.",
+        "room": "LAB.119A PASCAL (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "T.P.S.I.T.",
+        "teacher": "FEA D.",
+        "room": "LAB.119A PASCAL (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Informatica",
+        "teacher": "BARBERO A., MENTO C.",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "ARNEODO L.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Telecomunicazioni",
+        "teacher": "MERCADANTE M., VIADA P., LATELA D.",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 6,
+        "subject": "Telecomunicazioni",
+        "teacher": "MERCADANTE M., VIADA P., MENTO C.",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "teacher": "BARBERO A., MAGGIORE G.",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "teacher": "BARBERO A., MAGGIORE G., MENTO C.",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "teacher": "VILLOSIO M., LATELA D.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "FOGLIA P., LATELA D.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "ARNEODO L., MENTO C.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e reti",
+        "teacher": "CHIAVASSA A.",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Sistemi e reti",
+        "teacher": "CHIAVASSA A.",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "VILLOSIO M.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "VILLOSIO M., LATELA D.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "teacher": "CAVALLERO L., LATELA D.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "ARNEODO L.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "teacher": "BALLATORE A.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "BALLATORE A.",
+        "room": "PALESTRA"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e reti",
+        "teacher": "MAGGIORE G., CHIAVASSA A.",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e reti",
+        "teacher": "MAGGIORE G., CHIAVASSA A., LATELA D.",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "FOGLIA P.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "teacher": "BARBERO A.",
+        "room": "LAB.119A PASCAL (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "VILLOSIO M.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.I.T.",
+        "teacher": "FEA D., MARSERO D., LATELA D.",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "T.P.S.I.T.",
+        "teacher": "FEA D., MARSERO D., LATELA D.",
+        "room": "LAB.117 TOLOMEO (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "FOGLIA P.",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica e Complementi",
+        "teacher": "ARNEODO L., LATELA D.",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Informatica",
+        "teacher": "BARBERO A., MENTO C.",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "VILLOSIO M.",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "VILLOSIO M., MENTO C.",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Telecomunicazioni",
+        "teacher": "VIADA P., MENTO C.",
+        "room": "146 (28)"
+      }
+    ]
+  }
+}

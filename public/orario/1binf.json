@@ -1,0 +1,213 @@
+{
+  "class": "1B INF",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Diritto ed economia",
+        "teacher": "BONINO M.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. Fisica",
+        "teacher": "CALVO A., FERRANTE G.",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "CORNERO A.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "teacher": "SCARAFFIA M., LI CALSI D.",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. informatiche",
+        "teacher": "SCARAFFIA M., LI CALSI D.",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "teacher": "MONTEVERDE M.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "Geografia",
+        "teacher": "SAPPA F.",
+        "room": "101 (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "OLOCCO M.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "OLOCCO M.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "GROSSO S.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "GROSSO S.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "teacher": "BONO A.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "teacher": "BARBERO S.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze",
+        "teacher": "MONTEVERDE M.",
+        "room": "101 (27)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "CORNERO A.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Fisica",
+        "teacher": "CALVO A.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "teacher": "MONDINO S.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "BARBERO S.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "GROSSO S.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "GROSSO S.",
+        "room": "101 (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Diritto ed economia",
+        "teacher": "BONINO M.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Fisica",
+        "teacher": "CALVO A.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "CORNERO A.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Chimica",
+        "teacher": "BOCHICCHIO M., BONO A.",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DEMICHELIS A., OLOCCO M.",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "teacher": "BARBERO S.",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica",
+        "teacher": "BARBERO S.",
+        "room": "T63 (30)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "teacher": "PIOVANO E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "teacher": "PIOVANO E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "teacher": "BONO A.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "teacher": "SCARAFFIA M.",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "GROSSO S.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "GROSSO S.",
+        "room": "101 (27)"
+      }
+    ]
+  }
+}

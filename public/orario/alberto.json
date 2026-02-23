@@ -1,0 +1,84 @@
+{
+  "teacher": "ALBERTO Franca",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "2B LIC",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "1B LIC",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "2C LIC",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "2B LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "2C LIC",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "1B LIC",
+        "room": "177-E (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "1B LIC",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "2B LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "2C LIC",
+        "room": "149 TEST (27)"
+      }
+    ]
+  }
+}

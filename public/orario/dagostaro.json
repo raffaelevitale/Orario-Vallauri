@@ -1,0 +1,124 @@
+{
+  "teacher": "D'AGOSTARO Giovanna",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 7,
+        "subject": "Storia",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      }
+    ]
+  }
+}

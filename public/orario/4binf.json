@@ -1,0 +1,207 @@
+{
+  "class": "4B INF",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "GODANO G.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica e Complementi",
+        "teacher": "SERVETTI D.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "CASTAGNINO L.",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.I.T.",
+        "teacher": "MANA R.",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi e reti",
+        "teacher": "SANINO A., NECCHI L.",
+        "room": "LAB.S18 MARCONI (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e reti",
+        "teacher": "SANINO A., NECCHI L.",
+        "room": "LAB.S18 MARCONI (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "GODANO G.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "GODANO G.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica e Complementi",
+        "teacher": "SERVETTI D.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "teacher": "PASCHETTA M., MARCHISIO M.",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "teacher": "PASCHETTA M., MARCHISIO M.",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Telecomunicazioni",
+        "teacher": "MERCADANTE M., COMETTO G.",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 7,
+        "subject": "Telecomunicazioni",
+        "teacher": "MERCADANTE M., COMETTO G.",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica e Complementi",
+        "teacher": "SERVETTI D.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "T.P.S.I.T.",
+        "teacher": "MANA R., PASCHETTA M.",
+        "room": "LAB.119A PASCAL (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.I.T.",
+        "teacher": "MANA R., PASCHETTA M.",
+        "room": "LAB.119A PASCAL (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "teacher": "PASCHETTA M., MARCHISIO M.",
+        "room": "LAB.119A PASCAL (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi e reti",
+        "teacher": "NECCHI L.",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e reti",
+        "teacher": "NECCHI L.",
+        "room": "LAB.119B EULERO (25)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Matematica e Complementi",
+        "teacher": "SERVETTI D.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Telecomunicazioni",
+        "teacher": "COMETTO G.",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.I.T.",
+        "teacher": "MANA R.",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "CASTAGNINO L.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "GODANO G.",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "CALVO M.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze motorie",
+        "teacher": "CALVO M.",
+        "room": "PALESTRA"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "teacher": "MARCHISIO M.",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "teacher": "MARCHISIO M.",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "GODANO G.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "GODANO G.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "teacher": "CASTAGNINO L.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Religione",
+        "teacher": "CAVALLERO L.",
+        "room": "T78-E (28)"
+      }
+    ]
+  }
+}

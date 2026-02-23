@@ -1,0 +1,124 @@
+{
+  "teacher": "FULCHINI Stefano",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1D INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "1D INF",
+        "room": "101 (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Geografia",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Storia",
+        "class": "1D INF",
+        "room": "105 (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "1C INF",
+        "room": "204 (26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Fisica",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "1D INF",
+        "room": "105 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "class": "1D INF",
+        "room": "LAB.143 TURING (22)"
+      }
+    ]
+  }
+}

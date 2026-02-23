@@ -1,0 +1,124 @@
+{
+  "teacher": "RACCA Marianna",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "2A MEC",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "5A MEC",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "4A MEC",
+        "room": "T64 (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "4A MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "3A MEC",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 7,
+        "subject": "Inglese",
+        "class": "5A MEC",
+        "room": "301 (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "2D MEC",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "2D MEC",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "1A MEC",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "3A MEC",
+        "room": "T64 (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "3A MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "4A MEC",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "5A MEC",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "2D MEC",
+        "room": "201 (24)"
+      }
+    ]
+  }
+}

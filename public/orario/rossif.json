@@ -1,0 +1,124 @@
+{
+  "teacher": "ROSSI Francesca",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Chimica",
+        "class": "2A ELT",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. Chimica",
+        "class": "2B ELT",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Chimica",
+        "class": "2A INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "class": "2A INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. Chimica",
+        "class": "1A ELT",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 7,
+        "subject": "Lab. Chimica",
+        "class": "1B ELT",
+        "room": "LAB.S71- E CHIMICA ()"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "class": "1A INF",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Chimica",
+        "class": "1B ELT",
+        "room": "103 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "class": "1A ELT",
+        "room": "205(24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "class": "2A INF",
+        "room": "141 (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "class": "1A ELT",
+        "room": "205(24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Chimica",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. Chimica",
+        "class": "1A INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "class": "1A INF",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Chimica",
+        "class": "1B ELT",
+        "room": "103 (24)"
+      }
+    ]
+  }
+}

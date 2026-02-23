@@ -1,0 +1,207 @@
+{
+  "class": "4E INF",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Matematica e Complementi",
+        "teacher": "BRIZIO M., TORTONE R.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 2,
+        "subject": "T.P.S.I.T.",
+        "teacher": "FANARA A.",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi e reti",
+        "teacher": "CANONICO T., SANINO A.",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi e reti",
+        "teacher": "CANONICO T., SANINO A.",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Religione",
+        "teacher": "CAVALLERO L.",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "teacher": "BERTINI S.",
+        "room": "147 (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "teacher": "CALVO M.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "teacher": "CALVO M.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Telecomunicazioni",
+        "teacher": "MERCADANTE M., COMETTO G.",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 4,
+        "subject": "Telecomunicazioni",
+        "teacher": "MERCADANTE M., COMETTO G., MONGIARDO M.",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "teacher": "BERTINI S., MONGIARDO M.",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "GALLO L., MONGIARDO M.",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Storia",
+        "teacher": "GALLO L.",
+        "room": "102 (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e reti",
+        "teacher": "CANONICO T.",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e reti",
+        "teacher": "CANONICO T., TORTONE R.",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.I.T.",
+        "teacher": "FANARA A., TORTONE R.",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica e Complementi",
+        "teacher": "BRIZIO M., TORTONE R.",
+        "room": "203 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica e Complementi",
+        "teacher": "BRIZIO M.",
+        "room": "203 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "teacher": "BELLIARDO D., CAMBIERI O., TORTONE R.",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Telecomunicazioni",
+        "teacher": "COMETTO G., MONGIARDO M.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "T.P.S.I.T.",
+        "teacher": "CAMBIERI O., FANARA A.",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.I.T.",
+        "teacher": "CAMBIERI O., FANARA A.",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "GALLO L., MONGIARDO M.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "GALLO L.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "teacher": "BELLIARDO D., CAMBIERI O.",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 7,
+        "subject": "Informatica",
+        "teacher": "BELLIARDO D., CAMBIERI O.",
+        "room": "LAB.116 LAPLACE (25)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "teacher": "BELLIARDO D.",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "teacher": "BELLIARDO D., TORTONE R.",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "BERTINI S., MONGIARDO M.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica e Complementi",
+        "teacher": "BRIZIO M.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "GALLO L.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "teacher": "GALLO L.",
+        "room": "272-E (24)"
+      }
+    ]
+  }
+}

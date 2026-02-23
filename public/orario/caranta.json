@@ -5,7 +5,7 @@
     "monday": [
       {
         "hour": 1,
-        "subject": "Lingua e letteratura italiana",
+        "subject": "Italiano",
         "class": "2C LIC",
         "room": "149 TEST (27)"
       },
@@ -17,21 +17,21 @@
       },
       {
         "hour": 3,
-        "subject": "Lingua e letteratura italiana",
+        "subject": "Italiano",
         "class": "3C INF",
-        "room": "S76-E (27)"
+        "room": "S 76-E(27)"
       },
       {
         "hour": 4,
         "subject": "Storia",
         "class": "3C INF",
-        "room": "S76-E (27)"
+        "room": "S 76-E(27)"
       }
     ],
     "tuesday": [
       {
         "hour": 2,
-        "subject": "Lingua e letteratura italiana",
+        "subject": "Italiano",
         "class": "2C LIC",
         "room": "149 TEST (27)"
       },
@@ -43,13 +43,13 @@
       },
       {
         "hour": 5,
-        "subject": "Lingua e letteratura italiana",
+        "subject": "Italiano",
         "class": "5A INF",
         "room": "301 (28)"
       },
       {
         "hour": 6,
-        "subject": "Lingua e letteratura italiana",
+        "subject": "Italiano",
         "class": "3C INF",
         "room": "271-E (24)"
       },
@@ -81,13 +81,13 @@
       },
       {
         "hour": 5,
-        "subject": "Lingua e letteratura italiana",
+        "subject": "Italiano",
         "class": "3C INF",
         "room": "146 (28)"
       },
       {
         "hour": 6,
-        "subject": "Lingua e letteratura italiana",
+        "subject": "Italiano",
         "class": "3C INF",
         "room": "146 (28)"
       }
@@ -95,25 +95,25 @@
     "thursday": [
       {
         "hour": 1,
-        "subject": "Lingua e letteratura italiana",
+        "subject": "Italiano",
         "class": "5A INF",
         "room": "212 TEST (24)"
       },
       {
         "hour": 2,
-        "subject": "Lingua e letteratura italiana",
+        "subject": "Italiano",
         "class": "5A INF",
         "room": "212 TEST (24)"
       },
       {
         "hour": 4,
-        "subject": "Lingua e letteratura italiana",
+        "subject": "Italiano",
         "class": "2C LIC",
         "room": "149 TEST (27)"
       },
       {
         "hour": 5,
-        "subject": "Lingua e letteratura italiana",
+        "subject": "Italiano",
         "class": "2C LIC",
         "room": "149 TEST (27)"
       }
@@ -121,7 +121,7 @@
     "friday": [
       {
         "hour": 2,
-        "subject": "Lingua e letteratura italiana",
+        "subject": "Italiano",
         "class": "5A INF",
         "room": "T63 (30)"
       }

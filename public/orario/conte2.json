@@ -1,0 +1,106 @@
+{
+  "teacher": "CONTE 2 Roberto",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 6,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3B MEC",
+        "room": "S1 (30)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3B MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3B MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "class": "2C MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "D.P.O.I.",
+        "class": "3C MEC",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "D.P.O.I.",
+        "class": "4C MEC",
+        "room": "S4 (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3B MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "D.P.O.I.",
+        "class": "4C MEC",
+        "room": "LAB.T62 DPOI (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "D.P.O.I.",
+        "class": "4C MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "D.P.O.I.",
+        "class": "4C MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "class": "2C MEC",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3B MEC",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "D.P.O.I.",
+        "class": "3C MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "D.P.O.I.",
+        "class": "3C MEC",
+        "room": "LAB.T62 DPOI (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      }
+    ]
+  }
+}

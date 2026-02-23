@@ -1,0 +1,195 @@
+{
+  "class": "2C LIC",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "CARANTA P.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia e Geografia",
+        "teacher": "CARANTA P.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "ALBERTO F.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "DARDANELLI M.",
+        "room": "149 TEST (27), LAB.142 NEWTON (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "teacher": "PAROLA C.",
+        "room": "LAB.142 NEWTON (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "teacher": "PAROLA C.",
+        "room": "LAB.142 NEWTON (25)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "DARDANELLI M.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "CARANTA P.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia e Geografia",
+        "teacher": "CARANTA P.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "scienze naturali",
+        "teacher": "PANSA M.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica",
+        "teacher": "FERRERO R., NESI V.",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Fisica",
+        "teacher": "FERRERO R., NESI V.",
+        "room": "LAB.144 FISICA2 (27)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "scienze naturali",
+        "teacher": "PANSA M.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia e Geografia",
+        "teacher": "CARANTA P.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "ALBERTO F.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Disegno e storia dell'arte",
+        "teacher": "MICCOLI G.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Disegno e storia dell'arte",
+        "teacher": "MICCOLI G.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. di Chimica e di Fisica",
+        "teacher": "OPERTI S., ARLORIO F.",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "scienze naturali",
+        "teacher": "OPERTI S., PANSA M.",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "teacher": "CAVALLO C.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "DARDANELLI M.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "CARANTA P.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "CARANTA P.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Fisica",
+        "teacher": "FERRERO R.",
+        "room": "149 TEST (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "teacher": "ROSSI D.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "teacher": "ROSSI D.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. di Chimica e di Fisica",
+        "teacher": "ARLORIO F.",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "DARDANELLI M.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "scienze naturali",
+        "teacher": "PANSA M.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "teacher": "ALBERTO F.",
+        "room": "149 TEST (27)"
+      }
+    ]
+  }
+}

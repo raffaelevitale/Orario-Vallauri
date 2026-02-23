@@ -1,0 +1,124 @@
+{
+  "teacher": "MANCUSO CATARINELLA Graziella",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "Economia aziendale",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "4A AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "4A AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 3,
+        "subject": "Geografia",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 2,
+        "subject": "Economia aziendale",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 3,
+        "subject": "Economia aziendale",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 4,
+        "subject": "Diritto ed economia",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "1C LIC",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Economia aziendale",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 6,
+        "subject": "Geografia",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      }
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "class": "1E MEC",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "PANERO S.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "teacher": "MELOGNO S.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "CINELLI C.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "OLOCCO M.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. Fisica",
+        "teacher": "FERRANTE G., BOSIO A.",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. informatiche",
+        "teacher": "BRENTA M.",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze",
+        "teacher": "CALDERARO F.",
+        "room": "212 TEST (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Fisica",
+        "teacher": "BOSIO A.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "RUARO C.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. informatiche",
+        "teacher": "BRENTA M., CAPUTO L.",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "teacher": "BRENTA M., CAPUTO L.",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. Chimica",
+        "teacher": "MUSSO B., DESIMONE M.",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "teacher": "MUSSO B.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "Storia",
+        "teacher": "PANERO S.",
+        "room": "150 (27)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "RUARO C.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "RUARO C.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "CINELLI C.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "teacher": "BOSIO A.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "teacher": "SARETTI D.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "teacher": "SARETTI D.",
+        "room": "212 TEST (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "teacher": "PIOVANO E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "teacher": "PIOVANO E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "OLOCCO M.",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "OLOCCO M.",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Geografia",
+        "teacher": "SAPPA F.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "teacher": "PANERO S.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "teacher": "PANERO S.",
+        "room": "212 TEST (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "PANERO S.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "PANERO S.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "teacher": "MUSSO B.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "CINELLI C.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "RUARO C.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "teacher": "CALDERARO F.",
+        "room": "212 TEST (24)"
+      }
+    ]
+  }
+}

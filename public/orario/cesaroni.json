@@ -1,0 +1,124 @@
+{
+  "teacher": "CESARONI Silvia",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Economia aziendale",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Discipline turistiche e aziendali",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Discipline turistiche e aziendali",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 2,
+        "subject": "Discipline turistiche e aziendali",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 3,
+        "subject": "Discipline turistiche e aziendali",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 4,
+        "subject": "Economia aziendale",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 2,
+        "subject": "Economia aziendale",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Discipline turistiche e aziendali",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 5,
+        "subject": "Economia aziendale",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Discipline turistiche e aziendali",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Discipline turistiche e aziendali",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 2,
+        "subject": "Discipline turistiche e aziendali",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 5,
+        "subject": "Economia aziendale",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia aziendale",
+        "class": "3A AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 7,
+        "subject": "Economia aziendale",
+        "class": "3A AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Economia aziendale",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Economia aziendale",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Economia aziendale",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      }
+    ]
+  }
+}

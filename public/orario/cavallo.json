@@ -1,0 +1,116 @@
+{
+  "teacher": "CAVALLO Claudio",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "class": "5B LIC",
+        "room": "103 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "class": "4B LIC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "class": "2A LIC",
+        "room": "203 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "class": "1B LIC",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Religione",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "Religione",
+        "class": "1A INF",
+        "room": "104 (25)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "class": "3C LIC",
+        "room": "S 76-E(27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Religione",
+        "class": "3A LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Religione",
+        "class": "4A LIC",
+        "room": "150 (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "class": "5A LIC",
+        "room": "203 (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "class": "2C LIC",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "class": "3B LIC",
+        "room": "140 (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "class": "2B LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Religione",
+        "class": "1D LIC",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Religione",
+        "class": "1A LIC",
+        "room": "140 (28)"
+      }
+    ]
+  }
+}

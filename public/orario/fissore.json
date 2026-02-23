@@ -1,0 +1,124 @@
+{
+  "teacher": "FISSORE Federica",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "3B LIC",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "5A LIC",
+        "room": "205(24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "4B LIC",
+        "room": "203 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "4A LIC",
+        "room": "104 (25)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "4A LIC",
+        "room": "S 76-E(27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "3C LIC",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "4B LIC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "5B LIC",
+        "room": "T64 (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "3C LIC",
+        "room": "S 76-E(27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "3B LIC",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "4A LIC",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "5B LIC",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "5A LIC",
+        "room": "S 76-E(27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "4B LIC",
+        "room": "S 76-E(27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "5A LIC",
+        "room": "203 (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "3B LIC",
+        "room": "140 (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "3C LIC",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "5B LIC",
+        "room": "102 (24)"
+      }
+    ]
+  }
+}

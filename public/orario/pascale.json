@@ -1,0 +1,124 @@
+{
+  "teacher": "PASCALE Maria Giovanna",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "class": "3B MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "class": "3B MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "class": "2C MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "class": "2C MEC",
+        "room": "PALESTRA"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "class": "5B MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "class": "5B MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "class": "1B MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze motorie",
+        "class": "1B MEC",
+        "room": "PALESTRA"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "class": "4B MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "class": "4B MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "class": "1C MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "class": "1C MEC",
+        "room": "PALESTRA"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "class": "2B MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze motorie",
+        "class": "2B MEC",
+        "room": "PALESTRA"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "class": "1D MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "class": "1D MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "class": "5C MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "class": "5C MEC",
+        "room": "PALESTRA"
+      }
+    ]
+  }
+}

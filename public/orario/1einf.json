@@ -1,0 +1,213 @@
+{
+  "class": "1E INF",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DOTTA C.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DOTTA C., PRESTIGIACOMO D.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "BERTINI S., PRESTIGIACOMO D.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "teacher": "PIOVANO E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "teacher": "PIOVANO E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Fisica",
+        "teacher": "BOSIO A.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Tecn. informatiche",
+        "teacher": "SCARAFFIA M.",
+        "room": "LAB.T81-E VOLTA(21)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Geografia",
+        "teacher": "SAPPA F., PRESTIGIACOMO D.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "teacher": "BONO A.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DOTTA C., RASPA M.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "CICCARELLO S., PRESTIGIACOMO D.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "CICCARELLO S.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Religione",
+        "teacher": "CAVALLO C.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze",
+        "teacher": "VIRZI D.",
+        "room": "151 (27)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "CICCARELLO S.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "CICCARELLO S.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "BERTINI S.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Chimica",
+        "teacher": "BONO A.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "GARRO V.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Fisica",
+        "teacher": "BOSIO A.",
+        "room": "151 (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "BERTINI S.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Diritto ed economia",
+        "teacher": "BONINO M., PRESTIGIACOMO D.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. informatiche",
+        "teacher": "SCARAFFIA M., LI CALSI D., PRESTIGIACOMO D.",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "teacher": "SCARAFFIA M., LI CALSI D.",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. Fisica",
+        "teacher": "FERRANTE G., BOSIO A.",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. Chimica",
+        "teacher": "BOCHICCHIO M., BONO A.",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica",
+        "teacher": "GARRO V.",
+        "room": "150 (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "GARRO V., PRESTIGIACOMO D.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "GARRO V., PRESTIGIACOMO D.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "CICCARELLO S., PRESTIGIACOMO D.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "CICCARELLO S.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze",
+        "teacher": "VIRZI D.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "teacher": "BONINO M.",
+        "room": "151 (27)"
+      }
+    ]
+  }
+}

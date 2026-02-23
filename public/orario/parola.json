@@ -1,0 +1,124 @@
+{
+  "teacher": "PAROLA Carlotta",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "class": "2C LIC",
+        "room": "LAB.142 NEWTON (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "class": "2C LIC",
+        "room": "LAB.142 NEWTON (25)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "3C LIC",
+        "room": "LAB.142 NEWTON (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Informatica",
+        "class": "3B LIC",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "class": "3B LIC",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "class": "2A INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "class": "2A INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e reti",
+        "class": "3E INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e reti",
+        "class": "3E INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "class": "3C LIC",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "class": "2B LIC",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "class": "2B LIC",
+        "room": "LAB.145 GALILEI (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 6,
+        "subject": "Tecn. informatiche",
+        "class": "1A INF",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 7,
+        "subject": "Sistemi e reti",
+        "class": "3E INF",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e reti",
+        "class": "3E INF",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. informatiche",
+        "class": "1A INF",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "class": "1A INF",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "class": "2A INF",
+        "room": "LAB.T81-E VOLTA(21)"
+      }
+    ]
+  }
+}

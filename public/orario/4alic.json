@@ -1,0 +1,195 @@
+{
+  "class": "4A LIC",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "teacher": "DE PASQUALE P.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "teacher": "DE PASQUALE P.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze naturali",
+        "teacher": "OSELLA V.",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "GERBINO S.",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "teacher": "OPERTI S., ARLORIO F.",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "teacher": "FISSORE F.",
+        "room": "104 (25)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "FISSORE F.",
+        "room": "S 76-E(27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "teacher": "NECCHI L.",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "GERBINO S.",
+        "room": "S 76-E(27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica e laboratorio",
+        "teacher": "BATTIATO A.",
+        "room": "S 76-E(27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze naturali",
+        "teacher": "OSELLA V.",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "teacher": "CARANTA M.",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Disegno e storia dell'arte",
+        "teacher": "MICCOLI G.",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Disegno e storia dell'arte",
+        "teacher": "MICCOLI G.",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "FISSORE F.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "CARANTA M.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "CARANTA M.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Religione",
+        "teacher": "CAVALLO C.",
+        "room": "150 (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Filosofia",
+        "teacher": "BOSSIO T.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "teacher": "ARLORIO F.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "GERBINO S.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "CARANTA M.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze naturali",
+        "teacher": "OPERTI S., OSELLA V.",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "teacher": "NECCHI L.",
+        "room": "LAB.142 NEWTON (25)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "CARANTA M.",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "CARANTA M.",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "GERBINO S.",
+        "room": "LAB.142 NEWTON (25), T64 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Filosofia",
+        "teacher": "BOSSIO T.",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica e laboratorio",
+        "teacher": "BATTIATO A., LAMBERTI M.",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Fisica e laboratorio",
+        "teacher": "BATTIATO A., LAMBERTI M.",
+        "room": "LAB.144 FISICA2 (27)"
+      }
+    ]
+  }
+}

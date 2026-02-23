@@ -1,0 +1,124 @@
+{
+  "teacher": "DEMICHELIS Adriano",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1A INF",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3C MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2A INF",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2A ELT",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2A ELT",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2D INF",
+        "room": "205(24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2B ELT",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2B ELT",
+        "room": "LAB.S18B DISEGNO (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3A MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3A MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1B INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2B INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2C INF",
+        "room": "LAB.S18B DISEGNO (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 4,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3A MEC",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3C MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3C MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      }
+    ]
+  }
+}

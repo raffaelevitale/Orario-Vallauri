@@ -1,0 +1,124 @@
+{
+  "teacher": "DOTTA Claudio",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1D INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1D INF",
+        "room": "101 (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2D INF",
+        "room": "205(24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2E INF",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2D INF",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2D INF",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1D INF",
+        "room": "105 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2E INF",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2E INF",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2C INF",
+        "room": "LAB.S18B DISEGNO (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2C INF",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2C INF",
+        "room": "LAB.S18B DISEGNO (24)"
+      }
+    ]
+  }
+}

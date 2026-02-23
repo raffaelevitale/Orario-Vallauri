@@ -1,0 +1,52 @@
+{
+  "teacher": "DESIMONE Monica",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Chimica",
+        "class": "2A ELT",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. Chimica",
+        "class": "2B ELT",
+        "room": "LAB.S71- E CHIMICA ()"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "class": "5B LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze naturali",
+        "class": "5B LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. Chimica",
+        "class": "1E MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. Chimica",
+        "class": "1A ELT",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 7,
+        "subject": "Lab. Chimica",
+        "class": "1B ELT",
+        "room": "LAB.S71- E CHIMICA ()"
+      }
+    ]
+  }
+}

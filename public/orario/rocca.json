@@ -1,0 +1,124 @@
+{
+  "teacher": "ROCCA Maria",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3A MEN",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi e automazione",
+        "class": "4C MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "4A MEN",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "4A MEN",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "5A MEN",
+        "room": "201 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 5,
+        "subject": "Sistemi e automazione",
+        "class": "4C MEC",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e automazione",
+        "class": "4C MEC",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "Sistemi e automazione",
+        "class": "3C MEC",
+        "room": "LAB.CETOP (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 5,
+        "subject": "Sistemi e automazione",
+        "class": "3C MEC",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e automazione",
+        "class": "3C MEC",
+        "room": "LAB.AUTOMAZIONE (26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "5A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "5A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi e automazione",
+        "class": "3C MEC",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi e automazione",
+        "class": "4C MEC",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "4A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 5,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      }
+    ]
+  }
+}

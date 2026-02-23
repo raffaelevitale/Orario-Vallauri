@@ -1,0 +1,124 @@
+{
+  "teacher": "CINELLI Claudia",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "1E MEC",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "1B ELT",
+        "room": "103 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "1D MEC",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "1A ELT",
+        "room": "205(24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "1B ELT",
+        "room": "103 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Inglese",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "1E MEC",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "1B ELT",
+        "room": "103 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "1D MEC",
+        "room": "T65 TEST (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "1A ELT",
+        "room": "205(24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "1D MEC",
+        "room": "T65 TEST (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "1A ELT",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "1E MEC",
+        "room": "212 TEST (24)"
+      }
+    ]
+  }
+}

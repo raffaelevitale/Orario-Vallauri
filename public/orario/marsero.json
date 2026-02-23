@@ -1,0 +1,58 @@
+{
+  "teacher": "MARSERO Daniele",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "T.P.S.I.T.",
+        "class": "3C INF",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "T.P.S.I.T.",
+        "class": "3C INF",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.I.T.",
+        "class": "3A INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "T.P.S.I.T.",
+        "class": "3A INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e reti",
+        "class": "3D INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e reti",
+        "class": "3D INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.I.T.",
+        "class": "3E INF",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.I.T.",
+        "class": "3E INF",
+        "room": "LAB.145 GALILEI (24)"
+      }
+    ]
+  }
+}

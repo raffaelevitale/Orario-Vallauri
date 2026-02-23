@@ -1,0 +1,213 @@
+{
+  "class": "1C INF",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "teacher": "BONO A., FULCHINI S.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E., FULCHINI S.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Fisica",
+        "teacher": "CALVO A., FERRANTE G.",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "SALMERI V.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze",
+        "teacher": "MONTEVERDE M., SCAPATICCI M.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "teacher": "SCAPATICCI M., COSTAMAGNA A.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Inglese",
+        "teacher": "COSTAMAGNA A.",
+        "room": "273-E(26)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "SALMERI V., SCAPATICCI M.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "SALMERI V., SCAPATICCI M.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Geografia",
+        "teacher": "SAPPA F., FULCHINI S.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "teacher": "SCARAFFIA M., LI CALSI D.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. informatiche",
+        "teacher": "SCARAFFIA M., LI CALSI D.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DOTTA C., FULCHINI S.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DOTTA C.",
+        "room": "273-E(26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "SALMERI V., SCAPATICCI M.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "SALMERI V., SCAPATICCI M.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "teacher": "PIOVANO E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "teacher": "PIOVANO E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica",
+        "teacher": "CALVO A.",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E., FULCHINI S.",
+        "room": "204 (26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Fisica",
+        "teacher": "CALVO A., FULCHINI S.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "teacher": "BONO A.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DEMICHELIS A., DOTTA C.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. informatiche",
+        "teacher": "SCAPATICCI M., SCARAFFIA M.",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "teacher": "BONINO M., SCAPATICCI M.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze",
+        "teacher": "MONTEVERDE M.",
+        "room": "273-E(26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "teacher": "SALMERI V., SCAPATICCI M.",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. Chimica",
+        "teacher": "BOCHICCHIO M., BONO A.",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "teacher": "MONDINO S.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "teacher": "BONINO M.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "teacher": "COSTAMAGNA A.",
+        "room": "273-E(26)"
+      }
+    ]
+  }
+}

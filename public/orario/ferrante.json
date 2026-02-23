@@ -1,0 +1,130 @@
+{
+  "teacher": "FERRANTE Giuseppe",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Fisica",
+        "class": "1A INF",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. Fisica",
+        "class": "1B INF",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Fisica",
+        "class": "1C INF",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Fisica",
+        "class": "1C MEC",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. Fisica",
+        "class": "1E MEC",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. Fisica",
+        "class": "1B MEC",
+        "room": "LAB.T71-E FISICA (30)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Fisica",
+        "class": "1B ELT",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. Fisica",
+        "class": "1D INF",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Fisica",
+        "class": "2E INF",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Fisica",
+        "class": "1A ELT",
+        "room": "LAB.T71-E FISICA (30)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Fisica",
+        "class": "2A INF",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Fisica",
+        "class": "2C INF",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Fisica",
+        "class": "2D INF",
+        "room": "LAB.T71-E FISICA (30)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 5,
+        "subject": "Lab. Fisica",
+        "class": "1E INF",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. Fisica",
+        "class": "1A MEC",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 7,
+        "subject": "Lab. Fisica",
+        "class": "1D MEC",
+        "room": "LAB.T71-E FISICA (30)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 4,
+        "subject": "Lab. Fisica",
+        "class": "2B ELT",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. Fisica",
+        "class": "2B INF",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. Fisica",
+        "class": "2A ELT",
+        "room": "LAB.T71-E FISICA (30)"
+      }
+    ]
+  }
+}

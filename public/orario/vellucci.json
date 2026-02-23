@@ -1,0 +1,124 @@
+{
+  "teacher": "VELLUCCI",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua francese",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lingua francese",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia politica",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "class": "1A TUR",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua francese",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lingua francese",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Diritto ed economia",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      }
+    ]
+  }
+}
