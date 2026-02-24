@@ -8,7 +8,6 @@ import { LessonCard } from "@/app/components/orario/LessonCard";
 import { SettingsMenu } from "@/app/components/orario/SettingsMenu";
 import InstallPrompt from "@/app/components/pwa/InstallPrompt";
 import { NotificationPrompt } from "@/app/components/orario/NotificationPrompt";
-import { OnboardingTour } from "@/app/components/onboarding/OnboardingTour";
 import { motion, AnimatePresence } from "framer-motion";
 import { isCurrentLesson, getRemainingMinutes } from "@/lib/orario/utils/time";
 import { Lesson } from "@/lib/orario/models/lesson";
