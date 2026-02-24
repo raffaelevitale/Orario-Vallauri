@@ -341,15 +341,6 @@ export default function OrarioPage() {
       {/* Notification Prompt */}
       <NotificationPrompt />
 
-      {/* Onboarding Tour */}
-      {
-        showOnboarding && (
-          <OnboardingTour
-            onComplete={() => setShowOnboarding(false)}
-            onSkip={() => setShowOnboarding(false)}
-          />
-        )
-      }
     </div >
   );
 }
