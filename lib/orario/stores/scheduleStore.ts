@@ -7,21 +7,17 @@ type UserMode = 'student' | 'teacher' | 'holiday' | null;
 interface ScheduleState {
   schedule: WeekSchedule;
   selectedDay: number;
-  viewType: 'list' | 'block';
   userMode: UserMode;
-  selectedEntity: string | null; // class name or teacher name
+  selectedEntity: string | null;
   hasCompletedSetup: boolean;
 
   setSchedule: (schedule: WeekSchedule) => void;
   setSelectedDay: (day: number) => void;
-  setViewType: (viewType: 'list' | 'block') => void;
   setUserMode: (mode: UserMode, entity: string) => void;
   completeSetup: () => void;
   resetSetup: () => void;
   getLessonsForDay: (day: number) => Lesson[];
   getDaysWithLessons: () => number[];
-  // LOGICA MISTA: Aggiunta funzione per reset completo (hard reset)
-  // Cancella tutto incluso lo schedule. Utile per debug o reset totale dell'app.
   hardReset: () => void;
 }
 
@@ -32,9 +28,7 @@ export const useScheduleStore = create<ScheduleState>()(
         lessons: [],
         className: '',
       },
-      // Sempre il giorno corrente all'apertura dell'app
-      selectedDay: 1, // Verrà aggiornato nel component con il giorno corrente
-      viewType: 'list',
+      selectedDay: 1,
       userMode: null,
       selectedEntity: null,
       hasCompletedSetup: false,
@@ -42,8 +36,6 @@ export const useScheduleStore = create<ScheduleState>()(
       setSchedule: (schedule) => set({ schedule }),
 
       setSelectedDay: (day) => set({ selectedDay: day }),
-
-      setViewType: (viewType) => set({ viewType }),
 
       setUserMode: (mode, entity) =>
         set({
@@ -53,19 +45,12 @@ export const useScheduleStore = create<ScheduleState>()(
 
       completeSetup: () => set({ hasCompletedSetup: true }),
 
-      // LOGICA MISTA (soft reset): Quando cambi modalità, azzera solo userMode, selectedEntity e hasCompletedSetup
-      // ma lascia intatto lo schedule in localStorage. Così, al riavvio, la selezione può essere ripristinata.
-      // Per tornare alla logica precedente (hard reset), decommenta le righe dello schedule qui sotto.
+      // Soft reset: azzera modalità e selezione ma mantiene lo schedule in localStorage
       resetSetup: () =>
         set({
           userMode: null,
           selectedEntity: null,
           hasCompletedSetup: false,
-          // Hard reset: decommenta le righe sotto per cancellare anche lo schedule
-          // schedule: {
-          //   lessons: [],
-          //   className: '',
-          // },
         }),
 
       getLessonsForDay: (day) => {
@@ -86,9 +71,7 @@ export const useScheduleStore = create<ScheduleState>()(
         return Array.from(daysSet).sort();
       },
 
-      // LOGICA MISTA: Hard reset cancella TUTTO incluso lo schedule.
-      // Usare solo per reset completo dell'app (es. pulsante "Reset totale" nelle impostazioni).
-      // Riporta l'app allo stato iniziale come se fosse appena installata.
+      // Hard reset: cancella tutto incluso lo schedule (utile per reset totale dell'app)
       hardReset: () =>
         set({
           userMode: null,
@@ -102,7 +85,6 @@ export const useScheduleStore = create<ScheduleState>()(
             const today = new Date().getDay();
             return today === 0 || today === 6 ? 1 : today;
           })(),
-          viewType: 'list',
         }),
     }),
     {

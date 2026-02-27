@@ -1,13 +1,15 @@
 "use client";
 
 import { useState, useEffect, useMemo } from "react";
-import { useRouter } from "next/navigation";
 import { useScheduleStore } from "@/lib/orario/stores/scheduleStore";
 import { useSnowfallStore } from "@/lib/orario/stores/snowfallStore";
 import { LessonCard } from "@/app/components/orario/LessonCard";
 import { SettingsMenu } from "@/app/components/orario/SettingsMenu";
 import InstallPrompt from "@/app/components/pwa/InstallPrompt";
 import { NotificationPrompt } from "@/app/components/orario/NotificationPrompt";
+import { BottomTabBar, TabId } from "@/app/components/orario/BottomTabBar";
+import { AllSchedulesView } from "@/app/components/orario/AllSchedulesView";
+import { InlineSetup } from "@/app/components/orario/InlineSetup";
 import { motion, AnimatePresence } from "framer-motion";
 import { isCurrentLesson, getRemainingMinutes } from "@/lib/orario/utils/time";
 import { Lesson } from "@/lib/orario/models/lesson";
@@ -17,7 +19,6 @@ import {
   clearAllNotifications,
 } from "@/lib/orario/utils/notifications";
 import styles from "./orario.module.css";
-import { BlockView } from "@/app/components/orario/BlockView";
 
 const weekDays = [
   { number: 1, name: "Lunedì", short: "Lun" },
@@ -27,21 +28,11 @@ const weekDays = [
   { number: 5, name: "Venerdì", short: "Ven" },
 ];
 
-function RemainingMinutesBadge({
-  endTime,
-  color,
-}: {
-  endTime: string;
-  color?: string;
-}) {
-  const [remaining, setRemaining] = useState(() =>
-    getRemainingMinutes(endTime)
-  );
+function RemainingMinutesBadge({ endTime }: { endTime: string }) {
+  const [remaining, setRemaining] = useState(() => getRemainingMinutes(endTime));
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      setRemaining(getRemainingMinutes(endTime));
-    }, 15000);
+    const timer = setInterval(() => setRemaining(getRemainingMinutes(endTime)), 15000);
     return () => clearInterval(timer);
   }, [endTime]);
 
@@ -49,17 +40,14 @@ function RemainingMinutesBadge({
 }
 
 export default function OrarioPage() {
-  const router = useRouter();
   const {
     schedule,
     selectedDay,
-    viewType,
     hasCompletedSetup,
     userMode,
     selectedEntity,
     resetSetup,
     setSelectedDay,
-    setViewType,
     getLessonsForDay,
     getDaysWithLessons,
   } = useScheduleStore();
@@ -67,116 +55,58 @@ export default function OrarioPage() {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [currentLesson, setCurrentLesson] = useState<Lesson | null>(null);
   const [isMounted, setIsMounted] = useState(false);
-  const [showOnboarding, setShowOnboarding] = useState(false);
   const [logoClickCount, setLogoClickCount] = useState(0);
   const { enableSnowfall } = useSnowfallStore();
+  const [activeTab, setActiveTab] = useState<TabId>("orario");
 
-  // Evita hydration mismatch aspettando il mount del client
   useEffect(() => {
     setIsMounted(true);
-
-    // Imposta sempre il giorno corrente all'apertura dell'app
     const today = new Date().getDay();
-    const currentDay = today === 0 || today === 6 ? 1 : today;
-    setSelectedDay(currentDay);
+    setSelectedDay(today === 0 || today === 6 ? 1 : today);
   }, [setSelectedDay]);
 
-  // (spostato sotto la definizione di todayLessons)
-
-  // LOGICA MISTA (restore automatico): Redirect al setup solo se non completato
-  // Se l'utente ha già completato il setup, l'app ripristina la selezione da localStorage
-  // e salta il setup, mostrando direttamente l'orario.
-  // Per tornare alla logica precedente (sempre setup all'avvio), cambia la condizione
-  // da "!hasCompletedSetup" a "true" o rimuovi il check su hasCompletedSetup.
   useEffect(() => {
-    if (!hasCompletedSetup && isMounted) {
-      router.push("/orario/setup");
-    }
-  }, [hasCompletedSetup, router, isMounted]);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentTime(new Date());
-    }, 60000);
+    const timer = setInterval(() => setCurrentTime(new Date()), 60000);
     return () => clearInterval(timer);
   }, []);
 
-  const todayLessons = useMemo(() => {
-    return getLessonsForDay(selectedDay);
-  }, [selectedDay, getLessonsForDay]);
+  const todayLessons = useMemo(() => getLessonsForDay(selectedDay), [selectedDay, getLessonsForDay]);
 
-  // LOGICA MISTA (restore automatico + notifiche): Pianifica le notifiche solo se:
-  // 1. Il componente è montato (isMounted)
-  // 2. C'è almeno una lezione per il giorno selezionato (todayLessons.length > 0)
-  // Questo garantisce che le notifiche vengano pianificate anche dopo un riavvio,
-  // se la selezione è stata ripristinata da localStorage.
-  // Per tornare alla logica precedente (notifiche solo manualmente), rimuovi questo useEffect.
   useEffect(() => {
     if (!isMounted) return;
-
-    // Pulisci le notifiche precedenti quando cambia giorno
     clearAllNotifications();
-
-    requestNotificationPermission().then((perm) => {
-      if (perm === "granted") {
-        scheduleLessonNotifications(todayLessons);
-      }
+    requestNotificationPermission().then(perm => {
+      if (perm === "granted") scheduleLessonNotifications(todayLessons);
     });
-
-    // Cleanup quando il componente viene smontato
-    return () => {
-      clearAllNotifications();
-    };
+    return () => clearAllNotifications();
   }, [isMounted, selectedDay, todayLessons]);
 
   useEffect(() => {
-    if (!todayLessons.length) {
-      setCurrentLesson(null);
-      return;
-    }
-    const current = todayLessons.find((l) => isCurrentLesson(l));
-    setCurrentLesson(current || null);
+    if (!todayLessons.length) { setCurrentLesson(null); return; }
+    setCurrentLesson(todayLessons.find(l => isCurrentLesson(l)) || null);
   }, [currentTime, todayLessons]);
 
-  // Easter egg: 4 click sul logo per attivare la neve
+  // Easter egg: 4 click sul logo per neve
   useEffect(() => {
-    if (logoClickCount >= 4) {
-      enableSnowfall();
-      setLogoClickCount(0);
-    }
-
-    // Reset del contatore dopo 2 secondi senza click
+    if (logoClickCount >= 4) { enableSnowfall(); setLogoClickCount(0); }
     if (logoClickCount > 0) {
-      const timer = setTimeout(() => {
-        setLogoClickCount(0);
-      }, 2000);
-      return () => clearTimeout(timer);
+      const t = setTimeout(() => setLogoClickCount(0), 2000);
+      return () => clearTimeout(t);
     }
   }, [logoClickCount, enableSnowfall]);
 
-  const handleLogoClick = () => {
-    setLogoClickCount(prev => prev + 1);
-  };
+  const isToday = useMemo(() => selectedDay === new Date().getDay(), [selectedDay]);
+
+  const daysWithLessons = useMemo(() => {
+    const days = getDaysWithLessons();
+    return weekDays.filter(d => days.includes(d.number));
+  }, [getDaysWithLessons, schedule]);
 
   const goToToday = () => {
     const today = new Date().getDay();
-    if (today >= 1 && today <= 5) {
-      setSelectedDay(today);
-    }
+    if (today >= 1 && today <= 5) setSelectedDay(today);
   };
 
-  const isToday = useMemo(() => {
-    const today = new Date().getDay();
-    return selectedDay === today;
-  }, [selectedDay]);
-
-  // Filtra i giorni per mostrare solo quelli con lezioni
-  const daysWithLessons = useMemo(() => {
-    const daysWithLessonsSet = getDaysWithLessons();
-    return weekDays.filter(day => daysWithLessonsSet.includes(day.number));
-  }, [getDaysWithLessons, schedule]);
-
-  // Mostra un placeholder durante il caricamento per evitare hydration mismatch
   if (!isMounted) {
     return (
       <div className={styles.container}>
@@ -185,7 +115,7 @@ export default function OrarioPage() {
             <div className={styles.headerTop}>
               <div>
                 <h1 className={styles.title}>Orario</h1>
-                <p className={styles.subtitle}>Caricamento...</p>
+                <p className={styles.subtitle}>Caricamento…</p>
               </div>
             </div>
           </div>
@@ -194,6 +124,17 @@ export default function OrarioPage() {
     );
   }
 
+  const tabTitles: Record<TabId, { title: string; subtitle: string }> = {
+    orario: {
+      title: "Orario",
+      subtitle: hasCompletedSetup
+        ? (userMode === "student" ? `Classe ${selectedEntity}` : selectedEntity || "")
+        : "Seleziona classe o docente",
+    },
+    classi: { title: "Classi", subtitle: "Tutti gli orari" },
+    docenti: { title: "Docenti", subtitle: "Tutti gli orari" },
+  };
+
   return (
     <div className={styles.container}>
       {/* Fixed header */}
@@ -201,72 +142,62 @@ export default function OrarioPage() {
         <div className={styles.headerContent}>
           <div className={styles.headerTop}>
             <div>
-              <h1 className={styles.title}>Orario</h1>
-              <p className={styles.subtitle}>
-                {userMode === "student"
-                  ? `Classe ${selectedEntity}`
-                  : userMode === "teacher"
-                    ? selectedEntity
-                    : schedule.className || "Orario Settimanale"}
+              <h1 className={styles.title}>{tabTitles[activeTab].title}</h1>
+              <p
+                className={styles.subtitle}
+                style={
+                  activeTab === "orario" && hasCompletedSetup
+                    ? { cursor: "pointer", textDecoration: "underline dotted", textUnderlineOffset: "3px" }
+                    : undefined
+                }
+                onClick={activeTab === "orario" && hasCompletedSetup ? resetSetup : undefined}
+                title={activeTab === "orario" && hasCompletedSetup ? "Tocca per cambiare" : undefined}
+              >
+                {tabTitles[activeTab].subtitle}
               </p>
             </div>
 
             <div
               className={styles.logoWithSanta}
-              onClick={handleLogoClick}
+              onClick={() => setLogoClickCount(p => p + 1)}
               role="button"
-              aria-label="Attiva neve"
+              aria-label="Easter egg neve"
             >
-              <img
-                src="/logo.png"
-                alt="Logo"
-                className={styles.headerLogo}
-              />
+              <img src="/logo.png" alt="Logo" className={styles.headerLogo} />
             </div>
 
             <div className={styles.headerActions}>
-              <SettingsMenu onHelp={() => setShowOnboarding(true)} />
+              <SettingsMenu />
             </div>
           </div>
         </div>
 
         {/* Current lesson banner */}
-        {isToday && currentLesson && (
+        {activeTab === "orario" && hasCompletedSetup && isToday && currentLesson && (
           <div className={styles.currentLessonBanner}>
             <div className={styles.currentLessonInfo}>
               <span className={styles.currentLessonIcon}>⏳</span>
               <div className={styles.currentLessonText}>
-                <div className={styles.currentLessonSubject}>
-                  {currentLesson.subject}
-                </div>
+                <div className={styles.currentLessonSubject}>{currentLesson.subject}</div>
                 <div className={styles.currentLessonDetails}>
-                  {currentLesson.startTime} - {currentLesson.endTime} ·{" "}
-                  {currentLesson.teacher}
+                  {currentLesson.startTime} - {currentLesson.endTime} · {currentLesson.teacher}
                 </div>
               </div>
             </div>
-            <RemainingMinutesBadge
-              endTime={currentLesson.endTime}
-              color={currentLesson.color}
-            />
+            <RemainingMinutesBadge endTime={currentLesson.endTime} />
           </div>
         )}
 
-
-
-
-
-
-        {/* Day tabs - Only show in list view */}
-        {viewType === "list" && (
+        {/* Day tabs */}
+        {activeTab === "orario" && hasCompletedSetup && (
           <div className={styles.dayTabs}>
             <div className={styles.dayTabsContainer}>
-              {daysWithLessons.map((day) => (
+              {daysWithLessons.map(day => (
                 <button
                   key={day.number}
                   onClick={() => setSelectedDay(day.number)}
-                  className={`${styles.dayTab} ${selectedDay === day.number ? styles.active : ""
-                    }`}>
+                  className={`${styles.dayTab} ${selectedDay === day.number ? styles.active : ""}`}
+                >
                   {day.name}
                 </button>
               ))}
@@ -277,57 +208,56 @@ export default function OrarioPage() {
 
       {/* Content area */}
       <div className={styles.content}>
-        {viewType === "block" ? (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className={styles.scrollArea}
-          >
-            <BlockView />
-          </motion.div>
+        {activeTab === "orario" ? (
+          !hasCompletedSetup ? (
+            <InlineSetup />
+          ) : (
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={selectedDay}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.15 }}
+                className={styles.scrollArea}
+              >
+                <div className={styles.lessonsList}>
+                  {todayLessons.length > 0 ? (
+                    todayLessons.map((lesson, index) => (
+                      <motion.div
+                        key={lesson.id}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: index * 0.03 }}
+                      >
+                        <LessonCard
+                          lesson={lesson}
+                          isCurrent={isToday && isCurrentLesson(lesson)}
+                          compact={true}
+                          hideTeacher={userMode === "teacher"}
+                        />
+                      </motion.div>
+                    ))
+                  ) : (
+                    <div className={styles.emptyState}>
+                      <div className={styles.emptyIcon}>📅</div>
+                      <p className={styles.emptyText}>Nessuna lezione</p>
+                    </div>
+                  )}
+                </div>
+              </motion.div>
+            </AnimatePresence>
+          )
+        ) : activeTab === "classi" ? (
+          <AllSchedulesView mode="student" />
         ) : (
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={`${selectedDay}-${viewType}`}
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.15 }}
-              className={styles.scrollArea}>
-              <div className={styles.lessonsList}>
-                {todayLessons.length > 0 ? (
-                  todayLessons.map((lesson, index) => (
-                    <motion.div
-                      key={lesson.id}
-                      initial={{ opacity: 0, y: 10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: index * 0.03 }}>
-                      <LessonCard
-                        lesson={lesson}
-                        isCurrent={isToday && isCurrentLesson(lesson)}
-                        compact={true}
-                        hideTeacher={userMode === "teacher"}
-                      />
-                    </motion.div>
-                  ))
-                ) : (
-                  <div className={styles.emptyState}>
-                    <div className={styles.emptyIcon}>📅</div>
-                    <p className={styles.emptyText}>Nessuna lezione</p>
-                  </div>
-                )}
-              </div>
-            </motion.div>
-          </AnimatePresence>
+          <AllSchedulesView mode="teacher" />
         )}
       </div>
 
-      {/* Quick "Oggi" button - Hide in holiday mode */}
-      {!isToday && (
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}>
+      {/* "Oggi" button */}
+      {activeTab === "orario" && hasCompletedSetup && !isToday && (
+        <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }}>
           <button onClick={goToToday} className={styles.todayButton}>
             <span>📆</span>
             <span>Oggi</span>
@@ -335,12 +265,9 @@ export default function OrarioPage() {
         </motion.div>
       )}
 
-      {/* PWA Install Prompt */}
+      <BottomTabBar activeTab={activeTab} onTabChange={setActiveTab} />
       <InstallPrompt />
-
-      {/* Notification Prompt */}
       <NotificationPrompt />
-
-    </div >
+    </div>
   );
 }

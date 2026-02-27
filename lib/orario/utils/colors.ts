@@ -102,20 +102,3 @@ export function getSubjectColor(subject: string): string {
 
     return '#9e9e9e';
 }
-
-/**
- * Ottiene tutti i colori utilizzati in un array di materie
- * Utile per debugging e per verificare la distribuzione dei colori
- */
-export function prendiColoreMateria(subjects: string[]): Map<string, string> {
-    const colorMap = new Map<string, string>();
-
-    for (const subject of subjects) {
-        const formattata = formattaNome(subject);
-        if (!colorMap.has(formattata)) {
-            colorMap.set(subject, getSubjectColor(subject));
-        }
-    }
-
-    return colorMap;
-}

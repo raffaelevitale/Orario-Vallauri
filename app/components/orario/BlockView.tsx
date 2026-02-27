@@ -4,10 +4,16 @@ import { useScheduleStore } from "@/lib/orario/stores/scheduleStore";
 import { Lesson } from "@/lib/orario/models/lesson";
 import styles from "./BlockView.module.css";
 import { LessonCard } from "./LessonCard";
-import { isCurrentLesson, parseTime, getLessonDuration } from "@/lib/orario/utils/time";
+import { isCurrentLesson, parseTime } from "@/lib/orario/utils/time";
+interface BlockViewProps {
+    lessons?: Lesson[];
+    hideTeacher?: boolean;
+}
 
-export function BlockView() {
+export function BlockView({ lessons: externalLessons, hideTeacher }: BlockViewProps = {}) {
     const { schedule, userMode } = useScheduleStore();
+    const resolvedLessons = externalLessons ?? schedule.lessons;
+    const resolvedHideTeacher = hideTeacher ?? (userMode === "teacher");
     const days = [
         { name: "Lun", index: 1 },
         { name: "Mar", index: 2 },
@@ -16,88 +22,42 @@ export function BlockView() {
         { name: "Ven", index: 5 },
     ];
 
-    if (!schedule.lessons.length) {
+    if (!resolvedLessons.length) {
         return <div className={styles.emptyState}>Nessuna lezione</div>;
     }
 
-    // 1. Calcola l'intervallo di tempo
-    const startTimesMinutes = schedule.lessons.map((l) => parseTime(l.startTime));
-    const endTimesMinutes = schedule.lessons.map((l) => parseTime(l.endTime));
-
-    const minTime = Math.min(...startTimesMinutes);
-    const maxTime = Math.max(...endTimesMinutes);
-
-    // 5 minuti per passo di riga
-    const step = 5;
-    const totalRows = Math.ceil((maxTime - minTime) / step);
-
-    // Helper per formattare i minuti in HH:mm
-    const formatTime = (minutes: number) => {
-        const h = Math.floor(minutes / 60);
-        const m = minutes % 60;
-        return `${h.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')}`;
-    };
-
-    // Helper per ottenere l'inizio della riga della griglia
-    const getRowStart = (timeStr: string) => {
-        const t = parseTime(timeStr);
-        // +2 perché la riga 1 è l'intestazione
-        return Math.floor((t - minTime) / step) + 2;
-    };
-
-    // Helper per ottenere lo span della riga
-    const getRowSpan = (lesson: Lesson) => {
-        const duration = getLessonDuration(lesson);
-        return Math.ceil(duration / step);
-    };
+    const lessonsByDay = days.map((day) => ({
+        ...day,
+        lessons: resolvedLessons
+            .filter((lesson) => lesson.dayOfWeek === day.index)
+            .sort((a, b) => parseTime(a.startTime) - parseTime(b.startTime)),
+    }));
 
     return (
-        <div
-            className={styles.container}
-            style={{
-                // Riga 1 è l'intestazione (auto), il resto è 1fr proporzionale al tempo
-                gridTemplateRows: `auto repeat(${totalRows}, 1fr)`
-            }}
-        >
-            {/* Riga Intestazione */}
-            {days.map((day) => (
-                <div
-                    key={day.name}
-                    className={styles.headerCell}
-                    style={{ gridColumn: day.index, gridRow: 1 }}
-                >
-                    {day.name}
+        <div className={styles.container}>
+            {lessonsByDay.map((day) => (
+                <div key={day.name} className={styles.dayColumn}>
+                    <div className={styles.headerCell}>{day.name}</div>
+                    <div className={styles.dayLessons}>
+                        {day.lessons.length === 0 ? (
+                            <div className={styles.dayEmpty}>—</div>
+                        ) : (
+                            day.lessons.map((lesson) => (
+                                <div key={lesson.id} className={styles.lessonWrapper}>
+                                    <LessonCard
+                                        lesson={lesson}
+                                        compact={true}
+                                        tiny={lesson.isBreak}
+                                        hideTeacher={resolvedHideTeacher}
+                                        isCurrent={isCurrentLesson(lesson)}
+                                        className={styles.listCard}
+                                    />
+                                </div>
+                            ))
+                        )}
+                    </div>
                 </div>
             ))}
-
-            {/* Lezioni */}
-            {schedule.lessons.map((lesson) => {
-                const isCurrent = isCurrentLesson(lesson);
-                const duration = getLessonDuration(lesson);
-                // Se la durata è <= 20 min, tratta come tiny (es. Intervallo lungo)
-                const isTiny = duration <= 20;
-
-                return (
-                    <div
-                        key={lesson.id}
-                        className={styles.lessonWrapper}
-                        style={{
-                            gridColumn: lesson.dayOfWeek,
-                            gridRow: `${getRowStart(lesson.startTime)} / span ${getRowSpan(lesson)}`,
-                            zIndex: isTiny ? 10 : 1, // Assicura che le card piccole stiano sopra se si espandono
-                        }}
-                    >
-                        <LessonCard
-                            lesson={lesson}
-                            compact={true}
-                            tiny={isTiny}
-                            hideTeacher={userMode === "teacher"}
-                            isCurrent={isCurrent}
-                            className={styles.fullHeightCard}
-                        />
-                    </div>
-                );
-            })}
         </div>
     );
 }

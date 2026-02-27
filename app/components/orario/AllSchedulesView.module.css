@@ -1,0 +1,364 @@
+/* AllSchedulesView - listone scrollabile di tutti gli orari */
+
+.outer {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  flex: 1;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* ─── Sidebar Filtri ───────────────────────────────────────────────────── */
+
+.stickyHeader {
+  position: sticky;
+  top: 0;
+  align-self: start;
+  max-height: 100%;
+  overflow-y: auto;
+  padding: 12px 10px;
+  background: var(--bg-primary);
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 10;
+}
+
+.stickyHeader::-webkit-scrollbar {
+  width: 6px;
+}
+
+.stickyHeader::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 3px;
+}
+
+/* Year tabs */
+.yearTabs {
+  display: flex;
+  background: var(--bg-secondary);
+  border-radius: 10px;
+  padding: 3px;
+  gap: 2px;
+  border: 1px solid var(--border-color);
+}
+
+.yearTab {
+  flex: 1;
+  padding: 7px 4px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background: transparent;
+  color: var(--text-secondary);
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-align: center;
+}
+
+.yearTab:hover {
+  color: var(--text-primary);
+  background: var(--bg-hover);
+}
+
+.yearTabActive {
+  background: var(--accent-blue);
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(59, 130, 246, 0.3);
+}
+
+/* Sector chips */
+.sectorRow {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sectorRow::-webkit-scrollbar {
+  display: none;
+}
+
+.sectorChip {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+  transition: all 0.15s ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.sectorChip:hover {
+  background: var(--bg-hover);
+  border-color: var(--border-hover);
+  color: var(--text-primary);
+}
+
+.sectorChipActive {
+  background: var(--accent-blue-bg, rgba(59, 130, 246, 0.1));
+  color: var(--accent-blue);
+  border-color: var(--accent-blue);
+}
+
+/* Search */
+.searchWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 10px;
+  color: var(--text-tertiary);
+  pointer-events: none;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 8px 32px 8px 32px;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  font-size: 0.875rem;
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+.searchInput:focus {
+  border-color: var(--accent-blue);
+  background: var(--bg-card);
+}
+
+.searchInput::placeholder {
+  color: var(--text-tertiary);
+}
+
+.searchClear {
+  position: absolute;
+  right: 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--text-tertiary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.searchClear:hover {
+  color: var(--text-secondary);
+  background: var(--bg-hover);
+}
+
+.legendBox {
+  margin-top: 6px;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  background: var(--bg-secondary);
+}
+
+.legendTitle {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 6px;
+}
+
+.legendList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.legendList li {
+  font-size: 0.74rem;
+  color: var(--text-secondary);
+  line-height: 1.25;
+}
+
+.legendNote {
+  margin-top: 8px;
+  font-size: 0.72rem;
+  color: var(--text-tertiary);
+  line-height: 1.3;
+}
+
+/* ─── Scrollable Content ───────────────────────────────────────────────── */
+
+.scrollContent {
+  min-width: 0;
+  min-height: 0;
+  height: 100%;
+  overflow-y: auto;
+  padding: 12px 14px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.scrollContent::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollContent::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollContent::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 3px;
+}
+
+/* ─── Schedule Block ───────────────────────────────────────────────────── */
+
+.scheduleBlock {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  gap: 8px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.entityHeader {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 12px 16px 10px;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+}
+
+.entityName {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.01em;
+}
+
+.entityBadge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg-tertiary, var(--bg-primary));
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 2px 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.blockViewWrap {
+  min-height: 450px;
+  height: auto;
+  position: relative;
+}
+
+/* ─── States ───────────────────────────────────────────────────────────── */
+
+.skeletonBlock {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-secondary);
+}
+
+.errorBlock {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-tertiary);
+  font-size: 0.9rem;
+}
+
+.loadingWrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 40px;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.spinner {
+  width: 24px;
+  height: 24px;
+  border: 2px solid var(--border-color);
+  border-top-color: var(--accent-blue);
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1024px) {
+  .outer {
+    grid-template-columns: 220px minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .outer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stickyHeader {
+    position: static;
+    max-height: none;
+    overflow: visible;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+    padding: 8px 12px 6px;
+  }
+
+  .scrollContent {
+    height: auto;
+  }
+
+  .legendBox {
+    display: none;
+  }
+
+  .blockViewWrap {
+    min-height: 380px;
+    height: auto;
+  }
+}

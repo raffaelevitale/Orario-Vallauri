@@ -1,14 +1,11 @@
 .container {
   display: grid;
-  /* 5 days, fit to screen on desktop */
-  grid-template-columns: repeat(5, 1fr);
-  gap: 4px 6px;
-  height: 100%;
-  /* Fill the scrollArea */
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 6px;
+  height: auto;
   padding: 6px;
   position: relative;
-  /* Hide scrollbars on desktop to force fit */
-  overflow: hidden;
+  overflow: visible;
 }
 
 /* Ottimizzazione per monitor 4:3 */
@@ -19,54 +16,55 @@
   }
 }
 
-.container::-webkit-scrollbar {
-  height: 8px;
-}
-
-.container::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.container::-webkit-scrollbar-thumb {
-  background-color: var(--border-color);
-  border-radius: 4px;
-}
-
 .headerCell {
   text-align: center;
   font-weight: 700;
-  padding: 8px 4px;
+  padding: 5px 4px;
   background: var(--bg-secondary);
   border-radius: 6px;
   color: var(--text-primary);
   text-transform: uppercase;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   letter-spacing: 0.5px;
   position: sticky;
   top: 0;
-  z-index: 20;
-  /* Higher than lessons */
+  z-index: 12;
   border: 1px solid var(--border-color);
-  margin-bottom: 8px;
+}
+
+.dayColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  position: relative;
+}
+
+.dayLessons {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .lessonWrapper {
   position: relative;
   min-width: 0;
-  /* Allow flex shrinking */
 }
 
-/* Adjust LessonCard when inside BlockView */
-.fullHeightCard {
-  height: 100%;
+.listCard {
+  height: auto !important;
+  min-height: 60px;
+}
+
+.dayEmpty {
+  height: 60px;
+  border: 1px dashed var(--border-color);
+  border-radius: 8px;
   display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  /* Prevent spill */
-}
-
-.fullHeightCard>div {
-  flex: 1;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-tertiary);
+  font-size: 0.8rem;
 }
 
 .emptyState {
@@ -76,11 +74,17 @@
   font-size: 1.1rem;
 }
 
+@media (max-width: 1199px) {
+  .container {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 768px) {
   .container {
-    /* On mobile, allow scrolling and use fixed widths */
-    grid-template-columns: repeat(5, 160px);
-    overflow-x: auto;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 4px;
+    padding: 4px;
   }
 
   .headerCell {

@@ -6,31 +6,23 @@ import { useThemeStore } from "@/lib/orario/stores/themeStore";
 import { useScheduleStore } from "@/lib/orario/stores/scheduleStore";
 import { requestNotificationPermission } from "@/lib/orario/utils/notifications";
 import { useRouter } from "next/navigation";
-import { ChangeModeModal } from "./ChangeModeModal";
 import {
   Settings,
   Moon,
   Sun,
   Bell,
-  Eye,
   RefreshCw,
-  HelpCircle,
-  FileText,
-  Repeat
+  FileText
 } from "lucide-react";
 
-interface SettingsMenuProps {
-  onHelp: () => void;
-}
+interface SettingsMenuProps { }
 
-export function SettingsMenu({ onHelp }: SettingsMenuProps) {
+export function SettingsMenu({ }: SettingsMenuProps = {}) {
   const { theme, setTheme } = useThemeStore();
-  const { viewType, setViewType, userMode, selectedEntity } =
-    useScheduleStore();
-  const { resetSetup, hardReset } = useScheduleStore();
+  const { userMode, selectedEntity } = useScheduleStore();
+  const { hardReset } = useScheduleStore();
   const router = useRouter();
   const [open, setOpen] = useState(false);
-  const [showChangeModeModal, setShowChangeModeModal] = useState(false);
   const ref = useRef<HTMLDivElement | null>(null);
 
   // Chiudi al click fuori
@@ -65,21 +57,6 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
 
   const themeLabel =
     theme === "system" ? "Sistema" : theme === "light" ? "Chiaro" : "Scuro";
-
-  const handleChangeModeClick = () => {
-    setOpen(false);
-    setShowChangeModeModal(true);
-  };
-
-  const handleConfirmChangeMode = () => {
-    setShowChangeModeModal(false);
-    resetSetup();
-    router.push("/orario/setup");
-  };
-
-  const handleCancelChangeMode = () => {
-    setShowChangeModeModal(false);
-  };
 
   return (
     <div className={styles.menuWrapper} ref={ref}>
@@ -164,22 +141,6 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
             </span>
             <span className={styles.badge}>Prova</span>
           </button>
-          <div className={styles.groupLabel}>Vista</div>
-          <button
-            className={styles.item}
-            onClick={() =>
-              setViewType(viewType === "list" ? "block" : "list")
-            }
-            role="menuitem"
-            aria-label={`Cambia vista: ${viewType === "list" ? "Lista" : "Blocchi"}`}>
-            <span className={styles.row}>
-              <Eye size={18} style={{ marginRight: 8 }} />
-              Modalità
-            </span>
-            <span className={styles.badge}>
-              {viewType === "list" ? "Lista" : "Blocchi"}
-            </span>
-          </button>
           <div className={styles.groupLabel}>Aiuto</div>
           <button
             className={styles.item}
@@ -201,8 +162,8 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
               sessionStorage.clear();
               // Hard reset dello store (cancella anche lo schedule)
               hardReset();
-              // Redirect the user to the setup page to choose a teacher or class.
-              router.push('/orario/setup');
+              // Riporta alla home
+              router.push('/orario');
             }}
             role="menuitem"
             aria-label="Aggiorna pagina">
@@ -211,21 +172,6 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
               Aggiorna pagina
             </span>
             <span className={styles.badge}>Aggiorna</span>
-          </button>
-          <button
-            className={styles.item}
-            style={{ marginBottom: "10px" }}
-            onClick={() => {
-              onHelp();
-              setOpen(false);
-            }}
-            role="menuitem"
-            aria-label="Apri tutorial">
-            <span className={styles.row}>
-              <HelpCircle size={18} style={{ marginRight: 8 }} />
-              Tutorial
-            </span>
-            <span className={styles.badge}>Apri</span>
           </button>
           <button
             className={styles.item}
@@ -241,26 +187,8 @@ export function SettingsMenu({ onHelp }: SettingsMenuProps) {
             </span>
             <span className={styles.badge}>Feedback</span>
           </button>
-          <div className={styles.groupLabel}>Modalità</div>
-          <button
-            className={styles.item}
-            onClick={handleChangeModeClick}
-            role="menuitem"
-            aria-label="Cambia modalità">
-            <span className={styles.row}>
-              <Repeat size={18} style={{ marginRight: 8 }} />
-              Cambia modalità
-            </span>
-            <span className={styles.badge}>{userMode === "student" ? "Studente" : "Docente"}</span>
-          </button>
         </div>
       )}
-      <ChangeModeModal
-        isOpen={showChangeModeModal}
-        onConfirm={handleConfirmChangeMode}
-        onCancel={handleCancelChangeMode}
-        currentMode={userMode === "student" ? "studente" : userMode === "teacher" ? "docente" : undefined}
-      />
     </div>
   );
 }

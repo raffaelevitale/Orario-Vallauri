@@ -10,7 +10,7 @@ import { useThemeStore } from '@/lib/orario/stores/themeStore';
  * Automatically updates Sentry user info when schedule/theme changes
  */
 export function useSentryUser() {
-  const { userMode, selectedEntity, viewType } = useScheduleStore();
+  const { userMode, selectedEntity } = useScheduleStore();
   const { theme } = useThemeStore();
 
   useEffect(() => {
@@ -25,14 +25,12 @@ export function useSentryUser() {
       Sentry.setContext('user_preferences', {
         mode: userMode,
         entity: selectedEntity,
-        viewType: viewType,
         theme: theme,
       });
 
       // Add tags for filtering errors in Sentry dashboard
       Sentry.setTag('user_mode', userMode);
-      Sentry.setTag('view_type', viewType);
       Sentry.setTag('theme', theme);
     }
-  }, [userMode, selectedEntity, viewType, theme]);
+  }, [userMode, selectedEntity, theme]);
 }

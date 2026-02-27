@@ -17,10 +17,10 @@ DEAD_CODE_REPORT.md
 scripts/generate-icons.sh
 /docs
 /backup
+EXP_COURS(1).csv
 
 #Sentry Config File
 .env.sentry-build-plugin
 
 #cursor
 .cursor
-EXP_COURS(1).csv
