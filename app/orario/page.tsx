@@ -143,18 +143,20 @@ export default function OrarioPage() {
           <div className={styles.headerTop}>
             <div>
               <h1 className={styles.title}>{tabTitles[activeTab].title}</h1>
-              <p
-                className={styles.subtitle}
-                style={
-                  activeTab === "orario" && hasCompletedSetup
-                    ? { cursor: "pointer", textDecoration: "underline dotted", textUnderlineOffset: "3px" }
-                    : undefined
-                }
-                onClick={activeTab === "orario" && hasCompletedSetup ? resetSetup : undefined}
-                title={activeTab === "orario" && hasCompletedSetup ? "Tocca per cambiare" : undefined}
-              >
-                {tabTitles[activeTab].subtitle}
-              </p>
+              {activeTab === "orario" && hasCompletedSetup ? (
+                <button
+                  type="button"
+                  className={styles.entitySwitchCta}
+                  onClick={resetSetup}
+                  title="Cambia classe o docente"
+                  aria-label="Cambia classe o docente"
+                >
+                  <span className={styles.entitySwitchValue}>{tabTitles[activeTab].subtitle}</span>
+                  <span className={styles.entitySwitchHint}>Tocca per cambiare</span>
+                </button>
+              ) : (
+                <p className={styles.subtitle}>{tabTitles[activeTab].subtitle}</p>
+              )}
             </div>
 
             <div
