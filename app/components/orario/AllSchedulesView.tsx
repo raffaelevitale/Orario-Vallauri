@@ -202,20 +202,15 @@ export function AllSchedulesView({ mode }: AllSchedulesViewProps) {
                     )}
                 </div>
 
-                <div className={styles.legendBox}>
-                    <div className={styles.legendTitle}>Lettura rapida</div>
-                    <ul className={styles.legendList}>
-                        <li>Colonne: da Lun a Ven</li>
-                        <li>Card ordinate per orario crescente</li>
-                        <li>Intervallo = pausa tra lezioni</li>
-                        <li>Orario mostrato come inizio - fine</li>
-                        <li>Badge LAB quando la lezione è in laboratorio</li>
-                    </ul>
-                    {mode === "student" ? (
-                        <p className={styles.legendNote}>Filtra per anno/indirizzo e cerca la classe per ridurre il listone.</p>
-                    ) : (
-                        <p className={styles.legendNote}>Cerca il docente per trovare subito le sue colonne settimanali.</p>
-                    )}
+                <div className={styles.calendarBox}>
+                    <div className={styles.calendarTitle}>Calendario Vallauri</div>
+                    <iframe
+                        className={styles.calendarIframe}
+                        src="https://calendar.google.com/calendar/embed?wkst=2&bgcolor=%23ffffff&ctz=Europe/Rome&showTitle=0&showNav=1&showPrint=0&showTabs=0&mode=AGENDA&src=Y185YWticTRqbHZlNmIwMDR1OGR1NDk4N3A0MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23A79B8E"
+                        title="Calendario pubblico Vallauri"
+                        frameBorder="0"
+                        scrolling="no"
+                    />
                 </div>
             </div>
 

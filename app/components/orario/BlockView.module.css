@@ -82,13 +82,24 @@
 
 @media (max-width: 768px) {
   .container {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(120px, 1fr));
     gap: 4px;
     padding: 4px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .container::-webkit-scrollbar {
+    display: none;
   }
 
   .headerCell {
-    font-size: 0.75rem;
-    padding: 8px 4px;
+    font-size: 0.7rem;
+    padding: 6px 4px;
+  }
+
+  .dayColumn {
+    min-width: 120px;
   }
 }

@@ -2,7 +2,7 @@
 
 .outer {
   display: grid;
-  grid-template-columns: 240px minmax(0, 1fr);
+  grid-template-columns: 320px minmax(0, 1fr);
   flex: 1;
   min-height: 0;
   height: 100%;
@@ -12,17 +12,17 @@
 /* ─── Sidebar Filtri ───────────────────────────────────────────────────── */
 
 .stickyHeader {
-  position: sticky;
+  position: relative;
   top: 0;
-  align-self: start;
-  max-height: 100%;
+  align-self: stretch;
+  height: 100%;
   overflow-y: auto;
-  padding: 12px 10px;
+  padding: 14px 14px;
   background: var(--bg-primary);
   border-right: 1px solid var(--border-color);
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
   z-index: 10;
 }
 
@@ -163,43 +163,41 @@
   background: var(--bg-hover);
 }
 
-.legendBox {
-  margin-top: 6px;
-  padding: 10px;
+.calendarBox {
+  margin-top: 4px;
   border: 1px solid var(--border-color);
-  border-radius: 10px;
+  border-radius: 12px;
   background: var(--bg-secondary);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
 }
 
-.legendTitle {
-  font-size: 0.75rem;
+.calendarTitle {
+  font-size: 0.72rem;
   font-weight: 700;
   color: var(--text-primary);
   text-transform: uppercase;
-  letter-spacing: 0.04em;
-  margin-bottom: 6px;
-}
-
-.legendList {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  letter-spacing: 0.05em;
+  padding: 10px 12px 4px;
   display: flex;
-  flex-direction: column;
-  gap: 4px;
+  align-items: center;
+  gap: 6px;
 }
 
-.legendList li {
-  font-size: 0.74rem;
-  color: var(--text-secondary);
-  line-height: 1.25;
+.calendarTitle::before {
+  content: '📅';
+  font-size: 0.85rem;
 }
 
-.legendNote {
-  margin-top: 8px;
-  font-size: 0.72rem;
-  color: var(--text-tertiary);
-  line-height: 1.3;
+.calendarIframe {
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+  border: none;
+  border-radius: 0 0 12px 12px;
 }
 
 /* ─── Scrollable Content ───────────────────────────────────────────────── */
@@ -330,7 +328,7 @@
 
 @media (max-width: 1024px) {
   .outer {
-    grid-template-columns: 220px minmax(0, 1fr);
+    grid-template-columns: 280px minmax(0, 1fr);
   }
 }
 
@@ -341,24 +339,69 @@
   }
 
   .stickyHeader {
-    position: static;
+    position: sticky;
+    top: 0;
+    height: auto;
     max-height: none;
     overflow: visible;
     border-right: none;
     border-bottom: 1px solid var(--border-color);
     padding: 8px 12px 6px;
+    flex-shrink: 0;
+  }
+
+  .yearTabs {
+    padding: 2px;
+    gap: 1px;
+  }
+
+  .yearTab {
+    padding: 6px 2px;
+    font-size: 0.7rem;
+  }
+
+  .searchInput {
+    padding: 7px 30px 7px 30px;
+    font-size: 0.8rem;
   }
 
   .scrollContent {
-    height: auto;
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    padding: 8px 8px 80px;
+    gap: 16px;
   }
 
-  .legendBox {
+  .calendarBox {
     display: none;
   }
 
+  .scheduleBlock {
+    border-radius: 10px;
+  }
+
+  .entityHeader {
+    padding: 8px 10px 6px;
+    gap: 6px;
+  }
+
+  .entityName {
+    font-size: 0.9rem;
+  }
+
+  .entityBadge {
+    font-size: 0.6rem;
+    padding: 1px 5px;
+  }
+
   .blockViewWrap {
-    min-height: 380px;
-    height: auto;
+    min-height: 320px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .skeletonBlock {
+    min-height: 200px;
   }
 }

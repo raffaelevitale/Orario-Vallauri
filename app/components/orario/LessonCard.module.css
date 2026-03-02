@@ -263,6 +263,87 @@
   }
 }
 
+/* Mobile Optimization */
+@media (max-width: 640px) {
+  .card {
+    padding: 6px;
+  }
+
+  .cardCompact {
+    padding: 5px;
+  }
+
+  .cardCompact .cardLayout {
+    gap: 3px;
+  }
+
+  .subject {
+    font-size: 0.78rem;
+    line-height: 1.2;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    word-break: break-word;
+  }
+
+  .subjectCompact {
+    font-size: 0.72rem;
+  }
+
+  .detailsCompact {
+    font-size: 0.65rem;
+  }
+
+  .detailRow {
+    gap: 3px;
+  }
+
+  .detailIcon {
+    width: 12px;
+    font-size: 0.7rem;
+  }
+
+  .detailText {
+    font-size: 0.65rem;
+  }
+
+  .labBadge {
+    font-size: 0.5rem;
+    padding: 1px 3px;
+  }
+
+  .cardCompact .timeSection {
+    padding-top: 3px;
+    margin-top: 3px;
+  }
+
+  .cardCompact .startTime {
+    font-size: 0.72rem;
+  }
+
+  .cardCompact .endTime {
+    font-size: 0.65rem;
+  }
+
+  .cardTiny {
+    padding: 3px 5px !important;
+    min-height: 22px !important;
+  }
+
+  .cardTiny .subject {
+    font-size: 0.65rem;
+  }
+
+  .cardTiny .startTime,
+  .cardTiny .endTime {
+    font-size: 0.6rem;
+  }
+
+  .duration {
+    font-size: 0.6rem;
+    padding: 1px 4px;
+  }
+}
+
 .timeSection {
   display: flex;
   align-items: center;
