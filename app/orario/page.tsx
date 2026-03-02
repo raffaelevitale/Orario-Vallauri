@@ -68,7 +68,7 @@ export default function OrarioPage() {
     return () => clearInterval(timer);
   }, []);
 
-  const todayLessons = useMemo(() => getLessonsForDay(selectedDay), [selectedDay, getLessonsForDay]);
+  const todayLessons = useMemo(() => getLessonsForDay(selectedDay), [selectedDay, getLessonsForDay, schedule]);
 
   useEffect(() => {
     if (!isMounted) return;
