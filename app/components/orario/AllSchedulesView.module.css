@@ -188,7 +188,7 @@
 }
 
 .calendarTitle::before {
-  content: '📅';
+  content: '';
   font-size: 0.85rem;
 }
 

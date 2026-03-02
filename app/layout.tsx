@@ -4,7 +4,6 @@ import type { Metadata, Viewport } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { PrimeReactProvider } from "primereact/api";
-import SnowfallEffect from "./components/Snowfall";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -107,7 +106,6 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
-        <SnowfallEffect />
         <PrimeReactProvider>
           {children}
           <Analytics />

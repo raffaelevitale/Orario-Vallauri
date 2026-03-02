@@ -5,8 +5,6 @@ import { useScheduleStore } from "@/lib/orario/stores/scheduleStore";
 import { useSnowfallStore } from "@/lib/orario/stores/snowfallStore";
 import { LessonCard } from "@/app/components/orario/LessonCard";
 import { SettingsMenu } from "@/app/components/orario/SettingsMenu";
-import InstallPrompt from "@/app/components/pwa/InstallPrompt";
-import { NotificationPrompt } from "@/app/components/orario/NotificationPrompt";
 import { BottomTabBar, TabId } from "@/app/components/orario/BottomTabBar";
 import { AllSchedulesView } from "@/app/components/orario/AllSchedulesView";
 import { InlineSetup } from "@/app/components/orario/InlineSetup";
@@ -268,8 +266,6 @@ export default function OrarioPage() {
       )}
 
       <BottomTabBar activeTab={activeTab} onTabChange={setActiveTab} />
-      <InstallPrompt />
-      <NotificationPrompt />
     </div>
   );
 }
