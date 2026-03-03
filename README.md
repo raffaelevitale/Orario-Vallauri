@@ -22,8 +22,8 @@ Applicazione standalone per la gestione degli orari, estratta dal portfolio prin
 | 🔄 Cambio Modalità    | ✅ Beta    | Modale dedicata per cambio modalità studente/docente con UI moderna          |
 | 🧭 Onboarding Guidato | ✅ Beta    | Tour onboarding aggiornato con tutte le nuove funzionalità                   |
 | 🌙 Dark Mode          | ✅ Beta    | Supporto completo per tema scuro                                             |
-| 🧭 BottomTabBar        | ✅ New     | Navigazione inferiore con switch studente/docente                            |
-| 🔍 BrowseList          | ✅ New     | Esplorazione classi e docenti con filtri anno e settore                      |
+| 🧭 BottomTabBar       | ✅ New     | Navigazione inferiore con switch studente/docente                            |
+| 🔍 BrowseList         | ✅ New     | Esplorazione classi e docenti con filtri anno e settore                      |
 | 📱 PWA                | 📋 Planned | Supporto Progressive Web App                                                 |
 | 🔄 Import/Export      | 🚧 WIP     | Funzionalità in sviluppo                                                     |
 
