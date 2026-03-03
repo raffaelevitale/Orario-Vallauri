@@ -39,36 +39,6 @@ orario-standalone/
 └── json/                    # File di configurazione JSON
 ```
 
-## 🚀 Quick Start
-
-### Prerequisiti
-
-- Node.js 18+ 
-- npm o yarn
-
-### Installazione
-
-```bash
-# Clona il repository
-git clone <repo-url>
-cd orario-standalone
-
-# Installa le dipendenze
-npm install
-
-# Avvia il server di sviluppo
-npm run dev
-```
-
-Apri [http://localhost:3000](http://localhost:3000) nel browser.
-
-## 📦 Dipendenze Principali
-
-```bash
-npm install next@latest react react-dom
-npm install -D tailwindcss postcss autoprefixer
-npm install -D typescript @types/react @types/node # se usi TypeScript
-```
 
 ## ⚙️ Novità v0.3.0
 
