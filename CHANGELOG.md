@@ -2,6 +2,43 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.0] - 2026-03-03
+
+### ✨ Nuove Funzionalità
+
+#### 🧭 Navigazione
+- Aggiunta **BottomTabBar** per navigazione inferiore
+- Nuovo componente **BrowseList** per la navigazione tra classi e docenti
+- Nuovo pulsante di switch entità (studente ↔ docente) nella pagina orario
+
+#### ⚙️ Setup
+- Filtri per anno e settore nella pagina di setup con UI migliorata
+- Script CSV per il parsing automatico degli orari dei docenti
+- Aggiunti orari di numerosi docenti e classi (tra cui 5A INF, 4A MEC, 4A INF)
+
+#### 🗄️ Backend
+- Setup iniziale per database
+- Prima API route con risposta GET
+
+### 🎨 Miglioramenti UI/UX
+- Redesign del componente `InlineSetup` per layout e responsività migliorati
+- Stili aggiornati per `AllSchedulesView`, `BlockView` e `LessonCard` ottimizzati per mobile
+- Corretta la UI degli orari per liceo e classi prime
+- Migliorato supporto dark theme per `NotificationPrompt`
+
+### 🐛 Bug Fix
+- Rimosso `OnboardingTour` dalla pagina orario e dalla pagina di setup
+- Corretti vari problemi di visualizzazione su mobile
+- Commentata importazione connessione DB in `route.ts`
+
+### 🔧 Miglioramenti Tecnici
+- Rimossi componenti inutilizzati: `SnowfallEffect`, `InstallPrompt`, `NotificationPrompt`
+- Semplificata la pagina di setup (rimossa modalità festività e icona Babbo Natale)
+- Pulizia generale del codice e rimozione file non utilizzati
+- Aggiunto `.cursor` al `.gitignore`
+
+---
+
 ## [0.2.0] - 2025-11-10 - BETA
 
 ### ✨ Nuove Funzionalità
