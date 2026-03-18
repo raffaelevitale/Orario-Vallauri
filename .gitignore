@@ -22,5 +22,8 @@ EXP_COURS(1).csv
 #Sentry Config File
 .env.sentry-build-plugin
 
+#local telegram storage
+.data
+
 #cursor
 .cursor

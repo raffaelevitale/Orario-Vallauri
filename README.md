@@ -24,6 +24,7 @@ Applicazione standalone per la gestione degli orari, estratta dal portfolio prin
 | 🌙 Dark Mode          | ✅ Beta    | Supporto completo per tema scuro                                             |
 | 🧭 BottomTabBar       | ✅ New     | Navigazione inferiore con switch studente/docente                            |
 | 🔍 BrowseList         | ✅ New     | Esplorazione classi e docenti con filtri anno e settore                      |
+| 🤖 Telegram Bot       | ✅ Beta    | Comandi `/oggi` `/domani` + promemoria automatici                            |
 | 📱 PWA                | 📋 Planned | Supporto Progressive Web App                                                 |
 | 🔄 Import/Export      | 🚧 WIP     | Funzionalità in sviluppo                                                     |
 
@@ -63,6 +64,56 @@ orario-standalone/
 - [x] **v0.3** - Nuovi componenti navigazione, filtri setup e orari docenti
 - [ ] **v0.4** - Import/Export completo e testing
 - [ ] **v1.0** - Release stabile
+
+## 🤖 Telegram Bot (MVP)
+
+Il progetto include un bot Telegram con:
+
+- webhook: `POST /api/telegram/webhook`
+- preferenze utente (chat_id + entità): `GET/POST/DELETE /api/telegram/preferences`
+- reminder schedulati: `GET/POST /api/telegram/reminders`
+
+### 1) Configura variabili ambiente
+
+Copia `.env.example` in `.env.local` e valorizza almeno:
+
+- `TELEGRAM_BOT_TOKEN`
+- `TELEGRAM_WEBHOOK_SECRET`
+- `CRON_SECRET` (consigliato in produzione)
+
+### 2) Registra il webhook Telegram
+
+Usa il tuo dominio deployato (HTTPS obbligatorio):
+
+```bash
+curl -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/setWebhook" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "url":"https://YOUR_DOMAIN/api/telegram/webhook",
+    "secret_token":"YOUR_TELEGRAM_WEBHOOK_SECRET",
+    "allowed_updates":["message"]
+  }'
+```
+
+### 3) Configura l’utente dal sito
+
+In app: `Impostazioni -> Telegram Bot`
+
+- apri il bot Telegram e invia `/start` (mostra il tuo `chat_id`);
+- inserisci `chat_id` nel form;
+- salva con la classe/docente attualmente selezionato.
+
+### 4) Reminder ogni 5 minuti
+
+`vercel.json` include un cron `*/5 * * * *` verso `/api/telegram/reminders`.
+
+- Se `CRON_SECRET` è impostato, passa il secret tramite query/header (`secret`, `x-cron-secret` o `Authorization: Bearer ...`).
+- Se `CRON_SECRET` non è impostato, la route accetta richieste cron Vercel con header `x-vercel-cron`.
+
+### 5) Storage MVP
+
+Le preferenze Telegram e lo stato reminder sono salvati in `.data/` (o in `TELEGRAM_STORAGE_DIR`, su Vercel fallback `/tmp/orario-telegram`).
+Per produzione robusta è consigliato migrare su DB persistente.
 
 ## 📝 Changelog
 
