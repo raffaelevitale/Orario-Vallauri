@@ -14,6 +14,15 @@ type ParsedDate = {
   isAllDay: boolean;
 };
 
+type CalendarApiItem = {
+  id: string;
+  status?: string;
+  summary?: string;
+  location?: string;
+  start?: { dateTime?: string; date?: string };
+  end?: { dateTime?: string; date?: string };
+};
+
 function formatDateKeyFromDate(date: Date, timeZone: string) {
   const formatted = new Intl.DateTimeFormat("en-CA", {
     timeZone,
@@ -151,7 +160,9 @@ async function fetchCalendarApiEvents() {
   const response = await fetch(url, { next: { revalidate: 300 } });
   if (!response.ok) return null;
   const data = await response.json();
-  const items = Array.isArray(data.items) ? data.items : [];
+  const items: CalendarApiItem[] = Array.isArray(data.items)
+    ? (data.items as CalendarApiItem[])
+    : [];
 
   const events = items
     .filter((item) => item.status !== "cancelled")
