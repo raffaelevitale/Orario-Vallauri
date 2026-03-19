@@ -1,3 +1,41 @@
+.scrollHintWrap {
+  position: relative;
+}
+
+.scrollHint {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 36px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 15;
+  color: var(--accent-blue);
+}
+
+.scrollHintLeft {
+  left: 0;
+  background: linear-gradient(90deg, var(--bg-secondary) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.scrollHintRight {
+  right: 0;
+  background: linear-gradient(270deg, var(--bg-secondary) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.scrollHintIcon {
+  font-size: 1rem;
+  font-weight: 800;
+  opacity: 0.95;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  padding: 4px 7px;
+  box-shadow: var(--shadow-md);
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -81,6 +119,10 @@
 }
 
 @media (max-width: 768px) {
+  .scrollHint {
+    display: flex;
+  }
+
   .container {
     grid-template-columns: repeat(5, minmax(120px, 1fr));
     gap: 4px;

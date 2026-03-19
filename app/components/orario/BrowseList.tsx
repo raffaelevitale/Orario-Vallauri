@@ -23,11 +23,11 @@ interface BrowseListProps {
 }
 
 const weekDays = [
-    { number: 1, name: "Lunedì", short: "Lun" },
-    { number: 2, name: "Martedì", short: "Mar" },
-    { number: 3, name: "Mercoledì", short: "Mer" },
-    { number: 4, name: "Giovedì", short: "Gio" },
-    { number: 5, name: "Venerdì", short: "Ven" },
+    { number: 1, name: "Lunedì", short: "LUN" },
+    { number: 2, name: "Martedì", short: "MAR" },
+    { number: 3, name: "Mercoledì", short: "MER" },
+    { number: 4, name: "Giovedì", short: "GIO" },
+    { number: 5, name: "Venerdì", short: "VEN" },
 ];
 
 export function BrowseList({ mode }: BrowseListProps) {
@@ -209,7 +209,7 @@ export function BrowseList({ mode }: BrowseListProps) {
                                     className={`${styles.dayTab} ${selectedDay === day.number ? styles.dayTabActive : ""}`}
                                     onClick={() => setSelectedDay(day.number)}
                                 >
-                                    {day.name}
+                                    {day.short}
                                 </button>
                             ))}
                         </div>

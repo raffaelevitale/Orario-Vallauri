@@ -25,6 +25,14 @@ interface ScheduleEntry {
     error: boolean;
 }
 
+type CalendarEvent = {
+    id: string;
+    summary: string;
+    timeLabel: string;
+    location?: string;
+    isAllDay: boolean;
+};
+
 export function AllSchedulesView({ mode }: AllSchedulesViewProps) {
     const [allNames, setAllNames] = useState<string[]>([]);
     const [schedules, setSchedules] = useState<Map<string, ScheduleEntry>>(new Map());
@@ -32,6 +40,9 @@ export function AllSchedulesView({ mode }: AllSchedulesViewProps) {
     const [searchTerm, setSearchTerm] = useState("");
     const [selectedYear, setSelectedYear] = useState<string>("all");
     const [selectedSector, setSelectedSector] = useState<string | null>(null);
+    const [calendarEvents, setCalendarEvents] = useState<CalendarEvent[]>([]);
+    const [calendarStatus, setCalendarStatus] = useState<"loading" | "ready" | "error">("loading");
+    const [calendarLabel, setCalendarLabel] = useState<string>("");
     const observerRef = useRef<IntersectionObserver | null>(null);
 
     // Load names on mount
@@ -51,6 +62,31 @@ export function AllSchedulesView({ mode }: AllSchedulesViewProps) {
         };
         load();
     }, [mode]);
+
+    useEffect(() => {
+        let isActive = true;
+        const loadCalendar = async () => {
+            setCalendarStatus("loading");
+            try {
+                const response = await fetch("/api/calendar");
+                if (!response.ok) throw new Error("Calendar fetch failed");
+                const data = await response.json();
+                if (!isActive) return;
+                setCalendarEvents(data.events ?? []);
+                setCalendarLabel(data.dateLabel ?? "");
+                setCalendarStatus("ready");
+            } catch {
+                if (!isActive) return;
+                setCalendarEvents([]);
+                setCalendarLabel("");
+                setCalendarStatus("error");
+            }
+        };
+        loadCalendar();
+        return () => {
+            isActive = false;
+        };
+    }, []);
 
     // Reset filters when mode changes
     useEffect(() => {
@@ -203,14 +239,41 @@ export function AllSchedulesView({ mode }: AllSchedulesViewProps) {
                 </div>
 
                 <div className={styles.calendarBox}>
-                    <div className={styles.calendarTitle}>Calendario Vallauri</div>
-                    <iframe
-                        className={styles.calendarIframe}
-                        src="https://calendar.google.com/calendar/embed?wkst=2&bgcolor=%23ffffff&ctz=Europe/Rome&showTitle=0&showNav=1&showPrint=0&showTabs=0&mode=AGENDA&src=Y185YWticTRqbHZlNmIwMDR1OGR1NDk4N3A0MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23A79B8E"
-                        title="Calendario pubblico Vallauri"
-                        frameBorder="0"
-                        scrolling="no"
-                    />
+                    <div className={styles.calendarTitle}>
+                        <span>Calendario Vallauri</span>
+                        {calendarLabel && (
+                            <span className={styles.calendarDate}>{calendarLabel}</span>
+                        )}
+                    </div>
+                    <div className={styles.calendarContent}>
+                        {calendarStatus === "loading" && (
+                            <div className={styles.calendarLoading}>
+                                <div className={styles.spinner} />
+                                <span>Caricamento…</span>
+                            </div>
+                        )}
+                        {calendarStatus === "error" && (
+                            <div className={styles.calendarEmpty}>Eventi non disponibili</div>
+                        )}
+                        {calendarStatus === "ready" && calendarEvents.length === 0 && (
+                            <div className={styles.calendarEmpty}>Nessun evento oggi</div>
+                        )}
+                        {calendarStatus === "ready" && calendarEvents.length > 0 && (
+                            <div className={styles.calendarList}>
+                                {calendarEvents.map((event) => (
+                                    <div key={event.id} className={styles.calendarItem}>
+                                        <div className={styles.calendarTime}>{event.timeLabel}</div>
+                                        <div className={styles.calendarInfo}>
+                                            <div className={styles.calendarSummary}>{event.summary}</div>
+                                            {event.location && (
+                                                <div className={styles.calendarMeta}>{event.location}</div>
+                                            )}
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        )}
+                    </div>
                 </div>
             </div>
 

@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState, type FormEvent } from "react";
 import { useScheduleStore } from "@/lib/orario/stores/scheduleStore";
-import { GraduationCap, BookOpen, Search, X, Loader2 } from "lucide-react";
+import { Loader2 } from "lucide-react";
 import {
     loadClassNames,
     loadTeacherNames,
@@ -11,228 +11,171 @@ import {
 } from "@/lib/orario/services/scheduleService";
 import styles from "./InlineSetup.module.css";
 
-type UserType = "student" | "teacher";
+type MatchResult = { value: string; mode: "student" | "teacher" } | null;
 
-function getSector(className: string): string {
-    const parts = className.split(" ");
-    return parts.length > 1 ? parts.slice(1).join(" ") : "";
-}
-
-function getSection(className: string): string {
-    return className.split(" ")[0].slice(1);
-}
-
-/** Raggruppa classi per settore, es. { "INF": ["1A INF", "1B INF", …], … } */
-function groupBySector(classes: string[]): { sector: string; items: string[] }[] {
-    const map = new Map<string, string[]>();
-    for (const c of classes) {
-        const s = getSector(c);
-        if (!map.has(s)) map.set(s, []);
-        map.get(s)!.push(c);
-    }
-    return Array.from(map.entries())
-        .sort(([a], [b]) => a.localeCompare(b))
-        .map(([sector, items]) => ({ sector, items }));
-}
-
-/** Raggruppa docenti per iniziale */
-function groupByLetter(teachers: string[]): { letter: string; items: string[] }[] {
-    const map = new Map<string, string[]>();
-    for (const t of teachers) {
-        const letter = t.charAt(0).toUpperCase();
-        if (!map.has(letter)) map.set(letter, []);
-        map.get(letter)!.push(t);
-    }
-    return Array.from(map.entries())
-        .sort(([a], [b]) => a.localeCompare(b))
-        .map(([letter, items]) => ({ letter, items }));
+function normalizeKey(value: string) {
+    return value.toLowerCase().replace(/\s+/g, "").replace(/\./g, "");
 }
 
 export function InlineSetup() {
     const { setUserMode, setSchedule, completeSetup } = useScheduleStore();
-
-    const [userType, setUserType] = useState<UserType>("student");
-    const [items, setItems] = useState<string[]>([]);
-    const [loading, setLoading] = useState(true);
-    const [searchTerm, setSearchTerm] = useState("");
-    const [selectedYear, setSelectedYear] = useState<string>("all");
-    const [loadingSchedule, setLoadingSchedule] = useState<string | null>(null);
+    const [classes, setClasses] = useState<string[]>([]);
+    const [teachers, setTeachers] = useState<string[]>([]);
+    const [query, setQuery] = useState("");
+    const [loadingNames, setLoadingNames] = useState(true);
+    const [loadingSchedule, setLoadingSchedule] = useState(false);
+    const [error, setError] = useState<string | null>(null);
 
     useEffect(() => {
+        let isActive = true;
         const load = async () => {
-            setLoading(true);
-            const names = userType === "student"
-                ? await loadClassNames()
-                : await loadTeacherNames().then(n => [...n].sort());
-            setItems(names);
-            setLoading(false);
+            setLoadingNames(true);
+            try {
+                const [classList, teacherList] = await Promise.all([
+                    loadClassNames(),
+                    loadTeacherNames().then((n) => [...n].sort()),
+                ]);
+                if (!isActive) return;
+                setClasses(classList);
+                setTeachers(teacherList);
+            } catch {
+                if (!isActive) return;
+                setClasses([]);
+                setTeachers([]);
+            } finally {
+                if (isActive) setLoadingNames(false);
+            }
         };
         load();
-        setSearchTerm("");
-        setSelectedYear("all");
-    }, [userType]);
+        return () => {
+            isActive = false;
+        };
+    }, []);
 
-    const years = useMemo(
-        () => userType === "student" ? Array.from(new Set(items.map(c => c.charAt(0)))).sort() : [],
-        [items, userType]
-    );
+    const suggestions = useMemo(() => {
+        const trimmed = query.trim();
+        if (trimmed.length < 2) return [];
+        const normalized = trimmed.toLowerCase();
+        const all = [...classes, ...teachers];
+        return all
+            .filter((item) => item.toLowerCase().includes(normalized))
+            .slice(0, 12);
+    }, [query, classes, teachers]);
 
-    const filtered = useMemo(() => {
-        let list = items;
-        if (searchTerm) list = list.filter(n => n.toLowerCase().includes(searchTerm.toLowerCase()));
-        if (userType === "student" && selectedYear !== "all") {
-            list = list.filter(c => c.charAt(0) === selectedYear);
+    const findMatch = (value: string): MatchResult => {
+        const normalized = normalizeKey(value);
+        if (!normalized) return null;
+
+        const matchFromList = (list: string[]) => {
+            const exact = list.find((item) => normalizeKey(item) === normalized);
+            if (exact) return exact;
+            const partial = list.filter((item) =>
+                normalizeKey(item).includes(normalized)
+            );
+            return partial.length === 1 ? partial[0] : null;
+        };
+
+        const preferClass = /^\d/.test(value.trim());
+        const classMatch = matchFromList(classes);
+        const teacherMatch = matchFromList(teachers);
+
+        if (preferClass) {
+            if (classMatch) return { value: classMatch, mode: "student" };
+            if (teacherMatch) return { value: teacherMatch, mode: "teacher" };
+        } else {
+            if (teacherMatch) return { value: teacherMatch, mode: "teacher" };
+            if (classMatch) return { value: classMatch, mode: "student" };
         }
-        return list;
-    }, [items, searchTerm, selectedYear, userType]);
+        return null;
+    };
 
-    const classGroups = useMemo(() => groupBySector(filtered), [filtered]);
-    const teacherGroups = useMemo(() => groupByLetter(filtered), [filtered]);
-
-    const handleSelect = async (entity: string) => {
-        setLoadingSchedule(entity);
+    const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+        event.preventDefault();
+        setError(null);
+        const trimmed = query.trim();
+        if (!trimmed) {
+            setError("Inserisci una classe o un docente.");
+            return;
+        }
+        const match = findMatch(trimmed);
+        if (!match) {
+            setError("Nessuna corrispondenza. Usa il nome completo o scegli dai suggerimenti.");
+            return;
+        }
+        setLoadingSchedule(true);
         try {
-            const lessons = userType === "student"
-                ? await loadClassSchedule(entity)
-                : await loadTeacherSchedule(entity);
-            setUserMode(userType === "student" ? "student" : "teacher", entity);
-            setSchedule({ lessons, className: entity });
+            const lessons =
+                match.mode === "student"
+                    ? await loadClassSchedule(match.value)
+                    : await loadTeacherSchedule(match.value);
+            setUserMode(match.mode, match.value);
+            setSchedule({ lessons, className: match.value });
             completeSetup();
         } finally {
-            setLoadingSchedule(null);
+            setLoadingSchedule(false);
         }
     };
 
     return (
         <div className={styles.container}>
-            <div className={styles.inner}>
-                {/* Toggle Studente / Docente */}
-                <div className={styles.typeToggle}>
-                    <div className={styles.toggleTrack}>
-                        <div
-                            className={styles.toggleThumb}
-                            style={{ transform: userType === "teacher" ? "translateX(100%)" : "translateX(0)" }}
-                        />
-                        <button
-                            className={`${styles.toggleOption} ${userType === "student" ? styles.toggleOptionActive : ""}`}
-                            onClick={() => setUserType("student")}
-                        >
-                            <GraduationCap size={15} />
-                            Studente
-                        </button>
-                        <button
-                            className={`${styles.toggleOption} ${userType === "teacher" ? styles.toggleOptionActive : ""}`}
-                            onClick={() => setUserType("teacher")}
-                        >
-                            <BookOpen size={15} />
-                            Docente
-                        </button>
-                    </div>
+            <div className={styles.card}>
+                <div className={styles.header}>
+                    <h2 className={styles.title}>Trova il tuo orario</h2>
+                    <p className={styles.subtitle}>
+                        Scrivi la tua classe se sei studente o il tuo nome se sei docente.
+                    </p>
                 </div>
 
-                {/* Year pills (students only) */}
-                {userType === "student" && years.length > 1 && (
-                    <div className={styles.yearBar}>
-                        <button
-                            onClick={() => setSelectedYear("all")}
-                            className={`${styles.yearPill} ${selectedYear === "all" ? styles.yearPillActive : ""}`}
-                        >
-                            Tutti
-                        </button>
-                        {years.map(year => (
-                            <button
-                                key={year}
-                                onClick={() => setSelectedYear(selectedYear === year ? "all" : year)}
-                                className={`${styles.yearPill} ${selectedYear === year ? styles.yearPillActive : ""}`}
-                            >
-                                {year}°
-                            </button>
-                        ))}
-                    </div>
-                )}
-
-                {/* Search */}
-                <div className={styles.searchWrapper}>
-                    <Search size={14} className={styles.searchIcon} />
+                <form onSubmit={handleSubmit} className={styles.form}>
+                    <label className={styles.label} htmlFor="setup-input">
+                        Classe o docente
+                    </label>
                     <input
+                        id="setup-input"
                         type="text"
-                        placeholder={userType === "student" ? "Cerca classe…" : "Cerca docente…"}
-                        value={searchTerm}
-                        onChange={e => setSearchTerm(e.target.value)}
-                        className={styles.searchInput}
+                        className={styles.input}
+                        placeholder="Es. 3A INF oppure Rossi Mario"
+                        value={query}
+                        onChange={(event) => {
+                            setQuery(event.target.value);
+                            if (error) setError(null);
+                        }}
+                        list="setup-suggestions"
                         autoComplete="off"
+                        disabled={loadingNames || loadingSchedule}
                     />
-                    {searchTerm && (
-                        <button onClick={() => setSearchTerm("")} className={styles.searchClear}>
-                            <X size={13} />
-                        </button>
-                    )}
+                    <datalist id="setup-suggestions">
+                        {suggestions.map((item) => (
+                            <option key={item} value={item} />
+                        ))}
+                    </datalist>
+
+                    {error && <div className={styles.error}>{error}</div>}
+
+                    <button
+                        type="submit"
+                        className={styles.submitButton}
+                        disabled={loadingNames || loadingSchedule}
+                    >
+                        {loadingSchedule ? (
+                            <>
+                                <Loader2 size={16} className={styles.spinIcon} />
+                                Caricamento…
+                            </>
+                        ) : (
+                            "Mostra orario"
+                        )}
+                    </button>
+                </form>
+
+                <div className={styles.helperRow}>
+                    <span className={styles.helperText}>Esempi:</span>
+                    <span className={styles.helperValue}>3A INF · Rossi Mario</span>
                 </div>
 
-                {/* Content */}
-                {loading ? (
-                    <div className={styles.loadingRow}><div className={styles.spinner} /></div>
-                ) : filtered.length === 0 ? (
-                    <div className={styles.emptyRow}>Nessun risultato</div>
-                ) : userType === "student" ? (
-                    /* ─── Classi raggruppate per settore ─── */
-                    <div className={styles.sectorList}>
-                        {classGroups.map(({ sector, items: classes }) => (
-                            <div key={sector} className={styles.sectorGroup}>
-                                <div className={styles.sectorHeader}>
-                                    <span className={styles.sectorName}>{sector}</span>
-                                    <span className={styles.sectorCount}>{classes.length}</span>
-                                </div>
-                                <div className={styles.classPills}>
-                                    {classes.map(item => {
-                                        const isLoading = loadingSchedule === item;
-                                        return (
-                                            <button
-                                                key={item}
-                                                className={`${styles.classPill} ${isLoading ? styles.classPillLoading : ""}`}
-                                                onClick={() => handleSelect(item)}
-                                                disabled={loadingSchedule !== null}
-                                            >
-                                                {isLoading ? (
-                                                    <Loader2 size={14} className={styles.spinIcon} />
-                                                ) : (
-                                                    <>
-                                                        <span className={styles.pillYear}>{item.charAt(0)}</span>
-                                                        <span className={styles.pillSection}>{getSection(item)}</span>
-                                                    </>
-                                                )}
-                                            </button>
-                                        );
-                                    })}
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                ) : (
-                    /* ─── Docenti raggruppati per lettera ─── */
-                    <div className={styles.teacherList}>
-                        {teacherGroups.map(({ letter, items: teachers }) => (
-                            <div key={letter} className={styles.letterGroup}>
-                                <div className={styles.letterHeader}>{letter}</div>
-                                <div className={styles.letterItems}>
-                                    {teachers.map(item => {
-                                        const isLoading = loadingSchedule === item;
-                                        return (
-                                            <button
-                                                key={item}
-                                                className={`${styles.teacherItem} ${isLoading ? styles.teacherItemLoading : ""}`}
-                                                onClick={() => handleSelect(item)}
-                                                disabled={loadingSchedule !== null}
-                                            >
-                                                <span className={styles.teacherAvatar}>{item.charAt(0)}</span>
-                                                <span className={styles.teacherName}>{item}</span>
-                                                {isLoading && <Loader2 size={14} className={styles.spinIcon} />}
-                                            </button>
-                                        );
-                                    })}
-                                </div>
-                            </div>
-                        ))}
+                {loadingNames && (
+                    <div className={styles.loadingHint}>
+                        Sto preparando l’elenco di classi e docenti…
                     </div>
                 )}
             </div>
