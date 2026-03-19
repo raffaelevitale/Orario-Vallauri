@@ -12,17 +12,10 @@ import {
   Sun,
   Bell,
   RefreshCw,
-  FileText,
-  MessageCircle,
-  Save,
-  Trash2,
+  FileText
 } from "lucide-react";
 
 interface SettingsMenuProps { }
-interface TelegramStatus {
-  type: "success" | "error" | "info";
-  message: string;
-}
 
 export function SettingsMenu({ }: SettingsMenuProps = {}) {
   const { theme, setTheme } = useThemeStore();
@@ -31,10 +24,6 @@ export function SettingsMenu({ }: SettingsMenuProps = {}) {
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement | null>(null);
-  const [telegramChatId, setTelegramChatId] = useState("");
-  const [telegramEnabled, setTelegramEnabled] = useState(true);
-  const [telegramSaving, setTelegramSaving] = useState(false);
-  const [telegramStatus, setTelegramStatus] = useState<TelegramStatus | null>(null);
 
   // Chiudi al click fuori
   useEffect(() => {
@@ -59,138 +48,11 @@ export function SettingsMenu({ }: SettingsMenuProps = {}) {
     }
   }, [userMode, selectedEntity, theme, setTheme]);
 
-  useEffect(() => {
-    const savedChatId = localStorage.getItem("orario-telegram-chat-id")?.trim();
-    if (!savedChatId) return;
-
-    setTelegramChatId(savedChatId);
-
-    (async () => {
-      try {
-        const response = await fetch(
-          `/api/telegram/preferences?chatId=${encodeURIComponent(savedChatId)}`,
-          { cache: "no-store" }
-        );
-        if (!response.ok) return;
-        const data = await response.json();
-        if (data?.preference) {
-          setTelegramEnabled(Boolean(data.preference.notificationsEnabled));
-        }
-      } catch {
-        // Ignora errori di rete: il form resta comunque utilizzabile.
-      }
-    })();
-  }, []);
-
   const cycleTheme = () => {
     const themes: ("light" | "dark" | "system")[] = ["light", "dark", "system"];
     const currentIndex = themes.indexOf(theme);
     const nextIndex = (currentIndex + 1) % themes.length;
     setTheme(themes[nextIndex]);
-  };
-
-  const saveTelegramSettings = async () => {
-    setTelegramStatus(null);
-
-    const chatId = telegramChatId.trim();
-    if (!chatId) {
-      setTelegramStatus({
-        type: "error",
-        message: "Inserisci un chat_id valido.",
-      });
-      return;
-    }
-
-    if (!/^-?\d{4,20}$/.test(chatId)) {
-      setTelegramStatus({
-        type: "error",
-        message: "Formato chat_id non valido.",
-      });
-      return;
-    }
-
-    if (userMode !== "student" && userMode !== "teacher") {
-      setTelegramStatus({
-        type: "error",
-        message: "Seleziona prima modalità Studente o Docente.",
-      });
-      return;
-    }
-
-    if (!selectedEntity) {
-      setTelegramStatus({
-        type: "error",
-        message: "Seleziona prima una classe o un docente.",
-      });
-      return;
-    }
-
-    setTelegramSaving(true);
-    try {
-      const response = await fetch("/api/telegram/preferences", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          chatId,
-          entityType: userMode,
-          entityName: selectedEntity,
-          notificationsEnabled: telegramEnabled,
-        }),
-      });
-
-      const data = await response.json();
-      if (!response.ok || !data?.ok) {
-        throw new Error(data?.error ?? "Errore nel salvataggio configurazione Telegram");
-      }
-
-      localStorage.setItem("orario-telegram-chat-id", chatId);
-      setTelegramStatus({
-        type: "success",
-        message: "Configurazione Telegram salvata correttamente.",
-      });
-    } catch (error) {
-      setTelegramStatus({
-        type: "error",
-        message: error instanceof Error ? error.message : "Errore imprevisto durante il salvataggio",
-      });
-    } finally {
-      setTelegramSaving(false);
-    }
-  };
-
-  const disconnectTelegram = async () => {
-    setTelegramStatus(null);
-
-    const chatId = telegramChatId.trim();
-    if (!chatId) {
-      setTelegramStatus({
-        type: "info",
-        message: "Nessuna configurazione da rimuovere.",
-      });
-      return;
-    }
-
-    setTelegramSaving(true);
-    try {
-      await fetch(`/api/telegram/preferences?chatId=${encodeURIComponent(chatId)}`, {
-        method: "DELETE",
-      });
-      localStorage.removeItem("orario-telegram-chat-id");
-      setTelegramEnabled(true);
-      setTelegramStatus({
-        type: "success",
-        message: "Configurazione Telegram rimossa.",
-      });
-    } catch (error) {
-      setTelegramStatus({
-        type: "error",
-        message: error instanceof Error ? error.message : "Errore durante la rimozione",
-      });
-    } finally {
-      setTelegramSaving(false);
-    }
   };
 
   const themeLabel =
@@ -279,82 +141,6 @@ export function SettingsMenu({ }: SettingsMenuProps = {}) {
             </span>
             <span className={styles.badge}>Prova</span>
           </button>
-          <div className={styles.groupLabel}>Telegram Bot</div>
-          <div className={styles.telegramCard}>
-            <p className={styles.telegramHint}>
-              Apri il bot su Telegram e invia <code>/start</code> per leggere il tuo chat_id.
-            </p>
-            <label htmlFor="telegram-chat-id" className={styles.telegramLabel}>
-              Chat ID
-            </label>
-            <input
-              id="telegram-chat-id"
-              type="text"
-              inputMode="numeric"
-              className={styles.telegramInput}
-              value={telegramChatId}
-              onChange={(event) => setTelegramChatId(event.target.value)}
-              placeholder="Es. 123456789"
-              autoComplete="off"
-            />
-            <div className={styles.telegramTarget}>
-              <MessageCircle size={14} />
-              {userMode === "student" || userMode === "teacher" ? (
-                <span>
-                  Collegato a{" "}
-                  <strong>
-                    {userMode === "student" ? "classe" : "docente"} {selectedEntity ?? "(non selezionato)"}
-                  </strong>
-                </span>
-              ) : (
-                <span>Seleziona prima modalità ed entità nella schermata orario.</span>
-              )}
-            </div>
-
-            <label className={styles.telegramToggle}>
-              <input
-                type="checkbox"
-                checked={telegramEnabled}
-                onChange={(event) => setTelegramEnabled(event.target.checked)}
-              />
-              <span>Abilita promemoria automatici</span>
-            </label>
-
-            <div className={styles.telegramActions}>
-              <button
-                type="button"
-                className={styles.telegramSaveButton}
-                onClick={saveTelegramSettings}
-                disabled={telegramSaving}
-              >
-                <Save size={14} />
-                {telegramSaving ? "Salvataggio..." : "Salva configurazione"}
-              </button>
-              <button
-                type="button"
-                className={styles.telegramSecondaryButton}
-                onClick={disconnectTelegram}
-                disabled={telegramSaving}
-              >
-                <Trash2 size={14} />
-                Rimuovi
-              </button>
-            </div>
-
-            {telegramStatus && (
-              <p
-                className={`${styles.telegramStatus} ${
-                  telegramStatus.type === "success"
-                    ? styles.telegramStatusSuccess
-                    : telegramStatus.type === "error"
-                      ? styles.telegramStatusError
-                      : styles.telegramStatusInfo
-                }`}
-              >
-                {telegramStatus.message}
-              </p>
-            )}
-          </div>
           <div className={styles.groupLabel}>Aiuto</div>
           <button
             className={styles.item}

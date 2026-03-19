@@ -30,8 +30,5 @@ EXP_COURS(1).csv
 .env.development.local
 .env.test.local
 .env.production.local       
-#local telegram storage
-.data
-
 #cursor
 .cursor
