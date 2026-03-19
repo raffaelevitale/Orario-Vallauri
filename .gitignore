@@ -8,6 +8,9 @@ package-lock.json
 #next
 .next
 
+.claude
+.cursor
+
 #files md
 PWA_SETUP.md
 analize.md
