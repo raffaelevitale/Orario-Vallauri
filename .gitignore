@@ -32,3 +32,4 @@ EXP_COURS(1).csv
 .env.production.local       
 #cursor
 .cursor
+.DS_Store
