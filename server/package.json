@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --watch --env-file .env.dev src/app.ts",
+    "start": "node --env-file .env.prod dist/app.js",
+    "build": "tsc",
+    "type-check": "tsc --noEmit",
+    "compile-schemas": "json2ts -i schemas -o types"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "fastify": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "json-schema-to-ts": "^3.1.1",
+    "json-schema-to-typescript": "^15.0.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
