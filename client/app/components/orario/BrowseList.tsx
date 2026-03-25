@@ -8,7 +8,7 @@ import {
     loadClassSchedule,
     loadTeacherSchedule,
 } from "@/lib/orario/services/scheduleService";
-import { Lesson } from "@/lib/orario/models/lesson";
+import type { Lesson } from "@/lib/orario/models/lesson";
 import { BlockView } from "./BlockView";
 import { LessonCard } from "./LessonCard";
 import { isCurrentLesson } from "@/lib/orario/utils/time";

@@ -10,7 +10,7 @@ import { AllSchedulesView } from "@/app/components/orario/AllSchedulesView";
 import { InlineSetup } from "@/app/components/orario/InlineSetup";
 import { motion, AnimatePresence } from "framer-motion";
 import { isCurrentLesson, getRemainingMinutes } from "@/lib/orario/utils/time";
-import { Lesson } from "@/lib/orario/models/lesson";
+import type { Lesson } from "@/lib/orario/models/lesson";
 import {
   requestNotificationPermission,
   scheduleLessonNotifications,

@@ -1,4 +1,4 @@
-import { Lesson } from "@/lib/orario/models/lesson";
+import type { Lesson } from "@/lib/orario/models/lesson";
 import { getSubjectColor } from "@/lib/orario/utils/colors";
 
 interface ClassScheduleData {

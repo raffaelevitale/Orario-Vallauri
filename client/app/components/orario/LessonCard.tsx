@@ -1,4 +1,4 @@
-import { Lesson } from '@/lib/orario/models/lesson';
+import type { Lesson } from '@/lib/orario/models/lesson';
 import { getLessonDuration, parseTime, getCurrentTimeInMinutes } from '@/lib/orario/utils/time';
 import styles from './LessonCard.module.css';
 import { User, MapPin, GraduationCap, Clock, Coffee } from 'lucide-react';

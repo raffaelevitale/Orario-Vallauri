@@ -1,7 +1,7 @@
 "use client";
 
 import { useScheduleStore } from "@/lib/orario/stores/scheduleStore";
-import { Lesson } from "@/lib/orario/models/lesson";
+import type { Lesson } from "@/lib/orario/models/lesson";
 import styles from "./BlockView.module.css";
 import { LessonCard } from "./LessonCard";
 import { isCurrentLesson, parseTime } from "@/lib/orario/utils/time";

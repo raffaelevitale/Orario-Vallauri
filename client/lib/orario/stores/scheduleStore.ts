@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { Lesson, WeekSchedule } from '@/lib/orario/models/lesson';
+import type { Lesson, WeekSchedule } from '@/lib/orario/models/lesson';
 
 type UserMode = 'student' | 'teacher' | 'holiday' | null;
 
