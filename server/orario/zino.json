@@ -1,0 +1,124 @@
+{
+  "teacher": "ZINO Andrea",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "4B MEC",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "4B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "3A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Sistemi automatici",
+        "class": "4A ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "4B MEC",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.E.E.",
+        "class": "4A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "Sistemi e automazione",
+        "class": "3A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 2,
+        "subject": "D.P.O.I.",
+        "class": "4B MEC",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "3A MEN",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 6,
+        "subject": "Elettrotecnica ed Elettronica",
+        "class": "4A ELT",
+        "room": "304 (22)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "4B MEC",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "4B MEC",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "3A MEN",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 6,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "3A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "class": "4B MEC",
+        "room": "S4 (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e automazione",
+        "class": "4B MEC",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e automazione",
+        "class": "4B MEC",
+        "room": "LAB.CETOP (28)"
+      }
+    ]
+  }
+}

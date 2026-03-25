@@ -1,0 +1,207 @@
+{
+  "class": "2D MEC",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "teacher": "MAIOLO G., CAVALLOTTO C.",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "PANERO S.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "PANERO S.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Chimica",
+        "teacher": "BOCHICCHIO M., MULATTIERI S.",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "RUARO C.",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "teacher": "RUARO C.",
+        "room": "149 TEST (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "teacher": "DOMINICI E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "teacher": "DOMINICI E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "teacher": "PANERO S.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "PANERO S.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "RUARO C.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "teacher": "BERNARDI M.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Fisica",
+        "teacher": "RATEO M.",
+        "room": "201 (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "RACCA M.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "teacher": "MELOGNO S.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "teacher": "RATEO M.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "MAIOLO G., BELLOMO A.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze",
+        "teacher": "CALDERARO F.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "teacher": "MULATTIERI S.",
+        "room": "201 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "RACCA M.",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "teacher": "CAVALLOTTO C.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "teacher": "PANERO S.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "PANERO S.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "teacher": "MULATTIERI S.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "BELLOMO A.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "BELLOMO A.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "teacher": "CAVALLOTTO C.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. Fisica",
+        "teacher": "RATEO M., NESI V.",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "RUARO C.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "RACCA M.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze",
+        "teacher": "CALDERARO F.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "teacher": "BERNARDI M.",
+        "room": "201 (24)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "teacher": "LA PORTA Claudia Maria",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Diritto ed economia",
+        "class": "2D INF",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "2D INF",
+        "room": "150 (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "2D INF",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "2D INF",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "class": "2C MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "2D INF",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "class": "2C MEC",
+        "room": "S3 (30)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "class": "2D INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "class": "2C MEC",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "2D INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "2D INF",
+        "room": "151 (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "2D INF",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      }
+    ]
+  }
+}

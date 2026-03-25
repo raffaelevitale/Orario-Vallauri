@@ -1,0 +1,213 @@
+{
+  "class": "1B MEC",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "BECCHIO VILLOIS L., BRUNO E.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "BECCHIO VILLOIS L., BRUNO E.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "teacher": "PASTORE L.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "teacher": "BRENTA M., PEANO E.",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "BARTOLO A., BRUNO E.",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. Fisica",
+        "teacher": "RATEO M., FERRANTE G.",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 7,
+        "subject": "Chimica",
+        "teacher": "MULATTIERI S.",
+        "room": "T09 (26)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "BARTOLO A., BRUNO E.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "teacher": "MONTEVERDE M., PEANO E.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Diritto ed economia",
+        "teacher": "BERNARDI M.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "teacher": "RATEO M., PEANO E.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Geografia",
+        "teacher": "SAPPA F., BRUNO E.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "PASCALE M.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze motorie",
+        "teacher": "PASCALE M.",
+        "room": "PALESTRA"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Fisica",
+        "teacher": "RATEO M.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "BECCHIO VILLOIS L.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze",
+        "teacher": "MONTEVERDE M.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "SERRA A.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "teacher": "MULATTIERI S., PEANO E.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "BELLOMO A., PEANO E.",
+        "room": "T75-E (26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "BARTOLO A., BRUNO E.",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "BARTOLO A., BRUNO E.",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Diritto ed economia",
+        "teacher": "BERNARDI M., BRUNO E.",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "SERRA A.",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "BECCHIO VILLOIS L.",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. informatiche",
+        "teacher": "BRENTA M., LI CALSI D.",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 7,
+        "subject": "Tecn. informatiche",
+        "teacher": "BRENTA M., LI CALSI D.",
+        "room": "LAB.143 TURING (22)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "teacher": "BARTOLO A., BRUNO E.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "BARTOLO A.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Chimica",
+        "teacher": "BOCHICCHIO M., MULATTIERI S., PEANO E.",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "SERRA A.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "BELLOMO A.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "BELLOMO A.",
+        "room": "LAB.T62 DPOI (28)"
+      }
+    ]
+  }
+}

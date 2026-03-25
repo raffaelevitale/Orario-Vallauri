@@ -1,0 +1,207 @@
+{
+  "class": "4A INF",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Matematica e Complementi",
+        "teacher": "GARRO V.",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "teacher": "FOGLIA P.",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.I.T.",
+        "teacher": "FEA D., PASCHETTA M.",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.I.T.",
+        "teacher": "FEA D., PASCHETTA M.",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "BARBERIS L.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "teacher": "BONAVIA M.",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "FOGLIA P.",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "T.P.S.I.T.",
+        "teacher": "FEA D.",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.I.T.",
+        "teacher": "FEA D.",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Telecomunicazioni",
+        "teacher": "VIADA P.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "BARBERIS L.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica e Complementi",
+        "teacher": "GARRO V.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica e Complementi",
+        "teacher": "GARRO V.",
+        "room": "T75-E (26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "BARBERIS L.",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "teacher": "BARBERIS L.",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi e reti",
+        "teacher": "CANONICO T., MAGGIORE G.",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi e reti",
+        "teacher": "CANONICO T., MAGGIORE G.",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "teacher": "BONAVIA M., MAGGIORE G.",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "teacher": "BONAVIA M., MAGGIORE G.",
+        "room": "LAB.143 TURING (22)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e reti",
+        "teacher": "CANONICO T.",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e reti",
+        "teacher": "CANONICO T.",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 3,
+        "subject": "Telecomunicazioni",
+        "teacher": "MERCADANTE M., VIADA P.",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 4,
+        "subject": "Telecomunicazioni",
+        "teacher": "MERCADANTE M., VIADA P.",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "teacher": "FOGLIA P.",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "BALLATORE A.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze motorie",
+        "teacher": "BALLATORE A.",
+        "room": "PALESTRA"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "teacher": "BARBERIS L.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "BARBERIS L.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Informatica",
+        "teacher": "BONAVIA M., MAGGIORE G.",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "teacher": "BONAVIA M.",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Religione",
+        "teacher": "CAVALLERO L.",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica e Complementi",
+        "teacher": "GARRO V.",
+        "room": "T75-E (26)"
+      }
+    ]
+  }
+}

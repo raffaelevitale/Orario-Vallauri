@@ -1,0 +1,130 @@
+{
+  "teacher": "CARANTA Michela",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia e Geografia",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "class": "3A LIC",
+        "room": "146 (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "3A LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "4A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "3A LIC",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "3A LIC",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "4A LIC",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "4A LIC",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia e Geografia",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Storia e Geografia",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "4A LIC",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "3A LIC",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "3A LIC",
+        "room": "112 TEST (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "4A LIC",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "4A LIC",
+        "room": "T64 (28)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "teacher": "MONDINO Laura",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1A ELT",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2A MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2A ELT",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2A ELT",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1B ELT",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1B ELT",
+        "room": "LAB.S18B DISEGNO (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2A MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2A MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2B ELT",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2B ELT",
+        "room": "LAB.S18B DISEGNO (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1A MEC",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1A MEC",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1B ELT",
+        "room": "103 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1A ELT",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1A ELT",
+        "room": "LAB.S18B DISEGNO (24)"
+      }
+    ]
+  }
+}

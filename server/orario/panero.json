@@ -1,0 +1,112 @@
+{
+  "teacher": "PANERO Simona",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Economia aziendale",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 3,
+        "subject": "Economia aziendale",
+        "class": "4B AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 4,
+        "subject": "Economia aziendale",
+        "class": "4B AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Economia aziendale",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 2,
+        "subject": "Economia aziendale",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 4,
+        "subject": "Economia aziendale",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Economia aziendale",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Economia aziendale",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 2,
+        "subject": "Economia aziendale",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 3,
+        "subject": "Economia aziendale",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Economia aziendale",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia aziendale",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Economia aziendale",
+        "class": "4A AFM",
+        "room": "Tesauro LAB.INFORMATICA, Tesauro209  (18)"
+      },
+      {
+        "hour": 2,
+        "subject": "Economia aziendale",
+        "class": "4A AFM",
+        "room": "Tesauro LAB.INFORMATICA, Tesauro209  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Economia aziendale",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia aziendale",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      }
+    ]
+  }
+}

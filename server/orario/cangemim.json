@@ -1,0 +1,66 @@
+{
+  "teacher": "CANGEMI MANZONE Veronica",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Chimica",
+        "class": "1A MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      }
+    ]
+  }
+}

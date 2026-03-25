@@ -1,0 +1,124 @@
+{
+  "teacher": "NARDI Mirella",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "3E INF",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "3E INF",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "3D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "3D INF",
+        "room": "105 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "3D INF",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "3D INF",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "3E INF",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "3E INF",
+        "room": "T67 (30)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "3D INF",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "5D INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "5D INF",
+        "room": "273-E(26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "5D INF",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "5D INF",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "3E INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "3E INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "Storia",
+        "class": "3D INF",
+        "room": "301 (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "5D INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "5D INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      }
+    ]
+  }
+}

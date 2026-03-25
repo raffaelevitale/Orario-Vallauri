@@ -1,0 +1,207 @@
+{
+  "class": "2D INF",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Fisica",
+        "teacher": "BRAMARDI L., LAZZERETTI F.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "teacher": "BONO A., LAZZERETTI F.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Diritto ed economia",
+        "teacher": "BONINO M., LA PORTA C.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "BARBERO S.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "GROSSO S., LA PORTA C.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "teacher": "GROSSO S.",
+        "room": "150 (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "BARBERO S., LA PORTA C.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "teacher": "CORNERO A., LA PORTA C.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "teacher": "MONDINO S.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DEMICHELIS A., DOTTA C.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica",
+        "teacher": "BRAMARDI L.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "teacher": "GROSSO S., LA PORTA C.",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "teacher": "GROSSO S.",
+        "room": "212 TEST (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Chimica",
+        "teacher": "BOCHICCHIO M., BONO A.",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DOTTA C.",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DOTTA C., LAZZERETTI F.",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Fisica",
+        "teacher": "BRAMARDI L., FERRANTE G.",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "teacher": "BONINO M.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "teacher": "VIRZI D.",
+        "room": "202 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "CORNERO A.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "teacher": "VIRZI D., LA PORTA C.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "BARBERO S.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "BARBERO S., LA PORTA C.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "GROSSO S., LA PORTA C.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "GROSSO S.",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "teacher": "CAIRONE F.",
+        "room": "LAB.T81-E VOLTA(21)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "teacher": "BALLATORE A.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "teacher": "BALLATORE A.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "CORNERO A., LA PORTA C.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Chimica",
+        "teacher": "BONO A., LAZZERETTI F.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "teacher": "CAIRONE F., LAZZERETTI F.",
+        "room": "LAB.119A PASCAL (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "teacher": "CAIRONE F., LAZZERETTI F.",
+        "room": "LAB.119A PASCAL (27)"
+      }
+    ]
+  }
+}

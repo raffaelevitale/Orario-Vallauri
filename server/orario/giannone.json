@@ -1,0 +1,124 @@
+{
+  "teacher": "GIANNONE Erika",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Diritto",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Economia politica",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Diritto ed economia",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Diritto e legislazione turistica",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 3,
+        "subject": "Diritto",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Diritto",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 5,
+        "subject": "Economia politica",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Diritto ed economia",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 2,
+        "subject": "Economia politica",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Economia politica",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 2,
+        "subject": "Diritto",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 3,
+        "subject": "Diritto e legislazione turistica",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia politica",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 7,
+        "subject": "Diritto",
+        "class": "3B AFM",
+        "room": "Tesauro210  (25)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Diritto e legislazione turistica",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 4,
+        "subject": "Diritto ed economia",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      }
+    ]
+  }
+}

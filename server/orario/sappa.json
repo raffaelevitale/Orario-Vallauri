@@ -1,0 +1,124 @@
+{
+  "teacher": "SAPPA Francesco",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Geografia",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Geografia",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 6,
+        "subject": "Geografia",
+        "class": "1D MEC",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "Geografia",
+        "class": "1B INF",
+        "room": "101 (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Geografia",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Geografia",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Geografia",
+        "class": "1B MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Geografia",
+        "class": "1A INF",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 7,
+        "subject": "Geografia",
+        "class": "1A ELT",
+        "room": "205(24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 2,
+        "subject": "Geografia",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Geografia",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "Geografia",
+        "class": "1A MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Geografia",
+        "class": "1C MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Geografia",
+        "class": "1E MEC",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Geografia",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Geografia",
+        "class": "1B ELT",
+        "room": "103 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 5,
+        "subject": "Geografia",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Geografia",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      }
+    ]
+  }
+}

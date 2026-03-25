@@ -1,0 +1,124 @@
+{
+  "teacher": "BOAGLIO Nicoletta",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "2B INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "2B INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "2E INF",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "2E INF",
+        "room": "141 (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "5B INF",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "5B INF",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "5B INF",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "2E INF",
+        "room": "141 (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "5B INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "5B INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "2B INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "2B INF",
+        "room": "272-E (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "2E INF",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "class": "2B INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "class": "5B INF",
+        "room": "102 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "2B INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "2E INF",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "2E INF",
+        "room": "141 (28)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "teacher": "CALDERARO Francesco",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 4,
+        "subject": "scienze naturali",
+        "class": "1B LIC",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze naturali",
+        "class": "3C LIC",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze",
+        "class": "1E MEC",
+        "room": "212 TEST (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Scienze",
+        "class": "1C MEC",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "class": "2C MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "scienze naturali",
+        "class": "1A LIC",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze naturali",
+        "class": "3C LIC",
+        "room": "140 (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 2,
+        "subject": "Scienze naturali",
+        "class": "3C LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "scienze naturali",
+        "class": "1A LIC",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "class": "1D MEC",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze",
+        "class": "2D MEC",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "scienze naturali",
+        "class": "1B LIC",
+        "room": "177-E (26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "class": "1C MEC",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze",
+        "class": "1D MEC",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "scienze naturali",
+        "class": "1A LIC",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "scienze naturali",
+        "class": "1B LIC",
+        "room": "177-E (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze",
+        "class": "2D MEC",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "class": "1E MEC",
+        "room": "212 TEST (24)"
+      }
+    ]
+  }
+}

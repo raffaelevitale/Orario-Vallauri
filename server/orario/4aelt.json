@@ -1,0 +1,207 @@
+{
+  "class": "4A ELT",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "T.P.S.E.E.",
+        "teacher": "INGARAMO P., MANFREDI E.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "T.P.S.E.E.",
+        "teacher": "INGARAMO P., MANFREDI E.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.E.E.",
+        "teacher": "INGARAMO P., MANFREDI E.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "GIOVETTI M., PASERO E.",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "teacher": "GHIGLIONE S., PASERO E.",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "teacher": "AIMETTA M., PASERO E.",
+        "room": "301 (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "GIOVETTI M., PASERO E.",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "GIOVETTI M., PASERO E.",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi automatici",
+        "teacher": "PERLO M., ZINO A.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "CERVATO G.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica e Complementi",
+        "teacher": "AIMETTA M., PASERO E.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.E.E.",
+        "teacher": "INGARAMO P., ZINO A.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "T.P.S.E.E.",
+        "teacher": "INGARAMO P.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi automatici",
+        "teacher": "TOSELLI A., PERLO M.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi automatici",
+        "teacher": "TOSELLI A., PERLO M.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi automatici",
+        "teacher": "TOSELLI A., PERLO M.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "GIOVETTI M.",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 5,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "CERVATO G.",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 6,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "CERVATO G., ZINO A.",
+        "room": "304 (22)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "CERVATO G., OTTONELLO M.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "CERVATO G., OTTONELLO M.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "CERVATO G., OTTONELLO M.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "AIMETTA M., PASERO E.",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "GIOVETTI M., PASERO E.",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "teacher": "GHIGLIONE S., PASERO E.",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Religione",
+        "teacher": "MONDINO S.",
+        "room": "302 (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "GIOVETTI M.",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "T.P.S.E.E.",
+        "teacher": "INGARAMO P.",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "teacher": "ALESSANDRINI A.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "teacher": "ALESSANDRINI A.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "teacher": "GHIGLIONE S.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "teacher": "AIMETTA M.",
+        "room": "271-E (24)"
+      }
+    ]
+  }
+}

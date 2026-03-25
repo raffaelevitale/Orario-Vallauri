@@ -1,0 +1,136 @@
+{
+  "teacher": "DEMARCHI Antonella",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 4,
+        "subject": "Storia e Geografia",
+        "class": "1A LIC",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "2A LIC",
+        "room": "203 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia e Geografia",
+        "class": "2A LIC",
+        "room": "203 (26)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "4B LIC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "1A LIC",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia e Geografia",
+        "class": "1A LIC",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia e Geografia",
+        "class": "2A LIC",
+        "room": "203 (26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "4B LIC",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "4B LIC",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "1A LIC",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "1A LIC",
+        "room": "275-E (30)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "2A LIC",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "2A LIC",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "1A LIC",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia e Geografia",
+        "class": "1A LIC",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "4B LIC",
+        "room": "S 76-E(27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "4B LIC",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "4B LIC",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia e Geografia",
+        "class": "2A LIC",
+        "room": "203 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "2A LIC",
+        "room": "203 (26)"
+      }
+    ]
+  }
+}

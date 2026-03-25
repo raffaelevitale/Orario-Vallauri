@@ -1,0 +1,118 @@
+{
+  "teacher": "BENASSI Loretta",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Fisica e laboratorio",
+        "class": "4B LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Fisica e laboratorio",
+        "class": "4B LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "1B LIC",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica e laboratorio",
+        "class": "5A LIC",
+        "room": "278-E (25)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1B LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1B LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica e laboratorio",
+        "class": "4B LIC",
+        "room": "T66 (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 2,
+        "subject": "Fisica",
+        "class": "1B LIC",
+        "room": "177-E (26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 2,
+        "subject": "Fisica e laboratorio",
+        "class": "5B LIC",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica e laboratorio",
+        "class": "3A LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica e laboratorio",
+        "class": "3A LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica e laboratorio",
+        "class": "5A LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Fisica e laboratorio",
+        "class": "5A LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Fisica e laboratorio",
+        "class": "5B LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Fisica e laboratorio",
+        "class": "5B LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1B LIC",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica e laboratorio",
+        "class": "3A LIC",
+        "room": "140 (28)"
+      }
+    ]
+  }
+}

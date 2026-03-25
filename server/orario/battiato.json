@@ -1,0 +1,124 @@
+{
+  "teacher": "BATTIATO Alfio",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "1A LIC",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "class": "1D LIC",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1C LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1C LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1A LIC",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica e laboratorio",
+        "class": "4A LIC",
+        "room": "S 76-E(27)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1A LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1A LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Fisica",
+        "class": "1D LIC",
+        "room": "112 TEST (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1D LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1D LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1D LIC",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "1A LIC",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica e laboratorio",
+        "class": "4A LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Fisica e laboratorio",
+        "class": "4A LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      }
+    ]
+  }
+}

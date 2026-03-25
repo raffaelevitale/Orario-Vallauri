@@ -1,0 +1,70 @@
+{
+  "teacher": "CILIBERTI Raffaella",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "1A TUR",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "1A TUR",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. informatiche",
+        "class": "1B ELT",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. informatiche",
+        "class": "1D INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Tecn. informatiche",
+        "class": "1D INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "1C LIC",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "1C LIC",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "class": "1D INF",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. informatiche",
+        "class": "1B ELT",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. informatiche",
+        "class": "1B ELT",
+        "room": "LAB.143 TURING (22)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "class": "2C MEC",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "SAMPO M., CANGEMI  ALESSANDRINI R.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "GIRAUDO C., LA PORTA C.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "teacher": "MULATTIERI S., CANGEMI  ALESSANDRINI R.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D., LA PORTA C.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "teacher": "PASCALE M.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "PASCALE M.",
+        "room": "PALESTRA"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "teacher": "MELOGNO S.",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Fisica",
+        "teacher": "BOSIO A., CANGEMI  ALESSANDRINI R.",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Chimica",
+        "teacher": "BOCHICCHIO M., MULATTIERI S., CANGEMI  ALESSANDRINI R.",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "teacher": "CALDERARO F., LA PORTA C.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "teacher": "CONTE 2 R., RASPA M.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "GIRAUDO C.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "teacher": "GIRAUDO C., LA PORTA C.",
+        "room": "S3 (30)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "BELLOMO A.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "BELLOMO A., CANGEMI  ALESSANDRINI R.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "SAMPO M., CANGEMI  ALESSANDRINI R.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D., LA PORTA C.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "GIRAUDO C., LA PORTA C.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "GIRAUDO C., LA PORTA C.",
+        "room": "S2 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "SAMPO M.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Fisica",
+        "teacher": "BOSIO A.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "teacher": "CONTE 2 R., LA PORTA C.",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "teacher": "CALDERARO F.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "teacher": "BERNARDI M.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Chimica",
+        "teacher": "MULATTIERI S.",
+        "room": "S2 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Fisica",
+        "teacher": "NESI V., BOSIO A.",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "MAIOLO G., BELLOMO A.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "teacher": "CONTE 2 R.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "SAMPO M.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "teacher": "BERNARDI M., LA PORTA C.",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "teacher": "GIRAUDO C.",
+        "room": "S2 (24)"
+      }
+    ]
+  }
+}

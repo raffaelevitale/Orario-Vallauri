@@ -1,0 +1,124 @@
+{
+  "teacher": "SANTANGELO Eleonora",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "2E INF",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "2E INF",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "2E INF",
+        "room": "141 (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "5A INF",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.I.T.",
+        "class": "5A INF",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "5A INF",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "2E INF",
+        "room": "141 (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "2E INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "5A INF",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.I.T.",
+        "class": "5A INF",
+        "room": "LAB.116 LAPLACE (25)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "5A INF",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "5A INF",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "2E INF",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.I.T.",
+        "class": "5A INF",
+        "room": "LAB.116 LAPLACE (25)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "class": "2E INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "2E INF",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "5A INF",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Diritto ed economia",
+        "class": "2E INF",
+        "room": "141 (28)"
+      }
+    ]
+  }
+}

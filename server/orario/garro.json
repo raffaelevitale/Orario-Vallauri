@@ -1,0 +1,130 @@
+{
+  "teacher": "GARRO Valentina",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Matematica e Complementi",
+        "class": "4A INF",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica e Complementi",
+        "class": "3A ELT",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "3A ELT",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "3D INF",
+        "room": "105 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "5A INF",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica e Complementi",
+        "class": "4A INF",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica e Complementi",
+        "class": "4A INF",
+        "room": "T75-E (26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "3A ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "3D INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "5A INF",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "3A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "3D INF",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica",
+        "class": "1E INF",
+        "room": "150 (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "5A INF",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica e Complementi",
+        "class": "3D INF",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica e Complementi",
+        "class": "4A INF",
+        "room": "T75-E (26)"
+      }
+    ]
+  }
+}

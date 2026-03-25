@@ -1,0 +1,207 @@
+{
+  "class": "3C MEC",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CONTE 1 R.",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CONTE 1 R.",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "DEMICHELIS A., RUSSO R.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica e Complementi",
+        "teacher": "SAMPO M., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "GHIO D., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "GHIO D., MONGIARDO M.",
+        "room": "S3 (30)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica e Complementi",
+        "teacher": "SAMPO M., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "teacher": "MELOGNO S., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "RUSSO R.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "RUSSO R.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "GHIO D.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "D.P.O.I.",
+        "teacher": "CONTE 2 R.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "Sistemi e automazione",
+        "teacher": "CANAVERO A., ROCCA M.",
+        "room": "LAB.CETOP (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "GHIO D.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "GHIO D., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica e Complementi",
+        "teacher": "SAMPO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi e automazione",
+        "teacher": "CANAVERO A., ROCCA M.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e automazione",
+        "teacher": "CANAVERO A., ROCCA M.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica e Complementi",
+        "teacher": "SAMPO M., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CONTE 1 R.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi e automazione",
+        "teacher": "ROCCA M.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "GHIO D.",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 6,
+        "subject": "D.P.O.I.",
+        "teacher": "CONTE 2 R., MAZZOTTA G.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "D.P.O.I.",
+        "teacher": "CONTE 2 R., MAZZOTTA G.",
+        "room": "LAB.T62 DPOI (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D., MONGIARDO M.",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CONTE 1 R.",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "teacher": "DOMINICI E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "teacher": "DOMINICI E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "DEMICHELIS A., RUSSO R.",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "DEMICHELIS A., RUSSO R.",
+        "room": "LAB.S53A CAD CAM (24)"
+      }
+    ]
+  }
+}

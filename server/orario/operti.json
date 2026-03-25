@@ -1,0 +1,124 @@
+{
+  "teacher": "OPERTI Silvana",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "class": "4A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "class": "4B LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "class": "5A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze naturali",
+        "class": "5A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze naturali",
+        "class": "3B LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze naturali",
+        "class": "3C LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze naturali",
+        "class": "3A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "2B LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "2A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "2C LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "scienze naturali",
+        "class": "2C LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "scienze naturali",
+        "class": "2B LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "scienze naturali",
+        "class": "2A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze naturali",
+        "class": "4B LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze naturali",
+        "class": "4A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 4,
+        "subject": "Chimica",
+        "class": "3C LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "class": "3B LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "class": "3A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      }
+    ]
+  }
+}

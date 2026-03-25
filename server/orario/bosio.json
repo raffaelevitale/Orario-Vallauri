@@ -1,0 +1,124 @@
+{
+  "teacher": "BOSIO Antonella",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 4,
+        "subject": "Lab. Fisica",
+        "class": "1C MEC",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. Fisica",
+        "class": "1E MEC",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Fisica",
+        "class": "1E INF",
+        "room": "212 TEST (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Fisica",
+        "class": "1E MEC",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Fisica",
+        "class": "2C MEC",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Fisica",
+        "class": "2E INF",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "class": "1C MEC",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica",
+        "class": "2C INF",
+        "room": "271-E (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Lab. Fisica",
+        "class": "2C INF",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "class": "1E MEC",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica",
+        "class": "2E INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Fisica",
+        "class": "1E INF",
+        "room": "151 (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Fisica",
+        "class": "1C MEC",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Fisica",
+        "class": "2C MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "2C INF",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "class": "2E INF",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. Fisica",
+        "class": "1E INF",
+        "room": "LAB.T71-E FISICA (30)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Fisica",
+        "class": "2C MEC",
+        "room": "LAB.T71-E FISICA (30)"
+      }
+    ]
+  }
+}

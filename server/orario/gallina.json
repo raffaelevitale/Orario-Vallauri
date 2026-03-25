@@ -1,0 +1,64 @@
+{
+  "teacher": "GALLINA Giulia",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Lingua spagnola",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 2,
+        "subject": "Lingua spagnola",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua spagnola",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lingua spagnola",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Lingua spagnola",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lingua spagnola",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lingua spagnola",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua spagnola",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 6,
+        "subject": "Lingua spagnola",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      }
+    ]
+  }
+}

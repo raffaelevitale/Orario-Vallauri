@@ -1,0 +1,124 @@
+{
+  "teacher": "BASTA Teresa",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "class": "3A TUR",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "class": "3A TUR",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "class": "5A TUR",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "class": "5A TUR",
+        "room": "PALESTRA"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "class": "3A AFM",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "class": "3A AFM",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "class": "3B AFM",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze motorie",
+        "class": "3B AFM",
+        "room": "PALESTRA"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "class": "2A TUR",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "class": "2A TUR",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "class": "4B AFM",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "class": "4B AFM",
+        "room": "PALESTRA"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "class": "1A TUR",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "class": "1A TUR",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "class": "2B AFM",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze motorie",
+        "class": "2B AFM",
+        "room": "PALESTRA"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "class": "4A AFM",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "class": "4A AFM",
+        "room": "PALESTRA"
+      }
+    ]
+  }
+}

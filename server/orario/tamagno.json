@@ -1,0 +1,136 @@
+{
+  "teacher": "TAMAGNO Cristiano",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "1A ELT",
+        "room": "205(24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "1B ELT",
+        "room": "103 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica",
+        "class": "1B ELT",
+        "room": "103 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "1B ELT",
+        "room": "103 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "1A ELT",
+        "room": "205(24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica",
+        "class": "1A ELT",
+        "room": "205(24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "1B ELT",
+        "room": "103 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "1A ELT",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      }
+    ]
+  }
+}

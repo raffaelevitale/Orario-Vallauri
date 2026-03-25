@@ -1,0 +1,96 @@
+{
+  "teacher": "SANINO Alessandro",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e reti",
+        "class": "3B INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e reti",
+        "class": "3B INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi e reti",
+        "class": "4E INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi e reti",
+        "class": "4E INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi e reti",
+        "class": "4B INF",
+        "room": "LAB.S18 MARCONI (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e reti",
+        "class": "4B INF",
+        "room": "LAB.S18 MARCONI (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e reti",
+        "class": "3E INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e reti",
+        "class": "3E INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "3E INF",
+        "room": "LAB.119A PASCAL (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Informatica",
+        "class": "3E INF",
+        "room": "LAB.119A PASCAL (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi e reti",
+        "class": "4D INF",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi e reti",
+        "class": "4D INF",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "class": "3C INF",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Informatica",
+        "class": "3C INF",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      }
+    ]
+  }
+}

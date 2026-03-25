@@ -1,0 +1,124 @@
+{
+  "teacher": "ROSSI Daniela",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "class": "2B LIC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "class": "2B LIC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "class": "1B LIC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "class": "1B LIC",
+        "room": "PALESTRA"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "class": "3B LIC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "class": "3B LIC",
+        "room": "PALESTRA"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "class": "5A LIC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "class": "5A LIC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "class": "4B LIC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "class": "4B LIC",
+        "room": "PALESTRA"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "class": "3C LIC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "class": "3C LIC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "class": "1C LIC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "class": "1C LIC",
+        "room": "PALESTRA"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "class": "2C LIC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "class": "2C LIC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "class": "5B LIC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "class": "5B LIC",
+        "room": "PALESTRA"
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "teacher": "CASTAGNINO Laura",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "3D INF",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "4D INF",
+        "room": "303 (19)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "4B INF",
+        "room": "102 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "3B INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "4D INF",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "5B INF",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Inglese",
+        "class": "3D INF",
+        "room": "T78-E (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "5B INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "3B INF",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "4D INF",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "4B INF",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "3D INF",
+        "room": "301 (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "5B INF",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "4B INF",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "3B INF",
+        "room": "150 (27)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "teacher": "MAGRAVITI Celeste Maria",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua francese",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 6,
+        "subject": "Geografia turistica",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua francese",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "Lingua spagnola",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lingua spagnola",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 4,
+        "subject": "Geografia turistica",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua francese",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      }
+    ]
+  }
+}

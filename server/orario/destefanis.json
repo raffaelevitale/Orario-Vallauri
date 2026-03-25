@@ -1,0 +1,28 @@
+{
+  "teacher": "DESTEFANIS Paola",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2B INF",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2B INF",
+        "room": "LAB.S18B DISEGNO (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2B INF",
+        "room": "272-E (24)"
+      }
+    ]
+  }
+}

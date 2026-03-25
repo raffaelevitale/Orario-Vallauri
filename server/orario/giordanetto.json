@@ -1,0 +1,130 @@
+{
+  "teacher": "GIORDANETTO Alessandro",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "5B LIC",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "5B LIC",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "class": "5B LIC",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia e Geografia",
+        "class": "2B LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "2B LIC",
+        "room": "148 (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "5A LIC",
+        "room": "103 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "5A LIC",
+        "room": "103 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia e Geografia",
+        "class": "2B LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "2B LIC",
+        "room": "148 (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Storia e Geografia",
+        "class": "2B LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "class": "5A LIC",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "class": "5B LIC",
+        "room": "146 (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "5B LIC",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "5B LIC",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "2B LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "2B LIC",
+        "room": "148 (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "5A LIC",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "5A LIC",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "5A LIC",
+        "room": "104 (25)"
+      }
+    ]
+  }
+}

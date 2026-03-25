@@ -1,0 +1,136 @@
+{
+  "teacher": "DOMINICI Eleonora",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "class": "1A AFM",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "class": "1A AFM",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "class": "1B AFM",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "class": "1B AFM",
+        "room": "PALESTRA"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "class": "2D MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "class": "2D MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "class": "4A MEN",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "class": "4A MEN",
+        "room": "PALESTRA"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "class": "4C MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "class": "4C MEC",
+        "room": "PALESTRA"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "class": "4A TUR",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "class": "4A TUR",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "class": "2A AFM",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "class": "2A AFM",
+        "room": "PALESTRA"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "class": "3C MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "class": "3A MEN",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "class": "3C MEC",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "class": "3A MEN",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "class": "5A MEN",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "class": "5A MEN",
+        "room": "PALESTRA"
+      }
+    ]
+  }
+}

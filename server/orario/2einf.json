@@ -1,0 +1,207 @@
+{
+  "class": "2E INF",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "teacher": "OLIVERO G.",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "teacher": "OLIVERO G.",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "BRIZIO M., SANTANGELO E.",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "teacher": "PASTORE L.",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "BOAGLIO N., SANTANGELO E.",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "BOAGLIO N., SANTANGELO E.",
+        "room": "141 (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "teacher": "PIOVANO E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "teacher": "PIOVANO E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Fisica",
+        "teacher": "FERRANTE G., BOSIO A.",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "BOAGLIO N.",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DOTTA C.",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "teacher": "BERTINI S., SANTANGELO E.",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "Chimica",
+        "teacher": "BONO A., CANGEMI  ALESSANDRINI R.",
+        "room": "141 (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Diritto ed economia",
+        "teacher": "BONINO M.",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. Chimica",
+        "teacher": "BOCHICCHIO M., BONO A.",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "BRIZIO M., SANTANGELO E.",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "teacher": "VIRZI D., CANGEMI  ALESSANDRINI R.",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica",
+        "teacher": "BOSIO A., CANGEMI  ALESSANDRINI R.",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "teacher": "BERTINI S.",
+        "room": "102 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "teacher": "BOAGLIO N.",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "teacher": "BONO A.",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "BRIZIO M., SANTANGELO E.",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "teacher": "BOSIO A.",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DOTTA C.",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DOTTA C., RASPA M.",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze",
+        "teacher": "VIRZI D.",
+        "room": "105 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "teacher": "OLIVERO G., SANTANGELO E.",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "BOAGLIO N., SANTANGELO E.",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "BOAGLIO N.",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Diritto ed economia",
+        "teacher": "BONINO M., SANTANGELO E.",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "teacher": "BERTINI S.",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "teacher": "BRIZIO M.",
+        "room": "141 (28)"
+      }
+    ]
+  }
+}

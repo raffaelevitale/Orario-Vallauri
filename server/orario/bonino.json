@@ -1,0 +1,100 @@
+{
+  "teacher": "BONINO Maria",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Diritto ed economia",
+        "class": "1B INF",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Diritto ed economia",
+        "class": "2D INF",
+        "room": "150 (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Diritto ed economia",
+        "class": "2C INF",
+        "room": "271-E (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Diritto ed economia",
+        "class": "2E INF",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Diritto ed economia",
+        "class": "2B INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "class": "2D INF",
+        "room": "202 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Diritto ed economia",
+        "class": "1B INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Diritto ed economia",
+        "class": "1E INF",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Diritto ed economia",
+        "class": "2C INF",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Diritto ed economia",
+        "class": "2B INF",
+        "room": "272-E (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 4,
+        "subject": "Diritto ed economia",
+        "class": "2E INF",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "class": "1E INF",
+        "room": "151 (27)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "teacher": "BARBERO Alberto",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "3A LIC",
+        "room": "LAB.142 NEWTON (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Informatica",
+        "class": "3A INF",
+        "room": "LAB.119B EULERO (25)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "3A INF",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "3A INF",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "class": "3B INF",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "3B INF",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "3B INF",
+        "room": "LAB.116 LAPLACE (25)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "3B INF",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "class": "3A INF",
+        "room": "LAB.119A PASCAL (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "3A LIC",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Informatica",
+        "class": "3A INF",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "class": "3B INF",
+        "room": "LAB.116 LAPLACE (25)"
+      }
+    ]
+  }
+}

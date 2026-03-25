@@ -1,0 +1,207 @@
+{
+  "class": "3B AFM",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Diritto",
+        "teacher": "GIANNONE E.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Economia politica",
+        "teacher": "GIANNONE E.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Economia aziendale",
+        "teacher": "EULA S.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "RAMELLO L.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "SANDRI S.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lingua francese",
+        "teacher": "BUSETTO A.",
+        "room": "Tesauro210  (25)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Lingua francese",
+        "teacher": "BUSETTO A.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "teacher": "RAMELLO L.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Diritto",
+        "teacher": "GIANNONE E.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Economia aziendale",
+        "teacher": "EULA S.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Economia aziendale",
+        "teacher": "EULA S.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "BASTA T.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze motorie",
+        "teacher": "BASTA T.",
+        "room": "PALESTRA"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "SANDRI S.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Economia politica",
+        "teacher": "GIANNONE E.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "GALLESIO B.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "GALLESIO B.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Economia aziendale",
+        "teacher": "EULA S.",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia aziendale",
+        "teacher": "EULA S.",
+        "room": "Tesauro LAB.INFORMATICA"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Lingua francese",
+        "teacher": "BUSETTO A.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "GALLESIO B.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "teacher": "GALLESIO B.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "SANDRI S.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "teacher": "RAMELLO L.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia politica",
+        "teacher": "GIANNONE E.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 7,
+        "subject": "Diritto",
+        "teacher": "GIANNONE E.",
+        "room": "Tesauro210  (25)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "teacher": "PASTORE L.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "teacher": "GALLESIO B.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "GALLESIO B.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Economia aziendale",
+        "teacher": "EULA S.",
+        "room": "Tesauro210  (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "teacher": "SBROZZI I.",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "teacher": "SBROZZI I.",
+        "room": "Tesauro LAB.INFORMATICA"
+      }
+    ]
+  }
+}

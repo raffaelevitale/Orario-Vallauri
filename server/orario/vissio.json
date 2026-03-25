@@ -1,0 +1,124 @@
+{
+  "teacher": "VISSIO Giancarlo",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "5B ELT",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "5B ELT",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "3B ELT",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "3B ELT",
+        "room": "304 (22)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "3B ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "5B ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "4B ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "class": "4B ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "4B ELT",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "4B ELT",
+        "room": "302 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "5B ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "5B ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "3B ELT",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "3B ELT",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "4B ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "4B ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "Storia",
+        "class": "5B ELT",
+        "room": "303 (19)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "3B ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      }
+    ]
+  }
+}

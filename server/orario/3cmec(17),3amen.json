@@ -1,0 +1,111 @@
+{
+  "class": "3C MEC (17), 3A MEN",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 4,
+        "subject": "Matematica e Complementi",
+        "teacher": "SAMPO M., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "GHIO D., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "GHIO D., MONGIARDO M.",
+        "room": "S3 (30)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica e Complementi",
+        "teacher": "SAMPO M., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "teacher": "MELOGNO S., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "GHIO D.",
+        "room": "S3 (30)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "GHIO D.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "GHIO D., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica e Complementi",
+        "teacher": "SAMPO M.",
+        "room": "S3 (30)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica e Complementi",
+        "teacher": "SAMPO M., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "GHIO D.",
+        "room": "LAB.SENERGIA (31)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D., MONGIARDO M.",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "teacher": "DOMINICI E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "teacher": "DOMINICI E.",
+        "room": "PALESTRA"
+      }
+    ]
+  }
+}

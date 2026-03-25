@@ -1,0 +1,106 @@
+{
+  "teacher": "CARLE Fabrizio",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "class": "2B MEC",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "D.P.O.I.",
+        "class": "5B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "D.P.O.I.",
+        "class": "5B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "D.P.O.I.",
+        "class": "4B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "D.P.O.I.",
+        "class": "4B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 5,
+        "subject": "D.P.O.I.",
+        "class": "4B MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "D.P.O.I.",
+        "class": "3B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "D.P.O.I.",
+        "class": "3B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "class": "2B MEC",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "D.P.O.I.",
+        "class": "4B MEC",
+        "room": "S1 (30)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "D.P.O.I.",
+        "class": "3B MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "D.P.O.I.",
+        "class": "5B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "D.P.O.I.",
+        "class": "5B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "class": "2B MEC",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "D.P.O.I.",
+        "class": "5B MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      }
+    ]
+  }
+}

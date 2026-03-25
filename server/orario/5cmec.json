@@ -1,0 +1,207 @@
+{
+  "class": "5C MEC",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D.",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 2,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "COSTAMAGNA G.",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 3,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "COSTAMAGNA G.",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 4,
+        "subject": "D.P.O.I.",
+        "teacher": "GARNERO A.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "GAMBONE F., RUSSO R.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "RUSSO R.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "D.P.O.I.",
+        "teacher": "GARNERO A., MAZZOTTA G.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "D.P.O.I.",
+        "teacher": "GARNERO A., MAZZOTTA G.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi e automazione",
+        "teacher": "GAMBONE F., MANESCOTTO G.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "teacher": "MELOGNO S.",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "VERNASSA G.",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "teacher": "VERNASSA G.",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 7,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D.",
+        "room": "304 (22)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "COSTAMAGNA G.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "SAMPO M.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "VERNASSA G.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "VERNASSA G.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "GAMBONE F., RUSSO R.",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "GAMBONE F., RUSSO R.",
+        "room": "LAB.S53A CAD CAM (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e automazione",
+        "teacher": "GAMBONE F., MANESCOTTO G.",
+        "room": "LAB.CETOP (28), LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e automazione",
+        "teacher": "GAMBONE F., MANESCOTTO G.",
+        "room": "LAB.CETOP (28), LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "SAMPO M.",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D.",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "COSTAMAGNA G.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "teacher": "VERNASSA G.",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "teacher": "VERNASSA G.",
+        "room": "S1 (30)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "SAMPO M.",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e automazione",
+        "teacher": "MANESCOTTO G.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "D.P.O.I.",
+        "teacher": "GARNERO A., MAZZOTTA G.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "D.P.O.I.",
+        "teacher": "GARNERO A., MAZZOTTA G.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "teacher": "PASCALE M.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "PASCALE M.",
+        "room": "PALESTRA"
+      }
+    ]
+  }
+}

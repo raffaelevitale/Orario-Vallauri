@@ -1,0 +1,124 @@
+{
+  "teacher": "BRAMARDI Luca",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Fisica",
+        "class": "2D INF",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "1B ELT",
+        "room": "103 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "class": "1A ELT",
+        "room": "205(24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Fisica",
+        "class": "1B ELT",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. Fisica",
+        "class": "1D INF",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Fisica",
+        "class": "1A ELT",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica",
+        "class": "2D INF",
+        "room": "212 TEST (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 2,
+        "subject": "Fisica",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "1B ELT",
+        "room": "103 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Fisica",
+        "class": "2D INF",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Fisica",
+        "class": "1A ELT",
+        "room": "205(24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Fisica",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Fisica",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "1D INF",
+        "room": "105 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Fisica",
+        "class": "2B ELT",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. Fisica",
+        "class": "2A ELT",
+        "room": "LAB.T71-E FISICA (30)"
+      }
+    ]
+  }
+}

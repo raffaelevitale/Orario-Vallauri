@@ -1,0 +1,112 @@
+{
+  "teacher": "COSTAMAGNA Gianpaolo",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "5B MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "5C MEC",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 3,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "5C MEC",
+        "room": "LAB.SENERGIA (31)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 6,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "4B MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "4B MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "5C MEC",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "3B MEC",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 3,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "5B MEC",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 4,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "5B MEC",
+        "room": "LAB.SENERGIA (31)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "4B MEC",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "4B MEC",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "3B MEC",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "5C MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "5B MEC",
+        "room": "LAB.SENERGIA (31)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 5,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "3B MEC",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "3B MEC",
+        "room": "T67 (30)"
+      }
+    ]
+  }
+}

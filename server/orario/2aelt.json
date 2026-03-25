@@ -1,0 +1,207 @@
+{
+  "class": "2A ELT",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Chimica",
+        "teacher": "ROSSI F., DESIMONE M.",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze e tecnologie applicate Elettriche",
+        "teacher": "TORASSA D.",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "CICCARELLO S.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "teacher": "CICCARELLO S.",
+        "room": "202 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DEMICHELIS A., MONDINO L.",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DEMICHELIS A., MONDINO L.",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze e tecnologie applicate Elettriche",
+        "teacher": "TORASSA D.",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze e tecnologie applicate Elettriche",
+        "teacher": "TORASSA D.",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze",
+        "teacher": "VIRZI D.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "CICCARELLO S.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Inglese",
+        "teacher": "CINELLI C.",
+        "room": "202 (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Fisica",
+        "teacher": "BRAMARDI L.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "teacher": "CICCARELLO S.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "teacher": "MONDINO S.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "teacher": "ALESSANDRINI A.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "ALESSANDRINI A.",
+        "room": "PALESTRA"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "CINELLI C.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Fisica",
+        "teacher": "BRAMARDI L.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "MONDINO L.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Chimica",
+        "teacher": "ROSSI F.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "teacher": "SALONE G.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "CICCARELLO S.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "teacher": "CICCARELLO S.",
+        "room": "202 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Diritto ed economia",
+        "teacher": "SALONE G.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "teacher": "ROSSI F.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "CINELLI C.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "teacher": "VIRZI D.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. Fisica",
+        "teacher": "BRAMARDI L., FERRANTE G.",
+        "room": "LAB.T71-E FISICA (30)"
+      }
+    ]
+  }
+}

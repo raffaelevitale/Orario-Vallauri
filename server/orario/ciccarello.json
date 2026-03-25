@@ -1,0 +1,124 @@
+{
+  "teacher": "CICCARELLO Santina",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "1A ELT",
+        "room": "205(24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "1A ELT",
+        "room": "205(24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "1A ELT",
+        "room": "205(24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "1A ELT",
+        "room": "205(24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "1A ELT",
+        "room": "103 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "1A ELT",
+        "room": "103 (24)"
+      }
+    ]
+  }
+}

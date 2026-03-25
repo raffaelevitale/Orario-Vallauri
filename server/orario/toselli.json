@@ -1,0 +1,124 @@
+{
+  "teacher": "TOSELLI Alessio",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi automatici",
+        "class": "4B ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi automatici",
+        "class": "4B ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi automatici",
+        "class": "4B ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 4,
+        "subject": "Sistemi automatici",
+        "class": "5A ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi automatici",
+        "class": "5A ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi automatici",
+        "class": "5B ELT",
+        "room": "LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Sistemi automatici",
+        "class": "5B ELT",
+        "room": "LAB.T59 PLC (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi automatici",
+        "class": "4A ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi automatici",
+        "class": "4A ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi automatici",
+        "class": "4A ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 4,
+        "subject": "Sistemi automatici",
+        "class": "5B ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi automatici",
+        "class": "5B ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi automatici",
+        "class": "5A ELT",
+        "room": "LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Sistemi automatici",
+        "class": "5A ELT",
+        "room": "LAB.T59 PLC (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Sistemi automatici",
+        "class": "3A ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi automatici",
+        "class": "3A ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi automatici",
+        "class": "3B ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi automatici",
+        "class": "3B ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      }
+    ]
+  }
+}

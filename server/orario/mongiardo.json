@@ -1,0 +1,178 @@
+{
+  "teacher": "MONGIARDO Marika",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 4,
+        "subject": "Matematica e Complementi",
+        "class": "3C MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica e Complementi",
+        "class": "3A MEN",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "3C MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "3A MEN",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "3C MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "3A MEN",
+        "room": "S3 (30)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica e Complementi",
+        "class": "3C MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 1,
+        "subject": "Matematica e Complementi",
+        "class": "3A MEN",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "class": "3C MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "class": "3A MEN",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Telecomunicazioni",
+        "class": "4E INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "4E INF",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "4E INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "3C MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "3A MEN",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "3C MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "3A MEN",
+        "room": "S3 (30)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Telecomunicazioni",
+        "class": "4E INF",
+        "room": "149 TEST (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica e Complementi",
+        "class": "3C MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica e Complementi",
+        "class": "3A MEN",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "4E INF",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "3C MEC",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "3A MEN",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "4E INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "2A MEC",
+        "room": "204 (26)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "teacher": "BELLOMO Antonio",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1C MEC",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1D MEC",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1D MEC",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2B MEC",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1C MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1C MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2C MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2C MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2D MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1D MEC",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1B MEC",
+        "room": "T75-E (26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2D MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2D MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2C MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2B MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2B MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1B MEC",
+        "room": "LAB.T62 DPOI (28)"
+      }
+    ]
+  }
+}

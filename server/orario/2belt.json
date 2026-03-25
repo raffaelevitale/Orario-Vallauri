@@ -1,0 +1,207 @@
+{
+  "class": "2B ELT",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "CINELLI C.",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. Chimica",
+        "teacher": "ROSSI F., DESIMONE M.",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "MONDINO L.",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "teacher": "VIRZI D.",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "RACCA M., SOBRERO",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "RACCA M., SOBRERO",
+        "room": "T10 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "teacher": "ALESSANDRINI A.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "teacher": "ALESSANDRINI A.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "teacher": "BRAMARDI L., SOBRERO",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E.",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E.",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "teacher": "CINELLI C., SOBRERO",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Diritto ed economia",
+        "teacher": "SALONE G.",
+        "room": "T10 (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Elettriche",
+        "teacher": "TORASSA D.",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze e tecnologie applicate Elettriche",
+        "teacher": "TORASSA D.",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "RACCA M.",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "RACCA M.",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DEMICHELIS A., MONDINO L.",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DEMICHELIS A., MONDINO L.",
+        "room": "LAB.S18B DISEGNO (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Fisica",
+        "teacher": "BRAMARDI L.",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "teacher": "ROSSI F., SOBRERO",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "CINELLI C.",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E.",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Religione",
+        "teacher": "MONDINO S.",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "teacher": "VIRZI D.",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Diritto ed economia",
+        "teacher": "SALONE G.",
+        "room": "T10 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Elettriche",
+        "teacher": "TORASSA D., SOBRERO",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E., SOBRERO",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "teacher": "ROSSI F.",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Fisica",
+        "teacher": "BRAMARDI L., FERRANTE G.",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "RACCA M.",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "RACCA M.",
+        "room": "T10 (24)"
+      }
+    ]
+  }
+}

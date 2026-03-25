@@ -1,0 +1,112 @@
+{
+  "teacher": "CANTONI Stefano",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "4C MEC",
+        "room": "S 76-E(27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "4C MEC",
+        "room": "S 76-E(27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "5A MEC",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "5A MEC",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "4C MEC",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "4C MEC",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "3A MEC",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 7,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "3A MEC",
+        "room": "S1 (30)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 4,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "5A MEC",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "3A MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "3A MEC",
+        "room": "S3 (30)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "4A MEC",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "4A MEC",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "5A MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "4A MEC",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 4,
+        "subject": "Meccanica, macchine ed energia",
+        "class": "4A MEC",
+        "room": "LAB.SENERGIA (31)"
+      }
+    ]
+  }
+}

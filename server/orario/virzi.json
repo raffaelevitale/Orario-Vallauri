@@ -1,0 +1,124 @@
+{
+  "teacher": "VIRZI Domenico",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "class": "1A ELT",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Scienze",
+        "class": "1A ELT",
+        "room": "205(24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "class": "2A INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "class": "1B ELT",
+        "room": "103 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze",
+        "class": "1E INF",
+        "room": "151 (27)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "class": "2E INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "class": "2D INF",
+        "room": "202 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "class": "2D INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze",
+        "class": "1B ELT",
+        "room": "103 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "class": "1A INF",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze",
+        "class": "2E INF",
+        "room": "105 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "class": "1A INF",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "class": "2A INF",
+        "room": "T66 (24)"
+      }
+    ]
+  }
+}

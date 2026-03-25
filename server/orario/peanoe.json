@@ -1,0 +1,124 @@
+{
+  "teacher": "PEANO Emanuela",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia e Geografia",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "class": "1B MEC",
+        "room": "LAB.T81-E VOLTA(21)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "4B MEC",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "class": "1B MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "class": "1B MEC",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "scienze naturali",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "4B MEC",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "class": "1B MEC",
+        "room": "T75-E (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1B MEC",
+        "room": "T75-E (26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Storia e Geografia",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "1C LIC",
+        "room": "147 (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Lab. Chimica",
+        "class": "1B MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "4B MEC",
+        "room": "S3 (30)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "teacher": "SBROZZI Ivan",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "class": "3A AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "class": "3A AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "2B AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "2B AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 3,
+        "subject": "Informatica",
+        "class": "2A AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "class": "2A AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "class": "4B AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 7,
+        "subject": "Informatica",
+        "class": "4B AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "4A AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "4A AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 3,
+        "subject": "Informatica",
+        "class": "1A AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "class": "1A AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "2A TUR",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "2A TUR",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "class": "1B AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "class": "1B AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "class": "3B AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 6,
+        "subject": "Informatica",
+        "class": "3B AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      }
+    ]
+  }
+}

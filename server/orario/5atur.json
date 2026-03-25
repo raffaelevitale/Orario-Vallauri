@@ -1,0 +1,207 @@
+{
+  "class": "5A TUR",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "SANDRI S., LORUSSO V.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 2,
+        "subject": "Discipline turistiche e aziendali",
+        "teacher": "CESARONI S., LORUSSO V.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lingua francese",
+        "teacher": "BLENGIO D.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "teacher": "MONDINO S.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "teacher": "BASTA T.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "BASTA T.",
+        "room": "PALESTRA"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Discipline turistiche e aziendali",
+        "teacher": "CESARONI S.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 2,
+        "subject": "Discipline turistiche e aziendali",
+        "teacher": "CESARONI S., LORUSSO V.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "DE ZANET C., MAGRAVITI C.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Diritto e legislazione turistica",
+        "teacher": "LUBATTI S., LORUSSO V.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Geografia turistica",
+        "teacher": "FOTI R.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Arte e territorio",
+        "teacher": "PERUCCA G., LORUSSO V.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 7,
+        "subject": "Lingua francese",
+        "teacher": "BLENGIO D.",
+        "room": "Tesauro112  (20)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Arte e territorio",
+        "teacher": "PERUCCA G.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lingua spagnola",
+        "teacher": "GALLINA G.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "PALA M., MAGRAVITI C.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "PALA M., MAGRAVITI C.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "SANDRI S., LORUSSO V.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Discipline turistiche e aziendali",
+        "teacher": "CESARONI S.",
+        "room": "Tesauro112  (20)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "DE ZANET C.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "teacher": "DE ZANET C., MAGRAVITI C.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 3,
+        "subject": "Diritto e legislazione turistica",
+        "teacher": "LUBATTI S., LORUSSO V.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua francese",
+        "teacher": "BLENGIO D., MAGRAVITI C.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "PALA M., MAGRAVITI C.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "PALA M., MAGRAVITI C.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 7,
+        "subject": "Storia",
+        "teacher": "PALA M.",
+        "room": "Tesauro112  (20)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Lingua spagnola",
+        "teacher": "GALLINA G.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lingua spagnola",
+        "teacher": "GALLINA G., MAGRAVITI C.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "SANDRI S., LORUSSO V.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Geografia turistica",
+        "teacher": "FOTI R., MAGRAVITI C.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto e legislazione turistica",
+        "teacher": "LUBATTI S., LORUSSO V.",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "PALA M.",
+        "room": "Tesauro112  (20)"
+      }
+    ]
+  }
+}

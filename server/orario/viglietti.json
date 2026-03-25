@@ -1,0 +1,60 @@
+{
+  "teacher": "VIGLIETTI Davide",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Sistemi e automazione",
+        "class": "4B MEC",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi e automazione",
+        "class": "4B MEC",
+        "room": "LAB.AUTOMAZIONE (26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 5,
+        "subject": "Sistemi e automazione",
+        "class": "5B MEC",
+        "room": "LAB.CETOP (28), LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e automazione",
+        "class": "5B MEC",
+        "room": "LAB.CETOP (28), LAB.T59 PLC (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e automazione",
+        "class": "4B MEC",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e automazione",
+        "class": "4B MEC",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi e automazione",
+        "class": "5B MEC",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e automazione",
+        "class": "5B MEC",
+        "room": "LAB.AUTOMAZIONE (26)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "class": "4B MEC",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "teacher": "BARTOLO A., ZINO A.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "PEANO M., ZINO A.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi e automazione",
+        "teacher": "TOMATIS C., VIGLIETTI D.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi e automazione",
+        "teacher": "TOMATIS C., VIGLIETTI D.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "D.P.O.I.",
+        "teacher": "CARLE F., MAZZOTTA G.",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "D.P.O.I.",
+        "teacher": "CARLE F., MAZZOTTA G.",
+        "room": "LAB.T62 DPOI (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "SERRA A., PEANO E.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "PEANO M., GAMBONE F.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "teacher": "BARTOLO A.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "BARTOLO A., ZINO A.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "D.P.O.I.",
+        "teacher": "CARLE F., MAZZOTTA G.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "COSTAMAGNA G.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "COSTAMAGNA G.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "BECCHIO VILLOIS L., PEANO E.",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "D.P.O.I.",
+        "teacher": "CARLE F., ZINO A.",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "teacher": "PASCALE M.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "teacher": "PASCALE M.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "teacher": "SERRA A.",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "BARTOLO A.",
+        "room": "S1 (30)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "COSTAMAGNA G., ZINO A.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "COSTAMAGNA G., ZINO A.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "teacher": "MELOGNO S.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica e Complementi",
+        "teacher": "BECCHIO VILLOIS L.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "teacher": "SERRA A.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "BARTOLO A.",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "teacher": "BARTOLO A., ZINO A.",
+        "room": "S4 (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e automazione",
+        "teacher": "VIGLIETTI D., ZINO A.",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e automazione",
+        "teacher": "TOMATIS C., VIGLIETTI D., ZINO A.",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "BECCHIO VILLOIS L.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "BECCHIO VILLOIS L., PEANO E.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "PEANO M., GAMBONE F.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "PEANO M., GAMBONE F.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      }
+    ]
+  }
+}

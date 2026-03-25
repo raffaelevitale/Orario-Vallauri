@@ -1,0 +1,124 @@
+{
+  "teacher": "LI CALSI Dario",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. informatiche",
+        "class": "1D MEC",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. informatiche",
+        "class": "1D MEC",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "class": "1B INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. informatiche",
+        "class": "1B INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. informatiche",
+        "class": "1D INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Tecn. informatiche",
+        "class": "1D INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "class": "1C INF",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. informatiche",
+        "class": "1C INF",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. informatiche",
+        "class": "1A ELT",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. informatiche",
+        "class": "1A ELT",
+        "room": "LAB.119B EULERO (25)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "Tecn. informatiche",
+        "class": "1E INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "class": "1E INF",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. informatiche",
+        "class": "1B MEC",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 7,
+        "subject": "Tecn. informatiche",
+        "class": "1B MEC",
+        "room": "LAB.143 TURING (22)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Tecn. informatiche",
+        "class": "1A INF",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "class": "1A INF",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. informatiche",
+        "class": "1B ELT",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. informatiche",
+        "class": "1B ELT",
+        "room": "LAB.143 TURING (22)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "teacher": "GROSSO Stefano",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "2A INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "2A INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "2D INF",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "2D INF",
+        "room": "150 (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "1B INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "1B INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "2D INF",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "class": "2D INF",
+        "room": "212 TEST (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "1B INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "1B INF",
+        "room": "101 (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "2A INF",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "class": "2A INF",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "2D INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "2D INF",
+        "room": "151 (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "2A INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "2A INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "1B INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "1B INF",
+        "room": "101 (27)"
+      }
+    ]
+  }
+}

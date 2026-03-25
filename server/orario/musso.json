@@ -1,0 +1,64 @@
+{
+  "teacher": "MUSSO Bernardo",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "class": "2A MEC",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. Chimica",
+        "class": "2A MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. Chimica",
+        "class": "1E MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "class": "1E MEC",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 7,
+        "subject": "Chimica",
+        "class": "1A MEC",
+        "room": "103 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Chimica",
+        "class": "1A MEC",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "class": "1E MEC",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "class": "2A MEC",
+        "room": "202 (24)"
+      }
+    ]
+  }
+}

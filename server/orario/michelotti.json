@@ -1,0 +1,160 @@
+{
+  "teacher": "MICHELOTTI Enrica",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "1A INF",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "2A INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "2C INF",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "2A INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "2C INF",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "1A INF",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "1C INF",
+        "room": "204 (26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "1A INF",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "2C INF",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "2A INF",
+        "room": "102 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica",
+        "class": "2A INF",
+        "room": "102 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "2C INF",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "2B ELT",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "2A ELT",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "1A INF",
+        "room": "205(24)"
+      }
+    ]
+  }
+}

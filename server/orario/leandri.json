@@ -1,0 +1,70 @@
+{
+  "teacher": "LEANDRI Silia",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "teacher": "AIMETTA Matilde",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "5B ELT",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica e Complementi",
+        "class": "3B ELT",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "5A ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "4A ELT",
+        "room": "301 (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "5B ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica e Complementi",
+        "class": "4B ELT",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica e Complementi",
+        "class": "4B ELT",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica e Complementi",
+        "class": "4A ELT",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica e Complementi",
+        "class": "3B ELT",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica e Complementi",
+        "class": "3B ELT",
+        "room": "T09 (26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "5A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Matematica e Complementi",
+        "class": "3B ELT",
+        "room": "304 (22)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "5B ELT",
+        "room": "303 (19)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica e Complementi",
+        "class": "4B ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "4A ELT",
+        "room": "150 (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "5A ELT",
+        "room": "S 76-E(27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica e Complementi",
+        "class": "4B ELT",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "4A ELT",
+        "room": "271-E (24)"
+      }
+    ]
+  }
+}

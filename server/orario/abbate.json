@@ -1,0 +1,58 @@
+{
+  "teacher": "ABBATE Andrea",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e reti",
+        "class": "5D INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e reti",
+        "class": "5D INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e reti",
+        "class": "5E INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 7,
+        "subject": "Sistemi e reti",
+        "class": "5E INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Sistemi e reti",
+        "class": "5C INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi e reti",
+        "class": "5C INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi e reti",
+        "class": "5B INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e reti",
+        "class": "5B INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      }
+    ]
+  }
+}

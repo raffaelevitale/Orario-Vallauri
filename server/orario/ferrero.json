@@ -1,0 +1,124 @@
+{
+  "teacher": "FERRERO Paola",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      }
+    ]
+  }
+}

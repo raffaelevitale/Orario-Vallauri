@@ -1,0 +1,84 @@
+{
+  "teacher": "LAZZERETTI Federica",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Fisica",
+        "class": "2D INF",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "class": "2D INF",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "class": "3A LIC",
+        "room": "146 (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "3A LIC",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2D INF",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "3A LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "class": "3A LIC",
+        "room": "148 (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "3A LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze naturali",
+        "class": "3A LIC",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Chimica",
+        "class": "2D INF",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "class": "2D INF",
+        "room": "LAB.119A PASCAL (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "class": "2D INF",
+        "room": "LAB.119A PASCAL (27)"
+      }
+    ]
+  }
+}

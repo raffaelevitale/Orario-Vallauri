@@ -1,0 +1,124 @@
+{
+  "teacher": "BARBERIS Lorenzo",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "1A INF",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "1A INF",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "4A INF",
+        "room": "T78-E (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "1A INF",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "1A INF",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "5E INF",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "4A INF",
+        "room": "T75-E (26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "4A INF",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "class": "4A INF",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "5E INF",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "5E INF",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "1A INF",
+        "room": "271-E (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "5E INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "class": "5E INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "class": "4A INF",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "4A INF",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "1A INF",
+        "room": "205(24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "5E INF",
+        "room": "105 (24)"
+      }
+    ]
+  }
+}

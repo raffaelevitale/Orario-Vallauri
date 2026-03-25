@@ -1,0 +1,88 @@
+{
+  "teacher": "SARETTI Daniela",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 4,
+        "subject": "Diritto ed economia",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 7,
+        "subject": "Diritto ed economia",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Diritto ed economia",
+        "class": "1C MEC",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Diritto ed economia",
+        "class": "1C MEC",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "class": "1E MEC",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "class": "1E MEC",
+        "room": "212 TEST (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "Diritto ed economia",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Diritto ed economia",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 5,
+        "subject": "Diritto ed economia",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "teacher": "RASPA Michele",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3B MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3B MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "class": "2C MEC",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "4A MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "4A MEC",
+        "room": "LAB.S53A CAD CAM (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 4,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "4A MEC",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "class": "3B MEC",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "class": "2E INF",
+        "room": "LAB.S18B DISEGNO (24)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "class": "4A TUR",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Discipline turistiche e aziendali",
+        "teacher": "EULA S.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "SANDRI S.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "RAVIOLA A.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua francese",
+        "teacher": "BLENGIO D.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Religione",
+        "teacher": "MONDINO S.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "PALA M.",
+        "room": "Tesauro126  (18)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Diritto e legislazione turistica",
+        "teacher": "GIANNONE E.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 2,
+        "subject": "Discipline turistiche e aziendali",
+        "teacher": "EULA S.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 3,
+        "subject": "Arte e territorio",
+        "teacher": "PERUCCA G.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 4,
+        "subject": "Geografia turistica",
+        "teacher": "FOTI R.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "PALA M.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "PALA M.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "teacher": "PALA M.",
+        "room": "Tesauro126  (18)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Lingua francese",
+        "teacher": "BLENGIO D.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 2,
+        "subject": "Arte e territorio",
+        "teacher": "PERUCCA G.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "SANDRI S.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 4,
+        "subject": "Geografia turistica",
+        "teacher": "FOTI R.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua spagnola",
+        "teacher": "GALLINA G.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lingua spagnola",
+        "teacher": "GALLINA G.",
+        "room": "Tesauro126  (18)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "teacher": "DOMINICI E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "teacher": "DOMINICI E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Diritto e legislazione turistica",
+        "teacher": "GIANNONE E.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "RAVIOLA A.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Discipline turistiche e aziendali",
+        "teacher": "EULA S.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Discipline turistiche e aziendali",
+        "teacher": "EULA S.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica",
+        "teacher": "SANDRI S.",
+        "room": "Tesauro126  (18)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "RAVIOLA A.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lingua francese",
+        "teacher": "BLENGIO D.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 3,
+        "subject": "Diritto e legislazione turistica",
+        "teacher": "GIANNONE E.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "PALA M.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "PALA M.",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lingua spagnola",
+        "teacher": "GALLINA G.",
+        "room": "Tesauro126  (18)"
+      }
+    ]
+  }
+}

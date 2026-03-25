@@ -1,0 +1,124 @@
+{
+  "teacher": "MARCHISIO Manuela",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "5B INF",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "5B INF",
+        "room": "LAB.116 LAPLACE (25)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "T.P.S.I.T.",
+        "class": "3E INF",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "class": "4B INF",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "class": "4B INF",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.I.T.",
+        "class": "3D INF",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 7,
+        "subject": "Informatica",
+        "class": "5B INF",
+        "room": "LAB.116 LAPLACE (25)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Informatica",
+        "class": "5B INF",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "class": "4B INF",
+        "room": "LAB.119A PASCAL (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.I.T.",
+        "class": "3E INF",
+        "room": "LAB.119A PASCAL (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "T.P.S.I.T.",
+        "class": "3D INF",
+        "room": "LAB.S18 MARCONI (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.I.T.",
+        "class": "3D INF",
+        "room": "LAB.S18 MARCONI (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "class": "5B INF",
+        "room": "LAB.116 LAPLACE (25)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "4B INF",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "4B INF",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.I.T.",
+        "class": "3E INF",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.I.T.",
+        "class": "3E INF",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.I.T.",
+        "class": "3D INF",
+        "room": "LAB.116 LAPLACE (25)"
+      }
+    ]
+  }
+}

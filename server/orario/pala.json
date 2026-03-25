@@ -1,0 +1,124 @@
+{
+  "teacher": "PALA Maria Clelia",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 7,
+        "subject": "Storia",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "teacher": "AIELLO Daniela",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "class": "2C INF",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. Chimica",
+        "class": "2C INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "class": "2A TUR",
+        "room": "Tesauro109  (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "class": "2C INF",
+        "room": "104 (25)"
+      }
+    ]
+  }
+}

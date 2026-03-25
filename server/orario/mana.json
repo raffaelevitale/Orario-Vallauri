@@ -1,0 +1,124 @@
+{
+  "teacher": "MANA Francesca",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 4,
+        "subject": "Geografia",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 3,
+        "subject": "Informatica",
+        "class": "2A AFM",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua francese",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Arte e territorio",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 4,
+        "subject": "Geografia turistica",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 6,
+        "subject": "Lingua francese",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 7,
+        "subject": "Storia",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua spagnola",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua francese",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia aziendale",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      }
+    ]
+  }
+}

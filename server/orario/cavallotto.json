@@ -1,0 +1,124 @@
+{
+  "teacher": "CAVALLOTTO Claudio",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "class": "2D MEC",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "3A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "3A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "5A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "5A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "4A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "3A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "4A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "4A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "5A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 2,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "class": "2D MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "5A MEN",
+        "room": "LAB.T62 DPOI (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "4A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "4A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "3A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "class": "2D MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "5A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "class": "5A MEN",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      }
+    ]
+  }
+}

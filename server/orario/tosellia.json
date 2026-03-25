@@ -1,0 +1,124 @@
+{
+  "teacher": "TOSELLI Aldo",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "class": "5A MEN",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "5A MEN",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "4A MEN",
+        "room": "T78-E (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "5A MEN",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "4A MEN",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "class": "4A MEN",
+        "room": "S2 (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "5A MEN",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "4A MEN",
+        "room": "T10 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "5A MEN",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "5A MEN",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 7,
+        "subject": "Storia",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "4A MEN",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "4A MEN",
+        "room": "S2 (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "1A MEC",
+        "room": "T66 (24)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "teacher": "CAPUTO Luigi",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. informatiche",
+        "class": "1A MEC",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. informatiche",
+        "class": "1A MEC",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. informatiche",
+        "class": "1E MEC",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "class": "1E MEC",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. informatiche",
+        "class": "1C MEC",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Tecn. informatiche",
+        "class": "1C MEC",
+        "room": "LAB.S18B DISEGNO (24)"
+      }
+    ]
+  }
+}

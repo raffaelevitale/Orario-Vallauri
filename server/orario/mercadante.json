@@ -1,0 +1,136 @@
+{
+  "teacher": "MERCADANTE Massimiliano",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 5,
+        "subject": "Telecomunicazioni",
+        "class": "3A INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 6,
+        "subject": "Telecomunicazioni",
+        "class": "3A INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Telecomunicazioni",
+        "class": "3C INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 2,
+        "subject": "Telecomunicazioni",
+        "class": "3C INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 3,
+        "subject": "Telecomunicazioni",
+        "class": "4E INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 4,
+        "subject": "Telecomunicazioni",
+        "class": "4E INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 6,
+        "subject": "Telecomunicazioni",
+        "class": "4B INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 7,
+        "subject": "Telecomunicazioni",
+        "class": "4B INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Telecomunicazioni",
+        "class": "3D INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 2,
+        "subject": "Telecomunicazioni",
+        "class": "3D INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 3,
+        "subject": "Telecomunicazioni",
+        "class": "4C INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 4,
+        "subject": "Telecomunicazioni",
+        "class": "4C INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Telecomunicazioni",
+        "class": "4D INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 2,
+        "subject": "Telecomunicazioni",
+        "class": "4D INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 3,
+        "subject": "Telecomunicazioni",
+        "class": "4A INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 4,
+        "subject": "Telecomunicazioni",
+        "class": "4A INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Telecomunicazioni",
+        "class": "3B INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 4,
+        "subject": "Telecomunicazioni",
+        "class": "3B INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 5,
+        "subject": "Telecomunicazioni",
+        "class": "3E INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 6,
+        "subject": "Telecomunicazioni",
+        "class": "3E INF",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      }
+    ]
+  }
+}

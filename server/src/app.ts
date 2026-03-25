@@ -1,65 +1,89 @@
-import fastify from "fastify";
+import Fastify from "fastify";
+import fs from "node:fs";
+import { Orario, OrarioParams, OrarioQuery } from "./../types/orario"
 
-// import json schemas as normal
-import QuerystringSchema from "@/schemas/querystring.json";
-import HeadersSchema from "@/schemas/headers.json";
+const port = Number(process.env.PORT) || 3000;
+const fastify = Fastify({
+  logger: process.env.NODE_ENV === "development",
+});
 
-// import the generated interfaces
-import { QuerystringSchema as QuerystringSchemaInterface } from "@/types/querystring";
-import { HeadersSchema as HeadersSchemaInterface } from "@/types/headers";
+const days = ["monday", "tuesday", "wednesday", "thursday", "friday"];
 
-const server = fastify();
-
-server.get<{
-  Querystring: QuerystringSchemaInterface;
-  Headers: HeadersSchemaInterface;
-}>(
-  "/auth",
-  {
-    schema: {
-      querystring: QuerystringSchema,
-      headers: HeadersSchema,
+const orarioSchema = {
+  params: {
+    type: "object",
+    properties: {
+      class: { type: "string" },
     },
-    preValidation: (request, reply, done) => {
-      const { username, password } = request.query;
-      done(username !== "admin" ? new Error("Must be admin") : undefined);
-    },
-    //  or if using async
-    //  preValidation: async (request, reply) => {
-    //    const { username, password } = request.query
-    //    if (username !== "admin") throw new Error("Must be admin");
-    //  }
   },
-  async (request, reply) => {
-    const customerHeader = request.headers["h-Custom"];
-    // do something with request data
-    return `logged in!`;
+  querystring: {
+    type: "object",
+    properties: {
+      day: { type: "number" },
+    },
+  },
+};
+
+const orarioHandler = (request, reply) => {
+  const { str } = request.params;
+  const { day } = request.query;
+
+  const orario: Orario = JSON.parse(
+    fs.readFileSync("./orario/" + str + ".json", "utf-8"),
+  );
+
+  return { [days[day - 1]]: orario.schedule[days[day - 1]] };
+};
+
+fastify.get<{ Params: OrarioParams; Querystring: OrarioQuery }>(
+  "/orario_classe/:str",
+  {
+    schema: orarioSchema,
+    preValidation: (request, reply, done) => {
+      if (!request.params.str)
+        done(new Error("The class is required. (ex: /1ainf)"));
+      else if (!request.query.day)
+        done(new Error("The lesson's day is required. (ex: day = 1)"));
+      else if (request.query.day <= 0 || request.query.day >= 6)
+        done(new Error("The lesson's day have to be between 1 and 5."));
+      else done(undefined);
+    },
+  },
+  orarioHandler,
+);
+
+fastify.get<{ Params: OrarioParams; Querystring: OrarioQuery }>(
+  "/orario_docente/:str",
+  {
+    schema: orarioSchema,
+    preValidation: (request, reply, done) => {
+      if (!request.params.str)
+        done(new Error("The teacher is required. (ex: /rossi)"));
+      else if (!request.query.day)
+        done(new Error("The lesson's day is required. (ex: day = 1)"));
+      else if (request.query.day <= 0 || request.query.day >= 6)
+        done(new Error("The lesson's day have to be between 1 and 5."));
+      else done(undefined);
+    },
+  },
+  orarioHandler,
+);
+
+fastify.get<{ Params: OrarioParams; Querystring: OrarioQuery }>(
+  "/orari_classi",
+  (request, reply) => {
+    
   },
 );
 
-server.route<{
-  Querystring: QuerystringSchemaInterface;
-  Headers: HeadersSchemaInterface;
-}>({
-  method: "GET",
-  url: "/auth2",
-  schema: {
-    querystring: QuerystringSchema,
-    headers: HeadersSchema,
+fastify.get<{ Params: OrarioParams; Querystring: OrarioQuery }>(
+  "/orari_docenti",
+  (request, reply) => {
+    
   },
-  preHandler: (request, reply, done) => {
-    const { username, password } = request.query;
-    const customerHeader = request.headers["h-Custom"];
-    done();
-  },
-  handler: (request, reply) => {
-    const { username, password } = request.query;
-    const customerHeader = request.headers["h-Custom"];
-    reply.status(200).send({ username });
-  },
-});
+);
 
-server.listen({ port: 8080 }, (err, address) => {
+fastify.listen({ port }, (err, address) => {
   if (err) {
     console.error(err);
     process.exit(0);

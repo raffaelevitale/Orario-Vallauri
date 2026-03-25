@@ -1,0 +1,207 @@
+{
+  "class": "2C INF",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "teacher": "SALMERI V.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "SALMERI V.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "COSTAMAGNA A.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "COSTAMAGNA A.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "teacher": "AIELLO D.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. Chimica",
+        "teacher": "BOCHICCHIO M., AIELLO D.",
+        "room": "LAB.S71- E CHIMICA ()"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Diritto ed economia",
+        "teacher": "BONINO M.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "teacher": "CAVALLERO L.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "SALMERI V.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica",
+        "teacher": "BOSIO A.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "PIOVANO E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze motorie",
+        "teacher": "PIOVANO E.",
+        "room": "PALESTRA"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "teacher": "OLIVERO G.",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "teacher": "OLIVERO G.",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Fisica",
+        "teacher": "FERRANTE G., BOSIO A.",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze",
+        "teacher": "MONTEVERDE M.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "teacher": "AIELLO D.",
+        "room": "104 (25)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "SALMERI V.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "SALMERI V.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "teacher": "BOSIO A.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Diritto ed economia",
+        "teacher": "BONINO M.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "teacher": "MONTEVERDE M.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DEMICHELIS A., DOTTA C.",
+        "room": "LAB.S18B DISEGNO (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "teacher": "OLIVERO G.",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "teacher": "SALMERI V.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "COSTAMAGNA A.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DOTTA C.",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DOTTA C.",
+        "room": "LAB.S18B DISEGNO (24)"
+      }
+    ]
+  }
+}

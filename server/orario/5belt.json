@@ -1,0 +1,207 @@
+{
+  "class": "5B ELT",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "VISSIO G.",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "VISSIO G.",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "AIMETTA M.",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "OTTONELLO M., BECCARIA S.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "OTTONELLO M., BECCARIA S.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "OTTONELLO M., BECCARIA S.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "AIMETTA M.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "T.P.S.E.E.",
+        "teacher": "INGARAMO P., MANFREDI E.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.E.E.",
+        "teacher": "INGARAMO P., MANFREDI E.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.E.E.",
+        "teacher": "INGARAMO P., MANFREDI E.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "VISSIO G.",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi automatici",
+        "teacher": "TOSELLI A., PERLO M.",
+        "room": "LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Sistemi automatici",
+        "teacher": "TOSELLI A., PERLO M.",
+        "room": "LAB.T59 PLC (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "teacher": "ALESSANDRINI A.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "teacher": "ALESSANDRINI A.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "BECCARIA S.",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "GHIGLIONE S.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "VISSIO G.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "VISSIO G.",
+        "room": "LAB.T18 ELETTROTECNICA  (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "T.P.S.E.E.",
+        "teacher": "INGARAMO P.",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "AIMETTA M.",
+        "room": "303 (19)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "GHIGLIONE S.",
+        "room": "303 (19)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi automatici",
+        "teacher": "TOSELLI A., PERLO M.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi automatici",
+        "teacher": "TOSELLI A., PERLO M.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Religione",
+        "teacher": "MONDINO S.",
+        "room": "303 (19)"
+      },
+      {
+        "hour": 7,
+        "subject": "Storia",
+        "teacher": "VISSIO G.",
+        "room": "303 (19)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi automatici",
+        "teacher": "PERLO M.",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "teacher": "GHIGLIONE S.",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.E.E.",
+        "teacher": "INGARAMO P.",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.E.E.",
+        "teacher": "INGARAMO P.",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 5,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "BECCARIA S.",
+        "room": "303 (19)"
+      },
+      {
+        "hour": 6,
+        "subject": "Elettrotecnica ed Elettronica",
+        "teacher": "BECCARIA S.",
+        "room": "303 (19)"
+      }
+    ]
+  }
+}

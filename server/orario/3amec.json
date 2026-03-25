@@ -1,0 +1,207 @@
+{
+  "class": "3A MEC",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Storia",
+        "teacher": "VERNASSA G.",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "D.P.O.I.",
+        "teacher": "GARNERO A., TONELLO C.",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "D.P.O.I.",
+        "teacher": "GARNERO A., TONELLO C.",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "BALLOCCO L.",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Sistemi e automazione",
+        "teacher": "MANESCOTTO G., TOMATIS C.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e automazione",
+        "teacher": "MANESCOTTO G., TOMATIS C.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "PEANO M.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "teacher": "VERNASSA G.",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "VERNASSA G.",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "BALLOCCO L.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "teacher": "RACCA M.",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CANTONI S.",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 7,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CANTONI S.",
+        "room": "S1 (30)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "PEANO M.",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e automazione",
+        "teacher": "MANESCOTTO G., TOMATIS C.",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "teacher": "DE PASQUALE P.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "teacher": "DE PASQUALE P.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CANTONI S.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CANTONI S.",
+        "room": "S3 (30)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "PEANO M., DEMICHELIS A.",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "PEANO M., DEMICHELIS A.",
+        "room": "LAB.S53A CAD CAM (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "VERNASSA G.",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "VERNASSA G.",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "teacher": "RACCA M.",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Religione",
+        "teacher": "MELOGNO S.",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "D.P.O.I.",
+        "teacher": "GARNERO A.",
+        "room": "LAB.S53A CAD CAM (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "RACCA M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "teacher": "VERNASSA G.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi e automazione",
+        "teacher": "MANESCOTTO G.",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "PEANO M., DEMICHELIS A.",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "BALLOCCO L.",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica e Complementi",
+        "teacher": "BALLOCCO L.",
+        "room": "S1 (30)"
+      }
+    ]
+  }
+}

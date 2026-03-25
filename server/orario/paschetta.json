@@ -1,0 +1,130 @@
+{
+  "teacher": "PASCHETTA Marco",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "5E INF",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "5E INF",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.I.T.",
+        "class": "4A INF",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.I.T.",
+        "class": "4A INF",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "T.P.S.I.T.",
+        "class": "5E INF",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.I.T.",
+        "class": "5E INF",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "class": "4B INF",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "class": "4B INF",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 2,
+        "subject": "T.P.S.I.T.",
+        "class": "4B INF",
+        "room": "LAB.119A PASCAL (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.I.T.",
+        "class": "4B INF",
+        "room": "LAB.119A PASCAL (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "class": "4B INF",
+        "room": "LAB.119A PASCAL (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "3D INF",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "class": "3D INF",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.I.T.",
+        "class": "5E INF",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 5,
+        "subject": "T.P.S.I.T.",
+        "class": "4C INF",
+        "room": "LAB.119A PASCAL (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.I.T.",
+        "class": "4C INF",
+        "room": "LAB.119A PASCAL (27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Gestione progetto, organizzazione d’impresa",
+        "class": "5E INF",
+        "room": "LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Gestione progetto, organizzazione d’impresa",
+        "class": "5E INF",
+        "room": "LAB.T59 PLC (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Gestione progetto, organizzazione d’impresa",
+        "class": "5E INF",
+        "room": "LAB.T59 PLC (24)"
+      }
+    ]
+  }
+}

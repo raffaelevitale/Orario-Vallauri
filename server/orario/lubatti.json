@@ -1,0 +1,118 @@
+{
+  "teacher": "LUBATTI Silvia",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 4,
+        "subject": "Diritto",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 4,
+        "subject": "Diritto e legislazione turistica",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto e legislazione turistica",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia politica",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Diritto",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 4,
+        "subject": "Economia politica",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia politica",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 3,
+        "subject": "Diritto e legislazione turistica",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Economia politica",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia politica",
+        "class": "4A AFM",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 7,
+        "subject": "Diritto e legislazione turistica",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Diritto",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto e legislazione turistica",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto e legislazione turistica",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      }
+    ]
+  }
+}

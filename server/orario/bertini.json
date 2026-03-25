@@ -1,0 +1,124 @@
+{
+  "teacher": "BERTINI Sara",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "3E INF",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "5E INF",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "4E INF",
+        "room": "147 (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "5E INF",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "5D INF",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "4E INF",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "2E INF",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "Inglese",
+        "class": "3E INF",
+        "room": "T67 (30)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "5D INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "3E INF",
+        "room": "T64 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "2E INF",
+        "room": "102 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "1E INF",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "5D INF",
+        "room": "177-E (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "4E INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "5E INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "2E INF",
+        "room": "141 (28)"
+      }
+    ]
+  }
+}

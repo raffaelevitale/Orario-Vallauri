@@ -1,0 +1,207 @@
+{
+  "class": "2A AFM",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "D'AGOSTARO G.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "teacher": "AIELLO D.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 3,
+        "subject": "Diritto ed economia",
+        "teacher": "GIANNONE E., MERENDA M.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 4,
+        "subject": "Geografia",
+        "teacher": "FOTI R., MANA F.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "FERRERO P., MANA F.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia aziendale",
+        "teacher": "EULA S.",
+        "room": "Tesauro121  (29)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze",
+        "teacher": "LEANDRI S., MANA F.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "FERRERO P.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 3,
+        "subject": "Informatica",
+        "teacher": "SBROZZI I., MANA F.",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "teacher": "SBROZZI I.",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua francese",
+        "teacher": "BUSETTO A., MANA F.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "teacher": "RAVIOLA A.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 7,
+        "subject": "Geografia",
+        "teacher": "FOTI R.",
+        "room": "Tesauro121  (29)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Diritto ed economia",
+        "teacher": "GIANNONE E.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "teacher": "LEANDRI S.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "teacher": "AIELLO D., MERENDA M.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "FERRERO P., MANA F.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "D'AGOSTARO G.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "D'AGOSTARO G., MANA F.",
+        "room": "Tesauro121  (29)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "RAVIOLA A.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 2,
+        "subject": "Geografia",
+        "teacher": "FOTI R.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "teacher": "DOMINICI E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "teacher": "DOMINICI E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua francese",
+        "teacher": "BUSETTO A.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "D'AGOSTARO G.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 7,
+        "subject": "Storia",
+        "teacher": "D'AGOSTARO G., MANA F.",
+        "room": "Tesauro121  (29)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "FERRERO P.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "teacher": "PASTORE L.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "RAVIOLA A., MERENDA M.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "D'AGOSTARO G.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lingua francese",
+        "teacher": "BUSETTO A.",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia aziendale",
+        "teacher": "EULA S., MANA F.",
+        "room": "Tesauro121  (29)"
+      }
+    ]
+  }
+}

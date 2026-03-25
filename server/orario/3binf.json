@@ -1,0 +1,207 @@
+{
+  "class": "3B INF",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e reti",
+        "teacher": "SANINO A., CAIRONE F.",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e reti",
+        "teacher": "SANINO A., CAIRONE F.",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "VILLOSIO M.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica e Complementi",
+        "teacher": "SERVETTI D.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "T.P.S.I.T.",
+        "teacher": "MANA R.",
+        "room": "LAB.119A PASCAL (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.I.T.",
+        "teacher": "MANA R.",
+        "room": "LAB.119A PASCAL (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "SERVETTI D.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Telecomunicazioni",
+        "teacher": "COMETTO G.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "CASTAGNINO L.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "VILLOSIO M.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "teacher": "BARBERO A.",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "CALVO M.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze motorie",
+        "teacher": "CALVO M.",
+        "room": "PALESTRA"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "teacher": "BARBERO A., CAMBIERI O.",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "teacher": "BARBERO A., CAMBIERI O.",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi e reti",
+        "teacher": "CAIRONE F.",
+        "room": "LAB.142 NEWTON (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi e reti",
+        "teacher": "CAIRONE F.",
+        "room": "LAB.142 NEWTON (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "VILLOSIO M.",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "VILLOSIO M.",
+        "room": "301 (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "teacher": "BARBERO A.",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "teacher": "CASTAGNINO L.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "SERVETTI D.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.I.T.",
+        "teacher": "CAMBIERI O., MANA R.",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "T.P.S.I.T.",
+        "teacher": "CAMBIERI O., MANA R.",
+        "room": "LAB.119B EULERO (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "teacher": "VILLOSIO M.",
+        "room": "146 (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "Italiano",
+        "teacher": "VILLOSIO M.",
+        "room": "146 (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "teacher": "CAVALLERO L.",
+        "room": "147 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "SERVETTI D.",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Telecomunicazioni",
+        "teacher": "MERCADANTE M., COMETTO G.",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 4,
+        "subject": "Telecomunicazioni",
+        "teacher": "MERCADANTE M., COMETTO G.",
+        "room": "LAB.134 TELECOMUNICAZIONI(50)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "teacher": "BARBERO A.",
+        "room": "LAB.116 LAPLACE (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "teacher": "CASTAGNINO L.",
+        "room": "150 (27)"
+      }
+    ]
+  }
+}

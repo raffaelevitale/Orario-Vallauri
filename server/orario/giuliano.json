@@ -1,0 +1,112 @@
+{
+  "teacher": "GIULIANO Caterina",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "4B LIC",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "5A LIC",
+        "room": "278-E (25)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "3C LIC",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "5A LIC",
+        "room": "S 76-E(27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "3A LIC",
+        "room": "146 (28), LAB.142 NEWTON (25)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "4B LIC",
+        "room": "104 (25), LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "3A LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "3C LIC",
+        "room": "140 (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "3A LIC",
+        "room": "275-E (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "3C LIC",
+        "room": "141 (28), LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "5A LIC",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "4B LIC",
+        "room": "S 76-E(27)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "class": "3A LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "5A LIC",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "class": "4B LIC",
+        "room": "301 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "class": "3C LIC",
+        "room": "T64 (28)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "teacher": "BONO Andrea",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "class": "2D INF",
+        "room": "150 (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Chimica",
+        "class": "1B INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "class": "2B INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Chimica",
+        "class": "2E INF",
+        "room": "141 (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Chimica",
+        "class": "2D INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. Chimica",
+        "class": "2E INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Chimica",
+        "class": "2B INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 4,
+        "subject": "Chimica",
+        "class": "1E INF",
+        "room": "151 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "class": "3A LIC",
+        "room": "148 (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "class": "2B INF",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Chimica",
+        "class": "2E INF",
+        "room": "112 TEST (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Chimica",
+        "class": "1B INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. Chimica",
+        "class": "1E INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 7,
+        "subject": "Lab. Chimica",
+        "class": "1D INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "class": "1D INF",
+        "room": "105 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. Chimica",
+        "class": "1C INF",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "class": "1B INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Chimica",
+        "class": "2D INF",
+        "room": "150 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "class": "3A LIC",
+        "room": "LAB.S72-E BIOLOGIA (30)"
+      }
+    ]
+  }
+}

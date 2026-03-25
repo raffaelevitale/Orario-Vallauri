@@ -1,0 +1,213 @@
+{
+  "class": "1A INF",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Fisica",
+        "teacher": "CALVO A., FERRANTE G.",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DEMICHELIS A., OLOCCO M.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "BARBERIS L.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "BARBERIS L.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "teacher": "CORNERO A.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "BALLATORE A.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 7,
+        "subject": "Scienze motorie",
+        "teacher": "BALLATORE A.",
+        "room": "PALESTRA"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "BARBERIS L.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "BARBERIS L.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "OLOCCO M.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "OLOCCO M.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Geografia",
+        "teacher": "SAPPA F.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 7,
+        "subject": "Religione",
+        "teacher": "CAVALLO C.",
+        "room": "104 (25)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Diritto ed economia",
+        "teacher": "SALONE G.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "teacher": "CORNERO A.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Chimica",
+        "teacher": "ROSSI F.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "teacher": "CALVO A.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E.",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "BARBERIS L.",
+        "room": "271-E (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Diritto ed economia",
+        "teacher": "SALONE G.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "teacher": "CALVO A.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze",
+        "teacher": "VIRZI D.",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. Chimica",
+        "teacher": "BOCHICCHIO M., ROSSI F.",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. informatiche",
+        "teacher": "PAROLA C.",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 7,
+        "subject": "Inglese",
+        "teacher": "CORNERO A.",
+        "room": "201 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "teacher": "ROSSI F.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "teacher": "VIRZI D.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. informatiche",
+        "teacher": "PAROLA C., LI CALSI D.",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. informatiche",
+        "teacher": "PAROLA C., LI CALSI D.",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "BARBERIS L.",
+        "room": "205(24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "teacher": "MICHELOTTI E.",
+        "room": "205(24)"
+      }
+    ]
+  }
+}

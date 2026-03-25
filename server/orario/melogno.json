@@ -1,0 +1,130 @@
+{
+  "teacher": "MELOGNO Sergio",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "class": "1C MEC",
+        "room": "T09 (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "class": "1E MEC",
+        "room": "212 TEST (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "class": "5A MEC",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "class": "4C MEC",
+        "room": "LAB.SENERGIA (31)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "class": "2C MEC",
+        "room": "T10 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "class": "3C MEC",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "class": "3A MEN",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "class": "5B MEC",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "class": "5C MEC",
+        "room": "301 (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "class": "2A MEC",
+        "room": "203 (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "class": "2D MEC",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "class": "3B MEC",
+        "room": "T67 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Religione",
+        "class": "4A MEN",
+        "room": "T10 (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "class": "2B MEC",
+        "room": "278-E (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "class": "1D MEC",
+        "room": "T65 TEST (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Religione",
+        "class": "4B MEC",
+        "room": "S4 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Religione",
+        "class": "3A MEC",
+        "room": "T64 (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "class": "4A MEC",
+        "room": "S1 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "class": "5A MEN",
+        "room": "147 (27)"
+      }
+    ]
+  }
+}

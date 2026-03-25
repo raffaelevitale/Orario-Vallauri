@@ -1,0 +1,207 @@
+{
+  "class": "2B INF",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "CORNERO A.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica",
+        "teacher": "BARBERO S.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "BOAGLIO N.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "BOAGLIO N.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica",
+        "teacher": "FERRERO R.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Religione",
+        "teacher": "CAVALLERO L.",
+        "room": "272-E (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Fisica",
+        "teacher": "FERRERO R.",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "teacher": "SCARAFFIA M.",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "teacher": "SCARAFFIA M.",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "teacher": "PIOVANO E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "teacher": "PIOVANO E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "teacher": "BONO A.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica",
+        "teacher": "BARBERO S.",
+        "room": "272-E (24)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "OLOCCO M., DESTEFANIS P.",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "OLOCCO M., DESTEFANIS P.",
+        "room": "LAB.S18B DISEGNO (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Chimica",
+        "teacher": "BOCHICCHIO M., BONO A.",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 4,
+        "subject": "Diritto ed economia",
+        "teacher": "BONINO M.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "BOAGLIO N.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "BOAGLIO N.",
+        "room": "272-E (24)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "teacher": "BONO A.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia",
+        "teacher": "BOAGLIO N.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze",
+        "teacher": "MONTEVERDE M.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "CORNERO A.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "BARBERO S.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "DEMICHELIS A., OLOCCO M., DESTEFANIS P.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Diritto ed economia",
+        "teacher": "BONINO M.",
+        "room": "272-E (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "BOAGLIO N.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "teacher": "CORNERO A.",
+        "room": "272-E (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze e tecnologie applicate Informatiche",
+        "teacher": "SCARAFFIA M.",
+        "room": "LAB.117 TOLOMEO (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "BARBERO S.",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. Fisica",
+        "teacher": "FERRERO R., FERRANTE G.",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "teacher": "MONTEVERDE M.",
+        "room": "T63 (30)"
+      }
+    ]
+  }
+}

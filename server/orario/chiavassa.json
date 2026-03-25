@@ -1,0 +1,124 @@
+{
+  "teacher": "CHIAVASSA Andrea",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e reti",
+        "class": "3C INF",
+        "room": "LAB.143 TURING (22)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e reti",
+        "class": "3D INF",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "2A LIC",
+        "room": "LAB.145 GALILEI (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi e reti",
+        "class": "3C INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Sistemi e reti",
+        "class": "3C INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 6,
+        "subject": "Sistemi e reti",
+        "class": "3A INF",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Sistemi e reti",
+        "class": "3A INF",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "class": "2A LIC",
+        "room": "LAB.119A PASCAL (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e reti",
+        "class": "3C INF",
+        "room": "LAB.171-E AULA ARVR  (25)"
+      },
+      {
+        "hour": 3,
+        "subject": "Sistemi e reti",
+        "class": "3D INF",
+        "room": "LAB.S22 ARCHIMEDE (26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e reti",
+        "class": "3A INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e reti",
+        "class": "3A INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "class": "1B LIC",
+        "room": "LAB.142 NEWTON (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "class": "1B LIC",
+        "room": "LAB.142 NEWTON (25)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Sistemi e reti",
+        "class": "3D INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e reti",
+        "class": "3D INF",
+        "room": "LAB.S18 MARCONI (24), CISCO (25)"
+      },
+      {
+        "hour": 4,
+        "subject": "Informatica",
+        "class": "1A LIC",
+        "room": "LAB.142 NEWTON (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Informatica",
+        "class": "1A LIC",
+        "room": "LAB.142 NEWTON (25)"
+      }
+    ]
+  }
+}

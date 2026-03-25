@@ -1,0 +1,124 @@
+{
+  "teacher": "RAVIOLA Alessia",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 6,
+        "subject": "Inglese",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 7,
+        "subject": "Inglese",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "3A AFM",
+        "room": "Tesauro208  (24)"
+      },
+      {
+        "hour": 7,
+        "subject": "Inglese",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "class": "4A TUR",
+        "room": "Tesauro126  (18)"
+      },
+      {
+        "hour": 2,
+        "subject": "Inglese",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "class": "2A AFM",
+        "room": "Tesauro121  (29)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "class": "4B AFM",
+        "room": "Tesauro110  (19)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "class": "2B AFM",
+        "room": "Tesauro T09"
+      }
+    ]
+  }
+}

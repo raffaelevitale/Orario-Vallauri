@@ -1,0 +1,124 @@
+{
+  "teacher": "CALVO Anna",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Fisica",
+        "class": "1A INF",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. Fisica",
+        "class": "1B INF",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Lab. Fisica",
+        "class": "1C INF",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "class": "2A INF",
+        "room": "102 (24)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Fisica",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      },
+      {
+        "hour": 2,
+        "subject": "Fisica",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Fisica",
+        "class": "2A INF",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Fisica",
+        "class": "1B INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "class": "1A INF",
+        "room": "271-E (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica",
+        "class": "1C INF",
+        "room": "204 (26)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Fisica",
+        "class": "1C INF",
+        "room": "273-E(26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Fisica",
+        "class": "1B INF",
+        "room": "101 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "1A INF",
+        "room": "104 (25)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica",
+        "class": "2A INF",
+        "room": "102 (24)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Fisica",
+        "class": "1A AFM",
+        "room": "Tesauro122  (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "1B AFM",
+        "room": "Tesauro119  (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "class": "1A TUR",
+        "room": "Tesauro111  (20)"
+      }
+    ]
+  }
+}

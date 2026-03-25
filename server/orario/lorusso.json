@@ -1,0 +1,124 @@
+{
+  "teacher": "LORUSSO Vitina",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 2,
+        "subject": "Discipline turistiche e aziendali",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 2,
+        "subject": "Discipline turistiche e aziendali",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 3,
+        "subject": "Discipline turistiche e aziendali",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 4,
+        "subject": "Diritto e legislazione turistica",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto e legislazione turistica",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 6,
+        "subject": "Arte e territorio",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Arte e territorio",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 4,
+        "subject": "Discipline turistiche e aziendali",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Discipline turistiche e aziendali",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 2,
+        "subject": "Discipline turistiche e aziendali",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 3,
+        "subject": "Diritto e legislazione turistica",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua spagnola",
+        "class": "3A TUR",
+        "room": "Tesauro T10"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto e legislazione turistica",
+        "class": "5A TUR",
+        "room": "Tesauro112  (20)"
+      }
+    ]
+  }
+}

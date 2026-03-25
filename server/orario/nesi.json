@@ -1,0 +1,124 @@
+{
+  "teacher": "NESI Valter",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 5,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1C LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1C LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1B LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1B LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "2B LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "class": "2B LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Fisica",
+        "class": "2C LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "Fisica",
+        "class": "2C LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1A LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1A LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "class": "2A LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Fisica",
+        "class": "2A LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. Fisica",
+        "class": "2A MEC",
+        "room": "LAB.T71-E FISICA (30)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1D LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. di Chimica e di Fisica",
+        "class": "1D LIC",
+        "room": "LAB.144 FISICA2 (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lab. Fisica",
+        "class": "2B MEC",
+        "room": "LAB.T71-E FISICA (30)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Lab. Fisica",
+        "class": "2C MEC",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. Fisica",
+        "class": "2D MEC",
+        "room": "LAB.T71-E FISICA (30)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "teacher": "TORASSA Danilo",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "T.P.S.E.E.",
+        "class": "3A ELT",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze e tecnologie applicate Elettriche",
+        "class": "2A ELT",
+        "room": "LAB.143 TURING (22)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Scienze e tecnologie applicate Elettriche",
+        "class": "2A ELT",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze e tecnologie applicate Elettriche",
+        "class": "2A ELT",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 5,
+        "subject": "T.P.S.E.E.",
+        "class": "3B ELT",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.E.E.",
+        "class": "3A ELT",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 7,
+        "subject": "T.P.S.E.E.",
+        "class": "3A ELT",
+        "room": "LAB.T81-E VOLTA(21)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Elettriche",
+        "class": "2B ELT",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze e tecnologie applicate Elettriche",
+        "class": "2B ELT",
+        "room": "LAB.T81-E VOLTA(21)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 2,
+        "subject": "T.P.S.E.E.",
+        "class": "3A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.E.E.",
+        "class": "3A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.E.E.",
+        "class": "3A ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 6,
+        "subject": "T.P.S.E.E.",
+        "class": "3B ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "T.P.S.E.E.",
+        "class": "3B ELT",
+        "room": "LAB.T03 INDUSTRIA 4.0 (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Scienze e tecnologie applicate Elettriche",
+        "class": "2B ELT",
+        "room": "LAB.T81-E VOLTA(21)"
+      },
+      {
+        "hour": 2,
+        "subject": "T.P.S.E.E.",
+        "class": "3B ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 3,
+        "subject": "T.P.S.E.E.",
+        "class": "3B ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      },
+      {
+        "hour": 4,
+        "subject": "T.P.S.E.E.",
+        "class": "3B ELT",
+        "room": "LAB.T21 PROGETTAZIONE ELE (27)"
+      }
+    ]
+  }
+}

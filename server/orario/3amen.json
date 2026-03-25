@@ -1,0 +1,207 @@
+{
+  "class": "3A MEN",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "ROCCA M.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "teacher": "MAIOLO G., CAVALLOTTO C.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "teacher": "MAIOLO G., CAVALLOTTO C., ZINO A.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica e Complementi",
+        "teacher": "SAMPO M., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "GHIO D., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "GHIO D., MONGIARDO M.",
+        "room": "S3 (30)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Matematica e Complementi",
+        "teacher": "SAMPO M., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Religione",
+        "teacher": "MELOGNO S., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "MAIOLO G., CONTE 1 R.",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 4,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "MAIOLO G., CONTE 1 R.",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "GHIO D.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "teacher": "CAVALLOTTO C.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "Sistemi e automazione",
+        "teacher": "MILANESIO M., ZINO A.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "teacher": "GHIO D.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "GHIO D., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica e Complementi",
+        "teacher": "SAMPO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 5,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CONTE 1 R., ZINO A.",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 6,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CONTE 1 R.",
+        "room": "LAB.SENERGIA (31)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Matematica e Complementi",
+        "teacher": "SAMPO M., MONGIARDO M.",
+        "room": "S3 (30)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "ROCCA M., ZINO A.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Meccanica, macchine ed energia",
+        "teacher": "CONTE 1 R., ZINO A.",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "GHIO D.",
+        "room": "LAB.SENERGIA (31)"
+      },
+      {
+        "hour": 6,
+        "subject": "Impianti energetici, disegno e progettazione",
+        "teacher": "CAVALLOTTO C., ZINO A.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 7,
+        "subject": "Sistemi e automazione",
+        "teacher": "MILANESIO M., CANAVERO A.",
+        "room": "LAB.CETOP (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "PANAGIA D., MONGIARDO M.",
+        "room": "T63 (30)"
+      },
+      {
+        "hour": 2,
+        "subject": "Sistemi e automazione",
+        "teacher": "MILANESIO M., CANAVERO A.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Scienze motorie",
+        "teacher": "DOMINICI E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 4,
+        "subject": "Scienze motorie",
+        "teacher": "DOMINICI E.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 5,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "ROCCA M., TONELLO C.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Tecnologie meccaniche di processo e prodotto",
+        "teacher": "ROCCA M., TONELLO C.",
+        "room": "LAB.T61 IMPIANTI ENE (28)"
+      }
+    ]
+  }
+}

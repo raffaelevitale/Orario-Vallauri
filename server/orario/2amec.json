@@ -1,0 +1,207 @@
+{
+  "class": "2A MEC",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Inglese",
+        "teacher": "RACCA M., SCAPATICCI M.",
+        "room": "201 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "MONDINO L., CANAVERO A.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "teacher": "GIRAUDO C., SOBRERO",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "GIRAUDO C.",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Matematica",
+        "teacher": "BALLOCCO L.",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "teacher": "MILANESIO M.",
+        "room": "LAB.CETOP (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Chimica",
+        "teacher": "MUSSO B.",
+        "room": "202 (24)"
+      },
+      {
+        "hour": 2,
+        "subject": "Lab. Chimica",
+        "teacher": "BOCHICCHIO M., MUSSO B.",
+        "room": "LAB.S71- E CHIMICA ()"
+      },
+      {
+        "hour": 3,
+        "subject": "Fisica",
+        "teacher": "RATEO M.",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Inglese",
+        "teacher": "RACCA M., SCAPATICCI M.",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "teacher": "GIRAUDO C.",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze",
+        "teacher": "MONTEVERDE M.",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica",
+        "teacher": "BALLOCCO L., MONGIARDO M.",
+        "room": "204 (26)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Religione",
+        "teacher": "MELOGNO S.",
+        "room": "203 (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "teacher": "MILANESIO M., CANAVERO A.",
+        "room": "LAB.AUTOMAZIONE (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "MONDINO L.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 4,
+        "subject": "Tecn. e rap. grafica",
+        "teacher": "MONDINO L.",
+        "room": "LAB.MULTIMEDIALE CAD (24)"
+      },
+      {
+        "hour": 5,
+        "subject": "Lab. Fisica",
+        "teacher": "RATEO M., NESI V.",
+        "room": "LAB.T71-E FISICA (30)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto ed economia",
+        "teacher": "BERNARDI M.",
+        "room": "149 TEST (27)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Fisica",
+        "teacher": "RATEO M.",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze",
+        "teacher": "MONTEVERDE M.",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "RACCA M.",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "GIRAUDO C., SOBRERO",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "GIRAUDO C., SOBRERO",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 6,
+        "subject": "Matematica",
+        "teacher": "BALLOCCO L., MONGIARDO M.",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 7,
+        "subject": "Diritto ed economia",
+        "teacher": "BERNARDI M.",
+        "room": "204 (26)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Scienze motorie",
+        "teacher": "DE PASQUALE P.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 2,
+        "subject": "Scienze motorie",
+        "teacher": "DE PASQUALE P.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "teacher": "GIRAUDO C., SOBRERO",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Matematica",
+        "teacher": "BALLOCCO L., MONGIARDO M.",
+        "room": "204 (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze e tecnologie applicate Meccaniche",
+        "teacher": "MILANESIO M., SOBRERO",
+        "room": "LAB.CETOP (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Chimica",
+        "teacher": "MUSSO B.",
+        "room": "202 (24)"
+      }
+    ]
+  }
+}

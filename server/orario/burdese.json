@@ -1,0 +1,130 @@
+{
+  "teacher": "BURDESE Laura",
+  "school": "I.I.S. G. Vallauri",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "3C LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "class": "3C LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "3B LIC",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "3B LIC",
+        "room": "140 (28)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 3,
+        "subject": "Storia e Geografia",
+        "class": "1B LIC",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "3C LIC",
+        "room": "140 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "class": "3B LIC",
+        "room": "149 TEST (27)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "1B LIC",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "1B LIC",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "class": "3B LIC",
+        "room": "T78-E (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "3B LIC",
+        "room": "T78-E (28)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "1B LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia e Geografia",
+        "class": "1B LIC",
+        "room": "148 (28)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "class": "3C LIC",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 5,
+        "subject": "Storia",
+        "class": "3C LIC",
+        "room": "141 (28)"
+      },
+      {
+        "hour": 6,
+        "subject": "Storia",
+        "class": "3B LIC",
+        "room": "140 (28)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Italiano",
+        "class": "1B LIC",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 2,
+        "subject": "Storia e Geografia",
+        "class": "1B LIC",
+        "room": "177-E (26)"
+      },
+      {
+        "hour": 3,
+        "subject": "Italiano",
+        "class": "3C LIC",
+        "room": "149 TEST (27)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "class": "4A AFM",
+  "schedule": {
+    "monday": [
+      {
+        "hour": 1,
+        "subject": "Economia aziendale",
+        "teacher": "PANERO S.",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 2,
+        "subject": "Italiano",
+        "teacher": "D'AGOSTARO G.",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 3,
+        "subject": "Storia",
+        "teacher": "D'AGOSTARO G.",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua francese",
+        "teacher": "BUSETTO A., VELLUCCI",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Inglese",
+        "teacher": "RAMELLO L.",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Diritto",
+        "teacher": "LUBATTI S., VELLUCCI",
+        "room": "Tesauro209  (18)"
+      }
+    ],
+    "tuesday": [
+      {
+        "hour": 1,
+        "subject": "Economia aziendale",
+        "teacher": "PANERO S.",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 2,
+        "subject": "Economia aziendale",
+        "teacher": "PANERO S., MANCUSO CATARINELLA G.",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 3,
+        "subject": "Inglese",
+        "teacher": "RAMELLO L., VELLUCCI",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 4,
+        "subject": "Italiano",
+        "teacher": "D'AGOSTARO G., MANCUSO CATARINELLA G.",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Italiano",
+        "teacher": "D'AGOSTARO G., MANCUSO CATARINELLA G.",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Italiano",
+        "teacher": "D'AGOSTARO G.",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 7,
+        "subject": "Matematica",
+        "teacher": "FERRERO P., MANCUSO CATARINELLA G.",
+        "room": "Tesauro209  (18)"
+      }
+    ],
+    "wednesday": [
+      {
+        "hour": 1,
+        "subject": "Informatica",
+        "teacher": "SBROZZI I., MANCUSO CATARINELLA G.",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 2,
+        "subject": "Informatica",
+        "teacher": "SBROZZI I., MANCUSO CATARINELLA G.",
+        "room": "Tesauro LAB.INFORMATICA"
+      },
+      {
+        "hour": 3,
+        "subject": "Lingua francese",
+        "teacher": "BUSETTO A., VELLUCCI",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 4,
+        "subject": "Religione",
+        "teacher": "PASTORE L.",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto",
+        "teacher": "LUBATTI S., VELLUCCI",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia politica",
+        "teacher": "LUBATTI S., VELLUCCI",
+        "room": "Tesauro209  (18)"
+      }
+    ],
+    "thursday": [
+      {
+        "hour": 1,
+        "subject": "Matematica",
+        "teacher": "FERRERO P., MANCUSO CATARINELLA G.",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 2,
+        "subject": "Economia aziendale",
+        "teacher": "PANERO S., MANCUSO CATARINELLA G.",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 3,
+        "subject": "Economia aziendale",
+        "teacher": "PANERO S., MANCUSO CATARINELLA G.",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 4,
+        "subject": "Storia",
+        "teacher": "D'AGOSTARO G.",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Diritto",
+        "teacher": "LUBATTI S.",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 6,
+        "subject": "Economia politica",
+        "teacher": "LUBATTI S.",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 7,
+        "subject": "Inglese",
+        "teacher": "RAMELLO L.",
+        "room": "Tesauro209  (18)"
+      }
+    ],
+    "friday": [
+      {
+        "hour": 1,
+        "subject": "Economia aziendale",
+        "teacher": "PANERO S.",
+        "room": "Tesauro LAB.INFORMATICA, Tesauro209  (18)"
+      },
+      {
+        "hour": 2,
+        "subject": "Economia aziendale",
+        "teacher": "PANERO S.",
+        "room": "Tesauro LAB.INFORMATICA, Tesauro209  (18)"
+      },
+      {
+        "hour": 3,
+        "subject": "Matematica",
+        "teacher": "FERRERO P.",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 4,
+        "subject": "Lingua francese",
+        "teacher": "BUSETTO A.",
+        "room": "Tesauro209  (18)"
+      },
+      {
+        "hour": 5,
+        "subject": "Scienze motorie",
+        "teacher": "BASTA T.",
+        "room": "PALESTRA"
+      },
+      {
+        "hour": 6,
+        "subject": "Scienze motorie",
+        "teacher": "BASTA T.",
+        "room": "PALESTRA"
+      }
+    ]
+  }
+}
