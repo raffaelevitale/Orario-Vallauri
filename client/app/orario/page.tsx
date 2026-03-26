@@ -15,6 +15,7 @@ import {
   scheduleLessonNotifications,
   clearAllNotifications,
 } from "@/lib/orario/utils/notifications";
+import { Timer, CalendarOff, CalendarCheck } from "lucide-react";
 import styles from "./orario.module.css";
 
 const weekDays = [
@@ -159,7 +160,7 @@ export default function OrarioPage() {
         {activeTab === "orario" && hasCompletedSetup && isToday && currentLesson && (
           <div className={styles.currentLessonBanner}>
             <div className={styles.currentLessonInfo}>
-              <span className={styles.currentLessonIcon}>⏳</span>
+              <Timer size={20} className={styles.currentLessonIcon} />
               <div className={styles.currentLessonText}>
                 <div className={styles.currentLessonSubject}>{currentLesson.subject}</div>
                 <div className={styles.currentLessonDetails}>
@@ -223,7 +224,7 @@ export default function OrarioPage() {
                     ))
                   ) : (
                     <div className={styles.emptyState}>
-                      <div className={styles.emptyIcon}>📅</div>
+                      <CalendarOff size={48} className={styles.emptyIcon} />
                       <p className={styles.emptyText}>Nessuna lezione</p>
                     </div>
                   )}
@@ -242,7 +243,7 @@ export default function OrarioPage() {
       {activeTab === "orario" && hasCompletedSetup && !isToday && (
         <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }}>
           <button onClick={goToToday} className={styles.todayButton}>
-            <span>📆</span>
+            <CalendarCheck size={18} />
             <span>Oggi</span>
           </button>
         </motion.div>

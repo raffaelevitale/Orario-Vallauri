@@ -193,7 +193,8 @@
 }
 
 .currentLessonIcon {
-  font-size: 1.25rem;
+  flex-shrink: 0;
+  color: var(--accent-blue);
 }
 
 .currentLessonText {
@@ -311,8 +312,8 @@
 }
 
 .emptyIcon {
-  font-size: 4rem;
   margin-bottom: 16px;
+  color: var(--text-tertiary);
 }
 
 .emptyText {

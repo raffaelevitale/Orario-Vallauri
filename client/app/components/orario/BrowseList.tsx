@@ -12,7 +12,7 @@ import type { Lesson } from "@/lib/orario/models/lesson";
 import { BlockView } from "./BlockView";
 import { LessonCard } from "./LessonCard";
 import { isCurrentLesson } from "@/lib/orario/utils/time";
-import { ArrowLeft, List, LayoutGrid, Search, X } from "lucide-react";
+import { ArrowLeft, List, LayoutGrid, Search, X, CalendarOff } from "lucide-react";
 import styles from "./BrowseList.module.css";
 
 type BrowseMode = "student" | "teacher";
@@ -252,7 +252,7 @@ export function BrowseList({ mode }: BrowseListProps) {
                                     ))
                                 ) : (
                                     <div className={styles.emptyState}>
-                                        <span className={styles.emptyIcon}>📅</span>
+                                        <CalendarOff size={40} className={styles.emptyIcon} />
                                         <span>Nessuna lezione</span>
                                     </div>
                                 )}
