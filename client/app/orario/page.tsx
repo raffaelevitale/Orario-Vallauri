@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useMemo } from "react";
 import { useScheduleStore } from "@/lib/orario/stores/scheduleStore";
-import { useSnowfallStore } from "@/lib/orario/stores/snowfallStore";
 import { LessonCard } from "@/app/components/orario/LessonCard";
 import { SettingsMenu } from "@/app/components/orario/SettingsMenu";
 import { BottomTabBar, TabId } from "@/app/components/orario/BottomTabBar";
@@ -53,8 +52,6 @@ export default function OrarioPage() {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [currentLesson, setCurrentLesson] = useState<Lesson | null>(null);
   const [isMounted, setIsMounted] = useState(false);
-  const [logoClickCount, setLogoClickCount] = useState(0);
-  const { enableSnowfall } = useSnowfallStore();
   const [activeTab, setActiveTab] = useState<TabId>("orario");
 
   useEffect(() => {
@@ -83,15 +80,6 @@ export default function OrarioPage() {
     if (!todayLessons.length) { setCurrentLesson(null); return; }
     setCurrentLesson(todayLessons.find(l => isCurrentLesson(l)) || null);
   }, [currentTime, todayLessons]);
-
-  // Easter egg: 4 click sul logo per neve
-  useEffect(() => {
-    if (logoClickCount >= 4) { enableSnowfall(); setLogoClickCount(0); }
-    if (logoClickCount > 0) {
-      const t = setTimeout(() => setLogoClickCount(0), 2000);
-      return () => clearTimeout(t);
-    }
-  }, [logoClickCount, enableSnowfall]);
 
   const isToday = useMemo(() => selectedDay === new Date().getDay(), [selectedDay]);
 
@@ -157,12 +145,7 @@ export default function OrarioPage() {
               )}
             </div>
 
-            <div
-              className={styles.logoWithSanta}
-              onClick={() => setLogoClickCount(p => p + 1)}
-              role="button"
-              aria-label="Easter egg neve"
-            >
+            <div className={styles.logoWithSanta}>
               <img src="/logo.png" alt="Logo" className={styles.headerLogo} />
             </div>
 

@@ -3,16 +3,15 @@
 .card {
   padding: 10px;
   /* Reduced padding */
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: 8px;
   /* Slightly reduced radius */
   box-shadow: var(--shadow-sm);
-  --size-trasform: 1.02;
   position: relative;
   overflow: hidden;
   height: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* Glass effect for better depth */
@@ -29,20 +28,7 @@
   }
 }
 
-.card:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-lg);
-  border-color: var(--border-hover);
-  background: var(--bg-hover);
-}
-
-[data-theme="dark"] .card:hover {
-  background: rgba(255, 255, 255, 0.06);
-  border-color: rgba(255, 255, 255, 0.2);
-}
-
 .cardCurrent {
-  --size-trasform: 1.0;
   border: 2px solid var(--accent-blue) !important;
   box-shadow: 0 0 20px rgba(96, 165, 250, 0.15);
   background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(96, 165, 250, 0.05));

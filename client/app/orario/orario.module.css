@@ -383,6 +383,17 @@
     font-size: 0.8rem;
   }
 
+  .dayTabs {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dayTabsContainer {
+    width: fit-content;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
   .todayButton {
     bottom: 20px;
     right: 12px;

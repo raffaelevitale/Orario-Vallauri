@@ -21,7 +21,6 @@
     "primereact": "^10.9.7",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "react-snowfall": "^2.4.0",
     "zustand": "^5.0.9"
   },
   "devDependencies": {
